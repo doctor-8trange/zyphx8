@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "05:14:01 PM 04-04-2026",
+  "last_updated": "05:21:04 PM 04-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 43,
-  "live_matches": 5,
-  "upcoming_matches": 38,
+  "live_matches": 7,
+  "upcoming_matches": 36,
   "matches": [
     {
       "category": "Cricket",
@@ -45,7 +45,7 @@
               "runs": 268,
               "overs": "50",
               "balls": "300",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 7
             }
           ],
@@ -55,7 +55,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -67,14 +67,22 @@
           },
           "isWinner": null,
           "color": "#ad1b0e",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 3,
+              "overs": "1",
+              "balls": "6",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -154,8 +162,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "35062",
+                "shortName": "L Colaco",
+                "isOwnGoal": false,
+                "goalTime": "15'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -241,8 +256,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "35062",
+                "shortName": "L Colaco",
+                "isOwnGoal": false,
+                "goalTime": "15'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -328,8 +350,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "35062",
+                "shortName": "L Colaco",
+                "isOwnGoal": false,
+                "goalTime": "15'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -415,8 +444,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "35062",
+                "shortName": "L Colaco",
+                "isOwnGoal": false,
+                "goalTime": "15'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -502,8 +538,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "35062",
+                "shortName": "L Colaco",
+                "isOwnGoal": false,
+                "goalTime": "15'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -617,6 +660,87 @@
       ]
     },
     {
+      "category": "Football",
+      "title": "Cádiz Vs Córdoba",
+      "tournament": "LALIGA Hypermotion 2025-26",
+      "match_id": 141683,
+      "status": "NOT_STARTED",
+      "streamingStatus": "STARTED",
+      "startTime": "04 April 2026 05:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://images.fancode.com/aig/match/v1774680543087/141683_CASACARDS_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141683_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1774680543087/141683_CASACARDS_APP.png",
+        "PLAYBACK": "https://images.fancode.com/aig/match/v1774680543087/141683_CASACARDS_APP.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1774680543087/141683_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1774680543087/141683_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141683_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Cádiz",
+          "shortName": "CDZ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CDZ@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Córdoba",
+          "shortName": "CDB",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CDB@2x.png"
+          },
+          "isWinner": null,
+          "color": "#016139",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/141683_english_hls_3ce1350ac438535_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/141683_english_hls_3ce1350ac438535_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/141683_english_hls_3ce1350ac438535_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141683_english_hls_3ce1350ac438535_1ta-di_h264/240p.m3u8?hdntl=Expires=1775389865~_GO=Generated~acl=/mumbai/141683_english_hls_3ce1350ac438535_1ta-di_h264/*~Signature=Aad0pFc9pQEmy6sUMc3g9BnD6yjcnz1WvaPxcj89vrdtgSMTMVy3fNh8BfEixHeWB-NcFlWc9aFeYiwCHSoswJqxvHsD\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141683_english_hls_3ce1350ac438535_1ta-di_h264/360p.m3u8?hdntl=Expires=1775389865~_GO=Generated~acl=/mumbai/141683_english_hls_3ce1350ac438535_1ta-di_h264/*~Signature=Aad0pFc9pQEmy6sUMc3g9BnD6yjcnz1WvaPxcj89vrdtgSMTMVy3fNh8BfEixHeWB-NcFlWc9aFeYiwCHSoswJqxvHsD\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141683_english_hls_3ce1350ac438535_1ta-di_h264/480p.m3u8?hdntl=Expires=1775389865~_GO=Generated~acl=/mumbai/141683_english_hls_3ce1350ac438535_1ta-di_h264/*~Signature=Aad0pFc9pQEmy6sUMc3g9BnD6yjcnz1WvaPxcj89vrdtgSMTMVy3fNh8BfEixHeWB-NcFlWc9aFeYiwCHSoswJqxvHsD\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141683_english_hls_3ce1350ac438535_1ta-di_h264/540p.m3u8?hdntl=Expires=1775389865~_GO=Generated~acl=/mumbai/141683_english_hls_3ce1350ac438535_1ta-di_h264/*~Signature=Aad0pFc9pQEmy6sUMc3g9BnD6yjcnz1WvaPxcj89vrdtgSMTMVy3fNh8BfEixHeWB-NcFlWc9aFeYiwCHSoswJqxvHsD\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141683_english_hls_3ce1350ac438535_1ta-di_h264/720p.m3u8?hdntl=Expires=1775389865~_GO=Generated~acl=/mumbai/141683_english_hls_3ce1350ac438535_1ta-di_h264/*~Signature=Aad0pFc9pQEmy6sUMc3g9BnD6yjcnz1WvaPxcj89vrdtgSMTMVy3fNh8BfEixHeWB-NcFlWc9aFeYiwCHSoswJqxvHsD\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141683_english_hls_3ce1350ac438535_1ta-di_h264/1080p.m3u8?hdntl=Expires=1775389865~_GO=Generated~acl=/mumbai/141683_english_hls_3ce1350ac438535_1ta-di_h264/*~Signature=Aad0pFc9pQEmy6sUMc3g9BnD6yjcnz1WvaPxcj89vrdtgSMTMVy3fNh8BfEixHeWB-NcFlWc9aFeYiwCHSoswJqxvHsD",
+          "cookie": "hdntl=Expires=1775389865~_GO=Generated~acl=/mumbai/141683_english_hls_3ce1350ac438535_1ta-di_h264/*~Signature=Aad0pFc9pQEmy6sUMc3g9BnD6yjcnz1WvaPxcj89vrdtgSMTMVy3fNh8BfEixHeWB-NcFlWc9aFeYiwCHSoswJqxvHsD",
+          "cookie_valid": "1775389865",
+          "create_date": "Saturday, April 4, 2026, 5:21:03 PM",
+          "expire_date": "Sunday, April 5, 2026, 5:21:05 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
       "category": "Tennis",
       "title": "Tiriac Open   Day 6",
       "tournament": "ATP 250 - Tiriac Open presented by UniCredit Bank ",
@@ -698,31 +822,31 @@
       ]
     },
     {
-      "category": "Football",
-      "title": "Cádiz Vs Córdoba",
-      "tournament": "LALIGA Hypermotion 2025-26",
-      "match_id": 141683,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "category": "Tennis",
+      "title": "Grand Prix Hassan Ii   Day 6",
+      "tournament": "ATP 250 - Grand Prix Hassan ll 2026",
+      "match_id": 141283,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "04 April 2026 05:30 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://images.fancode.com/aig/match/v1774680543087/141683_CASACARDS_APP.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Grand-Prix-Hassan-II-Clay,-ATP-250-old-.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141683_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1774680543087/141683_CASACARDS_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://images.fancode.com/aig/match/v1774680543087/141683_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1774680543087/141683_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141683_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141283_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Grand-Prix-Hassan-II-Clay,-ATP-250-old-.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Grand-Prix-Hassan-II-Clay,-ATP-250-old-.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Grand-Prix-Hassan-II-Clay,-ATP-250-old-.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Grand-Prix-Hassan-II-Clay,-ATP-250-sporty.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141283_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Cádiz",
-          "shortName": "CDZ",
+          "name": "Grand Prix Hassan II - Day 6",
+          "shortName": "Grand Prix Hassan II - Day 6",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CDZ@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
           },
           "isWinner": null,
           "color": "#FF0000",
@@ -738,13 +862,13 @@
           }
         },
         {
-          "name": "Córdoba",
-          "shortName": "CDB",
+          "name": "Marrakech, Morocco",
+          "shortName": "Marrakech, Morocco",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CDB@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
           },
           "isWinner": null,
-          "color": "#016139",
+          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -757,12 +881,26 @@
           }
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/141283_english_hls_b45a8d2e7165457_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/141283_english_hls_b45a8d2e7165457_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/141283_english_hls_b45a8d2e7165457_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
       },
-      "auto_streams": null
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141283_english_hls_b45a8d2e7165457_1ta-di_h264/240p.m3u8?hdntl=Expires=1775389866~_GO=Generated~acl=/mumbai/141283_english_hls_b45a8d2e7165457_1ta-di_h264/*~Signature=Aad0pFcMQW5wmAieyU1jvC09GoQtloj3nHf6ysNGEtkR5jfwK-6sgKoYURsV4_TVqxY8OFXawEZIwI6-Qe2z59xjhFcK\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141283_english_hls_b45a8d2e7165457_1ta-di_h264/360p.m3u8?hdntl=Expires=1775389866~_GO=Generated~acl=/mumbai/141283_english_hls_b45a8d2e7165457_1ta-di_h264/*~Signature=Aad0pFcMQW5wmAieyU1jvC09GoQtloj3nHf6ysNGEtkR5jfwK-6sgKoYURsV4_TVqxY8OFXawEZIwI6-Qe2z59xjhFcK\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141283_english_hls_b45a8d2e7165457_1ta-di_h264/480p.m3u8?hdntl=Expires=1775389866~_GO=Generated~acl=/mumbai/141283_english_hls_b45a8d2e7165457_1ta-di_h264/*~Signature=Aad0pFcMQW5wmAieyU1jvC09GoQtloj3nHf6ysNGEtkR5jfwK-6sgKoYURsV4_TVqxY8OFXawEZIwI6-Qe2z59xjhFcK\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141283_english_hls_b45a8d2e7165457_1ta-di_h264/540p.m3u8?hdntl=Expires=1775389866~_GO=Generated~acl=/mumbai/141283_english_hls_b45a8d2e7165457_1ta-di_h264/*~Signature=Aad0pFcMQW5wmAieyU1jvC09GoQtloj3nHf6ysNGEtkR5jfwK-6sgKoYURsV4_TVqxY8OFXawEZIwI6-Qe2z59xjhFcK\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141283_english_hls_b45a8d2e7165457_1ta-di_h264/720p.m3u8?hdntl=Expires=1775389866~_GO=Generated~acl=/mumbai/141283_english_hls_b45a8d2e7165457_1ta-di_h264/*~Signature=Aad0pFcMQW5wmAieyU1jvC09GoQtloj3nHf6ysNGEtkR5jfwK-6sgKoYURsV4_TVqxY8OFXawEZIwI6-Qe2z59xjhFcK\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141283_english_hls_b45a8d2e7165457_1ta-di_h264/1080p.m3u8?hdntl=Expires=1775389866~_GO=Generated~acl=/mumbai/141283_english_hls_b45a8d2e7165457_1ta-di_h264/*~Signature=Aad0pFcMQW5wmAieyU1jvC09GoQtloj3nHf6ysNGEtkR5jfwK-6sgKoYURsV4_TVqxY8OFXawEZIwI6-Qe2z59xjhFcK",
+          "cookie": "hdntl=Expires=1775389866~_GO=Generated~acl=/mumbai/141283_english_hls_b45a8d2e7165457_1ta-di_h264/*~Signature=Aad0pFcMQW5wmAieyU1jvC09GoQtloj3nHf6ysNGEtkR5jfwK-6sgKoYURsV4_TVqxY8OFXawEZIwI6-Qe2z59xjhFcK",
+          "cookie_valid": "1775389866",
+          "create_date": "Saturday, April 4, 2026, 5:21:04 PM",
+          "expire_date": "Sunday, April 5, 2026, 5:21:06 PM",
+          "language": "ENGLISH"
+        }
+      ]
     },
     {
       "category": "Football",
@@ -1415,73 +1553,6 @@
           },
           "isWinner": null,
           "color": "#011a43",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "Grand Prix Hassan Ii   Day 6",
-      "tournament": "ATP 250 - Grand Prix Hassan ll 2026",
-      "match_id": 141283,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "04 April 2026 05:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Grand-Prix-Hassan-II-Clay,-ATP-250-old-.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141283_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Grand-Prix-Hassan-II-Clay,-ATP-250-old-.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Grand-Prix-Hassan-II-Clay,-ATP-250-old-.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Grand-Prix-Hassan-II-Clay,-ATP-250-sporty.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141283_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Grand Prix Hassan II - Day 6",
-          "shortName": "Grand Prix Hassan II - Day 6",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Marrakech, Morocco",
-          "shortName": "Marrakech, Morocco",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
