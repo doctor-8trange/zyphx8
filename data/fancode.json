@@ -2,21 +2,21 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "10:00:04 PM 06-04-2026",
+  "last_updated": "10:10:05 PM 06-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 40,
-  "live_matches": 5,
-  "upcoming_matches": 35,
+  "live_matches": 4,
+  "upcoming_matches": 36,
   "matches": [
     {
       "category": "Football",
       "title": "Swansea City A.f.c. Vs Middlesbrough F.c.",
       "tournament": "EFL Championship 2025-26",
       "match_id": 141435,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "06 April 2026 10:00 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -42,7 +42,10 @@
           "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -61,7 +64,10 @@
           "color": "#e62722",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -331,87 +337,6 @@
           "cookie_valid": "1775566278",
           "create_date": "Monday, April 6, 2026, 6:21:16 PM",
           "expire_date": "Tuesday, April 7, 2026, 6:21:18 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Tennis",
-      "title": " Court Ea De Massy",
-      "tournament": "ATP Masters Rolex Monte-Carlo 2026",
-      "match_id": 141659,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "06 April 2026 02:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Rolex-Monte-Carlo-Masters_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141659_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Rolex-Monte-Carlo-Masters_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Rolex-Monte-Carlo-Masters_fc-web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Rolex-Monte-Carlo-Masters_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Rolex-Monte-Carlo-Masters_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141659_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": " Court EA de Massy",
-          "shortName": " Court EA de Massy",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Monte-Carlo",
-          "shortName": "Monte-Carlo",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/141659_english_hls_3b2d481bea96020_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/141659_english_hls_3b2d481bea96020_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/141659_english_hls_3b2d481bea96020_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141659_english_hls_3b2d481bea96020_1ta-di_h264/240p.m3u8?hdntl=Expires=1775566687~_GO=Generated~acl=/mumbai/141659_english_hls_3b2d481bea96020_1ta-di_h264/*~Signature=Aad0pFeP6L2JBJK8eGnbWO88sqOxMhckd0TGaD6IcQgch5B1lYiKQcQoLubU-htvSZbhnOS6JR7Y5sEzD6u4oBILKq8C\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141659_english_hls_3b2d481bea96020_1ta-di_h264/360p.m3u8?hdntl=Expires=1775566687~_GO=Generated~acl=/mumbai/141659_english_hls_3b2d481bea96020_1ta-di_h264/*~Signature=Aad0pFeP6L2JBJK8eGnbWO88sqOxMhckd0TGaD6IcQgch5B1lYiKQcQoLubU-htvSZbhnOS6JR7Y5sEzD6u4oBILKq8C\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141659_english_hls_3b2d481bea96020_1ta-di_h264/480p.m3u8?hdntl=Expires=1775566687~_GO=Generated~acl=/mumbai/141659_english_hls_3b2d481bea96020_1ta-di_h264/*~Signature=Aad0pFeP6L2JBJK8eGnbWO88sqOxMhckd0TGaD6IcQgch5B1lYiKQcQoLubU-htvSZbhnOS6JR7Y5sEzD6u4oBILKq8C\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141659_english_hls_3b2d481bea96020_1ta-di_h264/540p.m3u8?hdntl=Expires=1775566687~_GO=Generated~acl=/mumbai/141659_english_hls_3b2d481bea96020_1ta-di_h264/*~Signature=Aad0pFeP6L2JBJK8eGnbWO88sqOxMhckd0TGaD6IcQgch5B1lYiKQcQoLubU-htvSZbhnOS6JR7Y5sEzD6u4oBILKq8C\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141659_english_hls_3b2d481bea96020_1ta-di_h264/720p.m3u8?hdntl=Expires=1775566687~_GO=Generated~acl=/mumbai/141659_english_hls_3b2d481bea96020_1ta-di_h264/*~Signature=Aad0pFeP6L2JBJK8eGnbWO88sqOxMhckd0TGaD6IcQgch5B1lYiKQcQoLubU-htvSZbhnOS6JR7Y5sEzD6u4oBILKq8C\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141659_english_hls_3b2d481bea96020_1ta-di_h264/1080p.m3u8?hdntl=Expires=1775566687~_GO=Generated~acl=/mumbai/141659_english_hls_3b2d481bea96020_1ta-di_h264/*~Signature=Aad0pFeP6L2JBJK8eGnbWO88sqOxMhckd0TGaD6IcQgch5B1lYiKQcQoLubU-htvSZbhnOS6JR7Y5sEzD6u4oBILKq8C",
-          "cookie": "hdntl=Expires=1775566687~_GO=Generated~acl=/mumbai/141659_english_hls_3b2d481bea96020_1ta-di_h264/*~Signature=Aad0pFeP6L2JBJK8eGnbWO88sqOxMhckd0TGaD6IcQgch5B1lYiKQcQoLubU-htvSZbhnOS6JR7Y5sEzD6u4oBILKq8C",
-          "cookie_valid": "1775566687",
-          "create_date": "Monday, April 6, 2026, 6:28:04 PM",
-          "expire_date": "Tuesday, April 7, 2026, 6:28:07 PM",
           "language": "ENGLISH"
         }
       ]
@@ -2726,6 +2651,73 @@
         {
           "name": "Court Ranier III",
           "shortName": "Court Ranier III",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Monte-Carlo",
+          "shortName": "Monte-Carlo",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Tennis",
+      "title": "Court Ea De Massy",
+      "tournament": "ATP Masters Rolex Monte-Carlo 2026",
+      "match_id": 141668,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "08 April 2026 02:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Rolex-Monte-Carlo-Masters_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141668_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Rolex-Monte-Carlo-Masters_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Rolex-Monte-Carlo-Masters_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Rolex-Monte-Carlo-Masters_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141668_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Court EA de Massy",
+          "shortName": "Court EA de Massy",
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
           },
