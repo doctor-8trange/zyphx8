@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "05:56:01 PM 08-04-2026",
+  "last_updated": "06:00:01 PM 08-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -13,7 +13,7 @@
   "matches": [
     {
       "category": "Cricket",
-      "title": "Scotland Vs Oman",
+      "title": "Oman Vs Scotland",
       "tournament": "ICC CWC League 2, Namibia",
       "match_id": 141649,
       "status": "LIVE",
@@ -33,25 +33,6 @@
       },
       "team": [
         {
-          "name": "Scotland",
-          "shortName": "SCO",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SCO@2x.png"
-          },
-          "isWinner": null,
-          "color": "#1672c1",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "Oman",
           "shortName": "OMN",
           "flag": {
@@ -59,6 +40,33 @@
           },
           "isWinner": null,
           "color": "#ad1b0e",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Scotland",
+          "shortName": "SCO",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SCO@2x.png"
+          },
+          "isWinner": null,
+          "color": "#1672c1",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
