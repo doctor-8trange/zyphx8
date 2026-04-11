@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "10:00:01 AM 11-04-2026",
+  "last_updated": "10:07:01 AM 11-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -94,7 +94,7 @@
     },
     {
       "category": "Cricket",
-      "title": "Sri Lanka A Vs New Zealand A",
+      "title": "New Zealand A Vs Sri Lanka A",
       "tournament": "New Zealand A Tour of Sri Lanka 2026",
       "match_id": 141800,
       "status": "LIVE",
@@ -114,25 +114,6 @@
       },
       "team": [
         {
-          "name": "Sri Lanka A",
-          "shortName": "SL-A",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SRL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#164fad",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "New Zealand A",
           "shortName": "NZ-A",
           "flag": {
@@ -140,6 +121,33 @@
           },
           "isWinner": null,
           "color": "#4c64a7",
+          "cricketScore": [
+            {
+              "runs": 2,
+              "overs": "1",
+              "balls": "6",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Sri Lanka A",
+          "shortName": "SL-A",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SRL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#164fad",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
