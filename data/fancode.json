@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:28:00 PM 11-04-2026",
+  "last_updated": "07:35:01 PM 11-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -246,8 +246,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 2,
+            "points": 3,
             "goals": [
+              {
+                "id": "27459",
+                "shortName": "L Boye",
+                "isOwnGoal": false,
+                "goalTime": "90'"
+              },
               {
                 "id": "191118",
                 "shortName": "I Diabate",
@@ -294,10 +300,97 @@
     },
     {
       "category": "Football",
+      "title": "Sheffield United F.c. Vs Hull City",
+      "tournament": "EFL Championship 2025-26",
+      "match_id": 141439,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "11 April 2026 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/141439_5489_SHF_HUL_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141439_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/141439_5489_SHF_HUL_fc-web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/141439_5489_SHF_HUL_fc-web.jpg",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/07/EFl-Championship.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141439_5489_SHF_HUL_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141439_5489_SHF_HUL_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141439_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Sheffield United F.C.",
+          "shortName": "SHF",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SHFU@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ece125",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Hull City",
+          "shortName": "HUL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-HLC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ca680d",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/240p.m3u8?hdntl=Expires=1776001451~_GO=Generated~acl=/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/*~Signature=AfQ_v7TbqY82YXFvS81wHKyUhKHTnwNEhDCaMXtqedDN5-MKkvq5FHEk-V2bzJLS0ZBQcOwrXS5GswIuckM52dX5Nb8G\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/360p.m3u8?hdntl=Expires=1776001451~_GO=Generated~acl=/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/*~Signature=AfQ_v7TbqY82YXFvS81wHKyUhKHTnwNEhDCaMXtqedDN5-MKkvq5FHEk-V2bzJLS0ZBQcOwrXS5GswIuckM52dX5Nb8G\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/480p.m3u8?hdntl=Expires=1776001451~_GO=Generated~acl=/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/*~Signature=AfQ_v7TbqY82YXFvS81wHKyUhKHTnwNEhDCaMXtqedDN5-MKkvq5FHEk-V2bzJLS0ZBQcOwrXS5GswIuckM52dX5Nb8G\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/540p.m3u8?hdntl=Expires=1776001451~_GO=Generated~acl=/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/*~Signature=AfQ_v7TbqY82YXFvS81wHKyUhKHTnwNEhDCaMXtqedDN5-MKkvq5FHEk-V2bzJLS0ZBQcOwrXS5GswIuckM52dX5Nb8G\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/720p.m3u8?hdntl=Expires=1776001451~_GO=Generated~acl=/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/*~Signature=AfQ_v7TbqY82YXFvS81wHKyUhKHTnwNEhDCaMXtqedDN5-MKkvq5FHEk-V2bzJLS0ZBQcOwrXS5GswIuckM52dX5Nb8G\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/1080p.m3u8?hdntl=Expires=1776001451~_GO=Generated~acl=/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/*~Signature=AfQ_v7TbqY82YXFvS81wHKyUhKHTnwNEhDCaMXtqedDN5-MKkvq5FHEk-V2bzJLS0ZBQcOwrXS5GswIuckM52dX5Nb8G",
+          "cookie": "hdntl=Expires=1776001451~_GO=Generated~acl=/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/*~Signature=AfQ_v7TbqY82YXFvS81wHKyUhKHTnwNEhDCaMXtqedDN5-MKkvq5FHEk-V2bzJLS0ZBQcOwrXS5GswIuckM52dX5Nb8G",
+          "cookie_valid": "1776001451",
+          "create_date": "Saturday, April 11, 2026, 7:14:09 PM",
+          "expire_date": "Sunday, April 12, 2026, 7:14:11 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Football",
       "title": "Bengaluru Fc Vs Kerala Blasters Fc",
       "tournament": "ISL 2025-26",
       "match_id": 140483,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "11 April 2026 07:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -323,7 +416,10 @@
           "color": "#11318E",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -342,7 +438,10 @@
           "color": "#0b419f",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -378,7 +477,7 @@
       "title": "Bengaluru Fc Vs Kerala Blasters Fc",
       "tournament": "ISL 2025-26",
       "match_id": 140483,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "11 April 2026 07:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -404,7 +503,10 @@
           "color": "#11318E",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -423,7 +525,10 @@
           "color": "#0b419f",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -459,7 +564,7 @@
       "title": "Bengaluru Fc Vs Kerala Blasters Fc",
       "tournament": "ISL 2025-26",
       "match_id": 140483,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "11 April 2026 07:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -485,7 +590,10 @@
           "color": "#11318E",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -504,7 +612,10 @@
           "color": "#0b419f",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -540,7 +651,7 @@
       "title": "Bengaluru Fc Vs Kerala Blasters Fc",
       "tournament": "ISL 2025-26",
       "match_id": 140483,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "11 April 2026 07:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -566,7 +677,10 @@
           "color": "#11318E",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -585,7 +699,10 @@
           "color": "#0b419f",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -618,91 +735,10 @@
     },
     {
       "category": "Football",
-      "title": "Sheffield United F.c. Vs Hull City",
-      "tournament": "EFL Championship 2025-26",
-      "match_id": 141439,
-      "status": "NOT_STARTED",
-      "streamingStatus": "STARTED",
-      "startTime": "11 April 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/141439_5489_SHF_HUL_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141439_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/141439_5489_SHF_HUL_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/141439_5489_SHF_HUL_fc-web.jpg",
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/07/EFl-Championship.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141439_5489_SHF_HUL_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141439_5489_SHF_HUL_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141439_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Sheffield United F.C.",
-          "shortName": "SHF",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SHFU@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ece125",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Hull City",
-          "shortName": "HUL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-HLC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ca680d",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/240p.m3u8?hdntl=Expires=1776001451~_GO=Generated~acl=/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/*~Signature=AfQ_v7TbqY82YXFvS81wHKyUhKHTnwNEhDCaMXtqedDN5-MKkvq5FHEk-V2bzJLS0ZBQcOwrXS5GswIuckM52dX5Nb8G\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/360p.m3u8?hdntl=Expires=1776001451~_GO=Generated~acl=/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/*~Signature=AfQ_v7TbqY82YXFvS81wHKyUhKHTnwNEhDCaMXtqedDN5-MKkvq5FHEk-V2bzJLS0ZBQcOwrXS5GswIuckM52dX5Nb8G\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/480p.m3u8?hdntl=Expires=1776001451~_GO=Generated~acl=/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/*~Signature=AfQ_v7TbqY82YXFvS81wHKyUhKHTnwNEhDCaMXtqedDN5-MKkvq5FHEk-V2bzJLS0ZBQcOwrXS5GswIuckM52dX5Nb8G\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/540p.m3u8?hdntl=Expires=1776001451~_GO=Generated~acl=/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/*~Signature=AfQ_v7TbqY82YXFvS81wHKyUhKHTnwNEhDCaMXtqedDN5-MKkvq5FHEk-V2bzJLS0ZBQcOwrXS5GswIuckM52dX5Nb8G\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/720p.m3u8?hdntl=Expires=1776001451~_GO=Generated~acl=/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/*~Signature=AfQ_v7TbqY82YXFvS81wHKyUhKHTnwNEhDCaMXtqedDN5-MKkvq5FHEk-V2bzJLS0ZBQcOwrXS5GswIuckM52dX5Nb8G\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/1080p.m3u8?hdntl=Expires=1776001451~_GO=Generated~acl=/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/*~Signature=AfQ_v7TbqY82YXFvS81wHKyUhKHTnwNEhDCaMXtqedDN5-MKkvq5FHEk-V2bzJLS0ZBQcOwrXS5GswIuckM52dX5Nb8G",
-          "cookie": "hdntl=Expires=1776001451~_GO=Generated~acl=/mumbai/141439_english_hls_af148e395e63721_1ta-di_h264/*~Signature=AfQ_v7TbqY82YXFvS81wHKyUhKHTnwNEhDCaMXtqedDN5-MKkvq5FHEk-V2bzJLS0ZBQcOwrXS5GswIuckM52dX5Nb8G",
-          "cookie_valid": "1776001451",
-          "create_date": "Saturday, April 11, 2026, 7:14:09 PM",
-          "expire_date": "Sunday, April 12, 2026, 7:14:11 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Football",
       "title": "Bengaluru Fc Vs Kerala Blasters Fc",
       "tournament": "ISL 2025-26  - Regional",
       "match_id": 141809,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "11 April 2026 07:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -728,7 +764,10 @@
           "color": "#11318E",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -747,7 +786,10 @@
           "color": "#0b419f",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -1565,73 +1607,6 @@
     },
     {
       "category": "Football",
-      "title": "Melbourne City Vs Wellington Phoenix",
-      "tournament": "A League 2025-26",
-      "match_id": 140933,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "12 April 2026 10:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140933_5802_MLC_WEL_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140933_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140933_5802_MLC_WEL_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/10/A-League_Men-and-Women_Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140933_5802_MLC_WEL_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140933_5802_MLC_WEL_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140933_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Melbourne City",
-          "shortName": "MLC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MLCA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#72b4e7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Wellington Phoenix",
-          "shortName": "WEL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WEL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#BAA209",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
       "title": "Birmingham City F.c. Vs Wrexham A.f.c.",
       "tournament": "EFL Championship 2025-26",
       "match_id": 141440,
@@ -1678,6 +1653,73 @@
           },
           "isWinner": null,
           "color": "#0fb378",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Melbourne City Vs Wellington Phoenix",
+      "tournament": "A League 2025-26",
+      "match_id": 140933,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "12 April 2026 10:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140933_5802_MLC_WEL_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140933_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140933_5802_MLC_WEL_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/10/A-League_Men-and-Women_Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140933_5802_MLC_WEL_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140933_5802_MLC_WEL_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140933_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Melbourne City",
+          "shortName": "MLC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MLCA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#72b4e7",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Wellington Phoenix",
+          "shortName": "WEL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WEL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#BAA209",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2569,73 +2611,6 @@
       "auto_streams": null
     },
     {
-      "category": "Golf",
-      "title": "Day 3",
-      "tournament": "The Augusta Masters 2026",
-      "match_id": 141878,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "11 April 2026 09:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/The-Masters-Augusta-old-card-.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141878_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/The-Masters-Augusta-old-card-.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/FC-AUM@2x.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/The-Masters-Augusta-old-card-.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/The-Masters-Augusta-Sporty--.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141878_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Day 3",
-          "shortName": "Day 3",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-AUM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#00563D",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Georgia, USA",
-          "shortName": "Georgia, USA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Football",
       "title": "Rc Celta Vs Real Oviedo",
       "tournament": "LALIGA 2025-26",
@@ -2750,6 +2725,73 @@
           },
           "isWinner": null,
           "color": "#71157B",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Golf",
+      "title": "Day 3",
+      "tournament": "The Augusta Masters 2026",
+      "match_id": 141878,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 April 2026 09:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/The-Masters-Augusta-old-card-.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141878_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/The-Masters-Augusta-old-card-.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/FC-AUM@2x.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/The-Masters-Augusta-old-card-.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/The-Masters-Augusta-Sporty--.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141878_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Day 3",
+          "shortName": "Day 3",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-AUM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#00563D",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Georgia, USA",
+          "shortName": "Georgia, USA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
