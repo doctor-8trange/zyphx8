@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "01:22:00 AM 13-04-2026",
+  "last_updated": "01:28:46 AM 13-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 37,
+  "total_matches": 36,
   "live_matches": 6,
-  "upcoming_matches": 31,
+  "upcoming_matches": 30,
   "matches": [
     {
       "category": "Cricket",
@@ -295,8 +295,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "50090",
+                "shortName": "G Guruzeta",
+                "isOwnGoal": false,
+                "goalTime": "45'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -347,90 +354,6 @@
         "language": "ENGLISH",
         "backup": {
           "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/131132_english_hls_8e68ca45bf52410_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "<!DOCTYPE html>\n<html style=\"height:100%\">\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n<title> 301 Moved Permanently\r\n</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n<body style=\"color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;\">\n<div style=\"height:auto; min-height:100%; \">     <div style=\"text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;\">\n        <h1 style=\"margin:0; font-size:150px; line-height:150px; font-weight:bold;\">301</h1>\n<h2 style=\"margin-top:20px;font-size: 30px;\">Moved Permanently\r\n</h2>\n<p>The document has been permanently moved to <A HREF=\"%s\">here</A>.</p>\n</div></div></body></html>\n",
-          "cookie": null,
-          "cookie_valid": null,
-          "create_date": null,
-          "expire_date": null,
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Golf",
-      "title": "Day 4",
-      "tournament": "The Augusta Masters 2026",
-      "match_id": 141879,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "12 April 2026 09:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/The-Masters-Augusta-old-card-.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141879_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/The-Masters-Augusta-old-card-.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/The-Masters-Augusta-old-card-.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/FC-AUM@2x.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/The-Masters-Augusta-old-card-.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/The-Masters-Augusta-Sporty--.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141879_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Day 4",
-          "shortName": "Day 4",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-AUM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#00563D",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Georgia, USA",
-          "shortName": "Georgia, USA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/141879_english_hls_74155083b146693_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/141879_english_hls_74155083b146693_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/141879_english_hls_74155083b146693_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/141879_english_hls_74155083b146693_1ta-di_h264/index.m3u8"
         }
       },
       "auto_streams": [
