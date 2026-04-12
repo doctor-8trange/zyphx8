@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "10:07:01 PM 12-04-2026",
+  "last_updated": "10:14:01 PM 12-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -317,8 +317,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "193687",
+                "shortName": "A Campos",
+                "isOwnGoal": false,
+                "goalTime": "4'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -2248,12 +2255,12 @@
     },
     {
       "category": "Football",
-      "title": "Tbc Vs Tbc",
+      "title": "Dpr Korea U20 Vs Korea Republic U20",
       "tournament": "AFC U20 Women's Asian Cup 2026",
       "match_id": 141634,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "15 April 2026 06:30 PM",
+      "startTime": "15 April 2026 02:30 PM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(6)_1774716160342.png",
       "image_cdn": {
@@ -2268,13 +2275,13 @@
       },
       "team": [
         {
-          "name": "TBC",
-          "shortName": "TBC",
+          "name": "DPR Korea U20",
+          "shortName": "DPR-U20",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/TBC-FT1@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NK@2x.png"
           },
           "isWinner": null,
-          "color": "#FFFFFF",
+          "color": "#ff505a",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2287,13 +2294,13 @@
           }
         },
         {
-          "name": "TBC",
-          "shortName": "TBC",
+          "name": "Korea Republic U20",
+          "shortName": "KR-U20",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/TBC-FT1@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/KOR-FT1@2x.png"
           },
           "isWinner": null,
-          "color": "#FFFFFF",
+          "color": "#dd717a",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
