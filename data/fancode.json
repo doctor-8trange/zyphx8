@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "08:07:00 AM 13-04-2026",
+  "last_updated": "08:14:03 AM 13-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 0,
-  "upcoming_matches": 38,
+  "live_matches": 1,
+  "upcoming_matches": 37,
   "matches": [
     {
       "category": "Cricket",
@@ -217,15 +217,15 @@
       "title": "New York Liberty Xi Vs Melbourne Pirates",
       "tournament": "Brisbane Champions League 2026",
       "match_id": 141757,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "13 April 2026 08:30 AM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/141757_6028_NYL_MEP_FC-WEB.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/141757_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/141757_6028_NYL_MEP_FC-WEB.jpg",
-        "PLAYBACK": null,
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/141757_6028_NYL_MEP_FC-WEB.jpg",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/BCL-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141757_6028_NYL_MEP_FC-WEB.jpg",
@@ -239,7 +239,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NYO@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#011a43",
           "cricketScore": null,
           "kabaddiScore": null,
@@ -258,7 +258,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MEP@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#ac8440",
           "cricketScore": null,
           "kabaddiScore": null,
@@ -272,12 +272,29 @@
           }
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/141757_english_hls_42ad4056985205_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/141757_english_hls_42ad4056985205_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/141757_english_hls_42ad4056985205_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/141757_english_hls_42ad4056985205_1ta-di_h264/index.m3u8"
+        }
       },
-      "auto_streams": null
+      "auto_streams": [
+        {
+          "auto": "<!DOCTYPE html>\n<html style=\"height:100%\">\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n<title> 301 Moved Permanently\r\n</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>\n<body style=\"color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;\">\n<div style=\"height:auto; min-height:100%; \">     <div style=\"text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;\">\n        <h1 style=\"margin:0; font-size:150px; line-height:150px; font-weight:bold;\">301</h1>\n<h2 style=\"margin-top:20px;font-size: 30px;\">Moved Permanently\r\n</h2>\n<p>The document has been permanently moved to <A HREF=\"%s\">here</A>.</p>\n</div></div></body></html>\n",
+          "cookie": null,
+          "cookie_valid": null,
+          "create_date": null,
+          "expire_date": null,
+          "language": "ENGLISH"
+        }
+      ]
     },
     {
       "category": "Cricket",
