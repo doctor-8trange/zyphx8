@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:07:01 AM 15-04-2026",
+  "last_updated": "09:14:01 AM 15-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 3,
-  "upcoming_matches": 35,
+  "live_matches": 2,
+  "upcoming_matches": 36,
   "matches": [
     {
       "category": "Cricket",
@@ -176,15 +176,15 @@
       "title": "Cruz Azul Vs Los Angeles Fc",
       "tournament": "CONCACAF Champions Cup 2026",
       "match_id": 141884,
-      "status": "NOT_STARTED",
-      "streamingStatus": "STARTED",
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
       "startTime": "15 April 2026 06:30 AM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/141884_5954_CRU_LAF_FC-Web.png",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/141884_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/141884_5954_CRU_LAF_FC-Web.png",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/141884_5954_CRU_LAF_FC-Web.png",
+        "PLAYBACK": null,
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Concacaf-Champions-Cup-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141884_5954_CRU_LAF_FC-Web.png",
@@ -205,11 +205,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "Los Angeles FC",
@@ -224,36 +220,15 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
-      "language": "ENGLISH",
+      "language": "BLOODY_SWEET",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/141884_english_hls_9e20a0fd0485518_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/141884_english_hls_9e20a0fd0485518_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/141884_english_hls_9e20a0fd0485518_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/141884_english_hls_9e20a0fd0485518_1ta-di_h264/index.m3u8"
-        }
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
       },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141884_english_hls_9e20a0fd0485518_1ta-di_h264/240p.m3u8?hdntl=Expires=1776300247~_GO=Generated~acl=/mumbai/141884_english_hls_9e20a0fd0485518_1ta-di_h264/*~Signature=AfQ_v7RiULir1BKxfOW1NTqWXxYU2bBEQHg1Q5HePfD_M5eQ36WLTJR0J-pDwxoHjgDLbNG1KJScuNr8uIiHAHwbP-MI\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141884_english_hls_9e20a0fd0485518_1ta-di_h264/360p.m3u8?hdntl=Expires=1776300247~_GO=Generated~acl=/mumbai/141884_english_hls_9e20a0fd0485518_1ta-di_h264/*~Signature=AfQ_v7RiULir1BKxfOW1NTqWXxYU2bBEQHg1Q5HePfD_M5eQ36WLTJR0J-pDwxoHjgDLbNG1KJScuNr8uIiHAHwbP-MI\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141884_english_hls_9e20a0fd0485518_1ta-di_h264/480p.m3u8?hdntl=Expires=1776300247~_GO=Generated~acl=/mumbai/141884_english_hls_9e20a0fd0485518_1ta-di_h264/*~Signature=AfQ_v7RiULir1BKxfOW1NTqWXxYU2bBEQHg1Q5HePfD_M5eQ36WLTJR0J-pDwxoHjgDLbNG1KJScuNr8uIiHAHwbP-MI\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141884_english_hls_9e20a0fd0485518_1ta-di_h264/540p.m3u8?hdntl=Expires=1776300247~_GO=Generated~acl=/mumbai/141884_english_hls_9e20a0fd0485518_1ta-di_h264/*~Signature=AfQ_v7RiULir1BKxfOW1NTqWXxYU2bBEQHg1Q5HePfD_M5eQ36WLTJR0J-pDwxoHjgDLbNG1KJScuNr8uIiHAHwbP-MI\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141884_english_hls_9e20a0fd0485518_1ta-di_h264/720p.m3u8?hdntl=Expires=1776300247~_GO=Generated~acl=/mumbai/141884_english_hls_9e20a0fd0485518_1ta-di_h264/*~Signature=AfQ_v7RiULir1BKxfOW1NTqWXxYU2bBEQHg1Q5HePfD_M5eQ36WLTJR0J-pDwxoHjgDLbNG1KJScuNr8uIiHAHwbP-MI\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141884_english_hls_9e20a0fd0485518_1ta-di_h264/1080p.m3u8?hdntl=Expires=1776300247~_GO=Generated~acl=/mumbai/141884_english_hls_9e20a0fd0485518_1ta-di_h264/*~Signature=AfQ_v7RiULir1BKxfOW1NTqWXxYU2bBEQHg1Q5HePfD_M5eQ36WLTJR0J-pDwxoHjgDLbNG1KJScuNr8uIiHAHwbP-MI\n#EXT-X-STREAM-INF:BANDWIDTH=5408736,AVERAGE-BANDWIDTH=5408736,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/141884_english_hls_9e20a0fd0485518_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1776300247~_GO=Generated~acl=/mumbai/141884_english_hls_9e20a0fd0485518_1ta-di_h264/*~Signature=AfQ_v7RiULir1BKxfOW1NTqWXxYU2bBEQHg1Q5HePfD_M5eQ36WLTJR0J-pDwxoHjgDLbNG1KJScuNr8uIiHAHwbP-MI",
-          "cookie": "hdntl=Expires=1776300247~_GO=Generated~acl=/mumbai/141884_english_hls_9e20a0fd0485518_1ta-di_h264/*~Signature=AfQ_v7RiULir1BKxfOW1NTqWXxYU2bBEQHg1Q5HePfD_M5eQ36WLTJR0J-pDwxoHjgDLbNG1KJScuNr8uIiHAHwbP-MI",
-          "cookie_valid": "1776300247",
-          "create_date": "Wednesday, April 15, 2026, 6:14:02 AM",
-          "expire_date": "Thursday, April 16, 2026, 6:14:07 AM",
-          "language": "ENGLISH"
-        }
-      ]
+      "auto_streams": null
     },
     {
       "category": "Cricket",
