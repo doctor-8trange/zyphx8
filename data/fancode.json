@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "08:00:01 PM 18-04-2026",
+  "last_updated": "08:07:03 PM 18-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -38,7 +38,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-USA@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#132f86",
           "cricketScore": [
             {
@@ -65,7 +65,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NEP@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#0f266e",
           "cricketScore": [
             {
@@ -169,9 +169,9 @@
           "color": "#112c80",
           "cricketScore": [
             {
-              "runs": 92,
-              "overs": "9.3",
-              "balls": "57",
+              "runs": 115,
+              "overs": "11.2",
+              "balls": "68",
               "status": "IN_PROGRESS",
               "wickets": 2
             }
@@ -208,6 +208,394 @@
           "create_date": "Saturday, April 18, 2026, 5:21:05 PM",
           "expire_date": "Sunday, April 19, 2026, 5:21:10 PM",
           "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Fc Goa Vs Mumbai City Fc",
+      "tournament": "ISL 2025-26",
+      "match_id": 140491,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "18 April 2026 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140491_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-App_1772466121732.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140491_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "FC Goa",
+          "shortName": "FCG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-FCG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#f16622",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "26717",
+                "shortName": "S Tavora",
+                "isOwnGoal": false,
+                "goalTime": "29'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Mumbai City FC",
+          "shortName": "MCFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MUMCI@2x.png"
+          },
+          "isWinner": null,
+          "color": "#3d8ac6",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/240p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/*~Signature=AeHXXvAOeTVU6yhXAHDHiLNJTLhiBpRNMsYs2aHpJ3PlAOizahXMt1P8jKmsK8xgZIIhI3Ix3K64vnEpCPKG8DOsRbcE\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/360p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/*~Signature=AeHXXvAOeTVU6yhXAHDHiLNJTLhiBpRNMsYs2aHpJ3PlAOizahXMt1P8jKmsK8xgZIIhI3Ix3K64vnEpCPKG8DOsRbcE\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/480p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/*~Signature=AeHXXvAOeTVU6yhXAHDHiLNJTLhiBpRNMsYs2aHpJ3PlAOizahXMt1P8jKmsK8xgZIIhI3Ix3K64vnEpCPKG8DOsRbcE\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/540p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/*~Signature=AeHXXvAOeTVU6yhXAHDHiLNJTLhiBpRNMsYs2aHpJ3PlAOizahXMt1P8jKmsK8xgZIIhI3Ix3K64vnEpCPKG8DOsRbcE\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/720p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/*~Signature=AeHXXvAOeTVU6yhXAHDHiLNJTLhiBpRNMsYs2aHpJ3PlAOizahXMt1P8jKmsK8xgZIIhI3Ix3K64vnEpCPKG8DOsRbcE\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/1080p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/*~Signature=AeHXXvAOeTVU6yhXAHDHiLNJTLhiBpRNMsYs2aHpJ3PlAOizahXMt1P8jKmsK8xgZIIhI3Ix3K64vnEpCPKG8DOsRbcE\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/*~Signature=AeHXXvAOeTVU6yhXAHDHiLNJTLhiBpRNMsYs2aHpJ3PlAOizahXMt1P8jKmsK8xgZIIhI3Ix3K64vnEpCPKG8DOsRbcE",
+          "cookie": "hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/*~Signature=AeHXXvAOeTVU6yhXAHDHiLNJTLhiBpRNMsYs2aHpJ3PlAOizahXMt1P8jKmsK8xgZIIhI3Ix3K64vnEpCPKG8DOsRbcE",
+          "cookie_valid": "1776606248",
+          "create_date": "Saturday, April 18, 2026, 7:14:02 PM",
+          "expire_date": "Sunday, April 19, 2026, 7:14:08 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Fc Goa Vs Mumbai City Fc",
+      "tournament": "ISL 2025-26",
+      "match_id": 140491,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "18 April 2026 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140491_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-App_1772466121732.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140491_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "FC Goa",
+          "shortName": "FCG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-FCG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#f16622",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "26717",
+                "shortName": "S Tavora",
+                "isOwnGoal": false,
+                "goalTime": "29'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Mumbai City FC",
+          "shortName": "MCFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MUMCI@2x.png"
+          },
+          "isWinner": null,
+          "color": "#3d8ac6",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "HINDI",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "HINDI",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/240p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/*~Signature=AeHXXvDNmt4imtzfiCy15klUK48Lakf59LHwtsHmbTOTlNXSV_REzv4MBfKbT1TX5j0rkhBhMS3Bo5XgSv_XVX7pjiEK\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/360p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/*~Signature=AeHXXvDNmt4imtzfiCy15klUK48Lakf59LHwtsHmbTOTlNXSV_REzv4MBfKbT1TX5j0rkhBhMS3Bo5XgSv_XVX7pjiEK\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/480p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/*~Signature=AeHXXvDNmt4imtzfiCy15klUK48Lakf59LHwtsHmbTOTlNXSV_REzv4MBfKbT1TX5j0rkhBhMS3Bo5XgSv_XVX7pjiEK\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/540p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/*~Signature=AeHXXvDNmt4imtzfiCy15klUK48Lakf59LHwtsHmbTOTlNXSV_REzv4MBfKbT1TX5j0rkhBhMS3Bo5XgSv_XVX7pjiEK\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/720p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/*~Signature=AeHXXvDNmt4imtzfiCy15klUK48Lakf59LHwtsHmbTOTlNXSV_REzv4MBfKbT1TX5j0rkhBhMS3Bo5XgSv_XVX7pjiEK\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/1080p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/*~Signature=AeHXXvDNmt4imtzfiCy15klUK48Lakf59LHwtsHmbTOTlNXSV_REzv4MBfKbT1TX5j0rkhBhMS3Bo5XgSv_XVX7pjiEK\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/*~Signature=AeHXXvDNmt4imtzfiCy15klUK48Lakf59LHwtsHmbTOTlNXSV_REzv4MBfKbT1TX5j0rkhBhMS3Bo5XgSv_XVX7pjiEK",
+          "cookie": "hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/*~Signature=AeHXXvDNmt4imtzfiCy15klUK48Lakf59LHwtsHmbTOTlNXSV_REzv4MBfKbT1TX5j0rkhBhMS3Bo5XgSv_XVX7pjiEK",
+          "cookie_valid": "1776606248",
+          "create_date": "Saturday, April 18, 2026, 7:14:03 PM",
+          "expire_date": "Sunday, April 19, 2026, 7:14:08 PM",
+          "language": "HINDI"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Fc Goa Vs Mumbai City Fc",
+      "tournament": "ISL 2025-26",
+      "match_id": 140491,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "18 April 2026 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140491_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-App_1772466121732.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140491_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "FC Goa",
+          "shortName": "FCG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-FCG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#f16622",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "26717",
+                "shortName": "S Tavora",
+                "isOwnGoal": false,
+                "goalTime": "29'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Mumbai City FC",
+          "shortName": "MCFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MUMCI@2x.png"
+          },
+          "isWinner": null,
+          "color": "#3d8ac6",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "MALAYALAM",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "MALAYALAM",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/240p.m3u8?hdntl=Expires=1776606249~_GO=Generated~acl=/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/*~Signature=AeHXXvDQ-QwyLe8z-y1ItP2MoXjTICoKv2wht8CTu9T8RyxQjzcUYAi_IRjPz3xFrviDaKQPgPFiFaAi-ATEjHVnkSIM\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/360p.m3u8?hdntl=Expires=1776606249~_GO=Generated~acl=/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/*~Signature=AeHXXvDQ-QwyLe8z-y1ItP2MoXjTICoKv2wht8CTu9T8RyxQjzcUYAi_IRjPz3xFrviDaKQPgPFiFaAi-ATEjHVnkSIM\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/480p.m3u8?hdntl=Expires=1776606249~_GO=Generated~acl=/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/*~Signature=AeHXXvDQ-QwyLe8z-y1ItP2MoXjTICoKv2wht8CTu9T8RyxQjzcUYAi_IRjPz3xFrviDaKQPgPFiFaAi-ATEjHVnkSIM\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/540p.m3u8?hdntl=Expires=1776606249~_GO=Generated~acl=/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/*~Signature=AeHXXvDQ-QwyLe8z-y1ItP2MoXjTICoKv2wht8CTu9T8RyxQjzcUYAi_IRjPz3xFrviDaKQPgPFiFaAi-ATEjHVnkSIM\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/720p.m3u8?hdntl=Expires=1776606249~_GO=Generated~acl=/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/*~Signature=AeHXXvDQ-QwyLe8z-y1ItP2MoXjTICoKv2wht8CTu9T8RyxQjzcUYAi_IRjPz3xFrviDaKQPgPFiFaAi-ATEjHVnkSIM\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/1080p.m3u8?hdntl=Expires=1776606249~_GO=Generated~acl=/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/*~Signature=AeHXXvDQ-QwyLe8z-y1ItP2MoXjTICoKv2wht8CTu9T8RyxQjzcUYAi_IRjPz3xFrviDaKQPgPFiFaAi-ATEjHVnkSIM\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1776606249~_GO=Generated~acl=/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/*~Signature=AeHXXvDQ-QwyLe8z-y1ItP2MoXjTICoKv2wht8CTu9T8RyxQjzcUYAi_IRjPz3xFrviDaKQPgPFiFaAi-ATEjHVnkSIM",
+          "cookie": "hdntl=Expires=1776606249~_GO=Generated~acl=/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/*~Signature=AeHXXvDQ-QwyLe8z-y1ItP2MoXjTICoKv2wht8CTu9T8RyxQjzcUYAi_IRjPz3xFrviDaKQPgPFiFaAi-ATEjHVnkSIM",
+          "cookie_valid": "1776606249",
+          "create_date": "Saturday, April 18, 2026, 7:14:04 PM",
+          "expire_date": "Sunday, April 19, 2026, 7:14:09 PM",
+          "language": "MALAYALAM"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Fc Goa Vs Mumbai City Fc",
+      "tournament": "ISL 2025-26",
+      "match_id": 140491,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "18 April 2026 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140491_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-App_1772466121732.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140491_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "FC Goa",
+          "shortName": "FCG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-FCG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#f16622",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "26717",
+                "shortName": "S Tavora",
+                "isOwnGoal": false,
+                "goalTime": "29'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Mumbai City FC",
+          "shortName": "MCFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MUMCI@2x.png"
+          },
+          "isWinner": null,
+          "color": "#3d8ac6",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BENGALI",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "BENGALI",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/240p.m3u8?hdntl=Expires=1776606250~_GO=Generated~acl=/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/*~Signature=AeHXXvA5WlRlk4BhhRG7KdO6tpQTHsb92B-0rdw5r4pncluLeCGv9nu4K7-GWvQsLKVM6Gs6DjYs-MAz5sxnur_zpqAH\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/360p.m3u8?hdntl=Expires=1776606250~_GO=Generated~acl=/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/*~Signature=AeHXXvA5WlRlk4BhhRG7KdO6tpQTHsb92B-0rdw5r4pncluLeCGv9nu4K7-GWvQsLKVM6Gs6DjYs-MAz5sxnur_zpqAH\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/480p.m3u8?hdntl=Expires=1776606250~_GO=Generated~acl=/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/*~Signature=AeHXXvA5WlRlk4BhhRG7KdO6tpQTHsb92B-0rdw5r4pncluLeCGv9nu4K7-GWvQsLKVM6Gs6DjYs-MAz5sxnur_zpqAH\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/540p.m3u8?hdntl=Expires=1776606250~_GO=Generated~acl=/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/*~Signature=AeHXXvA5WlRlk4BhhRG7KdO6tpQTHsb92B-0rdw5r4pncluLeCGv9nu4K7-GWvQsLKVM6Gs6DjYs-MAz5sxnur_zpqAH\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/720p.m3u8?hdntl=Expires=1776606250~_GO=Generated~acl=/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/*~Signature=AeHXXvA5WlRlk4BhhRG7KdO6tpQTHsb92B-0rdw5r4pncluLeCGv9nu4K7-GWvQsLKVM6Gs6DjYs-MAz5sxnur_zpqAH\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/1080p.m3u8?hdntl=Expires=1776606250~_GO=Generated~acl=/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/*~Signature=AeHXXvA5WlRlk4BhhRG7KdO6tpQTHsb92B-0rdw5r4pncluLeCGv9nu4K7-GWvQsLKVM6Gs6DjYs-MAz5sxnur_zpqAH\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1776606250~_GO=Generated~acl=/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/*~Signature=AeHXXvA5WlRlk4BhhRG7KdO6tpQTHsb92B-0rdw5r4pncluLeCGv9nu4K7-GWvQsLKVM6Gs6DjYs-MAz5sxnur_zpqAH",
+          "cookie": "hdntl=Expires=1776606250~_GO=Generated~acl=/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/*~Signature=AeHXXvA5WlRlk4BhhRG7KdO6tpQTHsb92B-0rdw5r4pncluLeCGv9nu4K7-GWvQsLKVM6Gs6DjYs-MAz5sxnur_zpqAH",
+          "cookie_valid": "1776606250",
+          "create_date": "Saturday, April 18, 2026, 7:14:05 PM",
+          "expire_date": "Sunday, April 19, 2026, 7:14:10 PM",
+          "language": "BENGALI"
         }
       ]
     },
@@ -305,366 +693,6 @@
           "create_date": "Saturday, April 18, 2026, 7:14:07 PM",
           "expire_date": "Sunday, April 19, 2026, 7:14:12 PM",
           "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Fc Goa Vs Mumbai City Fc",
-      "tournament": "ISL 2025-26",
-      "match_id": 140491,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "18 April 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140491_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-App_1772466121732.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140491_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "FC Goa",
-          "shortName": "FCG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-FCG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#f16622",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Mumbai City FC",
-          "shortName": "MCFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MUMCI@2x.png"
-          },
-          "isWinner": null,
-          "color": "#3d8ac6",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/240p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/*~Signature=AeHXXvAOeTVU6yhXAHDHiLNJTLhiBpRNMsYs2aHpJ3PlAOizahXMt1P8jKmsK8xgZIIhI3Ix3K64vnEpCPKG8DOsRbcE\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/360p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/*~Signature=AeHXXvAOeTVU6yhXAHDHiLNJTLhiBpRNMsYs2aHpJ3PlAOizahXMt1P8jKmsK8xgZIIhI3Ix3K64vnEpCPKG8DOsRbcE\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/480p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/*~Signature=AeHXXvAOeTVU6yhXAHDHiLNJTLhiBpRNMsYs2aHpJ3PlAOizahXMt1P8jKmsK8xgZIIhI3Ix3K64vnEpCPKG8DOsRbcE\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/540p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/*~Signature=AeHXXvAOeTVU6yhXAHDHiLNJTLhiBpRNMsYs2aHpJ3PlAOizahXMt1P8jKmsK8xgZIIhI3Ix3K64vnEpCPKG8DOsRbcE\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/720p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/*~Signature=AeHXXvAOeTVU6yhXAHDHiLNJTLhiBpRNMsYs2aHpJ3PlAOizahXMt1P8jKmsK8xgZIIhI3Ix3K64vnEpCPKG8DOsRbcE\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/1080p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/*~Signature=AeHXXvAOeTVU6yhXAHDHiLNJTLhiBpRNMsYs2aHpJ3PlAOizahXMt1P8jKmsK8xgZIIhI3Ix3K64vnEpCPKG8DOsRbcE\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/*~Signature=AeHXXvAOeTVU6yhXAHDHiLNJTLhiBpRNMsYs2aHpJ3PlAOizahXMt1P8jKmsK8xgZIIhI3Ix3K64vnEpCPKG8DOsRbcE",
-          "cookie": "hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_english_hls_f5897faf3146681_1ta-di_h264/*~Signature=AeHXXvAOeTVU6yhXAHDHiLNJTLhiBpRNMsYs2aHpJ3PlAOizahXMt1P8jKmsK8xgZIIhI3Ix3K64vnEpCPKG8DOsRbcE",
-          "cookie_valid": "1776606248",
-          "create_date": "Saturday, April 18, 2026, 7:14:02 PM",
-          "expire_date": "Sunday, April 19, 2026, 7:14:08 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Fc Goa Vs Mumbai City Fc",
-      "tournament": "ISL 2025-26",
-      "match_id": 140491,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "18 April 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140491_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-App_1772466121732.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140491_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "FC Goa",
-          "shortName": "FCG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-FCG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#f16622",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Mumbai City FC",
-          "shortName": "MCFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MUMCI@2x.png"
-          },
-          "isWinner": null,
-          "color": "#3d8ac6",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "HINDI",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "HINDI",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/240p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/*~Signature=AeHXXvDNmt4imtzfiCy15klUK48Lakf59LHwtsHmbTOTlNXSV_REzv4MBfKbT1TX5j0rkhBhMS3Bo5XgSv_XVX7pjiEK\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/360p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/*~Signature=AeHXXvDNmt4imtzfiCy15klUK48Lakf59LHwtsHmbTOTlNXSV_REzv4MBfKbT1TX5j0rkhBhMS3Bo5XgSv_XVX7pjiEK\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/480p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/*~Signature=AeHXXvDNmt4imtzfiCy15klUK48Lakf59LHwtsHmbTOTlNXSV_REzv4MBfKbT1TX5j0rkhBhMS3Bo5XgSv_XVX7pjiEK\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/540p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/*~Signature=AeHXXvDNmt4imtzfiCy15klUK48Lakf59LHwtsHmbTOTlNXSV_REzv4MBfKbT1TX5j0rkhBhMS3Bo5XgSv_XVX7pjiEK\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/720p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/*~Signature=AeHXXvDNmt4imtzfiCy15klUK48Lakf59LHwtsHmbTOTlNXSV_REzv4MBfKbT1TX5j0rkhBhMS3Bo5XgSv_XVX7pjiEK\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/1080p.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/*~Signature=AeHXXvDNmt4imtzfiCy15klUK48Lakf59LHwtsHmbTOTlNXSV_REzv4MBfKbT1TX5j0rkhBhMS3Bo5XgSv_XVX7pjiEK\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/*~Signature=AeHXXvDNmt4imtzfiCy15klUK48Lakf59LHwtsHmbTOTlNXSV_REzv4MBfKbT1TX5j0rkhBhMS3Bo5XgSv_XVX7pjiEK",
-          "cookie": "hdntl=Expires=1776606248~_GO=Generated~acl=/mumbai/140491_hindi_hls_5a0872ac5944927_1ta-di_h264/*~Signature=AeHXXvDNmt4imtzfiCy15klUK48Lakf59LHwtsHmbTOTlNXSV_REzv4MBfKbT1TX5j0rkhBhMS3Bo5XgSv_XVX7pjiEK",
-          "cookie_valid": "1776606248",
-          "create_date": "Saturday, April 18, 2026, 7:14:03 PM",
-          "expire_date": "Sunday, April 19, 2026, 7:14:08 PM",
-          "language": "HINDI"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Fc Goa Vs Mumbai City Fc",
-      "tournament": "ISL 2025-26",
-      "match_id": 140491,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "18 April 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140491_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-App_1772466121732.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140491_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "FC Goa",
-          "shortName": "FCG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-FCG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#f16622",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Mumbai City FC",
-          "shortName": "MCFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MUMCI@2x.png"
-          },
-          "isWinner": null,
-          "color": "#3d8ac6",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "MALAYALAM",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "MALAYALAM",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/240p.m3u8?hdntl=Expires=1776606249~_GO=Generated~acl=/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/*~Signature=AeHXXvDQ-QwyLe8z-y1ItP2MoXjTICoKv2wht8CTu9T8RyxQjzcUYAi_IRjPz3xFrviDaKQPgPFiFaAi-ATEjHVnkSIM\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/360p.m3u8?hdntl=Expires=1776606249~_GO=Generated~acl=/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/*~Signature=AeHXXvDQ-QwyLe8z-y1ItP2MoXjTICoKv2wht8CTu9T8RyxQjzcUYAi_IRjPz3xFrviDaKQPgPFiFaAi-ATEjHVnkSIM\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/480p.m3u8?hdntl=Expires=1776606249~_GO=Generated~acl=/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/*~Signature=AeHXXvDQ-QwyLe8z-y1ItP2MoXjTICoKv2wht8CTu9T8RyxQjzcUYAi_IRjPz3xFrviDaKQPgPFiFaAi-ATEjHVnkSIM\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/540p.m3u8?hdntl=Expires=1776606249~_GO=Generated~acl=/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/*~Signature=AeHXXvDQ-QwyLe8z-y1ItP2MoXjTICoKv2wht8CTu9T8RyxQjzcUYAi_IRjPz3xFrviDaKQPgPFiFaAi-ATEjHVnkSIM\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/720p.m3u8?hdntl=Expires=1776606249~_GO=Generated~acl=/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/*~Signature=AeHXXvDQ-QwyLe8z-y1ItP2MoXjTICoKv2wht8CTu9T8RyxQjzcUYAi_IRjPz3xFrviDaKQPgPFiFaAi-ATEjHVnkSIM\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/1080p.m3u8?hdntl=Expires=1776606249~_GO=Generated~acl=/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/*~Signature=AeHXXvDQ-QwyLe8z-y1ItP2MoXjTICoKv2wht8CTu9T8RyxQjzcUYAi_IRjPz3xFrviDaKQPgPFiFaAi-ATEjHVnkSIM\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1776606249~_GO=Generated~acl=/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/*~Signature=AeHXXvDQ-QwyLe8z-y1ItP2MoXjTICoKv2wht8CTu9T8RyxQjzcUYAi_IRjPz3xFrviDaKQPgPFiFaAi-ATEjHVnkSIM",
-          "cookie": "hdntl=Expires=1776606249~_GO=Generated~acl=/mumbai/140491_malayalam_hls_9a2594925519343_1ta-di_h264/*~Signature=AeHXXvDQ-QwyLe8z-y1ItP2MoXjTICoKv2wht8CTu9T8RyxQjzcUYAi_IRjPz3xFrviDaKQPgPFiFaAi-ATEjHVnkSIM",
-          "cookie_valid": "1776606249",
-          "create_date": "Saturday, April 18, 2026, 7:14:04 PM",
-          "expire_date": "Sunday, April 19, 2026, 7:14:09 PM",
-          "language": "MALAYALAM"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Fc Goa Vs Mumbai City Fc",
-      "tournament": "ISL 2025-26",
-      "match_id": 140491,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "18 April 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140491_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-Web_1772466137053.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140491_5956_FCG_MCFC_FC-App_1772466121732.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140491_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "FC Goa",
-          "shortName": "FCG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-FCG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#f16622",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Mumbai City FC",
-          "shortName": "MCFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MUMCI@2x.png"
-          },
-          "isWinner": null,
-          "color": "#3d8ac6",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BENGALI",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "BENGALI",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/240p.m3u8?hdntl=Expires=1776606250~_GO=Generated~acl=/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/*~Signature=AeHXXvA5WlRlk4BhhRG7KdO6tpQTHsb92B-0rdw5r4pncluLeCGv9nu4K7-GWvQsLKVM6Gs6DjYs-MAz5sxnur_zpqAH\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/360p.m3u8?hdntl=Expires=1776606250~_GO=Generated~acl=/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/*~Signature=AeHXXvA5WlRlk4BhhRG7KdO6tpQTHsb92B-0rdw5r4pncluLeCGv9nu4K7-GWvQsLKVM6Gs6DjYs-MAz5sxnur_zpqAH\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/480p.m3u8?hdntl=Expires=1776606250~_GO=Generated~acl=/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/*~Signature=AeHXXvA5WlRlk4BhhRG7KdO6tpQTHsb92B-0rdw5r4pncluLeCGv9nu4K7-GWvQsLKVM6Gs6DjYs-MAz5sxnur_zpqAH\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/540p.m3u8?hdntl=Expires=1776606250~_GO=Generated~acl=/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/*~Signature=AeHXXvA5WlRlk4BhhRG7KdO6tpQTHsb92B-0rdw5r4pncluLeCGv9nu4K7-GWvQsLKVM6Gs6DjYs-MAz5sxnur_zpqAH\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/720p.m3u8?hdntl=Expires=1776606250~_GO=Generated~acl=/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/*~Signature=AeHXXvA5WlRlk4BhhRG7KdO6tpQTHsb92B-0rdw5r4pncluLeCGv9nu4K7-GWvQsLKVM6Gs6DjYs-MAz5sxnur_zpqAH\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/1080p.m3u8?hdntl=Expires=1776606250~_GO=Generated~acl=/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/*~Signature=AeHXXvA5WlRlk4BhhRG7KdO6tpQTHsb92B-0rdw5r4pncluLeCGv9nu4K7-GWvQsLKVM6Gs6DjYs-MAz5sxnur_zpqAH\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1776606250~_GO=Generated~acl=/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/*~Signature=AeHXXvA5WlRlk4BhhRG7KdO6tpQTHsb92B-0rdw5r4pncluLeCGv9nu4K7-GWvQsLKVM6Gs6DjYs-MAz5sxnur_zpqAH",
-          "cookie": "hdntl=Expires=1776606250~_GO=Generated~acl=/mumbai/140491_bengali_hls_424940d8cc26939_1ta-di_h264/*~Signature=AeHXXvA5WlRlk4BhhRG7KdO6tpQTHsb92B-0rdw5r4pncluLeCGv9nu4K7-GWvQsLKVM6Gs6DjYs-MAz5sxnur_zpqAH",
-          "cookie_valid": "1776606250",
-          "create_date": "Saturday, April 18, 2026, 7:14:05 PM",
-          "expire_date": "Sunday, April 19, 2026, 7:14:10 PM",
-          "language": "BENGALI"
         }
       ]
     },
@@ -987,11 +1015,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/240p.m3u8?hdntl=Expires=1776594610~_GO=Generated~acl=/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/*~Signature=AeHXXvAZS8mD4pSNOnvcQvylpl_PzkBkkUkN-dtbaLnLxagWdmkHHM_hreBNu0ha_Qj91XJOrEIBaPynJb6RCyPKl0UJ\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/360p.m3u8?hdntl=Expires=1776594610~_GO=Generated~acl=/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/*~Signature=AeHXXvAZS8mD4pSNOnvcQvylpl_PzkBkkUkN-dtbaLnLxagWdmkHHM_hreBNu0ha_Qj91XJOrEIBaPynJb6RCyPKl0UJ\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/480p.m3u8?hdntl=Expires=1776594610~_GO=Generated~acl=/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/*~Signature=AeHXXvAZS8mD4pSNOnvcQvylpl_PzkBkkUkN-dtbaLnLxagWdmkHHM_hreBNu0ha_Qj91XJOrEIBaPynJb6RCyPKl0UJ\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/540p.m3u8?hdntl=Expires=1776594610~_GO=Generated~acl=/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/*~Signature=AeHXXvAZS8mD4pSNOnvcQvylpl_PzkBkkUkN-dtbaLnLxagWdmkHHM_hreBNu0ha_Qj91XJOrEIBaPynJb6RCyPKl0UJ\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/720p.m3u8?hdntl=Expires=1776594610~_GO=Generated~acl=/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/*~Signature=AeHXXvAZS8mD4pSNOnvcQvylpl_PzkBkkUkN-dtbaLnLxagWdmkHHM_hreBNu0ha_Qj91XJOrEIBaPynJb6RCyPKl0UJ\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/1080p.m3u8?hdntl=Expires=1776594610~_GO=Generated~acl=/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/*~Signature=AeHXXvAZS8mD4pSNOnvcQvylpl_PzkBkkUkN-dtbaLnLxagWdmkHHM_hreBNu0ha_Qj91XJOrEIBaPynJb6RCyPKl0UJ\n#EXT-X-STREAM-INF:BANDWIDTH=5408736,AVERAGE-BANDWIDTH=5408736,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1776594610~_GO=Generated~acl=/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/*~Signature=AeHXXvAZS8mD4pSNOnvcQvylpl_PzkBkkUkN-dtbaLnLxagWdmkHHM_hreBNu0ha_Qj91XJOrEIBaPynJb6RCyPKl0UJ",
-          "cookie": "hdntl=Expires=1776594610~_GO=Generated~acl=/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/*~Signature=AeHXXvAZS8mD4pSNOnvcQvylpl_PzkBkkUkN-dtbaLnLxagWdmkHHM_hreBNu0ha_Qj91XJOrEIBaPynJb6RCyPKl0UJ",
-          "cookie_valid": "1776594610",
-          "create_date": "Saturday, April 18, 2026, 4:00:05 PM",
-          "expire_date": "Sunday, April 19, 2026, 4:00:10 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/240p.m3u8?hdntl=Expires=1776609428~_GO=Generated~acl=/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/*~Signature=AeHXXvDMtyGDNaSXlV4fUcVWkZ2_-9Yg_GNX9YSwjf7XZ6qehPFXtb6qLZvmkI6uAKbZ7iQ3u7DRk5J6zjRIWlZuMugF\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/360p.m3u8?hdntl=Expires=1776609428~_GO=Generated~acl=/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/*~Signature=AeHXXvDMtyGDNaSXlV4fUcVWkZ2_-9Yg_GNX9YSwjf7XZ6qehPFXtb6qLZvmkI6uAKbZ7iQ3u7DRk5J6zjRIWlZuMugF\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/480p.m3u8?hdntl=Expires=1776609428~_GO=Generated~acl=/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/*~Signature=AeHXXvDMtyGDNaSXlV4fUcVWkZ2_-9Yg_GNX9YSwjf7XZ6qehPFXtb6qLZvmkI6uAKbZ7iQ3u7DRk5J6zjRIWlZuMugF\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/540p.m3u8?hdntl=Expires=1776609428~_GO=Generated~acl=/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/*~Signature=AeHXXvDMtyGDNaSXlV4fUcVWkZ2_-9Yg_GNX9YSwjf7XZ6qehPFXtb6qLZvmkI6uAKbZ7iQ3u7DRk5J6zjRIWlZuMugF\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/720p.m3u8?hdntl=Expires=1776609428~_GO=Generated~acl=/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/*~Signature=AeHXXvDMtyGDNaSXlV4fUcVWkZ2_-9Yg_GNX9YSwjf7XZ6qehPFXtb6qLZvmkI6uAKbZ7iQ3u7DRk5J6zjRIWlZuMugF\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/1080p.m3u8?hdntl=Expires=1776609428~_GO=Generated~acl=/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/*~Signature=AeHXXvDMtyGDNaSXlV4fUcVWkZ2_-9Yg_GNX9YSwjf7XZ6qehPFXtb6qLZvmkI6uAKbZ7iQ3u7DRk5J6zjRIWlZuMugF\n#EXT-X-STREAM-INF:BANDWIDTH=5408736,AVERAGE-BANDWIDTH=5408736,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1776609428~_GO=Generated~acl=/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/*~Signature=AeHXXvDMtyGDNaSXlV4fUcVWkZ2_-9Yg_GNX9YSwjf7XZ6qehPFXtb6qLZvmkI6uAKbZ7iQ3u7DRk5J6zjRIWlZuMugF",
+          "cookie": "hdntl=Expires=1776609428~_GO=Generated~acl=/mumbai/141940_english_hls_e9a342203930017_1ta-di_h264/*~Signature=AeHXXvDMtyGDNaSXlV4fUcVWkZ2_-9Yg_GNX9YSwjf7XZ6qehPFXtb6qLZvmkI6uAKbZ7iQ3u7DRk5J6zjRIWlZuMugF",
+          "cookie_valid": "1776609428",
+          "create_date": "Saturday, April 18, 2026, 8:07:03 PM",
+          "expire_date": "Sunday, April 19, 2026, 8:07:08 PM",
           "language": "ENGLISH"
         }
       ]
