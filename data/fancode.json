@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "10:00:01 AM 20-04-2026",
+  "last_updated": "10:07:01 AM 20-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -42,11 +42,11 @@
           "color": "#164fad",
           "cricketScore": [
             {
-              "runs": 70,
-              "overs": "14.3",
-              "balls": "87",
+              "runs": 75,
+              "overs": "16",
+              "balls": "96",
               "status": "IN_PROGRESS",
-              "wickets": 1
+              "wickets": 2
             }
           ],
           "kabaddiScore": null,
@@ -106,7 +106,7 @@
     },
     {
       "category": "Cricket",
-      "title": "Bangladesh Vs New Zealand",
+      "title": "New Zealand Vs Bangladesh",
       "tournament": "New Zealand tour of Bangladesh, 2026",
       "match_id": 142067,
       "status": "NOT_STARTED",
@@ -126,25 +126,6 @@
       },
       "team": [
         {
-          "name": "Bangladesh",
-          "shortName": "BAN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#397b46",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "New Zealand",
           "shortName": "NZ",
           "flag": {
@@ -152,6 +133,33 @@
           },
           "isWinner": null,
           "color": "#1d2c6b",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Bangladesh",
+          "shortName": "BAN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#397b46",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
