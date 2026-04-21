@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "02:21:01 AM 22-04-2026",
+  "last_updated": "02:28:01 AM 22-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -131,11 +131,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "Hull City",
@@ -150,11 +146,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
       "language": "ENGLISH",
@@ -244,8 +236,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "157087",
+                "shortName": "A Ezzalzouli",
+                "isOwnGoal": false,
+                "goalTime": "63'"
+              },
               {
                 "id": "28209",
                 "shortName": "M Roca",
