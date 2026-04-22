@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "12:21:01 AM 23-04-2026",
+  "last_updated": "12:28:05 AM 23-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 38,
-  "live_matches": 7,
-  "upcoming_matches": 31,
+  "total_matches": 40,
+  "live_matches": 8,
+  "upcoming_matches": 32,
   "matches": [
     {
       "category": "Cricket",
@@ -721,14 +721,14 @@
       "tournament": "LALIGA 2025-26",
       "match_id": 131152,
       "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "streamingStatus": "STARTED",
       "startTime": "23 April 2026 01:00 AM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/131152_5427_BAR_CEV_FC-Web.png",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/131152_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/131152_5427_BAR_CEV_FC-Web.png",
-        "PLAYBACK": null,
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131152_5427_BAR_CEV_FC-Web.png",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131152_5427_BAR_CEV_FC-Web.png",
@@ -775,12 +775,203 @@
           }
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/131152_english_hls_ef3bddad8970933_1ta-di_h264/index.m3u8"
+        }
       },
-      "auto_streams": null
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/240p.m3u8?hdntl=Expires=1776970683~_GO=Generated~acl=/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/*~Signature=AVFFTBpnuJNheeXWXf8CxHepxxcR_j_rqgd7UQ0xCS-mztmlkNM7dXETTzOjW9eivMEm1FgplYCb5MVhk_FlN71jaA0C\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/360p.m3u8?hdntl=Expires=1776970683~_GO=Generated~acl=/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/*~Signature=AVFFTBpnuJNheeXWXf8CxHepxxcR_j_rqgd7UQ0xCS-mztmlkNM7dXETTzOjW9eivMEm1FgplYCb5MVhk_FlN71jaA0C\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/480p.m3u8?hdntl=Expires=1776970683~_GO=Generated~acl=/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/*~Signature=AVFFTBpnuJNheeXWXf8CxHepxxcR_j_rqgd7UQ0xCS-mztmlkNM7dXETTzOjW9eivMEm1FgplYCb5MVhk_FlN71jaA0C\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/540p.m3u8?hdntl=Expires=1776970683~_GO=Generated~acl=/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/*~Signature=AVFFTBpnuJNheeXWXf8CxHepxxcR_j_rqgd7UQ0xCS-mztmlkNM7dXETTzOjW9eivMEm1FgplYCb5MVhk_FlN71jaA0C\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/720p.m3u8?hdntl=Expires=1776970683~_GO=Generated~acl=/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/*~Signature=AVFFTBpnuJNheeXWXf8CxHepxxcR_j_rqgd7UQ0xCS-mztmlkNM7dXETTzOjW9eivMEm1FgplYCb5MVhk_FlN71jaA0C\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/1080p.m3u8?hdntl=Expires=1776970683~_GO=Generated~acl=/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/*~Signature=AVFFTBpnuJNheeXWXf8CxHepxxcR_j_rqgd7UQ0xCS-mztmlkNM7dXETTzOjW9eivMEm1FgplYCb5MVhk_FlN71jaA0C\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1776970683~_GO=Generated~acl=/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/*~Signature=AVFFTBpnuJNheeXWXf8CxHepxxcR_j_rqgd7UQ0xCS-mztmlkNM7dXETTzOjW9eivMEm1FgplYCb5MVhk_FlN71jaA0C",
+          "cookie": "hdntl=Expires=1776970683~_GO=Generated~acl=/mumbai/131152_english_hls_ef3bddad8970933_1ta-di_h264/*~Signature=AVFFTBpnuJNheeXWXf8CxHepxxcR_j_rqgd7UQ0xCS-mztmlkNM7dXETTzOjW9eivMEm1FgplYCb5MVhk_FlN71jaA0C",
+          "cookie_valid": "1776970683",
+          "create_date": "Thursday, April 23, 2026, 12:28:02 AM",
+          "expire_date": "Friday, April 24, 2026, 12:28:03 AM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Fc Barcelona Vs Rc Celta",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131152,
+      "status": "NOT_STARTED",
+      "streamingStatus": "STARTED",
+      "startTime": "23 April 2026 01:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131152_5427_BAR_CEV_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131152_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131152_5427_BAR_CEV_FC-Web.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131152_5427_BAR_CEV_FC-Web.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131152_5427_BAR_CEV_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131152_5427_BAR_CEV_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131152_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "FC Barcelona",
+          "shortName": "BAR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#fee64e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "RC Celta",
+          "shortName": "CEV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png"
+          },
+          "isWinner": null,
+          "color": "#b1d4f5",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "HINDI",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "HINDI",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/131152_hindi_hls_5fa445012142862_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/240p.m3u8?hdntl=Expires=1776970685~_GO=Generated~acl=/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/*~Signature=AVFFTBr6wnuVRl4fe4Bo9NsagAlAc0um9X2MHV9uK7YIzvy3rGuTI171TMFWAAAsi-Kk2BnTvUL3W6c4VFll1g4-6HAH\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/360p.m3u8?hdntl=Expires=1776970685~_GO=Generated~acl=/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/*~Signature=AVFFTBr6wnuVRl4fe4Bo9NsagAlAc0um9X2MHV9uK7YIzvy3rGuTI171TMFWAAAsi-Kk2BnTvUL3W6c4VFll1g4-6HAH\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/480p.m3u8?hdntl=Expires=1776970685~_GO=Generated~acl=/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/*~Signature=AVFFTBr6wnuVRl4fe4Bo9NsagAlAc0um9X2MHV9uK7YIzvy3rGuTI171TMFWAAAsi-Kk2BnTvUL3W6c4VFll1g4-6HAH\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/540p.m3u8?hdntl=Expires=1776970685~_GO=Generated~acl=/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/*~Signature=AVFFTBr6wnuVRl4fe4Bo9NsagAlAc0um9X2MHV9uK7YIzvy3rGuTI171TMFWAAAsi-Kk2BnTvUL3W6c4VFll1g4-6HAH\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/720p.m3u8?hdntl=Expires=1776970685~_GO=Generated~acl=/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/*~Signature=AVFFTBr6wnuVRl4fe4Bo9NsagAlAc0um9X2MHV9uK7YIzvy3rGuTI171TMFWAAAsi-Kk2BnTvUL3W6c4VFll1g4-6HAH\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/1080p.m3u8?hdntl=Expires=1776970685~_GO=Generated~acl=/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/*~Signature=AVFFTBr6wnuVRl4fe4Bo9NsagAlAc0um9X2MHV9uK7YIzvy3rGuTI171TMFWAAAsi-Kk2BnTvUL3W6c4VFll1g4-6HAH\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1776970685~_GO=Generated~acl=/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/*~Signature=AVFFTBr6wnuVRl4fe4Bo9NsagAlAc0um9X2MHV9uK7YIzvy3rGuTI171TMFWAAAsi-Kk2BnTvUL3W6c4VFll1g4-6HAH",
+          "cookie": "hdntl=Expires=1776970685~_GO=Generated~acl=/mumbai/131152_hindi_hls_5fa445012142862_1ta-di_h264/*~Signature=AVFFTBr6wnuVRl4fe4Bo9NsagAlAc0um9X2MHV9uK7YIzvy3rGuTI171TMFWAAAsi-Kk2BnTvUL3W6c4VFll1g4-6HAH",
+          "cookie_valid": "1776970685",
+          "create_date": "Thursday, April 23, 2026, 12:28:04 AM",
+          "expire_date": "Friday, April 24, 2026, 12:28:05 AM",
+          "language": "HINDI"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Fc Barcelona Vs Rc Celta",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131152,
+      "status": "NOT_STARTED",
+      "streamingStatus": "STARTED",
+      "startTime": "23 April 2026 01:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131152_5427_BAR_CEV_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131152_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131152_5427_BAR_CEV_FC-Web.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131152_5427_BAR_CEV_FC-Web.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131152_5427_BAR_CEV_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131152_5427_BAR_CEV_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131152_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "FC Barcelona",
+          "shortName": "BAR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#fee64e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "RC Celta",
+          "shortName": "CEV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png"
+          },
+          "isWinner": null,
+          "color": "#b1d4f5",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BENGALI",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "BENGALI",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/240p.m3u8?hdntl=Expires=1776970685~_GO=Generated~acl=/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/*~Signature=AVFFTBrJ78LnglR5fY_AWDXv-zd4C-1hq7EtQ2YxAx5kXv96Zn3kVSoNol7Tr9TuaENC0GsiSDzveDBeBQ2bsU0mWToH\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/360p.m3u8?hdntl=Expires=1776970685~_GO=Generated~acl=/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/*~Signature=AVFFTBrJ78LnglR5fY_AWDXv-zd4C-1hq7EtQ2YxAx5kXv96Zn3kVSoNol7Tr9TuaENC0GsiSDzveDBeBQ2bsU0mWToH\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/480p.m3u8?hdntl=Expires=1776970685~_GO=Generated~acl=/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/*~Signature=AVFFTBrJ78LnglR5fY_AWDXv-zd4C-1hq7EtQ2YxAx5kXv96Zn3kVSoNol7Tr9TuaENC0GsiSDzveDBeBQ2bsU0mWToH\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/540p.m3u8?hdntl=Expires=1776970685~_GO=Generated~acl=/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/*~Signature=AVFFTBrJ78LnglR5fY_AWDXv-zd4C-1hq7EtQ2YxAx5kXv96Zn3kVSoNol7Tr9TuaENC0GsiSDzveDBeBQ2bsU0mWToH\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/720p.m3u8?hdntl=Expires=1776970685~_GO=Generated~acl=/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/*~Signature=AVFFTBrJ78LnglR5fY_AWDXv-zd4C-1hq7EtQ2YxAx5kXv96Zn3kVSoNol7Tr9TuaENC0GsiSDzveDBeBQ2bsU0mWToH\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/1080p.m3u8?hdntl=Expires=1776970685~_GO=Generated~acl=/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/*~Signature=AVFFTBrJ78LnglR5fY_AWDXv-zd4C-1hq7EtQ2YxAx5kXv96Zn3kVSoNol7Tr9TuaENC0GsiSDzveDBeBQ2bsU0mWToH\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1776970685~_GO=Generated~acl=/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/*~Signature=AVFFTBrJ78LnglR5fY_AWDXv-zd4C-1hq7EtQ2YxAx5kXv96Zn3kVSoNol7Tr9TuaENC0GsiSDzveDBeBQ2bsU0mWToH",
+          "cookie": "hdntl=Expires=1776970685~_GO=Generated~acl=/mumbai/131152_bengali_hls_4d4d85a7c121764_1ta-di_h264/*~Signature=AVFFTBrJ78LnglR5fY_AWDXv-zd4C-1hq7EtQ2YxAx5kXv96Zn3kVSoNol7Tr9TuaENC0GsiSDzveDBeBQ2bsU0mWToH",
+          "cookie_valid": "1776970685",
+          "create_date": "Thursday, April 23, 2026, 12:28:05 AM",
+          "expire_date": "Friday, April 24, 2026, 12:28:05 AM",
+          "language": "BENGALI"
+        }
+      ]
     },
     {
       "category": "Football",
