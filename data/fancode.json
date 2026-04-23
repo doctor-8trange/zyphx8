@@ -2,15 +2,101 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:56:03 PM 23-04-2026",
+  "last_updated": "10:00:05 PM 23-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 40,
-  "live_matches": 6,
-  "upcoming_matches": 34,
+  "live_matches": 7,
+  "upcoming_matches": 33,
   "matches": [
+    {
+      "category": "Football",
+      "title": "Levante Vs Sevilla Fc",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131153,
+      "status": "NOT_STARTED",
+      "streamingStatus": "STARTED",
+      "startTime": "23 April 2026 10:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131153_5427_LE_SEV_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131153_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131153_5427_LE_SEV_FC-Web.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131153_5427_LE_SEV_FC-Web.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131153_5427_LE_SEV_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131153_5427_LE_SEV_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131153_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Levante",
+          "shortName": "LE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LET@2x.png"
+          },
+          "isWinner": null,
+          "color": "#598bc1",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Sevilla FC",
+          "shortName": "SEV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SVI@2x.png"
+          },
+          "isWinner": null,
+          "color": "#daa335",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/131153_english_hls_167138f06565854_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/240p.m3u8?hdntl=Expires=1777048204~_GO=Generated~acl=/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/*~Signature=AVFFTBoP3UiamQjR52m2BxA5Z3RV4VhN83LgcDe6wgMngEOr03fHaz9euVNTTWEVilN4Soel6oXmjuSmltesC_KvV2EF\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/360p.m3u8?hdntl=Expires=1777048204~_GO=Generated~acl=/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/*~Signature=AVFFTBoP3UiamQjR52m2BxA5Z3RV4VhN83LgcDe6wgMngEOr03fHaz9euVNTTWEVilN4Soel6oXmjuSmltesC_KvV2EF\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/480p.m3u8?hdntl=Expires=1777048204~_GO=Generated~acl=/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/*~Signature=AVFFTBoP3UiamQjR52m2BxA5Z3RV4VhN83LgcDe6wgMngEOr03fHaz9euVNTTWEVilN4Soel6oXmjuSmltesC_KvV2EF\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/540p.m3u8?hdntl=Expires=1777048204~_GO=Generated~acl=/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/*~Signature=AVFFTBoP3UiamQjR52m2BxA5Z3RV4VhN83LgcDe6wgMngEOr03fHaz9euVNTTWEVilN4Soel6oXmjuSmltesC_KvV2EF\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/720p.m3u8?hdntl=Expires=1777048204~_GO=Generated~acl=/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/*~Signature=AVFFTBoP3UiamQjR52m2BxA5Z3RV4VhN83LgcDe6wgMngEOr03fHaz9euVNTTWEVilN4Soel6oXmjuSmltesC_KvV2EF\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777048204~_GO=Generated~acl=/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/*~Signature=AVFFTBoP3UiamQjR52m2BxA5Z3RV4VhN83LgcDe6wgMngEOr03fHaz9euVNTTWEVilN4Soel6oXmjuSmltesC_KvV2EF\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1777048204~_GO=Generated~acl=/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/*~Signature=AVFFTBoP3UiamQjR52m2BxA5Z3RV4VhN83LgcDe6wgMngEOr03fHaz9euVNTTWEVilN4Soel6oXmjuSmltesC_KvV2EF",
+          "cookie": "hdntl=Expires=1777048204~_GO=Generated~acl=/mumbai/131153_english_hls_167138f06565854_1ta-di_h264/*~Signature=AVFFTBoP3UiamQjR52m2BxA5Z3RV4VhN83LgcDe6wgMngEOr03fHaz9euVNTTWEVilN4Soel6oXmjuSmltesC_KvV2EF",
+          "cookie_valid": "1777048204",
+          "create_date": "Thursday, April 23, 2026, 10:00:03 PM",
+          "expire_date": "Friday, April 24, 2026, 10:00:04 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
     {
       "category": "Tennis",
       "title": "Day 2   Main Feed",
@@ -346,11 +432,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/240p.m3u8?hdntl=Expires=1777033803~_GO=Generated~acl=/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/*~Signature=AVFFTBoRAPy7DxKlyzGJnYwluAyDv8WJhIzVUFSIVy8mecnO87micgYRIHOgUVlfFmuq0HcEZDa_OQkY6psQB9pKdhUL\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/360p.m3u8?hdntl=Expires=1777033803~_GO=Generated~acl=/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/*~Signature=AVFFTBoRAPy7DxKlyzGJnYwluAyDv8WJhIzVUFSIVy8mecnO87micgYRIHOgUVlfFmuq0HcEZDa_OQkY6psQB9pKdhUL\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/480p.m3u8?hdntl=Expires=1777033803~_GO=Generated~acl=/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/*~Signature=AVFFTBoRAPy7DxKlyzGJnYwluAyDv8WJhIzVUFSIVy8mecnO87micgYRIHOgUVlfFmuq0HcEZDa_OQkY6psQB9pKdhUL\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/540p.m3u8?hdntl=Expires=1777033803~_GO=Generated~acl=/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/*~Signature=AVFFTBoRAPy7DxKlyzGJnYwluAyDv8WJhIzVUFSIVy8mecnO87micgYRIHOgUVlfFmuq0HcEZDa_OQkY6psQB9pKdhUL\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/720p.m3u8?hdntl=Expires=1777033803~_GO=Generated~acl=/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/*~Signature=AVFFTBoRAPy7DxKlyzGJnYwluAyDv8WJhIzVUFSIVy8mecnO87micgYRIHOgUVlfFmuq0HcEZDa_OQkY6psQB9pKdhUL\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777033803~_GO=Generated~acl=/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/*~Signature=AVFFTBoRAPy7DxKlyzGJnYwluAyDv8WJhIzVUFSIVy8mecnO87micgYRIHOgUVlfFmuq0HcEZDa_OQkY6psQB9pKdhUL",
-          "cookie": "hdntl=Expires=1777033803~_GO=Generated~acl=/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/*~Signature=AVFFTBoRAPy7DxKlyzGJnYwluAyDv8WJhIzVUFSIVy8mecnO87micgYRIHOgUVlfFmuq0HcEZDa_OQkY6psQB9pKdhUL",
-          "cookie_valid": "1777033803",
-          "create_date": "Thursday, April 23, 2026, 6:00:02 PM",
-          "expire_date": "Friday, April 24, 2026, 6:00:03 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/240p.m3u8?hdntl=Expires=1777048206~_GO=Generated~acl=/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/*~Signature=AVFFTBoftNV8a9EPwp9jj0e7Wp8RqESoda6T6XvwlhMrnWWAr_Dwe5lkIEfl5NLPEn5OqhJE5tag0fkbacS3jZKmYqwN\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/360p.m3u8?hdntl=Expires=1777048206~_GO=Generated~acl=/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/*~Signature=AVFFTBoftNV8a9EPwp9jj0e7Wp8RqESoda6T6XvwlhMrnWWAr_Dwe5lkIEfl5NLPEn5OqhJE5tag0fkbacS3jZKmYqwN\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/480p.m3u8?hdntl=Expires=1777048206~_GO=Generated~acl=/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/*~Signature=AVFFTBoftNV8a9EPwp9jj0e7Wp8RqESoda6T6XvwlhMrnWWAr_Dwe5lkIEfl5NLPEn5OqhJE5tag0fkbacS3jZKmYqwN\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/540p.m3u8?hdntl=Expires=1777048206~_GO=Generated~acl=/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/*~Signature=AVFFTBoftNV8a9EPwp9jj0e7Wp8RqESoda6T6XvwlhMrnWWAr_Dwe5lkIEfl5NLPEn5OqhJE5tag0fkbacS3jZKmYqwN\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/720p.m3u8?hdntl=Expires=1777048206~_GO=Generated~acl=/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/*~Signature=AVFFTBoftNV8a9EPwp9jj0e7Wp8RqESoda6T6XvwlhMrnWWAr_Dwe5lkIEfl5NLPEn5OqhJE5tag0fkbacS3jZKmYqwN\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777048206~_GO=Generated~acl=/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/*~Signature=AVFFTBoftNV8a9EPwp9jj0e7Wp8RqESoda6T6XvwlhMrnWWAr_Dwe5lkIEfl5NLPEn5OqhJE5tag0fkbacS3jZKmYqwN",
+          "cookie": "hdntl=Expires=1777048206~_GO=Generated~acl=/mumbai/142003_english_hls_8beb9156d772868_1ta-di_h264/*~Signature=AVFFTBoftNV8a9EPwp9jj0e7Wp8RqESoda6T6XvwlhMrnWWAr_Dwe5lkIEfl5NLPEn5OqhJE5tag0fkbacS3jZKmYqwN",
+          "cookie_valid": "1777048206",
+          "create_date": "Thursday, April 23, 2026, 10:00:05 PM",
+          "expire_date": "Friday, April 24, 2026, 10:00:06 PM",
           "language": "ENGLISH"
         }
       ]
@@ -595,73 +681,6 @@
       "auto_streams": null
     },
     {
-      "category": "Football",
-      "title": "Levante Vs Sevilla Fc",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131153,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "23 April 2026 10:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131153_5427_LE_SEV_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131153_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131153_5427_LE_SEV_FC-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131153_5427_LE_SEV_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131153_5427_LE_SEV_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131153_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Levante",
-          "shortName": "LE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LET@2x.png"
-          },
-          "isWinner": null,
-          "color": "#598bc1",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Sevilla FC",
-          "shortName": "SEV",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SVI@2x.png"
-          },
-          "isWinner": null,
-          "color": "#daa335",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Cricket",
       "title": "Italy Women Vs Usa Women",
       "tournament": "ICC Women's T20I Challenge Trophy, 2026",
@@ -776,73 +795,6 @@
           },
           "isWinner": null,
           "color": "#fff3db",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Al Hilal Sfc Vs Al Kholood Club",
-      "tournament": "Saudi Kings Cup 2025-2026",
-      "match_id": 142162,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "23 April 2026 11:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Saudi-Kings-Cup_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142162_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Saudi-Kings-Cup_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/King's-Cup-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Saudi-Kings-Cup_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Saudi-Kings-Cup_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142162_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Al Hilal SFC",
-          "shortName": "AHS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AH@2x.png"
-          },
-          "isWinner": null,
-          "color": "#031537",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Al-Kholood Club",
-          "shortName": "ALK",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-KHO@2x.png"
-          },
-          "isWinner": null,
-          "color": "#32000a",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1198,73 +1150,6 @@
       "auto_streams": null
     },
     {
-      "category": "Golf",
-      "title": "World Feed   Day 1",
-      "tournament": "Zurich Classic of New Orleans 2026",
-      "match_id": 141995,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "24 April 2026 01:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141995_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141995_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "World Feed - Day 1",
-          "shortName": "World Feed - Day 1",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "TPC Louisiana - Avondale, Louisiana ",
-          "shortName": "TPC Louisiana - Avondale, Louisiana ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Football",
       "title": "Real Betis Vs Real Madrid",
       "tournament": "LALIGA 2025-26",
@@ -1379,6 +1264,73 @@
           },
           "isWinner": null,
           "color": "#529fff",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Golf",
+      "title": "World Feed   Day 1",
+      "tournament": "Zurich Classic of New Orleans 2026",
+      "match_id": 141995,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "24 April 2026 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141995_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141995_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "World Feed - Day 1",
+          "shortName": "World Feed - Day 1",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "TPC Louisiana - Avondale, Louisiana ",
+          "shortName": "TPC Louisiana - Avondale, Louisiana ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2802,6 +2754,73 @@
           },
           "isWinner": null,
           "color": "#EE0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Bengaluru Fc Vs Mumbai City Fc",
+      "tournament": "ISL 2025-26",
+      "match_id": 140497,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "25 April 2026 05:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140497_5956_BFC_MCFC_FC-Web_1772466726321.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140497_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140497_5956_BFC_MCFC_FC-Web_1772466726321.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140497_5956_BFC_MCFC_FC-Web_1772466726321.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140497_5956_BFC_MCFC_FC-App_1772466715262.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140497_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Bengaluru FC",
+          "shortName": "BFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BEG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#11318E",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Mumbai City FC",
+          "shortName": "MCFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MUMCI@2x.png"
+          },
+          "isWinner": null,
+          "color": "#3d8ac6",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
