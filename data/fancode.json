@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "12:28:05 AM 24-04-2026",
+  "last_updated": "12:35:02 AM 24-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -43,8 +43,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "147145",
+                "shortName": "I Romero",
+                "isOwnGoal": false,
+                "goalTime": "90'"
+              },
               {
                 "id": "147145",
                 "shortName": "I Romero",
@@ -276,6 +282,92 @@
           "cookie_valid": "1777055824",
           "create_date": "Friday, April 24, 2026, 12:07:03 AM",
           "expire_date": "Saturday, April 25, 2026, 12:07:04 AM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Real Oviedo Vs Villarreal Cf",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131155,
+      "status": "NOT_STARTED",
+      "streamingStatus": "STARTED",
+      "startTime": "24 April 2026 01:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131155_5427_RO_VIL_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131155_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131155_5427_RO_VIL_FC-Web.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131155_5427_RO_VIL_FC-Web.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131155_5427_RO_VIL_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131155_5427_RO_VIL_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131155_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Real Oviedo",
+          "shortName": "RO",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RO@2x.png"
+          },
+          "isWinner": null,
+          "color": "#A71C10",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Villarreal CF",
+          "shortName": "VIL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VIL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ffc0cb",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/131155_english_hls_cd88511db662559_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/240p.m3u8?hdntl=Expires=1777057503~_GO=Generated~acl=/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/*~Signature=AVFFTBqiXAzWPd_bvFfoQ65yj5DmJsCF3i-uAWPVGCtalX6y34LBTHEiVvZx1EwQmh7D-iucqS26fq1vgoyB5kTF20YM\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/360p.m3u8?hdntl=Expires=1777057503~_GO=Generated~acl=/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/*~Signature=AVFFTBqiXAzWPd_bvFfoQ65yj5DmJsCF3i-uAWPVGCtalX6y34LBTHEiVvZx1EwQmh7D-iucqS26fq1vgoyB5kTF20YM\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/480p.m3u8?hdntl=Expires=1777057503~_GO=Generated~acl=/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/*~Signature=AVFFTBqiXAzWPd_bvFfoQ65yj5DmJsCF3i-uAWPVGCtalX6y34LBTHEiVvZx1EwQmh7D-iucqS26fq1vgoyB5kTF20YM\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/540p.m3u8?hdntl=Expires=1777057503~_GO=Generated~acl=/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/*~Signature=AVFFTBqiXAzWPd_bvFfoQ65yj5DmJsCF3i-uAWPVGCtalX6y34LBTHEiVvZx1EwQmh7D-iucqS26fq1vgoyB5kTF20YM\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/720p.m3u8?hdntl=Expires=1777057503~_GO=Generated~acl=/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/*~Signature=AVFFTBqiXAzWPd_bvFfoQ65yj5DmJsCF3i-uAWPVGCtalX6y34LBTHEiVvZx1EwQmh7D-iucqS26fq1vgoyB5kTF20YM\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777057503~_GO=Generated~acl=/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/*~Signature=AVFFTBqiXAzWPd_bvFfoQ65yj5DmJsCF3i-uAWPVGCtalX6y34LBTHEiVvZx1EwQmh7D-iucqS26fq1vgoyB5kTF20YM\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1777057503~_GO=Generated~acl=/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/*~Signature=AVFFTBqiXAzWPd_bvFfoQ65yj5DmJsCF3i-uAWPVGCtalX6y34LBTHEiVvZx1EwQmh7D-iucqS26fq1vgoyB5kTF20YM",
+          "cookie": "hdntl=Expires=1777057503~_GO=Generated~acl=/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/*~Signature=AVFFTBqiXAzWPd_bvFfoQ65yj5DmJsCF3i-uAWPVGCtalX6y34LBTHEiVvZx1EwQmh7D-iucqS26fq1vgoyB5kTF20YM",
+          "cookie_valid": "1777057503",
+          "create_date": "Friday, April 24, 2026, 12:35:02 AM",
+          "expire_date": "Saturday, April 25, 2026, 12:35:03 AM",
           "language": "ENGLISH"
         }
       ]
@@ -1018,92 +1110,6 @@
     },
     {
       "category": "Football",
-      "title": "Real Oviedo Vs Villarreal Cf",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131155,
-      "status": "NOT_STARTED",
-      "streamingStatus": "STARTED",
-      "startTime": "24 April 2026 01:00 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131155_5427_RO_VIL_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131155_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131155_5427_RO_VIL_FC-Web.png",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131155_5427_RO_VIL_FC-Web.png",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131155_5427_RO_VIL_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131155_5427_RO_VIL_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131155_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Real Oviedo",
-          "shortName": "RO",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RO@2x.png"
-          },
-          "isWinner": null,
-          "color": "#A71C10",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Villarreal CF",
-          "shortName": "VIL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VIL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ffc0cb",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/131155_english_hls_cd88511db662559_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/240p.m3u8?hdntl=Expires=1776971016~_GO=Generated~acl=/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/*~Signature=AVFFTBojvx5FQNo2Br2wgKJOzhGU0-YX9R8isjJGlJ0q8tE3kqh9gTWoh68isRGP4NyTH_HvYBfOD2Iri4n7SYlpleUN\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/360p.m3u8?hdntl=Expires=1776971016~_GO=Generated~acl=/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/*~Signature=AVFFTBojvx5FQNo2Br2wgKJOzhGU0-YX9R8isjJGlJ0q8tE3kqh9gTWoh68isRGP4NyTH_HvYBfOD2Iri4n7SYlpleUN\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/480p.m3u8?hdntl=Expires=1776971016~_GO=Generated~acl=/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/*~Signature=AVFFTBojvx5FQNo2Br2wgKJOzhGU0-YX9R8isjJGlJ0q8tE3kqh9gTWoh68isRGP4NyTH_HvYBfOD2Iri4n7SYlpleUN\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/540p.m3u8?hdntl=Expires=1776971016~_GO=Generated~acl=/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/*~Signature=AVFFTBojvx5FQNo2Br2wgKJOzhGU0-YX9R8isjJGlJ0q8tE3kqh9gTWoh68isRGP4NyTH_HvYBfOD2Iri4n7SYlpleUN\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/720p.m3u8?hdntl=Expires=1776971016~_GO=Generated~acl=/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/*~Signature=AVFFTBojvx5FQNo2Br2wgKJOzhGU0-YX9R8isjJGlJ0q8tE3kqh9gTWoh68isRGP4NyTH_HvYBfOD2Iri4n7SYlpleUN\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/1080p.m3u8?hdntl=Expires=1776971016~_GO=Generated~acl=/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/*~Signature=AVFFTBojvx5FQNo2Br2wgKJOzhGU0-YX9R8isjJGlJ0q8tE3kqh9gTWoh68isRGP4NyTH_HvYBfOD2Iri4n7SYlpleUN\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1776971016~_GO=Generated~acl=/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/*~Signature=AVFFTBojvx5FQNo2Br2wgKJOzhGU0-YX9R8isjJGlJ0q8tE3kqh9gTWoh68isRGP4NyTH_HvYBfOD2Iri4n7SYlpleUN",
-          "cookie": "hdntl=Expires=1776971016~_GO=Generated~acl=/mumbai/131155_english_hls_cd88511db662559_1ta-di_h264/*~Signature=AVFFTBojvx5FQNo2Br2wgKJOzhGU0-YX9R8isjJGlJ0q8tE3kqh9gTWoh68isRGP4NyTH_HvYBfOD2Iri4n7SYlpleUN",
-          "cookie_valid": "1776971016",
-          "create_date": "Friday, April 24, 2026, 12:28:05 AM",
-          "expire_date": "Friday, April 24, 2026, 12:33:36 AM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Football",
       "title": "Northeast United Fc Vs Fc Goa",
       "tournament": "ISL 2025-26",
       "match_id": 140495,
@@ -1150,6 +1156,73 @@
           },
           "isWinner": null,
           "color": "#f16622",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Golf",
+      "title": "World Feed   Day 1",
+      "tournament": "Zurich Classic of New Orleans 2026",
+      "match_id": 141995,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "24 April 2026 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141995_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141995_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "World Feed - Day 1",
+          "shortName": "World Feed - Day 1",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "TPC Louisiana - Avondale, Louisiana ",
+          "shortName": "TPC Louisiana - Avondale, Louisiana ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1371,73 +1444,6 @@
       "auto_streams": null
     },
     {
-      "category": "Golf",
-      "title": "World Feed   Day 1",
-      "tournament": "Zurich Classic of New Orleans 2026",
-      "match_id": 141995,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "24 April 2026 01:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141995_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141995_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "World Feed - Day 1",
-          "shortName": "World Feed - Day 1",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "TPC Louisiana - Avondale, Louisiana ",
-          "shortName": "TPC Louisiana - Avondale, Louisiana ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Motorsports",
       "title": "Day 1   Red Bull Ring",
       "tournament": "DTM 2026",
@@ -1639,89 +1645,6 @@
       "auto_streams": null
     },
     {
-      "category": "Cricket",
-      "title": "Bangladesh Vs New Zealand",
-      "tournament": "New Zealand tour of Bangladesh, 2026",
-      "match_id": 142068,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "23 April 2026 10:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/BAn-vs-NZ_ODIs_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142068_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BAn-vs-NZ_ODIs_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Bangladesh-vs-New-Zealand-Tour-Logo_1776081752959.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BAn-vs-NZ_ODIs_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BAn-vs-NZ_ODIs_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142068_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Bangladesh",
-          "shortName": "BAN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
-          },
-          "isWinner": true,
-          "color": "#397b46",
-          "cricketScore": [
-            {
-              "runs": 265,
-              "overs": "50",
-              "balls": "300",
-              "status": "COMPLETED",
-              "wickets": 8
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "New Zealand",
-          "shortName": "NZ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NZC@2x.png"
-          },
-          "isWinner": false,
-          "color": "#1d2c6b",
-          "cricketScore": [
-            {
-              "runs": 210,
-              "overs": "44.5",
-              "balls": "269",
-              "status": "IN_PROGRESS",
-              "wickets": 10
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Tennis",
       "title": "Atp Masters Mutua Madrid Open 2026",
       "tournament": "ATP Masters Mutua Madrid Open 2026",
@@ -1844,6 +1767,89 @@
           "status": {
             "cricket": {
               "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Bangladesh Vs New Zealand",
+      "tournament": "New Zealand tour of Bangladesh, 2026",
+      "match_id": 142068,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "23 April 2026 10:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/BAn-vs-NZ_ODIs_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142068_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BAn-vs-NZ_ODIs_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Bangladesh-vs-New-Zealand-Tour-Logo_1776081752959.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BAn-vs-NZ_ODIs_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BAn-vs-NZ_ODIs_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142068_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Bangladesh",
+          "shortName": "BAN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
+          },
+          "isWinner": true,
+          "color": "#397b46",
+          "cricketScore": [
+            {
+              "runs": 265,
+              "overs": "50",
+              "balls": "300",
+              "status": "COMPLETED",
+              "wickets": 8
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "New Zealand",
+          "shortName": "NZ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NZC@2x.png"
+          },
+          "isWinner": false,
+          "color": "#1d2c6b",
+          "cricketScore": [
+            {
+              "runs": 210,
+              "overs": "44.5",
+              "balls": "269",
+              "status": "IN_PROGRESS",
+              "wickets": 10
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
             }
           }
         }
