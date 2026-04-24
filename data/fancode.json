@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "06:49:01 PM 24-04-2026",
+  "last_updated": "06:56:03 PM 24-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 44,
-  "live_matches": 11,
-  "upcoming_matches": 33,
+  "live_matches": 12,
+  "upcoming_matches": 32,
   "matches": [
     {
       "category": "Cricket",
@@ -69,11 +69,11 @@
           "color": "#df787f",
           "cricketScore": [
             {
-              "runs": 53,
-              "overs": "10.4",
-              "balls": "65",
+              "runs": 63,
+              "overs": "12.4",
+              "balls": "76",
               "status": "IN_PROGRESS",
-              "wickets": 7
+              "wickets": 8
             }
           ],
           "kabaddiScore": null,
@@ -167,8 +167,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "31851",
+                "shortName": "M Yasir",
+                "isOwnGoal": false,
+                "goalTime": "90'"
+              },
               {
                 "id": "19486",
                 "shortName": "D Drazic",
@@ -266,8 +272,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "31851",
+                "shortName": "M Yasir",
+                "isOwnGoal": false,
+                "goalTime": "90'"
+              },
               {
                 "id": "19486",
                 "shortName": "D Drazic",
@@ -365,8 +377,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "31851",
+                "shortName": "M Yasir",
+                "isOwnGoal": false,
+                "goalTime": "90'"
+              },
               {
                 "id": "19486",
                 "shortName": "D Drazic",
@@ -464,8 +482,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "31851",
+                "shortName": "M Yasir",
+                "isOwnGoal": false,
+                "goalTime": "90'"
+              },
               {
                 "id": "19486",
                 "shortName": "D Drazic",
@@ -1725,15 +1749,15 @@
       "title": "Main Feed   Day 2",
       "tournament": "Zurich Classic of New Orleans 2026",
       "match_id": 142000,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "24 April 2026 07:15 PM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-web.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/142000_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-web.jpg",
-        "PLAYBACK": null,
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-web.jpg",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Zurich-Classic-of-New-Orleans_fc-web.jpg",
@@ -1780,12 +1804,31 @@
           }
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/142000_english_hls_0e0f09b5e680114_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/142000_english_hls_0e0f09b5e680114_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/142000_english_hls_0e0f09b5e680114_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/142000_english_hls_0e0f09b5e680114_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142000_english_hls_0e0f09b5e680114_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142000_english_hls_0e0f09b5e680114_1ta-di_h264/index.m3u8"
+        }
       },
-      "auto_streams": null
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142000_english_hls_0e0f09b5e680114_1ta-di_h264/240p.m3u8?hdntl=Expires=1777123564~_GO=Generated~acl=/mumbai/142000_english_hls_0e0f09b5e680114_1ta-di_h264/*~Signature=AVFFTBoUoA-s5CDzEInaemXnPjmNB-0y69gNdIvRByFylKI4dBINFrNRNH8m06_zldQA-YxOfwGFbiNNKJhHmbLhjFAO\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142000_english_hls_0e0f09b5e680114_1ta-di_h264/360p.m3u8?hdntl=Expires=1777123564~_GO=Generated~acl=/mumbai/142000_english_hls_0e0f09b5e680114_1ta-di_h264/*~Signature=AVFFTBoUoA-s5CDzEInaemXnPjmNB-0y69gNdIvRByFylKI4dBINFrNRNH8m06_zldQA-YxOfwGFbiNNKJhHmbLhjFAO\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142000_english_hls_0e0f09b5e680114_1ta-di_h264/480p.m3u8?hdntl=Expires=1777123564~_GO=Generated~acl=/mumbai/142000_english_hls_0e0f09b5e680114_1ta-di_h264/*~Signature=AVFFTBoUoA-s5CDzEInaemXnPjmNB-0y69gNdIvRByFylKI4dBINFrNRNH8m06_zldQA-YxOfwGFbiNNKJhHmbLhjFAO\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142000_english_hls_0e0f09b5e680114_1ta-di_h264/540p.m3u8?hdntl=Expires=1777123564~_GO=Generated~acl=/mumbai/142000_english_hls_0e0f09b5e680114_1ta-di_h264/*~Signature=AVFFTBoUoA-s5CDzEInaemXnPjmNB-0y69gNdIvRByFylKI4dBINFrNRNH8m06_zldQA-YxOfwGFbiNNKJhHmbLhjFAO\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142000_english_hls_0e0f09b5e680114_1ta-di_h264/720p.m3u8?hdntl=Expires=1777123564~_GO=Generated~acl=/mumbai/142000_english_hls_0e0f09b5e680114_1ta-di_h264/*~Signature=AVFFTBoUoA-s5CDzEInaemXnPjmNB-0y69gNdIvRByFylKI4dBINFrNRNH8m06_zldQA-YxOfwGFbiNNKJhHmbLhjFAO\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142000_english_hls_0e0f09b5e680114_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777123564~_GO=Generated~acl=/mumbai/142000_english_hls_0e0f09b5e680114_1ta-di_h264/*~Signature=AVFFTBoUoA-s5CDzEInaemXnPjmNB-0y69gNdIvRByFylKI4dBINFrNRNH8m06_zldQA-YxOfwGFbiNNKJhHmbLhjFAO",
+          "cookie": "hdntl=Expires=1777123564~_GO=Generated~acl=/mumbai/142000_english_hls_0e0f09b5e680114_1ta-di_h264/*~Signature=AVFFTBoUoA-s5CDzEInaemXnPjmNB-0y69gNdIvRByFylKI4dBINFrNRNH8m06_zldQA-YxOfwGFbiNNKJhHmbLhjFAO",
+          "cookie_valid": "1777123564",
+          "create_date": "Friday, April 24, 2026, 6:56:03 PM",
+          "expire_date": "Saturday, April 25, 2026, 6:56:04 PM",
+          "language": "ENGLISH"
+        }
+      ]
     },
     {
       "category": "Golf",
@@ -1923,73 +1966,6 @@
     },
     {
       "category": "Football",
-      "title": "Newcastle Jets Vs Central Coast Mariners",
-      "tournament": "A League 2025-26",
-      "match_id": 140942,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "25 April 2026 12:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140942_5802_NJ_CCM_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140942_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140942_5802_NJ_CCM_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/10/A-League_Men-and-Women_Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140942_5802_NJ_CCM_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140942_5802_NJ_CCM_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140942_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Newcastle Jets",
-          "shortName": "NJ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NJA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0a5a8c",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Central Coast Mariners",
-          "shortName": "CCM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CENTA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0f2d52",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
       "title": "Bengaluru Fc Vs Mumbai City Fc",
       "tournament": "ISL 2025-26",
       "match_id": 140497,
@@ -2103,6 +2079,73 @@
           },
           "isWinner": null,
           "color": "#2758a1",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Newcastle Jets Vs Central Coast Mariners",
+      "tournament": "A League 2025-26",
+      "match_id": 140942,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "25 April 2026 12:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140942_5802_NJ_CCM_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140942_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140942_5802_NJ_CCM_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/10/A-League_Men-and-Women_Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140942_5802_NJ_CCM_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140942_5802_NJ_CCM_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140942_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Newcastle Jets",
+          "shortName": "NJ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NJA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0a5a8c",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Central Coast Mariners",
+          "shortName": "CCM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CENTA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0f2d52",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
