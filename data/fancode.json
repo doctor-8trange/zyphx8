@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "04:07:00 PM 24-04-2026",
+  "last_updated": "04:14:00 PM 24-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -623,7 +623,7 @@
     },
     {
       "category": "Cricket",
-      "title": "Italy Women Vs Usa Women",
+      "title": "Usa Women Vs Italy Women",
       "tournament": "ICC Women's T20I Challenge Trophy, 2026",
       "match_id": 142055,
       "status": "NOT_STARTED",
@@ -643,25 +643,6 @@
       },
       "team": [
         {
-          "name": "Italy Women",
-          "shortName": "ITA-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ITA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#df787f",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "USA Women",
           "shortName": "USA-W",
           "flag": {
@@ -669,6 +650,33 @@
           },
           "isWinner": null,
           "color": "#132f86",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Italy Women",
+          "shortName": "ITA-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ITA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#df787f",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
