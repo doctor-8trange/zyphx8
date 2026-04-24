@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "04:28:01 PM 24-04-2026",
+  "last_updated": "04:35:01 PM 24-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -42,11 +42,11 @@
           "color": "#132f86",
           "cricketScore": [
             {
-              "runs": 0,
-              "overs": "0",
-              "balls": "0",
+              "runs": 7,
+              "overs": "1.1",
+              "balls": "7",
               "status": "IN_PROGRESS",
-              "wickets": 0
+              "wickets": 1
             }
           ],
           "kabaddiScore": null,
@@ -139,7 +139,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Wellington Phoenix",
@@ -154,7 +158,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
@@ -2324,34 +2332,34 @@
       "auto_streams": null
     },
     {
-      "category": "Live Events",
-      "title": "World Fencing League 2026",
-      "tournament": "World Fencing League 2026",
-      "match_id": 142163,
+      "category": "Motorsports",
+      "title": "Japan   Day 1",
+      "tournament": "Ferrari Challenge Series 2026",
+      "match_id": 142154,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "25 April 2026 06:45 AM",
+      "startTime": "25 April 2026 09:25 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Fencing-old.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series_fc-web.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142163_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Fencing-old.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142154_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series_fc-web.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/World-Fencing-League.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Live-Event-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Fencing-old.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Fencing_old_sporty.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142163_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142154_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "World Fencing League 2026",
-          "shortName": "World Fencing League 2026",
+          "name": "Japan - Day 1",
+          "shortName": "Japan - Day 1",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/le-flags/FC-WFL@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-POR@2x.png"
           },
           "isWinner": null,
-          "color": "#080859",
+          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2364,13 +2372,13 @@
           }
         },
         {
-          "name": "The Shrine, Los Angeles ",
-          "shortName": "The Shrine, Los Angeles ",
+          "name": "Japan",
+          "shortName": "Japan",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/le-flags/FC-LOC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
           },
           "isWinner": null,
-          "color": "#FFFFFF",
+          "color": "#123456",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2462,73 +2470,6 @@
           "status": {
             "cricket": {
               "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Motorsports",
-      "title": "Japan   Day 1",
-      "tournament": "Ferrari Challenge Series 2026",
-      "match_id": 142154,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "25 April 2026 09:25 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142154_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142154_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Japan - Day 1",
-          "shortName": "Japan - Day 1",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-POR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Japan",
-          "shortName": "Japan",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#123456",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
             }
           }
         }
@@ -2939,6 +2880,73 @@
           },
           "isWinner": null,
           "color": "#FFB700",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Golf",
+      "title": "Day 3",
+      "tournament": "Investec South African Women's Open 2026",
+      "match_id": 141644,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "25 April 2026 04:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/South-Africa_web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141644_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/South-Africa_web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/SA-Women's-OPEN.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/South-Africa_web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/South-africa-old-sporty.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141644_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Day 3",
+          "shortName": "Day 3",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-ISAW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#E61E17",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Royal Cape Golf Club",
+          "shortName": "Royal Cape Golf Club",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
