@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "04:35:01 PM 24-04-2026",
+  "last_updated": "04:42:05 PM 24-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 41,
-  "live_matches": 7,
-  "upcoming_matches": 34,
+  "live_matches": 9,
+  "upcoming_matches": 32,
   "matches": [
     {
       "category": "Cricket",
@@ -42,11 +42,11 @@
           "color": "#132f86",
           "cricketScore": [
             {
-              "runs": 7,
-              "overs": "1.1",
-              "balls": "7",
+              "runs": 23,
+              "overs": "3",
+              "balls": "18",
               "status": "IN_PROGRESS",
-              "wickets": 1
+              "wickets": 2
             }
           ],
           "kabaddiScore": null,
@@ -139,11 +139,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "Wellington Phoenix",
@@ -158,11 +154,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
       "language": "ENGLISH",
@@ -724,6 +716,92 @@
       ]
     },
     {
+      "category": "Tennis",
+      "title": "Day 3   Court 3",
+      "tournament": "ATP Masters Mutua Madrid Open 2026",
+      "match_id": 142275,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "24 April 2026 05:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mutua-Madrid-Open,-ATP-1000-old-_1776846287648.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142275_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mutua-Madrid-Open,-ATP-1000-old-_1776846287648.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Mutua-Madrid-Open,-ATP-1000-old-_1776846287648.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mutua-Madrid-Open,-ATP-1000-old-_1776846287648.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mutua-Madrid-Open,-ATP-1000-sporty-_1776846250756.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142275_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Day 3 - Court 3",
+          "shortName": "Day 3 - Court 3",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Madrid",
+          "shortName": "Madrid",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/142275_english_hls_e92051011639651_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/142275_english_hls_e92051011639651_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/142275_english_hls_e92051011639651_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/142275_english_hls_e92051011639651_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142275_english_hls_e92051011639651_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142275_english_hls_e92051011639651_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142275_english_hls_e92051011639651_1ta-di_h264/240p.m3u8?hdntl=Expires=1777115523~_GO=Generated~acl=/mumbai/142275_english_hls_e92051011639651_1ta-di_h264/*~Signature=AVFFTBrjeikizFX_MF3B2bZnSUHW0AlB_7dMhYK49IsVAZCKn8LOXTwUSH08Fo4ZY3Y7yZ5ZpjKQs6BPnSVDTpnAim0O\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142275_english_hls_e92051011639651_1ta-di_h264/360p.m3u8?hdntl=Expires=1777115523~_GO=Generated~acl=/mumbai/142275_english_hls_e92051011639651_1ta-di_h264/*~Signature=AVFFTBrjeikizFX_MF3B2bZnSUHW0AlB_7dMhYK49IsVAZCKn8LOXTwUSH08Fo4ZY3Y7yZ5ZpjKQs6BPnSVDTpnAim0O\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142275_english_hls_e92051011639651_1ta-di_h264/480p.m3u8?hdntl=Expires=1777115523~_GO=Generated~acl=/mumbai/142275_english_hls_e92051011639651_1ta-di_h264/*~Signature=AVFFTBrjeikizFX_MF3B2bZnSUHW0AlB_7dMhYK49IsVAZCKn8LOXTwUSH08Fo4ZY3Y7yZ5ZpjKQs6BPnSVDTpnAim0O\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142275_english_hls_e92051011639651_1ta-di_h264/540p.m3u8?hdntl=Expires=1777115523~_GO=Generated~acl=/mumbai/142275_english_hls_e92051011639651_1ta-di_h264/*~Signature=AVFFTBrjeikizFX_MF3B2bZnSUHW0AlB_7dMhYK49IsVAZCKn8LOXTwUSH08Fo4ZY3Y7yZ5ZpjKQs6BPnSVDTpnAim0O\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142275_english_hls_e92051011639651_1ta-di_h264/720p.m3u8?hdntl=Expires=1777115523~_GO=Generated~acl=/mumbai/142275_english_hls_e92051011639651_1ta-di_h264/*~Signature=AVFFTBrjeikizFX_MF3B2bZnSUHW0AlB_7dMhYK49IsVAZCKn8LOXTwUSH08Fo4ZY3Y7yZ5ZpjKQs6BPnSVDTpnAim0O\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142275_english_hls_e92051011639651_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777115523~_GO=Generated~acl=/mumbai/142275_english_hls_e92051011639651_1ta-di_h264/*~Signature=AVFFTBrjeikizFX_MF3B2bZnSUHW0AlB_7dMhYK49IsVAZCKn8LOXTwUSH08Fo4ZY3Y7yZ5ZpjKQs6BPnSVDTpnAim0O",
+          "cookie": "hdntl=Expires=1777115523~_GO=Generated~acl=/mumbai/142275_english_hls_e92051011639651_1ta-di_h264/*~Signature=AVFFTBrjeikizFX_MF3B2bZnSUHW0AlB_7dMhYK49IsVAZCKn8LOXTwUSH08Fo4ZY3Y7yZ5ZpjKQs6BPnSVDTpnAim0O",
+          "cookie_valid": "1777115523",
+          "create_date": "Friday, April 24, 2026, 4:42:02 PM",
+          "expire_date": "Saturday, April 25, 2026, 4:42:03 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
       "category": "Football",
       "title": "Northeast United Fc Vs Fc Goa",
       "tournament": "ISL 2025-26",
@@ -1130,15 +1208,15 @@
       "title": "Day 2",
       "tournament": "Investec South African Women's Open 2026",
       "match_id": 141643,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "24 April 2026 05:00 PM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/South-Africa_web.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/141643_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/South-Africa_web.jpg",
-        "PLAYBACK": null,
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/South-Africa_web.jpg",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/SA-Women's-OPEN.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/South-Africa_web.jpg",
@@ -1185,79 +1263,31 @@
           }
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "Day 3   Court 3",
-      "tournament": "ATP Masters Mutua Madrid Open 2026",
-      "match_id": 142275,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "24 April 2026 05:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mutua-Madrid-Open,-ATP-1000-old-_1776846287648.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142275_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mutua-Madrid-Open,-ATP-1000-old-_1776846287648.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mutua-Madrid-Open,-ATP-1000-old-_1776846287648.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mutua-Madrid-Open,-ATP-1000-sporty-_1776846250756.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142275_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Day 3 - Court 3",
-          "shortName": "Day 3 - Court 3",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Madrid",
-          "shortName": "Madrid",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/141643_english_hls_d7e43de69a14524_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/141643_english_hls_d7e43de69a14524_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/141643_english_hls_d7e43de69a14524_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/141643_english_hls_d7e43de69a14524_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/141643_english_hls_d7e43de69a14524_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/141643_english_hls_d7e43de69a14524_1ta-di_h264/index.m3u8"
         }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
       },
-      "auto_streams": null
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141643_english_hls_d7e43de69a14524_1ta-di_h264/240p.m3u8?hdntl=Expires=1777029456~_GO=Generated~acl=/mumbai/141643_english_hls_d7e43de69a14524_1ta-di_h264/*~Signature=AVFFTBrhu1_owgMc6hVMqAypHPudX0KVoe6JXrArN_TVripsHg_2r_rmFiiJL3Ep7oO3r_he6pFIRtrx9KYqd1NubDwJ\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141643_english_hls_d7e43de69a14524_1ta-di_h264/360p.m3u8?hdntl=Expires=1777029456~_GO=Generated~acl=/mumbai/141643_english_hls_d7e43de69a14524_1ta-di_h264/*~Signature=AVFFTBrhu1_owgMc6hVMqAypHPudX0KVoe6JXrArN_TVripsHg_2r_rmFiiJL3Ep7oO3r_he6pFIRtrx9KYqd1NubDwJ\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141643_english_hls_d7e43de69a14524_1ta-di_h264/480p.m3u8?hdntl=Expires=1777029456~_GO=Generated~acl=/mumbai/141643_english_hls_d7e43de69a14524_1ta-di_h264/*~Signature=AVFFTBrhu1_owgMc6hVMqAypHPudX0KVoe6JXrArN_TVripsHg_2r_rmFiiJL3Ep7oO3r_he6pFIRtrx9KYqd1NubDwJ\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141643_english_hls_d7e43de69a14524_1ta-di_h264/540p.m3u8?hdntl=Expires=1777029456~_GO=Generated~acl=/mumbai/141643_english_hls_d7e43de69a14524_1ta-di_h264/*~Signature=AVFFTBrhu1_owgMc6hVMqAypHPudX0KVoe6JXrArN_TVripsHg_2r_rmFiiJL3Ep7oO3r_he6pFIRtrx9KYqd1NubDwJ\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141643_english_hls_d7e43de69a14524_1ta-di_h264/720p.m3u8?hdntl=Expires=1777029456~_GO=Generated~acl=/mumbai/141643_english_hls_d7e43de69a14524_1ta-di_h264/*~Signature=AVFFTBrhu1_owgMc6hVMqAypHPudX0KVoe6JXrArN_TVripsHg_2r_rmFiiJL3Ep7oO3r_he6pFIRtrx9KYqd1NubDwJ\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141643_english_hls_d7e43de69a14524_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777029456~_GO=Generated~acl=/mumbai/141643_english_hls_d7e43de69a14524_1ta-di_h264/*~Signature=AVFFTBrhu1_owgMc6hVMqAypHPudX0KVoe6JXrArN_TVripsHg_2r_rmFiiJL3Ep7oO3r_he6pFIRtrx9KYqd1NubDwJ",
+          "cookie": "hdntl=Expires=1777029456~_GO=Generated~acl=/mumbai/141643_english_hls_d7e43de69a14524_1ta-di_h264/*~Signature=AVFFTBrhu1_owgMc6hVMqAypHPudX0KVoe6JXrArN_TVripsHg_2r_rmFiiJL3Ep7oO3r_he6pFIRtrx9KYqd1NubDwJ",
+          "cookie_valid": "1777029456",
+          "create_date": "Friday, April 24, 2026, 4:42:05 PM",
+          "expire_date": "Friday, April 24, 2026, 4:47:36 PM",
+          "language": "ENGLISH"
+        }
+      ]
     },
     {
       "category": "Football",
@@ -1998,73 +2028,6 @@
     },
     {
       "category": "Football",
-      "title": "Perth Glory Vs Brisbane Roar",
-      "tournament": "A League 2025-26",
-      "match_id": 140944,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "25 April 2026 05:15 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140944_5802_PG_BRB_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140944_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140944_5802_PG_BRB_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/10/A-League_Men-and-Women_Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140944_5802_PG_BRB_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140944_5802_PG_BRB_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140944_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Perth Glory",
-          "shortName": "PG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PERTHGA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ff8200",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Brisbane Roar",
-          "shortName": "BRB",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BRBI@2x.png"
-          },
-          "isWinner": null,
-          "color": "#772F08",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
       "title": "Jamshedpur Fc Vs Chennaiyin Fc",
       "tournament": "ISL 2025-26",
       "match_id": 140498,
@@ -2245,6 +2208,73 @@
           },
           "isWinner": null,
           "color": "#B08A3C",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Perth Glory Vs Brisbane Roar",
+      "tournament": "A League 2025-26",
+      "match_id": 140944,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "25 April 2026 05:15 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140944_5802_PG_BRB_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140944_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140944_5802_PG_BRB_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/10/A-League_Men-and-Women_Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140944_5802_PG_BRB_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140944_5802_PG_BRB_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140944_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Perth Glory",
+          "shortName": "PG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PERTHGA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ff8200",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Brisbane Roar",
+          "shortName": "BRB",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BRBI@2x.png"
+          },
+          "isWinner": null,
+          "color": "#772F08",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2632,73 +2662,6 @@
       "auto_streams": null
     },
     {
-      "category": "Motorsports",
-      "title": "Day 2   Red Bull Ring",
-      "tournament": "DTM 2026",
-      "match_id": 142108,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "25 April 2026 01:05 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(15).png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142108_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(15).png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/DTM-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(15).png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(15).png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142108_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Day 2 - Red Bull Ring",
-          "shortName": "Day 2 - Red Bull Ring",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-DTM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FFCC00",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Red Bull Ring",
-          "shortName": "Red Bull Ring",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#123456",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Football",
       "title": "Al Ahli Saudi Fc Vs Machida Zelvia",
       "tournament": "AFC Champions League Elite 2025-26",
@@ -2813,6 +2776,73 @@
           },
           "isWinner": null,
           "color": "#E7B75C",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Motorsports",
+      "title": "Day 2   Red Bull Ring",
+      "tournament": "DTM 2026",
+      "match_id": 142108,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "25 April 2026 01:05 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(15).png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142108_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(15).png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/DTM-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(15).png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(15).png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142108_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Day 2 - Red Bull Ring",
+          "shortName": "Day 2 - Red Bull Ring",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-DTM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FFCC00",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Red Bull Ring",
+          "shortName": "Red Bull Ring",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#123456",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
