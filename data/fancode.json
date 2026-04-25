@@ -2,759 +2,15 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:21:02 PM 25-04-2026",
+  "last_updated": "09:28:02 PM 25-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 46,
-  "live_matches": 13,
-  "upcoming_matches": 33,
+  "live_matches": 14,
+  "upcoming_matches": 32,
   "matches": [
-    {
-      "category": "Football",
-      "title": "Jamshedpur Fc Vs Chennaiyin Fc",
-      "tournament": "ISL 2025-26",
-      "match_id": 140498,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "25 April 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-App_1772466816545.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Jamshedpur FC",
-          "shortName": "JFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JFC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#00a4ed",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 4,
-            "goals": [
-              {
-                "id": "176178",
-                "shortName": "N Stojanovic",
-                "isOwnGoal": false,
-                "goalTime": "78'"
-              },
-              {
-                "id": "184681",
-                "shortName": "S Mohammed",
-                "isOwnGoal": false,
-                "goalTime": "58'"
-              },
-              {
-                "id": "226387",
-                "shortName": "REM Bouli",
-                "isOwnGoal": false,
-                "goalTime": "27'"
-              },
-              {
-                "id": "184681",
-                "shortName": "S Mohammed",
-                "isOwnGoal": false,
-                "goalTime": "7'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Chennaiyin FC",
-          "shortName": "CFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHF@2x.png"
-          },
-          "isWinner": null,
-          "color": "#8D6402",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "229021",
-                "shortName": "S Prakadeswaran",
-                "isOwnGoal": false,
-                "goalTime": "69'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/140498_english_hls_1a465c9f2421174_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/240p.m3u8?hdntl=Expires=1777211464~_GO=Generated~acl=/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/*~Signature=AVFFTBrsaye8jU33J_J4F5bP9fe4SSKIyVPnxz8gSxp68qi1o0LkEhbGoOUPwMok85mkCB-x7ZoDhMkOz5SUxsF6FR8M\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/360p.m3u8?hdntl=Expires=1777211464~_GO=Generated~acl=/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/*~Signature=AVFFTBrsaye8jU33J_J4F5bP9fe4SSKIyVPnxz8gSxp68qi1o0LkEhbGoOUPwMok85mkCB-x7ZoDhMkOz5SUxsF6FR8M\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/480p.m3u8?hdntl=Expires=1777211464~_GO=Generated~acl=/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/*~Signature=AVFFTBrsaye8jU33J_J4F5bP9fe4SSKIyVPnxz8gSxp68qi1o0LkEhbGoOUPwMok85mkCB-x7ZoDhMkOz5SUxsF6FR8M\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/540p.m3u8?hdntl=Expires=1777211464~_GO=Generated~acl=/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/*~Signature=AVFFTBrsaye8jU33J_J4F5bP9fe4SSKIyVPnxz8gSxp68qi1o0LkEhbGoOUPwMok85mkCB-x7ZoDhMkOz5SUxsF6FR8M\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/720p.m3u8?hdntl=Expires=1777211464~_GO=Generated~acl=/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/*~Signature=AVFFTBrsaye8jU33J_J4F5bP9fe4SSKIyVPnxz8gSxp68qi1o0LkEhbGoOUPwMok85mkCB-x7ZoDhMkOz5SUxsF6FR8M\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777211464~_GO=Generated~acl=/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/*~Signature=AVFFTBrsaye8jU33J_J4F5bP9fe4SSKIyVPnxz8gSxp68qi1o0LkEhbGoOUPwMok85mkCB-x7ZoDhMkOz5SUxsF6FR8M\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1777211464~_GO=Generated~acl=/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/*~Signature=AVFFTBrsaye8jU33J_J4F5bP9fe4SSKIyVPnxz8gSxp68qi1o0LkEhbGoOUPwMok85mkCB-x7ZoDhMkOz5SUxsF6FR8M",
-          "cookie": "hdntl=Expires=1777211464~_GO=Generated~acl=/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/*~Signature=AVFFTBrsaye8jU33J_J4F5bP9fe4SSKIyVPnxz8gSxp68qi1o0LkEhbGoOUPwMok85mkCB-x7ZoDhMkOz5SUxsF6FR8M",
-          "cookie_valid": "1777211464",
-          "create_date": "Saturday, April 25, 2026, 7:21:02 PM",
-          "expire_date": "Sunday, April 26, 2026, 7:21:04 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Jamshedpur Fc Vs Chennaiyin Fc",
-      "tournament": "ISL 2025-26",
-      "match_id": 140498,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "25 April 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-App_1772466816545.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Jamshedpur FC",
-          "shortName": "JFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JFC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#00a4ed",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 4,
-            "goals": [
-              {
-                "id": "176178",
-                "shortName": "N Stojanovic",
-                "isOwnGoal": false,
-                "goalTime": "78'"
-              },
-              {
-                "id": "184681",
-                "shortName": "S Mohammed",
-                "isOwnGoal": false,
-                "goalTime": "58'"
-              },
-              {
-                "id": "226387",
-                "shortName": "REM Bouli",
-                "isOwnGoal": false,
-                "goalTime": "27'"
-              },
-              {
-                "id": "184681",
-                "shortName": "S Mohammed",
-                "isOwnGoal": false,
-                "goalTime": "7'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Chennaiyin FC",
-          "shortName": "CFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHF@2x.png"
-          },
-          "isWinner": null,
-          "color": "#8D6402",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "229021",
-                "shortName": "S Prakadeswaran",
-                "isOwnGoal": false,
-                "goalTime": "69'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "HINDI",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "HINDI",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/140498_hindi_hls_f45725633f25560_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/240p.m3u8?hdntl=Expires=1777211465~_GO=Generated~acl=/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/*~Signature=AVFFTBoe6jkTiTxcfMExlsR9JkLewICVvj-CG7C2118KZNwJkaDemHBNr0ntqgMwJwb0JRPqGYu1XAZSm7t45EDVKy0B\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/360p.m3u8?hdntl=Expires=1777211465~_GO=Generated~acl=/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/*~Signature=AVFFTBoe6jkTiTxcfMExlsR9JkLewICVvj-CG7C2118KZNwJkaDemHBNr0ntqgMwJwb0JRPqGYu1XAZSm7t45EDVKy0B\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/480p.m3u8?hdntl=Expires=1777211465~_GO=Generated~acl=/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/*~Signature=AVFFTBoe6jkTiTxcfMExlsR9JkLewICVvj-CG7C2118KZNwJkaDemHBNr0ntqgMwJwb0JRPqGYu1XAZSm7t45EDVKy0B\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/540p.m3u8?hdntl=Expires=1777211465~_GO=Generated~acl=/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/*~Signature=AVFFTBoe6jkTiTxcfMExlsR9JkLewICVvj-CG7C2118KZNwJkaDemHBNr0ntqgMwJwb0JRPqGYu1XAZSm7t45EDVKy0B\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/720p.m3u8?hdntl=Expires=1777211465~_GO=Generated~acl=/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/*~Signature=AVFFTBoe6jkTiTxcfMExlsR9JkLewICVvj-CG7C2118KZNwJkaDemHBNr0ntqgMwJwb0JRPqGYu1XAZSm7t45EDVKy0B\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777211465~_GO=Generated~acl=/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/*~Signature=AVFFTBoe6jkTiTxcfMExlsR9JkLewICVvj-CG7C2118KZNwJkaDemHBNr0ntqgMwJwb0JRPqGYu1XAZSm7t45EDVKy0B\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1777211465~_GO=Generated~acl=/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/*~Signature=AVFFTBoe6jkTiTxcfMExlsR9JkLewICVvj-CG7C2118KZNwJkaDemHBNr0ntqgMwJwb0JRPqGYu1XAZSm7t45EDVKy0B",
-          "cookie": "hdntl=Expires=1777211465~_GO=Generated~acl=/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/*~Signature=AVFFTBoe6jkTiTxcfMExlsR9JkLewICVvj-CG7C2118KZNwJkaDemHBNr0ntqgMwJwb0JRPqGYu1XAZSm7t45EDVKy0B",
-          "cookie_valid": "1777211465",
-          "create_date": "Saturday, April 25, 2026, 7:21:03 PM",
-          "expire_date": "Sunday, April 26, 2026, 7:21:05 PM",
-          "language": "HINDI"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Jamshedpur Fc Vs Chennaiyin Fc",
-      "tournament": "ISL 2025-26",
-      "match_id": 140498,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "25 April 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-App_1772466816545.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Jamshedpur FC",
-          "shortName": "JFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JFC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#00a4ed",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 4,
-            "goals": [
-              {
-                "id": "176178",
-                "shortName": "N Stojanovic",
-                "isOwnGoal": false,
-                "goalTime": "78'"
-              },
-              {
-                "id": "184681",
-                "shortName": "S Mohammed",
-                "isOwnGoal": false,
-                "goalTime": "58'"
-              },
-              {
-                "id": "226387",
-                "shortName": "REM Bouli",
-                "isOwnGoal": false,
-                "goalTime": "27'"
-              },
-              {
-                "id": "184681",
-                "shortName": "S Mohammed",
-                "isOwnGoal": false,
-                "goalTime": "7'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Chennaiyin FC",
-          "shortName": "CFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHF@2x.png"
-          },
-          "isWinner": null,
-          "color": "#8D6402",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "229021",
-                "shortName": "S Prakadeswaran",
-                "isOwnGoal": false,
-                "goalTime": "69'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "TAMIL",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "TAMIL",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/140498_tamil_hls_9924da601e19318_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/240p.m3u8?hdntl=Expires=1777211466~_GO=Generated~acl=/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/*~Signature=AVFFTBop21qSwz6gp1DCM42aZGG7JoeNOqz0M8zYvBppaV4wpgAA0Dn-Dbw2N6nlGzVUAOCmAJeMJsTmYZ_HHHR2MSMK\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/360p.m3u8?hdntl=Expires=1777211466~_GO=Generated~acl=/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/*~Signature=AVFFTBop21qSwz6gp1DCM42aZGG7JoeNOqz0M8zYvBppaV4wpgAA0Dn-Dbw2N6nlGzVUAOCmAJeMJsTmYZ_HHHR2MSMK\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/480p.m3u8?hdntl=Expires=1777211466~_GO=Generated~acl=/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/*~Signature=AVFFTBop21qSwz6gp1DCM42aZGG7JoeNOqz0M8zYvBppaV4wpgAA0Dn-Dbw2N6nlGzVUAOCmAJeMJsTmYZ_HHHR2MSMK\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/540p.m3u8?hdntl=Expires=1777211466~_GO=Generated~acl=/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/*~Signature=AVFFTBop21qSwz6gp1DCM42aZGG7JoeNOqz0M8zYvBppaV4wpgAA0Dn-Dbw2N6nlGzVUAOCmAJeMJsTmYZ_HHHR2MSMK\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/720p.m3u8?hdntl=Expires=1777211466~_GO=Generated~acl=/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/*~Signature=AVFFTBop21qSwz6gp1DCM42aZGG7JoeNOqz0M8zYvBppaV4wpgAA0Dn-Dbw2N6nlGzVUAOCmAJeMJsTmYZ_HHHR2MSMK\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777211466~_GO=Generated~acl=/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/*~Signature=AVFFTBop21qSwz6gp1DCM42aZGG7JoeNOqz0M8zYvBppaV4wpgAA0Dn-Dbw2N6nlGzVUAOCmAJeMJsTmYZ_HHHR2MSMK\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1777211466~_GO=Generated~acl=/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/*~Signature=AVFFTBop21qSwz6gp1DCM42aZGG7JoeNOqz0M8zYvBppaV4wpgAA0Dn-Dbw2N6nlGzVUAOCmAJeMJsTmYZ_HHHR2MSMK",
-          "cookie": "hdntl=Expires=1777211466~_GO=Generated~acl=/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/*~Signature=AVFFTBop21qSwz6gp1DCM42aZGG7JoeNOqz0M8zYvBppaV4wpgAA0Dn-Dbw2N6nlGzVUAOCmAJeMJsTmYZ_HHHR2MSMK",
-          "cookie_valid": "1777211466",
-          "create_date": "Saturday, April 25, 2026, 7:21:04 PM",
-          "expire_date": "Sunday, April 26, 2026, 7:21:06 PM",
-          "language": "TAMIL"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Jamshedpur Fc Vs Chennaiyin Fc",
-      "tournament": "ISL 2025-26",
-      "match_id": 140498,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "25 April 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-App_1772466816545.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Jamshedpur FC",
-          "shortName": "JFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JFC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#00a4ed",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 4,
-            "goals": [
-              {
-                "id": "176178",
-                "shortName": "N Stojanovic",
-                "isOwnGoal": false,
-                "goalTime": "78'"
-              },
-              {
-                "id": "184681",
-                "shortName": "S Mohammed",
-                "isOwnGoal": false,
-                "goalTime": "58'"
-              },
-              {
-                "id": "226387",
-                "shortName": "REM Bouli",
-                "isOwnGoal": false,
-                "goalTime": "27'"
-              },
-              {
-                "id": "184681",
-                "shortName": "S Mohammed",
-                "isOwnGoal": false,
-                "goalTime": "7'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Chennaiyin FC",
-          "shortName": "CFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHF@2x.png"
-          },
-          "isWinner": null,
-          "color": "#8D6402",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "229021",
-                "shortName": "S Prakadeswaran",
-                "isOwnGoal": false,
-                "goalTime": "69'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "MALAYALAM",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "MALAYALAM",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/240p.m3u8?hdntl=Expires=1777211467~_GO=Generated~acl=/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/*~Signature=AVFFTBqBtuRCpEgcfa6KXiwPDmNOBqH8hSed0qDxOhODUMUg9JWq3Ve1JPa4Gbjq-uRQTuTNUXNdAbDpnQaXZp2jJrcM\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/360p.m3u8?hdntl=Expires=1777211467~_GO=Generated~acl=/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/*~Signature=AVFFTBqBtuRCpEgcfa6KXiwPDmNOBqH8hSed0qDxOhODUMUg9JWq3Ve1JPa4Gbjq-uRQTuTNUXNdAbDpnQaXZp2jJrcM\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/480p.m3u8?hdntl=Expires=1777211467~_GO=Generated~acl=/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/*~Signature=AVFFTBqBtuRCpEgcfa6KXiwPDmNOBqH8hSed0qDxOhODUMUg9JWq3Ve1JPa4Gbjq-uRQTuTNUXNdAbDpnQaXZp2jJrcM\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/540p.m3u8?hdntl=Expires=1777211467~_GO=Generated~acl=/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/*~Signature=AVFFTBqBtuRCpEgcfa6KXiwPDmNOBqH8hSed0qDxOhODUMUg9JWq3Ve1JPa4Gbjq-uRQTuTNUXNdAbDpnQaXZp2jJrcM\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/720p.m3u8?hdntl=Expires=1777211467~_GO=Generated~acl=/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/*~Signature=AVFFTBqBtuRCpEgcfa6KXiwPDmNOBqH8hSed0qDxOhODUMUg9JWq3Ve1JPa4Gbjq-uRQTuTNUXNdAbDpnQaXZp2jJrcM\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777211467~_GO=Generated~acl=/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/*~Signature=AVFFTBqBtuRCpEgcfa6KXiwPDmNOBqH8hSed0qDxOhODUMUg9JWq3Ve1JPa4Gbjq-uRQTuTNUXNdAbDpnQaXZp2jJrcM\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1777211467~_GO=Generated~acl=/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/*~Signature=AVFFTBqBtuRCpEgcfa6KXiwPDmNOBqH8hSed0qDxOhODUMUg9JWq3Ve1JPa4Gbjq-uRQTuTNUXNdAbDpnQaXZp2jJrcM",
-          "cookie": "hdntl=Expires=1777211467~_GO=Generated~acl=/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/*~Signature=AVFFTBqBtuRCpEgcfa6KXiwPDmNOBqH8hSed0qDxOhODUMUg9JWq3Ve1JPa4Gbjq-uRQTuTNUXNdAbDpnQaXZp2jJrcM",
-          "cookie_valid": "1777211467",
-          "create_date": "Saturday, April 25, 2026, 7:21:05 PM",
-          "expire_date": "Sunday, April 26, 2026, 7:21:07 PM",
-          "language": "MALAYALAM"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Jamshedpur Fc Vs Chennaiyin Fc",
-      "tournament": "ISL 2025-26",
-      "match_id": 140498,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "25 April 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-App_1772466816545.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Jamshedpur FC",
-          "shortName": "JFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JFC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#00a4ed",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 4,
-            "goals": [
-              {
-                "id": "176178",
-                "shortName": "N Stojanovic",
-                "isOwnGoal": false,
-                "goalTime": "78'"
-              },
-              {
-                "id": "184681",
-                "shortName": "S Mohammed",
-                "isOwnGoal": false,
-                "goalTime": "58'"
-              },
-              {
-                "id": "226387",
-                "shortName": "REM Bouli",
-                "isOwnGoal": false,
-                "goalTime": "27'"
-              },
-              {
-                "id": "184681",
-                "shortName": "S Mohammed",
-                "isOwnGoal": false,
-                "goalTime": "7'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Chennaiyin FC",
-          "shortName": "CFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHF@2x.png"
-          },
-          "isWinner": null,
-          "color": "#8D6402",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "229021",
-                "shortName": "S Prakadeswaran",
-                "isOwnGoal": false,
-                "goalTime": "69'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BENGALI",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "BENGALI",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/240p.m3u8?hdntl=Expires=1777211468~_GO=Generated~acl=/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/*~Signature=AVFFTBppUOtOBvqxWaUmDM3mF47jMcgmpFnOS7R1iinDLrtIb97M5EO5KPw3i2wjH71Cw-uPfOXAAOR_YMP7revcVW0F\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/360p.m3u8?hdntl=Expires=1777211468~_GO=Generated~acl=/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/*~Signature=AVFFTBppUOtOBvqxWaUmDM3mF47jMcgmpFnOS7R1iinDLrtIb97M5EO5KPw3i2wjH71Cw-uPfOXAAOR_YMP7revcVW0F\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/480p.m3u8?hdntl=Expires=1777211468~_GO=Generated~acl=/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/*~Signature=AVFFTBppUOtOBvqxWaUmDM3mF47jMcgmpFnOS7R1iinDLrtIb97M5EO5KPw3i2wjH71Cw-uPfOXAAOR_YMP7revcVW0F\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/540p.m3u8?hdntl=Expires=1777211468~_GO=Generated~acl=/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/*~Signature=AVFFTBppUOtOBvqxWaUmDM3mF47jMcgmpFnOS7R1iinDLrtIb97M5EO5KPw3i2wjH71Cw-uPfOXAAOR_YMP7revcVW0F\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/720p.m3u8?hdntl=Expires=1777211468~_GO=Generated~acl=/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/*~Signature=AVFFTBppUOtOBvqxWaUmDM3mF47jMcgmpFnOS7R1iinDLrtIb97M5EO5KPw3i2wjH71Cw-uPfOXAAOR_YMP7revcVW0F\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777211468~_GO=Generated~acl=/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/*~Signature=AVFFTBppUOtOBvqxWaUmDM3mF47jMcgmpFnOS7R1iinDLrtIb97M5EO5KPw3i2wjH71Cw-uPfOXAAOR_YMP7revcVW0F\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1777211468~_GO=Generated~acl=/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/*~Signature=AVFFTBppUOtOBvqxWaUmDM3mF47jMcgmpFnOS7R1iinDLrtIb97M5EO5KPw3i2wjH71Cw-uPfOXAAOR_YMP7revcVW0F",
-          "cookie": "hdntl=Expires=1777211468~_GO=Generated~acl=/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/*~Signature=AVFFTBppUOtOBvqxWaUmDM3mF47jMcgmpFnOS7R1iinDLrtIb97M5EO5KPw3i2wjH71Cw-uPfOXAAOR_YMP7revcVW0F",
-          "cookie_valid": "1777211468",
-          "create_date": "Saturday, April 25, 2026, 7:21:06 PM",
-          "expire_date": "Sunday, April 26, 2026, 7:21:08 PM",
-          "language": "BENGALI"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Jamshedpur Fc Vs Chennaiyin Fc",
-      "tournament": "ISL 2025-26  - Regional",
-      "match_id": 141821,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "25 April 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/JAM-vs-CHE_FC-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141821_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/JAM-vs-CHE_FC-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/JAM-vs-CHE_FC-web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/JAM-vs-CHE_FC-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/JAM-vs-CHE_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141821_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Jamshedpur FC",
-          "shortName": "JFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JFC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#00a4ed",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 4,
-            "goals": [
-              {
-                "id": "176178",
-                "shortName": "N Stojanovic",
-                "isOwnGoal": false,
-                "goalTime": "78'"
-              },
-              {
-                "id": "184681",
-                "shortName": "S Mohammed",
-                "isOwnGoal": false,
-                "goalTime": "58'"
-              },
-              {
-                "id": "226387",
-                "shortName": "REM Bouli",
-                "isOwnGoal": false,
-                "goalTime": "27'"
-              },
-              {
-                "id": "184681",
-                "shortName": "S Mohammed",
-                "isOwnGoal": false,
-                "goalTime": "7'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Chennaiyin FC",
-          "shortName": "CFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHF@2x.png"
-          },
-          "isWinner": null,
-          "color": "#8D6402",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "229021",
-                "shortName": "S Prakadeswaran",
-                "isOwnGoal": false,
-                "goalTime": "69'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/141821_english_hls_3470e520b776030_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/240p.m3u8?hdntl=Expires=1777211044~_GO=Generated~acl=/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/*~Signature=AVFFTBozWcClP2DBwahaJwP8HEJWMZNnT-QXTXHagfbGZX-5WbQpkBuAx9xGKuCwICI4qHzE7VUFcx43AlSk4GODQIAE\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/360p.m3u8?hdntl=Expires=1777211044~_GO=Generated~acl=/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/*~Signature=AVFFTBozWcClP2DBwahaJwP8HEJWMZNnT-QXTXHagfbGZX-5WbQpkBuAx9xGKuCwICI4qHzE7VUFcx43AlSk4GODQIAE\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/480p.m3u8?hdntl=Expires=1777211044~_GO=Generated~acl=/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/*~Signature=AVFFTBozWcClP2DBwahaJwP8HEJWMZNnT-QXTXHagfbGZX-5WbQpkBuAx9xGKuCwICI4qHzE7VUFcx43AlSk4GODQIAE\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/540p.m3u8?hdntl=Expires=1777211044~_GO=Generated~acl=/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/*~Signature=AVFFTBozWcClP2DBwahaJwP8HEJWMZNnT-QXTXHagfbGZX-5WbQpkBuAx9xGKuCwICI4qHzE7VUFcx43AlSk4GODQIAE\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/720p.m3u8?hdntl=Expires=1777211044~_GO=Generated~acl=/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/*~Signature=AVFFTBozWcClP2DBwahaJwP8HEJWMZNnT-QXTXHagfbGZX-5WbQpkBuAx9xGKuCwICI4qHzE7VUFcx43AlSk4GODQIAE\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777211044~_GO=Generated~acl=/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/*~Signature=AVFFTBozWcClP2DBwahaJwP8HEJWMZNnT-QXTXHagfbGZX-5WbQpkBuAx9xGKuCwICI4qHzE7VUFcx43AlSk4GODQIAE\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1777211044~_GO=Generated~acl=/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/*~Signature=AVFFTBozWcClP2DBwahaJwP8HEJWMZNnT-QXTXHagfbGZX-5WbQpkBuAx9xGKuCwICI4qHzE7VUFcx43AlSk4GODQIAE",
-          "cookie": "hdntl=Expires=1777211044~_GO=Generated~acl=/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/*~Signature=AVFFTBozWcClP2DBwahaJwP8HEJWMZNnT-QXTXHagfbGZX-5WbQpkBuAx9xGKuCwICI4qHzE7VUFcx43AlSk4GODQIAE",
-          "cookie_valid": "1777211044",
-          "create_date": "Saturday, April 25, 2026, 7:14:03 PM",
-          "expire_date": "Sunday, April 26, 2026, 7:14:04 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
     {
       "category": "Football",
       "title": "Queens Park Rangers F.c. Vs Derby County Football Club",
@@ -787,14 +43,8 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 3,
+            "points": 2,
             "goals": [
-              {
-                "id": "193913",
-                "shortName": "R Kone",
-                "isOwnGoal": false,
-                "goalTime": "55'"
-              },
               {
                 "id": "193913",
                 "shortName": "R Kone",
@@ -927,8 +177,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "21235",
+                "shortName": "M Rashford",
+                "isOwnGoal": false,
+                "goalTime": "74'"
+              },
               {
                 "id": "174285",
                 "shortName": "F Marin",
@@ -1026,8 +282,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "21235",
+                "shortName": "M Rashford",
+                "isOwnGoal": false,
+                "goalTime": "74'"
+              },
               {
                 "id": "174285",
                 "shortName": "F Marin",
@@ -1125,8 +387,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "21235",
+                "shortName": "M Rashford",
+                "isOwnGoal": false,
+                "goalTime": "74'"
+              },
               {
                 "id": "174285",
                 "shortName": "F Marin",
@@ -1945,6 +1213,750 @@
       ]
     },
     {
+      "category": "Football",
+      "title": "Jamshedpur Fc Vs Chennaiyin Fc",
+      "tournament": "ISL 2025-26",
+      "match_id": 140498,
+      "status": "COMPLETED",
+      "streamingStatus": "STARTED",
+      "startTime": "25 April 2026 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-App_1772466816545.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Jamshedpur FC",
+          "shortName": "JFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JFC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#00a4ed",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 4,
+            "goals": [
+              {
+                "id": "176178",
+                "shortName": "N Stojanovic",
+                "isOwnGoal": false,
+                "goalTime": "78'"
+              },
+              {
+                "id": "184681",
+                "shortName": "S Mohammed",
+                "isOwnGoal": false,
+                "goalTime": "58'"
+              },
+              {
+                "id": "226387",
+                "shortName": "REM Bouli",
+                "isOwnGoal": false,
+                "goalTime": "27'"
+              },
+              {
+                "id": "184681",
+                "shortName": "S Mohammed",
+                "isOwnGoal": false,
+                "goalTime": "7'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Chennaiyin FC",
+          "shortName": "CFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHF@2x.png"
+          },
+          "isWinner": null,
+          "color": "#8D6402",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "229021",
+                "shortName": "S Prakadeswaran",
+                "isOwnGoal": false,
+                "goalTime": "69'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/140498_english_hls_1a465c9f2421174_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/240p.m3u8?hdntl=Expires=1777211464~_GO=Generated~acl=/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/*~Signature=AVFFTBrsaye8jU33J_J4F5bP9fe4SSKIyVPnxz8gSxp68qi1o0LkEhbGoOUPwMok85mkCB-x7ZoDhMkOz5SUxsF6FR8M\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/360p.m3u8?hdntl=Expires=1777211464~_GO=Generated~acl=/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/*~Signature=AVFFTBrsaye8jU33J_J4F5bP9fe4SSKIyVPnxz8gSxp68qi1o0LkEhbGoOUPwMok85mkCB-x7ZoDhMkOz5SUxsF6FR8M\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/480p.m3u8?hdntl=Expires=1777211464~_GO=Generated~acl=/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/*~Signature=AVFFTBrsaye8jU33J_J4F5bP9fe4SSKIyVPnxz8gSxp68qi1o0LkEhbGoOUPwMok85mkCB-x7ZoDhMkOz5SUxsF6FR8M\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/540p.m3u8?hdntl=Expires=1777211464~_GO=Generated~acl=/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/*~Signature=AVFFTBrsaye8jU33J_J4F5bP9fe4SSKIyVPnxz8gSxp68qi1o0LkEhbGoOUPwMok85mkCB-x7ZoDhMkOz5SUxsF6FR8M\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/720p.m3u8?hdntl=Expires=1777211464~_GO=Generated~acl=/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/*~Signature=AVFFTBrsaye8jU33J_J4F5bP9fe4SSKIyVPnxz8gSxp68qi1o0LkEhbGoOUPwMok85mkCB-x7ZoDhMkOz5SUxsF6FR8M\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777211464~_GO=Generated~acl=/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/*~Signature=AVFFTBrsaye8jU33J_J4F5bP9fe4SSKIyVPnxz8gSxp68qi1o0LkEhbGoOUPwMok85mkCB-x7ZoDhMkOz5SUxsF6FR8M\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1777211464~_GO=Generated~acl=/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/*~Signature=AVFFTBrsaye8jU33J_J4F5bP9fe4SSKIyVPnxz8gSxp68qi1o0LkEhbGoOUPwMok85mkCB-x7ZoDhMkOz5SUxsF6FR8M",
+          "cookie": "hdntl=Expires=1777211464~_GO=Generated~acl=/mumbai/140498_english_hls_1a465c9f2421174_1ta-di_h264/*~Signature=AVFFTBrsaye8jU33J_J4F5bP9fe4SSKIyVPnxz8gSxp68qi1o0LkEhbGoOUPwMok85mkCB-x7ZoDhMkOz5SUxsF6FR8M",
+          "cookie_valid": "1777211464",
+          "create_date": "Saturday, April 25, 2026, 7:21:02 PM",
+          "expire_date": "Sunday, April 26, 2026, 7:21:04 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Jamshedpur Fc Vs Chennaiyin Fc",
+      "tournament": "ISL 2025-26",
+      "match_id": 140498,
+      "status": "COMPLETED",
+      "streamingStatus": "STARTED",
+      "startTime": "25 April 2026 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-App_1772466816545.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Jamshedpur FC",
+          "shortName": "JFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JFC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#00a4ed",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 4,
+            "goals": [
+              {
+                "id": "176178",
+                "shortName": "N Stojanovic",
+                "isOwnGoal": false,
+                "goalTime": "78'"
+              },
+              {
+                "id": "184681",
+                "shortName": "S Mohammed",
+                "isOwnGoal": false,
+                "goalTime": "58'"
+              },
+              {
+                "id": "226387",
+                "shortName": "REM Bouli",
+                "isOwnGoal": false,
+                "goalTime": "27'"
+              },
+              {
+                "id": "184681",
+                "shortName": "S Mohammed",
+                "isOwnGoal": false,
+                "goalTime": "7'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Chennaiyin FC",
+          "shortName": "CFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHF@2x.png"
+          },
+          "isWinner": null,
+          "color": "#8D6402",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "229021",
+                "shortName": "S Prakadeswaran",
+                "isOwnGoal": false,
+                "goalTime": "69'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "HINDI",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "HINDI",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/140498_hindi_hls_f45725633f25560_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/240p.m3u8?hdntl=Expires=1777211465~_GO=Generated~acl=/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/*~Signature=AVFFTBoe6jkTiTxcfMExlsR9JkLewICVvj-CG7C2118KZNwJkaDemHBNr0ntqgMwJwb0JRPqGYu1XAZSm7t45EDVKy0B\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/360p.m3u8?hdntl=Expires=1777211465~_GO=Generated~acl=/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/*~Signature=AVFFTBoe6jkTiTxcfMExlsR9JkLewICVvj-CG7C2118KZNwJkaDemHBNr0ntqgMwJwb0JRPqGYu1XAZSm7t45EDVKy0B\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/480p.m3u8?hdntl=Expires=1777211465~_GO=Generated~acl=/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/*~Signature=AVFFTBoe6jkTiTxcfMExlsR9JkLewICVvj-CG7C2118KZNwJkaDemHBNr0ntqgMwJwb0JRPqGYu1XAZSm7t45EDVKy0B\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/540p.m3u8?hdntl=Expires=1777211465~_GO=Generated~acl=/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/*~Signature=AVFFTBoe6jkTiTxcfMExlsR9JkLewICVvj-CG7C2118KZNwJkaDemHBNr0ntqgMwJwb0JRPqGYu1XAZSm7t45EDVKy0B\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/720p.m3u8?hdntl=Expires=1777211465~_GO=Generated~acl=/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/*~Signature=AVFFTBoe6jkTiTxcfMExlsR9JkLewICVvj-CG7C2118KZNwJkaDemHBNr0ntqgMwJwb0JRPqGYu1XAZSm7t45EDVKy0B\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777211465~_GO=Generated~acl=/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/*~Signature=AVFFTBoe6jkTiTxcfMExlsR9JkLewICVvj-CG7C2118KZNwJkaDemHBNr0ntqgMwJwb0JRPqGYu1XAZSm7t45EDVKy0B\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1777211465~_GO=Generated~acl=/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/*~Signature=AVFFTBoe6jkTiTxcfMExlsR9JkLewICVvj-CG7C2118KZNwJkaDemHBNr0ntqgMwJwb0JRPqGYu1XAZSm7t45EDVKy0B",
+          "cookie": "hdntl=Expires=1777211465~_GO=Generated~acl=/mumbai/140498_hindi_hls_f45725633f25560_1ta-di_h264/*~Signature=AVFFTBoe6jkTiTxcfMExlsR9JkLewICVvj-CG7C2118KZNwJkaDemHBNr0ntqgMwJwb0JRPqGYu1XAZSm7t45EDVKy0B",
+          "cookie_valid": "1777211465",
+          "create_date": "Saturday, April 25, 2026, 7:21:03 PM",
+          "expire_date": "Sunday, April 26, 2026, 7:21:05 PM",
+          "language": "HINDI"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Jamshedpur Fc Vs Chennaiyin Fc",
+      "tournament": "ISL 2025-26",
+      "match_id": 140498,
+      "status": "COMPLETED",
+      "streamingStatus": "STARTED",
+      "startTime": "25 April 2026 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-App_1772466816545.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Jamshedpur FC",
+          "shortName": "JFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JFC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#00a4ed",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 4,
+            "goals": [
+              {
+                "id": "176178",
+                "shortName": "N Stojanovic",
+                "isOwnGoal": false,
+                "goalTime": "78'"
+              },
+              {
+                "id": "184681",
+                "shortName": "S Mohammed",
+                "isOwnGoal": false,
+                "goalTime": "58'"
+              },
+              {
+                "id": "226387",
+                "shortName": "REM Bouli",
+                "isOwnGoal": false,
+                "goalTime": "27'"
+              },
+              {
+                "id": "184681",
+                "shortName": "S Mohammed",
+                "isOwnGoal": false,
+                "goalTime": "7'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Chennaiyin FC",
+          "shortName": "CFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHF@2x.png"
+          },
+          "isWinner": null,
+          "color": "#8D6402",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "229021",
+                "shortName": "S Prakadeswaran",
+                "isOwnGoal": false,
+                "goalTime": "69'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "TAMIL",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "TAMIL",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/140498_tamil_hls_9924da601e19318_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/240p.m3u8?hdntl=Expires=1777211466~_GO=Generated~acl=/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/*~Signature=AVFFTBop21qSwz6gp1DCM42aZGG7JoeNOqz0M8zYvBppaV4wpgAA0Dn-Dbw2N6nlGzVUAOCmAJeMJsTmYZ_HHHR2MSMK\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/360p.m3u8?hdntl=Expires=1777211466~_GO=Generated~acl=/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/*~Signature=AVFFTBop21qSwz6gp1DCM42aZGG7JoeNOqz0M8zYvBppaV4wpgAA0Dn-Dbw2N6nlGzVUAOCmAJeMJsTmYZ_HHHR2MSMK\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/480p.m3u8?hdntl=Expires=1777211466~_GO=Generated~acl=/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/*~Signature=AVFFTBop21qSwz6gp1DCM42aZGG7JoeNOqz0M8zYvBppaV4wpgAA0Dn-Dbw2N6nlGzVUAOCmAJeMJsTmYZ_HHHR2MSMK\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/540p.m3u8?hdntl=Expires=1777211466~_GO=Generated~acl=/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/*~Signature=AVFFTBop21qSwz6gp1DCM42aZGG7JoeNOqz0M8zYvBppaV4wpgAA0Dn-Dbw2N6nlGzVUAOCmAJeMJsTmYZ_HHHR2MSMK\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/720p.m3u8?hdntl=Expires=1777211466~_GO=Generated~acl=/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/*~Signature=AVFFTBop21qSwz6gp1DCM42aZGG7JoeNOqz0M8zYvBppaV4wpgAA0Dn-Dbw2N6nlGzVUAOCmAJeMJsTmYZ_HHHR2MSMK\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777211466~_GO=Generated~acl=/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/*~Signature=AVFFTBop21qSwz6gp1DCM42aZGG7JoeNOqz0M8zYvBppaV4wpgAA0Dn-Dbw2N6nlGzVUAOCmAJeMJsTmYZ_HHHR2MSMK\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1777211466~_GO=Generated~acl=/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/*~Signature=AVFFTBop21qSwz6gp1DCM42aZGG7JoeNOqz0M8zYvBppaV4wpgAA0Dn-Dbw2N6nlGzVUAOCmAJeMJsTmYZ_HHHR2MSMK",
+          "cookie": "hdntl=Expires=1777211466~_GO=Generated~acl=/mumbai/140498_tamil_hls_9924da601e19318_1ta-di_h264/*~Signature=AVFFTBop21qSwz6gp1DCM42aZGG7JoeNOqz0M8zYvBppaV4wpgAA0Dn-Dbw2N6nlGzVUAOCmAJeMJsTmYZ_HHHR2MSMK",
+          "cookie_valid": "1777211466",
+          "create_date": "Saturday, April 25, 2026, 7:21:04 PM",
+          "expire_date": "Sunday, April 26, 2026, 7:21:06 PM",
+          "language": "TAMIL"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Jamshedpur Fc Vs Chennaiyin Fc",
+      "tournament": "ISL 2025-26",
+      "match_id": 140498,
+      "status": "COMPLETED",
+      "streamingStatus": "STARTED",
+      "startTime": "25 April 2026 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-App_1772466816545.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Jamshedpur FC",
+          "shortName": "JFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JFC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#00a4ed",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 4,
+            "goals": [
+              {
+                "id": "176178",
+                "shortName": "N Stojanovic",
+                "isOwnGoal": false,
+                "goalTime": "78'"
+              },
+              {
+                "id": "184681",
+                "shortName": "S Mohammed",
+                "isOwnGoal": false,
+                "goalTime": "58'"
+              },
+              {
+                "id": "226387",
+                "shortName": "REM Bouli",
+                "isOwnGoal": false,
+                "goalTime": "27'"
+              },
+              {
+                "id": "184681",
+                "shortName": "S Mohammed",
+                "isOwnGoal": false,
+                "goalTime": "7'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Chennaiyin FC",
+          "shortName": "CFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHF@2x.png"
+          },
+          "isWinner": null,
+          "color": "#8D6402",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "229021",
+                "shortName": "S Prakadeswaran",
+                "isOwnGoal": false,
+                "goalTime": "69'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "MALAYALAM",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "MALAYALAM",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/240p.m3u8?hdntl=Expires=1777211467~_GO=Generated~acl=/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/*~Signature=AVFFTBqBtuRCpEgcfa6KXiwPDmNOBqH8hSed0qDxOhODUMUg9JWq3Ve1JPa4Gbjq-uRQTuTNUXNdAbDpnQaXZp2jJrcM\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/360p.m3u8?hdntl=Expires=1777211467~_GO=Generated~acl=/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/*~Signature=AVFFTBqBtuRCpEgcfa6KXiwPDmNOBqH8hSed0qDxOhODUMUg9JWq3Ve1JPa4Gbjq-uRQTuTNUXNdAbDpnQaXZp2jJrcM\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/480p.m3u8?hdntl=Expires=1777211467~_GO=Generated~acl=/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/*~Signature=AVFFTBqBtuRCpEgcfa6KXiwPDmNOBqH8hSed0qDxOhODUMUg9JWq3Ve1JPa4Gbjq-uRQTuTNUXNdAbDpnQaXZp2jJrcM\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/540p.m3u8?hdntl=Expires=1777211467~_GO=Generated~acl=/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/*~Signature=AVFFTBqBtuRCpEgcfa6KXiwPDmNOBqH8hSed0qDxOhODUMUg9JWq3Ve1JPa4Gbjq-uRQTuTNUXNdAbDpnQaXZp2jJrcM\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/720p.m3u8?hdntl=Expires=1777211467~_GO=Generated~acl=/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/*~Signature=AVFFTBqBtuRCpEgcfa6KXiwPDmNOBqH8hSed0qDxOhODUMUg9JWq3Ve1JPa4Gbjq-uRQTuTNUXNdAbDpnQaXZp2jJrcM\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777211467~_GO=Generated~acl=/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/*~Signature=AVFFTBqBtuRCpEgcfa6KXiwPDmNOBqH8hSed0qDxOhODUMUg9JWq3Ve1JPa4Gbjq-uRQTuTNUXNdAbDpnQaXZp2jJrcM\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1777211467~_GO=Generated~acl=/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/*~Signature=AVFFTBqBtuRCpEgcfa6KXiwPDmNOBqH8hSed0qDxOhODUMUg9JWq3Ve1JPa4Gbjq-uRQTuTNUXNdAbDpnQaXZp2jJrcM",
+          "cookie": "hdntl=Expires=1777211467~_GO=Generated~acl=/mumbai/140498_malayalam_hls_bf5f5553b83827_1ta-di_h264/*~Signature=AVFFTBqBtuRCpEgcfa6KXiwPDmNOBqH8hSed0qDxOhODUMUg9JWq3Ve1JPa4Gbjq-uRQTuTNUXNdAbDpnQaXZp2jJrcM",
+          "cookie_valid": "1777211467",
+          "create_date": "Saturday, April 25, 2026, 7:21:05 PM",
+          "expire_date": "Sunday, April 26, 2026, 7:21:07 PM",
+          "language": "MALAYALAM"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Jamshedpur Fc Vs Chennaiyin Fc",
+      "tournament": "ISL 2025-26",
+      "match_id": 140498,
+      "status": "COMPLETED",
+      "streamingStatus": "STARTED",
+      "startTime": "25 April 2026 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-Web_1772466830393.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140498_5956_JFC_CFC_FC-App_1772466816545.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140498_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Jamshedpur FC",
+          "shortName": "JFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JFC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#00a4ed",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 4,
+            "goals": [
+              {
+                "id": "176178",
+                "shortName": "N Stojanovic",
+                "isOwnGoal": false,
+                "goalTime": "78'"
+              },
+              {
+                "id": "184681",
+                "shortName": "S Mohammed",
+                "isOwnGoal": false,
+                "goalTime": "58'"
+              },
+              {
+                "id": "226387",
+                "shortName": "REM Bouli",
+                "isOwnGoal": false,
+                "goalTime": "27'"
+              },
+              {
+                "id": "184681",
+                "shortName": "S Mohammed",
+                "isOwnGoal": false,
+                "goalTime": "7'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Chennaiyin FC",
+          "shortName": "CFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHF@2x.png"
+          },
+          "isWinner": null,
+          "color": "#8D6402",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "229021",
+                "shortName": "S Prakadeswaran",
+                "isOwnGoal": false,
+                "goalTime": "69'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BENGALI",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "BENGALI",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/240p.m3u8?hdntl=Expires=1777211468~_GO=Generated~acl=/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/*~Signature=AVFFTBppUOtOBvqxWaUmDM3mF47jMcgmpFnOS7R1iinDLrtIb97M5EO5KPw3i2wjH71Cw-uPfOXAAOR_YMP7revcVW0F\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/360p.m3u8?hdntl=Expires=1777211468~_GO=Generated~acl=/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/*~Signature=AVFFTBppUOtOBvqxWaUmDM3mF47jMcgmpFnOS7R1iinDLrtIb97M5EO5KPw3i2wjH71Cw-uPfOXAAOR_YMP7revcVW0F\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/480p.m3u8?hdntl=Expires=1777211468~_GO=Generated~acl=/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/*~Signature=AVFFTBppUOtOBvqxWaUmDM3mF47jMcgmpFnOS7R1iinDLrtIb97M5EO5KPw3i2wjH71Cw-uPfOXAAOR_YMP7revcVW0F\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/540p.m3u8?hdntl=Expires=1777211468~_GO=Generated~acl=/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/*~Signature=AVFFTBppUOtOBvqxWaUmDM3mF47jMcgmpFnOS7R1iinDLrtIb97M5EO5KPw3i2wjH71Cw-uPfOXAAOR_YMP7revcVW0F\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/720p.m3u8?hdntl=Expires=1777211468~_GO=Generated~acl=/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/*~Signature=AVFFTBppUOtOBvqxWaUmDM3mF47jMcgmpFnOS7R1iinDLrtIb97M5EO5KPw3i2wjH71Cw-uPfOXAAOR_YMP7revcVW0F\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777211468~_GO=Generated~acl=/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/*~Signature=AVFFTBppUOtOBvqxWaUmDM3mF47jMcgmpFnOS7R1iinDLrtIb97M5EO5KPw3i2wjH71Cw-uPfOXAAOR_YMP7revcVW0F\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1777211468~_GO=Generated~acl=/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/*~Signature=AVFFTBppUOtOBvqxWaUmDM3mF47jMcgmpFnOS7R1iinDLrtIb97M5EO5KPw3i2wjH71Cw-uPfOXAAOR_YMP7revcVW0F",
+          "cookie": "hdntl=Expires=1777211468~_GO=Generated~acl=/mumbai/140498_bengali_hls_0b0eb624b816384_1ta-di_h264/*~Signature=AVFFTBppUOtOBvqxWaUmDM3mF47jMcgmpFnOS7R1iinDLrtIb97M5EO5KPw3i2wjH71Cw-uPfOXAAOR_YMP7revcVW0F",
+          "cookie_valid": "1777211468",
+          "create_date": "Saturday, April 25, 2026, 7:21:06 PM",
+          "expire_date": "Sunday, April 26, 2026, 7:21:08 PM",
+          "language": "BENGALI"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Jamshedpur Fc Vs Chennaiyin Fc",
+      "tournament": "ISL 2025-26  - Regional",
+      "match_id": 141821,
+      "status": "COMPLETED",
+      "streamingStatus": "STARTED",
+      "startTime": "25 April 2026 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/JAM-vs-CHE_FC-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141821_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/JAM-vs-CHE_FC-web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/JAM-vs-CHE_FC-web.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/JAM-vs-CHE_FC-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/JAM-vs-CHE_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141821_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Jamshedpur FC",
+          "shortName": "JFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JFC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#00a4ed",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 4,
+            "goals": [
+              {
+                "id": "176178",
+                "shortName": "N Stojanovic",
+                "isOwnGoal": false,
+                "goalTime": "78'"
+              },
+              {
+                "id": "184681",
+                "shortName": "S Mohammed",
+                "isOwnGoal": false,
+                "goalTime": "58'"
+              },
+              {
+                "id": "226387",
+                "shortName": "REM Bouli",
+                "isOwnGoal": false,
+                "goalTime": "27'"
+              },
+              {
+                "id": "184681",
+                "shortName": "S Mohammed",
+                "isOwnGoal": false,
+                "goalTime": "7'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Chennaiyin FC",
+          "shortName": "CFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHF@2x.png"
+          },
+          "isWinner": null,
+          "color": "#8D6402",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "229021",
+                "shortName": "S Prakadeswaran",
+                "isOwnGoal": false,
+                "goalTime": "69'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/141821_english_hls_3470e520b776030_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/240p.m3u8?hdntl=Expires=1777211044~_GO=Generated~acl=/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/*~Signature=AVFFTBozWcClP2DBwahaJwP8HEJWMZNnT-QXTXHagfbGZX-5WbQpkBuAx9xGKuCwICI4qHzE7VUFcx43AlSk4GODQIAE\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/360p.m3u8?hdntl=Expires=1777211044~_GO=Generated~acl=/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/*~Signature=AVFFTBozWcClP2DBwahaJwP8HEJWMZNnT-QXTXHagfbGZX-5WbQpkBuAx9xGKuCwICI4qHzE7VUFcx43AlSk4GODQIAE\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/480p.m3u8?hdntl=Expires=1777211044~_GO=Generated~acl=/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/*~Signature=AVFFTBozWcClP2DBwahaJwP8HEJWMZNnT-QXTXHagfbGZX-5WbQpkBuAx9xGKuCwICI4qHzE7VUFcx43AlSk4GODQIAE\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/540p.m3u8?hdntl=Expires=1777211044~_GO=Generated~acl=/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/*~Signature=AVFFTBozWcClP2DBwahaJwP8HEJWMZNnT-QXTXHagfbGZX-5WbQpkBuAx9xGKuCwICI4qHzE7VUFcx43AlSk4GODQIAE\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/720p.m3u8?hdntl=Expires=1777211044~_GO=Generated~acl=/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/*~Signature=AVFFTBozWcClP2DBwahaJwP8HEJWMZNnT-QXTXHagfbGZX-5WbQpkBuAx9xGKuCwICI4qHzE7VUFcx43AlSk4GODQIAE\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777211044~_GO=Generated~acl=/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/*~Signature=AVFFTBozWcClP2DBwahaJwP8HEJWMZNnT-QXTXHagfbGZX-5WbQpkBuAx9xGKuCwICI4qHzE7VUFcx43AlSk4GODQIAE\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1777211044~_GO=Generated~acl=/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/*~Signature=AVFFTBozWcClP2DBwahaJwP8HEJWMZNnT-QXTXHagfbGZX-5WbQpkBuAx9xGKuCwICI4qHzE7VUFcx43AlSk4GODQIAE",
+          "cookie": "hdntl=Expires=1777211044~_GO=Generated~acl=/mumbai/141821_english_hls_3470e520b776030_1ta-di_h264/*~Signature=AVFFTBozWcClP2DBwahaJwP8HEJWMZNnT-QXTXHagfbGZX-5WbQpkBuAx9xGKuCwICI4qHzE7VUFcx43AlSk4GODQIAE",
+          "cookie_valid": "1777211044",
+          "create_date": "Saturday, April 25, 2026, 7:14:03 PM",
+          "expire_date": "Sunday, April 26, 2026, 7:14:04 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
       "category": "Cricket",
       "title": "Rwanda Women Vs Vanuatu Women",
       "tournament": "ICC Women's T20I Challenge Trophy, 2026",
@@ -2151,14 +2163,14 @@
       "tournament": "LALIGA 2025-26",
       "match_id": 131140,
       "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "streamingStatus": "STARTED",
       "startTime": "25 April 2026 10:00 PM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/131140_5427_VAL_GIR_FC-Web.png",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/131140_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/131140_5427_VAL_GIR_FC-Web.png",
-        "PLAYBACK": null,
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131140_5427_VAL_GIR_FC-Web.png",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131140_5427_VAL_GIR_FC-Web.png",
@@ -2205,12 +2217,31 @@
           }
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/131140_english_hls_01ee76623997882_1ta-di_h264/index.m3u8"
+        }
       },
-      "auto_streams": null
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/240p.m3u8?hdntl=Expires=1777219084~_GO=Generated~acl=/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/*~Signature=AVFFTBol7zzDj4UPGRLFV5p4iF-779caCQMqZbG7bz0nwo-aGax1vSzopjYFxYoyQwzwIXTI9gvA11hHobQgKMk34y8D\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/360p.m3u8?hdntl=Expires=1777219084~_GO=Generated~acl=/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/*~Signature=AVFFTBol7zzDj4UPGRLFV5p4iF-779caCQMqZbG7bz0nwo-aGax1vSzopjYFxYoyQwzwIXTI9gvA11hHobQgKMk34y8D\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/480p.m3u8?hdntl=Expires=1777219084~_GO=Generated~acl=/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/*~Signature=AVFFTBol7zzDj4UPGRLFV5p4iF-779caCQMqZbG7bz0nwo-aGax1vSzopjYFxYoyQwzwIXTI9gvA11hHobQgKMk34y8D\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/540p.m3u8?hdntl=Expires=1777219084~_GO=Generated~acl=/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/*~Signature=AVFFTBol7zzDj4UPGRLFV5p4iF-779caCQMqZbG7bz0nwo-aGax1vSzopjYFxYoyQwzwIXTI9gvA11hHobQgKMk34y8D\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/720p.m3u8?hdntl=Expires=1777219084~_GO=Generated~acl=/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/*~Signature=AVFFTBol7zzDj4UPGRLFV5p4iF-779caCQMqZbG7bz0nwo-aGax1vSzopjYFxYoyQwzwIXTI9gvA11hHobQgKMk34y8D\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777219084~_GO=Generated~acl=/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/*~Signature=AVFFTBol7zzDj4UPGRLFV5p4iF-779caCQMqZbG7bz0nwo-aGax1vSzopjYFxYoyQwzwIXTI9gvA11hHobQgKMk34y8D\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1777219084~_GO=Generated~acl=/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/*~Signature=AVFFTBol7zzDj4UPGRLFV5p4iF-779caCQMqZbG7bz0nwo-aGax1vSzopjYFxYoyQwzwIXTI9gvA11hHobQgKMk34y8D",
+          "cookie": "hdntl=Expires=1777219084~_GO=Generated~acl=/mumbai/131140_english_hls_01ee76623997882_1ta-di_h264/*~Signature=AVFFTBol7zzDj4UPGRLFV5p4iF-779caCQMqZbG7bz0nwo-aGax1vSzopjYFxYoyQwzwIXTI9gvA11hHobQgKMk34y8D",
+          "cookie_valid": "1777219084",
+          "create_date": "Saturday, April 25, 2026, 9:28:02 PM",
+          "expire_date": "Sunday, April 26, 2026, 9:28:04 PM",
+          "language": "ENGLISH"
+        }
+      ]
     },
     {
       "category": "Cricket",
