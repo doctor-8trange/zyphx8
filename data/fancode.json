@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:49:01 PM 25-04-2026",
+  "last_updated": "07:56:02 PM 25-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -43,8 +43,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "157056",
+                "shortName": "H Vale",
+                "isOwnGoal": false,
+                "goalTime": "13'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -702,7 +709,7 @@
       "title": "Getafe Cf Vs Fc Barcelona",
       "tournament": "LALIGA 2025-26",
       "match_id": 131147,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "25 April 2026 07:45 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -728,7 +735,10 @@
           "color": "#e0d405",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -747,7 +757,10 @@
           "color": "#fee64e",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -788,7 +801,7 @@
       "title": "Getafe Cf Vs Fc Barcelona",
       "tournament": "LALIGA 2025-26",
       "match_id": 131147,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "25 April 2026 07:45 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -814,7 +827,10 @@
           "color": "#e0d405",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -833,7 +849,10 @@
           "color": "#fee64e",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -874,7 +893,7 @@
       "title": "Getafe Cf Vs Fc Barcelona",
       "tournament": "LALIGA 2025-26",
       "match_id": 131147,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "25 April 2026 07:45 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -900,7 +919,10 @@
           "color": "#e0d405",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -919,7 +941,10 @@
           "color": "#fee64e",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -1462,11 +1487,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/240p.m3u8?hdntl=Expires=1777198744~_GO=Generated~acl=/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/*~Signature=AVFFTBqNC3k4UwCYSnyoCQmB2Q-XOMdSNSAYY5HkWNYhQsmbjuvuOT0roQDulGGrt3oVtj0Prp3_ynwS9hk52VOO61UD\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/360p.m3u8?hdntl=Expires=1777198744~_GO=Generated~acl=/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/*~Signature=AVFFTBqNC3k4UwCYSnyoCQmB2Q-XOMdSNSAYY5HkWNYhQsmbjuvuOT0roQDulGGrt3oVtj0Prp3_ynwS9hk52VOO61UD\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/480p.m3u8?hdntl=Expires=1777198744~_GO=Generated~acl=/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/*~Signature=AVFFTBqNC3k4UwCYSnyoCQmB2Q-XOMdSNSAYY5HkWNYhQsmbjuvuOT0roQDulGGrt3oVtj0Prp3_ynwS9hk52VOO61UD\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/540p.m3u8?hdntl=Expires=1777198744~_GO=Generated~acl=/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/*~Signature=AVFFTBqNC3k4UwCYSnyoCQmB2Q-XOMdSNSAYY5HkWNYhQsmbjuvuOT0roQDulGGrt3oVtj0Prp3_ynwS9hk52VOO61UD\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/720p.m3u8?hdntl=Expires=1777198744~_GO=Generated~acl=/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/*~Signature=AVFFTBqNC3k4UwCYSnyoCQmB2Q-XOMdSNSAYY5HkWNYhQsmbjuvuOT0roQDulGGrt3oVtj0Prp3_ynwS9hk52VOO61UD\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777198744~_GO=Generated~acl=/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/*~Signature=AVFFTBqNC3k4UwCYSnyoCQmB2Q-XOMdSNSAYY5HkWNYhQsmbjuvuOT0roQDulGGrt3oVtj0Prp3_ynwS9hk52VOO61UD",
-          "cookie": "hdntl=Expires=1777198744~_GO=Generated~acl=/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/*~Signature=AVFFTBqNC3k4UwCYSnyoCQmB2Q-XOMdSNSAYY5HkWNYhQsmbjuvuOT0roQDulGGrt3oVtj0Prp3_ynwS9hk52VOO61UD",
-          "cookie_valid": "1777198744",
-          "create_date": "Saturday, April 25, 2026, 3:49:03 PM",
-          "expire_date": "Sunday, April 26, 2026, 3:49:04 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/240p.m3u8?hdntl=Expires=1777213564~_GO=Generated~acl=/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/*~Signature=AVFFTBoCB4szBsosiGHq1v8oMe9eFrcVOsJ6GjUxN-2lhA35_8TFo7kUkEAmWZlHYHXSsvHUz3zcp7VLBf4maSfIbVgG\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/360p.m3u8?hdntl=Expires=1777213564~_GO=Generated~acl=/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/*~Signature=AVFFTBoCB4szBsosiGHq1v8oMe9eFrcVOsJ6GjUxN-2lhA35_8TFo7kUkEAmWZlHYHXSsvHUz3zcp7VLBf4maSfIbVgG\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/480p.m3u8?hdntl=Expires=1777213564~_GO=Generated~acl=/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/*~Signature=AVFFTBoCB4szBsosiGHq1v8oMe9eFrcVOsJ6GjUxN-2lhA35_8TFo7kUkEAmWZlHYHXSsvHUz3zcp7VLBf4maSfIbVgG\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/540p.m3u8?hdntl=Expires=1777213564~_GO=Generated~acl=/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/*~Signature=AVFFTBoCB4szBsosiGHq1v8oMe9eFrcVOsJ6GjUxN-2lhA35_8TFo7kUkEAmWZlHYHXSsvHUz3zcp7VLBf4maSfIbVgG\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/720p.m3u8?hdntl=Expires=1777213564~_GO=Generated~acl=/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/*~Signature=AVFFTBoCB4szBsosiGHq1v8oMe9eFrcVOsJ6GjUxN-2lhA35_8TFo7kUkEAmWZlHYHXSsvHUz3zcp7VLBf4maSfIbVgG\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777213564~_GO=Generated~acl=/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/*~Signature=AVFFTBoCB4szBsosiGHq1v8oMe9eFrcVOsJ6GjUxN-2lhA35_8TFo7kUkEAmWZlHYHXSsvHUz3zcp7VLBf4maSfIbVgG",
+          "cookie": "hdntl=Expires=1777213564~_GO=Generated~acl=/mumbai/141644_english_hls_d64cd7920390419_1ta-di_h264/*~Signature=AVFFTBoCB4szBsosiGHq1v8oMe9eFrcVOsJ6GjUxN-2lhA35_8TFo7kUkEAmWZlHYHXSsvHUz3zcp7VLBf4maSfIbVgG",
+          "cookie_valid": "1777213564",
+          "create_date": "Saturday, April 25, 2026, 7:56:02 PM",
+          "expire_date": "Sunday, April 26, 2026, 7:56:04 PM",
           "language": "ENGLISH"
         }
       ]
