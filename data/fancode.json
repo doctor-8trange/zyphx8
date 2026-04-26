@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "04:21:04 PM 26-04-2026",
+  "last_updated": "04:28:01 PM 26-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -13,7 +13,7 @@
   "matches": [
     {
       "category": "Cricket",
-      "title": "Usa Women Vs Nepal Women",
+      "title": "Nepal Women Vs Usa Women",
       "tournament": "ICC Women's T20I Challenge Trophy, 2026",
       "match_id": 142057,
       "status": "LIVE",
@@ -33,25 +33,6 @@
       },
       "team": [
         {
-          "name": "USA Women",
-          "shortName": "USA-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-USA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#132f86",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "Nepal Women",
           "shortName": "NP-W",
           "flag": {
@@ -59,6 +40,33 @@
           },
           "isWinner": null,
           "color": "#0f266e",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "USA Women",
+          "shortName": "USA-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-USA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#132f86",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
