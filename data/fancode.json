@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "05:28:01 PM 27-04-2026",
+  "last_updated": "05:35:01 PM 27-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -13,67 +13,40 @@
   "matches": [
     {
       "category": "Cricket",
-      "title": "United Arab Emirates Vs Oman",
-      "tournament": "ICC CWC League 2, Nepal 2026",
-      "match_id": 141977,
+      "title": "Usa Women Vs Vanuatu Women",
+      "tournament": "ICC Women's T20I Challenge Trophy, 2026",
+      "match_id": 142059,
       "status": "LIVE",
       "streamingStatus": "STARTED",
-      "startTime": "27 April 2026 09:15 AM",
+      "startTime": "27 April 2026 04:30 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/ICC-Nepal_web.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/142059_6045_USA-W_VANW_fc-web.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141977_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/ICC-Nepal_web.jpg",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC-Men's-Cricket-World-Cup-League-2.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142059_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/142059_6045_USA-W_VANW_fc-web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/142059_6045_USA-W_VANW_fc-web.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC_1771925153080.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ICC-Nepal_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ICC-Nepal-old-sporty.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141977_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/142059_6045_USA-W_VANW_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/142059_6045_USA-W_VANW_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142059_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "United Arab Emirates",
-          "shortName": "UAE",
+          "name": "USA Women",
+          "shortName": "USA-W",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAE@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-USA@2x.png"
           },
-          "isWinner": true,
-          "color": "#4fb319",
+          "isWinner": null,
+          "color": "#132f86",
           "cricketScore": [
             {
-              "runs": 268,
-              "overs": "50",
-              "balls": "300",
-              "status": "COMPLETED",
-              "wickets": 7
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Oman",
-          "shortName": "OMN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OMA@2x.png"
-          },
-          "isWinner": false,
-          "color": "#ad1b0e",
-          "cricketScore": [
-            {
-              "runs": 243,
-              "overs": "47.5",
-              "balls": "287",
+              "runs": 110,
+              "overs": "15",
+              "balls": "90",
               "status": "IN_PROGRESS",
-              "wickets": 10
+              "wickets": 2
             }
           ],
           "kabaddiScore": null,
@@ -85,31 +58,50 @@
               "isBatting": true
             }
           }
+        },
+        {
+          "name": "Vanuatu Women",
+          "shortName": "VANW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VAU@2x.png"
+          },
+          "isWinner": null,
+          "color": "#c9a304",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/index.m3u8",
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/index.m3u8",
         "is_drm": false,
-        "fancode_cdn": "https://in-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "Unavailable",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH",
         "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/141977_english_hls_6a26a80dda27662_1ta-di_h264/index.m3u8"
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142059_english_hls_8be464ea7740018_1ta-di_h264/index.m3u8"
         }
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/240p.m3u8?hdntl=Expires=1777371124~_GO=Generated~acl=/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/*~Signature=AVFFTBpelubS64fpSXfYaMhaSeTsNtlvqBumF8mIRJypknu1250fJCT_gva2SZML3_GH1-cM9h_GfNSKaZivm83RC3oF\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/360p.m3u8?hdntl=Expires=1777371124~_GO=Generated~acl=/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/*~Signature=AVFFTBpelubS64fpSXfYaMhaSeTsNtlvqBumF8mIRJypknu1250fJCT_gva2SZML3_GH1-cM9h_GfNSKaZivm83RC3oF\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/480p.m3u8?hdntl=Expires=1777371124~_GO=Generated~acl=/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/*~Signature=AVFFTBpelubS64fpSXfYaMhaSeTsNtlvqBumF8mIRJypknu1250fJCT_gva2SZML3_GH1-cM9h_GfNSKaZivm83RC3oF\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/540p.m3u8?hdntl=Expires=1777371124~_GO=Generated~acl=/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/*~Signature=AVFFTBpelubS64fpSXfYaMhaSeTsNtlvqBumF8mIRJypknu1250fJCT_gva2SZML3_GH1-cM9h_GfNSKaZivm83RC3oF\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/720p.m3u8?hdntl=Expires=1777371124~_GO=Generated~acl=/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/*~Signature=AVFFTBpelubS64fpSXfYaMhaSeTsNtlvqBumF8mIRJypknu1250fJCT_gva2SZML3_GH1-cM9h_GfNSKaZivm83RC3oF\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777371124~_GO=Generated~acl=/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/*~Signature=AVFFTBpelubS64fpSXfYaMhaSeTsNtlvqBumF8mIRJypknu1250fJCT_gva2SZML3_GH1-cM9h_GfNSKaZivm83RC3oF",
-          "cookie": "hdntl=Expires=1777371124~_GO=Generated~acl=/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/*~Signature=AVFFTBpelubS64fpSXfYaMhaSeTsNtlvqBumF8mIRJypknu1250fJCT_gva2SZML3_GH1-cM9h_GfNSKaZivm83RC3oF",
-          "cookie_valid": "1777371124",
-          "create_date": "Monday, April 27, 2026, 3:42:02 PM",
-          "expire_date": "Tuesday, April 28, 2026, 3:42:04 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/1080p.m3u8",
+          "cookie": null,
+          "cookie_valid": "1777373042",
+          "create_date": "Monday, April 27, 2026, 4:14:02 PM",
+          "expire_date": "Tuesday, April 28, 2026, 4:14:02 PM",
           "language": "ENGLISH"
         }
       ]
@@ -119,7 +111,7 @@
       "title": "New Zealand Vs Bangladesh",
       "tournament": "New Zealand tour of Bangladesh, 2026",
       "match_id": 142069,
-      "status": "LIVE",
+      "status": "COMPLETED",
       "streamingStatus": "STARTED",
       "startTime": "27 April 2026 01:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -218,101 +210,6 @@
       ]
     },
     {
-      "category": "Cricket",
-      "title": "Usa Women Vs Vanuatu Women",
-      "tournament": "ICC Women's T20I Challenge Trophy, 2026",
-      "match_id": 142059,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "27 April 2026 04:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/142059_6045_USA-W_VANW_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142059_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/142059_6045_USA-W_VANW_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/142059_6045_USA-W_VANW_fc-web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC_1771925153080.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/142059_6045_USA-W_VANW_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/142059_6045_USA-W_VANW_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142059_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "USA Women",
-          "shortName": "USA-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-USA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#132f86",
-          "cricketScore": [
-            {
-              "runs": 103,
-              "overs": "13.2",
-              "balls": "80",
-              "status": "IN_PROGRESS",
-              "wickets": 1
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        },
-        {
-          "name": "Vanuatu Women",
-          "shortName": "VANW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VAU@2x.png"
-          },
-          "isWinner": null,
-          "color": "#c9a304",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/index.m3u8",
-        "is_drm": false,
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142059_english_hls_8be464ea7740018_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142059_english_hls_8be464ea7740018_1ta-di_h264/1080p.m3u8",
-          "cookie": null,
-          "cookie_valid": "1777373042",
-          "create_date": "Monday, April 27, 2026, 4:14:02 PM",
-          "expire_date": "Tuesday, April 28, 2026, 4:14:02 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
       "category": "Tennis",
       "title": "Day 6   Main Feed",
       "tournament": "ATP Masters Mutua Madrid Open 2026",
@@ -395,6 +292,109 @@
           "cookie_valid": "1777365842",
           "create_date": "Monday, April 27, 2026, 2:14:02 PM",
           "expire_date": "Tuesday, April 28, 2026, 2:14:02 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "United Arab Emirates Vs Oman",
+      "tournament": "ICC CWC League 2, Nepal 2026",
+      "match_id": 141977,
+      "status": "COMPLETED",
+      "streamingStatus": "STARTED",
+      "startTime": "27 April 2026 09:15 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/ICC-Nepal_web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141977_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/ICC-Nepal_web.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC-Men's-Cricket-World-Cup-League-2.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ICC-Nepal_web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ICC-Nepal-old-sporty.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141977_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "United Arab Emirates",
+          "shortName": "UAE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAE@2x.png"
+          },
+          "isWinner": true,
+          "color": "#4fb319",
+          "cricketScore": [
+            {
+              "runs": 268,
+              "overs": "50",
+              "balls": "300",
+              "status": "COMPLETED",
+              "wickets": 7
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Oman",
+          "shortName": "OMN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OMA@2x.png"
+          },
+          "isWinner": false,
+          "color": "#ad1b0e",
+          "cricketScore": [
+            {
+              "runs": 243,
+              "overs": "47.5",
+              "balls": "287",
+              "status": "IN_PROGRESS",
+              "wickets": 10
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/index.m3u8",
+        "is_drm": false,
+        "fancode_cdn": "https://in-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/141977_english_hls_6a26a80dda27662_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/240p.m3u8?hdntl=Expires=1777371124~_GO=Generated~acl=/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/*~Signature=AVFFTBpelubS64fpSXfYaMhaSeTsNtlvqBumF8mIRJypknu1250fJCT_gva2SZML3_GH1-cM9h_GfNSKaZivm83RC3oF\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/360p.m3u8?hdntl=Expires=1777371124~_GO=Generated~acl=/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/*~Signature=AVFFTBpelubS64fpSXfYaMhaSeTsNtlvqBumF8mIRJypknu1250fJCT_gva2SZML3_GH1-cM9h_GfNSKaZivm83RC3oF\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/480p.m3u8?hdntl=Expires=1777371124~_GO=Generated~acl=/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/*~Signature=AVFFTBpelubS64fpSXfYaMhaSeTsNtlvqBumF8mIRJypknu1250fJCT_gva2SZML3_GH1-cM9h_GfNSKaZivm83RC3oF\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/540p.m3u8?hdntl=Expires=1777371124~_GO=Generated~acl=/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/*~Signature=AVFFTBpelubS64fpSXfYaMhaSeTsNtlvqBumF8mIRJypknu1250fJCT_gva2SZML3_GH1-cM9h_GfNSKaZivm83RC3oF\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/720p.m3u8?hdntl=Expires=1777371124~_GO=Generated~acl=/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/*~Signature=AVFFTBpelubS64fpSXfYaMhaSeTsNtlvqBumF8mIRJypknu1250fJCT_gva2SZML3_GH1-cM9h_GfNSKaZivm83RC3oF\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777371124~_GO=Generated~acl=/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/*~Signature=AVFFTBpelubS64fpSXfYaMhaSeTsNtlvqBumF8mIRJypknu1250fJCT_gva2SZML3_GH1-cM9h_GfNSKaZivm83RC3oF",
+          "cookie": "hdntl=Expires=1777371124~_GO=Generated~acl=/mumbai/141977_english_hls_6a26a80dda27662_1ta-di_h264/*~Signature=AVFFTBpelubS64fpSXfYaMhaSeTsNtlvqBumF8mIRJypknu1250fJCT_gva2SZML3_GH1-cM9h_GfNSKaZivm83RC3oF",
+          "cookie_valid": "1777371124",
+          "create_date": "Monday, April 27, 2026, 3:42:02 PM",
+          "expire_date": "Tuesday, April 28, 2026, 3:42:04 PM",
           "language": "ENGLISH"
         }
       ]
