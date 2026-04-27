@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "05:56:01 PM 27-04-2026",
+  "last_updated": "06:39:52 PM 27-04-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -42,11 +42,11 @@
           "color": "#132f86",
           "cricketScore": [
             {
-              "runs": 159,
-              "overs": "19.1",
-              "balls": "115",
-              "status": "IN_PROGRESS",
-              "wickets": 3
+              "runs": 162,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 4
             }
           ],
           "kabaddiScore": null,
@@ -55,7 +55,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -67,14 +67,22 @@
           },
           "isWinner": null,
           "color": "#c9a304",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 38,
+              "overs": "6.2",
+              "balls": "38",
+              "status": "IN_PROGRESS",
+              "wickets": 3
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -119,7 +127,7 @@
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/141862_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mutua-Madrid-Open,-ATP-1000-old--(1).png",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Mutua-Madrid-Open,-ATP-1000-old--(1).png",
+        "PLAYBACK": "",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mutua-Madrid-Open,-ATP-1000-old--(1).png",
@@ -168,11 +176,11 @@
       ],
       "language": "ENGLISH",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/index.m3u8",
+        "Primary_Playback_URL": "https://in-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/index.m3u8",
         "is_drm": false,
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "Unavailable",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
@@ -184,97 +192,14 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/1080p.m3u8",
-          "cookie": null,
-          "cookie_valid": "1777365842",
-          "create_date": "Monday, April 27, 2026, 2:14:02 PM",
-          "expire_date": "Tuesday, April 28, 2026, 2:14:02 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/240p.m3u8?hdntl=Expires=1777381793~_GO=Generated~acl=/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/*~Signature=AVFFTBpsvxiWN107gq7nE1WdXSywysvm-7a5suvcDdo_ihAb9PfV8-daMX_aqlQfrjKUUlovhZaQwsanaqa2iasY1S0N\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/360p.m3u8?hdntl=Expires=1777381793~_GO=Generated~acl=/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/*~Signature=AVFFTBpsvxiWN107gq7nE1WdXSywysvm-7a5suvcDdo_ihAb9PfV8-daMX_aqlQfrjKUUlovhZaQwsanaqa2iasY1S0N\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/480p.m3u8?hdntl=Expires=1777381793~_GO=Generated~acl=/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/*~Signature=AVFFTBpsvxiWN107gq7nE1WdXSywysvm-7a5suvcDdo_ihAb9PfV8-daMX_aqlQfrjKUUlovhZaQwsanaqa2iasY1S0N\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/540p.m3u8?hdntl=Expires=1777381793~_GO=Generated~acl=/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/*~Signature=AVFFTBpsvxiWN107gq7nE1WdXSywysvm-7a5suvcDdo_ihAb9PfV8-daMX_aqlQfrjKUUlovhZaQwsanaqa2iasY1S0N\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/720p.m3u8?hdntl=Expires=1777381793~_GO=Generated~acl=/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/*~Signature=AVFFTBpsvxiWN107gq7nE1WdXSywysvm-7a5suvcDdo_ihAb9PfV8-daMX_aqlQfrjKUUlovhZaQwsanaqa2iasY1S0N\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777381793~_GO=Generated~acl=/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/*~Signature=AVFFTBpsvxiWN107gq7nE1WdXSywysvm-7a5suvcDdo_ihAb9PfV8-daMX_aqlQfrjKUUlovhZaQwsanaqa2iasY1S0N",
+          "cookie": "hdntl=Expires=1777381793~_GO=Generated~acl=/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/*~Signature=AVFFTBpsvxiWN107gq7nE1WdXSywysvm-7a5suvcDdo_ihAb9PfV8-daMX_aqlQfrjKUUlovhZaQwsanaqa2iasY1S0N",
+          "cookie_valid": "1777381793",
+          "create_date": "Monday, April 27, 2026, 6:39:51 PM",
+          "expire_date": "Tuesday, April 28, 2026, 6:39:53 PM",
           "language": "ENGLISH"
         }
       ]
-    },
-    {
-      "category": "Cricket",
-      "title": "New Zealand Vs Bangladesh",
-      "tournament": "New Zealand tour of Bangladesh, 2026",
-      "match_id": 142069,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "27 April 2026 01:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/BAn-vs-NZ_ODIs_fc-web_1777018794830.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142069_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BAn-vs-NZ_ODIs_fc-web_1777018794830.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Bangladesh-vs-New-Zealand-Tour-Logo_1776081752959.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BAn-vs-NZ_ODIs_fc-web_1777018794830.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BAn-vs-NZ_ODIs_fc-app_1777018704011.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142069_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "New Zealand",
-          "shortName": "NZ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NZC@2x.png"
-          },
-          "isWinner": false,
-          "color": "#1d2c6b",
-          "cricketScore": [
-            {
-              "runs": 182,
-              "overs": "20",
-              "balls": "120",
-              "status": "COMPLETED",
-              "wickets": 6
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Bangladesh",
-          "shortName": "BAN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
-          },
-          "isWinner": true,
-          "color": "#397b46",
-          "cricketScore": [
-            {
-              "runs": 183,
-              "overs": "18",
-              "balls": "108",
-              "status": "IN_PROGRESS",
-              "wickets": 4
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
     },
     {
       "category": "Cricket",
@@ -612,73 +537,6 @@
       "auto_streams": null
     },
     {
-      "category": "Football",
-      "title": "Rcd Espanyol Vs Levante",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131143,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "28 April 2026 12:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131143_5427_ESL_LE_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131143_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131143_5427_ESL_LE_FC-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131143_5427_ESL_LE_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131143_5427_ESL_LE_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131143_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "RCD Espanyol",
-          "shortName": "ESL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ESL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#fff3db",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Levante",
-          "shortName": "LE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LET@2x.png"
-          },
-          "isWinner": null,
-          "color": "#598bc1",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Cricket",
       "title": "Italy Women Vs Vanuatu Women",
       "tournament": "ICC Women's T20I Challenge Trophy, 2026",
@@ -747,6 +605,73 @@
     },
     {
       "category": "Football",
+      "title": "Rcd Espanyol Vs Levante",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131143,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "28 April 2026 12:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131143_5427_ESL_LE_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131143_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131143_5427_ESL_LE_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131143_5427_ESL_LE_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131143_5427_ESL_LE_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131143_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "RCD Espanyol",
+          "shortName": "ESL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ESL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#fff3db",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Levante",
+          "shortName": "LE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LET@2x.png"
+          },
+          "isWinner": null,
+          "color": "#598bc1",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
       "title": "Cádiz Vs Las Palmas",
       "tournament": "LALIGA Hypermotion 2025-26",
       "match_id": 142041,
@@ -793,140 +718,6 @@
           },
           "isWinner": null,
           "color": "#FFFFFF",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "East Bengal Fc Vs Odisha Fc",
-      "tournament": "ISL 2025-26",
-      "match_id": 140501,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "28 April 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140501_5956_EBFC_ODS_FC-Web_1772467652152.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140501_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140501_5956_EBFC_ODS_FC-Web_1772467652152.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140501_5956_EBFC_ODS_FC-Web_1772467652152.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140501_5956_EBFC_ODS_FC-App_1772467641279.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140501_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "East Bengal FC",
-          "shortName": "EBFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-EBFC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#f3a42d",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Odisha FC",
-          "shortName": "ODS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ODISH@2x.png"
-          },
-          "isWinner": null,
-          "color": "#b02727",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "East Bengal Fc Vs Odisha Fc",
-      "tournament": "ISL 2025-26  - Regional",
-      "match_id": 141823,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "28 April 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://images.fancode.com/aig/match/v1775535874219/141823_CASACARDS_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141823_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1775535874219/141823_CASACARDS_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://images.fancode.com/aig/match/v1775535874219/141823_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1775535874219/141823_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141823_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "East Bengal FC",
-          "shortName": "EBFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-EBFC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#f3a42d",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Odisha FC",
-          "shortName": "ODS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ODISH@2x.png"
-          },
-          "isWinner": null,
-          "color": "#b02727",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1061,6 +852,140 @@
           },
           "isWinner": null,
           "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "East Bengal Fc Vs Odisha Fc",
+      "tournament": "ISL 2025-26",
+      "match_id": 140501,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "28 April 2026 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140501_5956_EBFC_ODS_FC-Web_1772467652152.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140501_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140501_5956_EBFC_ODS_FC-Web_1772467652152.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140501_5956_EBFC_ODS_FC-Web_1772467652152.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140501_5956_EBFC_ODS_FC-App_1772467641279.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140501_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "East Bengal FC",
+          "shortName": "EBFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-EBFC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#f3a42d",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Odisha FC",
+          "shortName": "ODS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ODISH@2x.png"
+          },
+          "isWinner": null,
+          "color": "#b02727",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "East Bengal Fc Vs Odisha Fc",
+      "tournament": "ISL 2025-26  - Regional",
+      "match_id": 141823,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "28 April 2026 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://images.fancode.com/aig/match/v1775535874219/141823_CASACARDS_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141823_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1775535874219/141823_CASACARDS_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1775535874219/141823_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1775535874219/141823_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141823_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "East Bengal FC",
+          "shortName": "EBFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-EBFC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#f3a42d",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Odisha FC",
+          "shortName": "ODS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ODISH@2x.png"
+          },
+          "isWinner": null,
+          "color": "#b02727",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1307,6 +1232,89 @@
               "runs": 126,
               "overs": "19.3",
               "balls": "117",
+              "status": "IN_PROGRESS",
+              "wickets": 4
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "New Zealand Vs Bangladesh",
+      "tournament": "New Zealand tour of Bangladesh, 2026",
+      "match_id": 142069,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "27 April 2026 01:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/BAn-vs-NZ_ODIs_fc-web_1777018794830.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142069_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BAn-vs-NZ_ODIs_fc-web_1777018794830.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Bangladesh-vs-New-Zealand-Tour-Logo_1776081752959.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BAn-vs-NZ_ODIs_fc-web_1777018794830.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BAn-vs-NZ_ODIs_fc-app_1777018704011.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142069_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "New Zealand",
+          "shortName": "NZ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NZC@2x.png"
+          },
+          "isWinner": false,
+          "color": "#1d2c6b",
+          "cricketScore": [
+            {
+              "runs": 182,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 6
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Bangladesh",
+          "shortName": "BAN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
+          },
+          "isWinner": true,
+          "color": "#397b46",
+          "cricketScore": [
+            {
+              "runs": 183,
+              "overs": "18",
+              "balls": "108",
               "status": "IN_PROGRESS",
               "wickets": 4
             }
@@ -2735,50 +2743,6 @@
     },
     {
       "category": "Cricket",
-      "title": "Bangladesh Vs New Zealand",
-      "tournament": "New Zealand tour of Bangladesh, 2026",
-      "short_name": "BAN vs NZ",
-      "match_id": 142069,
-      "status": "COMPLETED",
-      "startTime": "27 April 2026 01:30 PM",
-      "startDate": "17 April 2026 05:30 AM",
-      "endDate": "03 May 2026 03:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/BAn-vs-NZ_ODIs_fc-app_1777018704011.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142069_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BAn-vs-NZ_ODIs_fc-app_1777018704011.jpg",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142069_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 25,
-          "name": "Bangladesh",
-          "shortName": "BAN",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png",
-          "color": "#397b46"
-        },
-        {
-          "id": 186,
-          "name": "New Zealand",
-          "shortName": "NZ",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NZC@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NZC@2x.png",
-          "color": "#1d2c6b"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
       "title": "Rwanda Women Vs Nepal Women",
       "tournament": "ICC Women's T20I Challenge Trophy, 2026",
       "short_name": "ICC Women's Challenge Trophy",
@@ -2866,50 +2830,6 @@
       "auto_streams": null
     },
     {
-      "category": "Football",
-      "title": "Rcd Espanyol Vs Levante",
-      "tournament": "LALIGA 2025-26",
-      "short_name": "LALIGA 2025-26",
-      "match_id": 131143,
-      "status": "NOT_STARTED",
-      "startTime": "28 April 2026 12:30 AM",
-      "startDate": "15 August 2025 05:30 AM",
-      "endDate": "24 May 2026 11:45 PM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131143_5427_ESL_LE_FC-App.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131143_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131143_5427_ESL_LE_FC-App.png",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131143_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 781,
-          "name": "RCD Espanyol",
-          "shortName": "ESL",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ESL@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ESL@2x.png",
-          "color": "#fff3db"
-        },
-        {
-          "id": 11736,
-          "name": "Levante",
-          "shortName": "LE",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LET@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LET@2x.png",
-          "color": "#598bc1"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Cricket",
       "title": "Italy Women Vs Vanuatu Women",
       "tournament": "ICC Women's T20I Challenge Trophy, 2026",
@@ -2942,6 +2862,50 @@
           "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VAU@2x.png",
           "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VAU@2x.png",
           "color": "#c9a304"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Rcd Espanyol Vs Levante",
+      "tournament": "LALIGA 2025-26",
+      "short_name": "LALIGA 2025-26",
+      "match_id": 131143,
+      "status": "NOT_STARTED",
+      "startTime": "28 April 2026 12:30 AM",
+      "startDate": "15 August 2025 05:30 AM",
+      "endDate": "24 May 2026 11:45 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131143_5427_ESL_LE_FC-App.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131143_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131143_5427_ESL_LE_FC-App.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131143_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 781,
+          "name": "RCD Espanyol",
+          "shortName": "ESL",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ESL@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ESL@2x.png",
+          "color": "#fff3db"
+        },
+        {
+          "id": 11736,
+          "name": "Levante",
+          "shortName": "LE",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LET@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LET@2x.png",
+          "color": "#598bc1"
         }
       ],
       "language": "BLOODY_SWEET",
@@ -2998,6 +2962,50 @@
       "auto_streams": null
     },
     {
+      "category": "Football",
+      "title": "East Bengal Fc Vs Odisha Fc",
+      "tournament": "ISL 2025-26  - Regional",
+      "short_name": "ISL - Regional",
+      "match_id": 141823,
+      "status": "NOT_STARTED",
+      "startTime": "28 April 2026 07:30 PM",
+      "startDate": "18 February 2026 05:30 AM",
+      "endDate": "17 May 2026 11:30 PM",
+      "image": "https://images.fancode.com/aig/match/v1775535874219/141823_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141823_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1775535874219/141823_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141823_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 1602,
+          "name": "East Bengal FC",
+          "shortName": "EBFC",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-EBFC@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-EBFC@2x.png",
+          "color": "#f3a42d"
+        },
+        {
+          "id": 1454,
+          "name": "Odisha FC",
+          "shortName": "ODS",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ODISH@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ODISH@2x.png",
+          "color": "#b02727"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
       "category": "Tennis",
       "title": "Day 6   Main Feed",
       "tournament": "ATP Masters Mutua Madrid Open 2026",
@@ -3011,7 +3019,7 @@
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/141862_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mutua-Madrid-Open,-ATP-1000-old--(1).png",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Mutua-Madrid-Open,-ATP-1000-old--(1).png",
+        "PLAYBACK": "",
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141862_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
@@ -3033,14 +3041,14 @@
         }
       ],
       "language": "ENGLISH",
-      "adfree_stream": "https://in-mc-flive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/index.m3u8",
+      "adfree_stream": "https://in-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/index.m3u8",
       "dai_stream": "Unavailable",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/index.m3u8",
+        "Primary_Playback_URL": "https://in-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/index.m3u8",
         "is_drm": false,
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "Unavailable",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
@@ -3052,11 +3060,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/1080p.m3u8",
-          "cookie": null,
-          "cookie_valid": "1777365842",
-          "create_date": "Monday, April 27, 2026, 2:14:02 PM",
-          "expire_date": "Tuesday, April 28, 2026, 2:14:02 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/240p.m3u8?hdntl=Expires=1777381793~_GO=Generated~acl=/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/*~Signature=AVFFTBpsvxiWN107gq7nE1WdXSywysvm-7a5suvcDdo_ihAb9PfV8-daMX_aqlQfrjKUUlovhZaQwsanaqa2iasY1S0N\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/360p.m3u8?hdntl=Expires=1777381793~_GO=Generated~acl=/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/*~Signature=AVFFTBpsvxiWN107gq7nE1WdXSywysvm-7a5suvcDdo_ihAb9PfV8-daMX_aqlQfrjKUUlovhZaQwsanaqa2iasY1S0N\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/480p.m3u8?hdntl=Expires=1777381793~_GO=Generated~acl=/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/*~Signature=AVFFTBpsvxiWN107gq7nE1WdXSywysvm-7a5suvcDdo_ihAb9PfV8-daMX_aqlQfrjKUUlovhZaQwsanaqa2iasY1S0N\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/540p.m3u8?hdntl=Expires=1777381793~_GO=Generated~acl=/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/*~Signature=AVFFTBpsvxiWN107gq7nE1WdXSywysvm-7a5suvcDdo_ihAb9PfV8-daMX_aqlQfrjKUUlovhZaQwsanaqa2iasY1S0N\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/720p.m3u8?hdntl=Expires=1777381793~_GO=Generated~acl=/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/*~Signature=AVFFTBpsvxiWN107gq7nE1WdXSywysvm-7a5suvcDdo_ihAb9PfV8-daMX_aqlQfrjKUUlovhZaQwsanaqa2iasY1S0N\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/1080p.m3u8?hdntl=Expires=1777381793~_GO=Generated~acl=/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/*~Signature=AVFFTBpsvxiWN107gq7nE1WdXSywysvm-7a5suvcDdo_ihAb9PfV8-daMX_aqlQfrjKUUlovhZaQwsanaqa2iasY1S0N",
+          "cookie": "hdntl=Expires=1777381793~_GO=Generated~acl=/mumbai/141862_english_hls_bd78cf604069614_1ta-di_h264/*~Signature=AVFFTBpsvxiWN107gq7nE1WdXSywysvm-7a5suvcDdo_ihAb9PfV8-daMX_aqlQfrjKUUlovhZaQwsanaqa2iasY1S0N",
+          "cookie_valid": "1777381793",
+          "create_date": "Monday, April 27, 2026, 6:39:51 PM",
+          "expire_date": "Tuesday, April 28, 2026, 6:39:53 PM",
           "language": "ENGLISH"
         }
       ]
