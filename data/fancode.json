@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "05:49:04 PM 02-05-2026",
+  "last_updated": "05:56:01 PM 02-05-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -38,7 +38,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#397b46",
           "cricketScore": [
             {
@@ -65,13 +65,13 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NZC@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#1d2c6b",
           "cricketScore": [
             {
-              "runs": 83,
-              "overs": "10",
-              "balls": "60",
+              "runs": 104,
+              "overs": "11.4",
+              "balls": "70",
               "status": "IN_PROGRESS",
               "wickets": 4
             }
@@ -237,7 +237,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Brighton and Hove Albion Women",
@@ -252,7 +256,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
