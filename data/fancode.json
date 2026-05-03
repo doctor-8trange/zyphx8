@@ -2,13 +2,13 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "08:00:04 PM 03-05-2026",
+  "last_updated": "08:07:02 PM 03-05-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 53,
-  "live_matches": 8,
+  "total_matches": 52,
+  "live_matches": 7,
   "upcoming_matches": 45,
   "matches": [
     {
@@ -221,10 +221,17 @@
           "color": "#E7B75C",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Bayern Munich Women",
@@ -236,10 +243,17 @@
           "color": "#5c9dcd",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
@@ -270,65 +284,6 @@
           "language": "ENGLISH"
         }
       ]
-    },
-    {
-      "category": "Football",
-      "title": "Racing Club Vs Huesca",
-      "tournament": "LALIGA Hypermotion 2025-26",
-      "match_id": 142136,
-      "status": "LIVE",
-      "streamingStatus": "COMPLETED",
-      "startTime": "03 May 2026 05:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://images.fancode.com/aig/match/v1776595961744/142136_CASACARDS_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142136_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1776595961744/142136_CASACARDS_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://images.fancode.com/aig/match/v1776595961744/142136_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1776595961744/142136_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142136_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Racing Club",
-          "shortName": "RAC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RAC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#33E0FF",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        },
-        {
-          "name": "Huesca",
-          "shortName": "HUE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-HUE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#17289d",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
     },
     {
       "category": "Golf",
@@ -685,130 +640,6 @@
             "type": "temporary"
           },
           "clearkey": "726c1d035e94461eb0ffbd5fa829827c:c5803a7574d835b5fe841e10217320e6"
-        }
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Rc Celta Vs Elche Cf",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131164,
-      "status": "COMPLETED",
-      "streamingStatus": "STARTED",
-      "startTime": "03 May 2026 05:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131164_5427_CEV_ELC_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131164_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131164_5427_CEV_ELC_FC-Web.png",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131164_5427_CEV_ELC_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131164_5427_CEV_ELC_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131164_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "RC Celta",
-          "shortName": "CEV",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png"
-          },
-          "isWinner": null,
-          "color": "#b1d4f5",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 3,
-            "goals": [
-              {
-                "id": "16659",
-                "shortName": "B Iglesias",
-                "isOwnGoal": false,
-                "goalTime": "85'"
-              },
-              {
-                "id": "310",
-                "shortName": "I Aspas",
-                "isOwnGoal": false,
-                "goalTime": "30'"
-              },
-              {
-                "id": "157053",
-                "shortName": "H Alvarez",
-                "isOwnGoal": false,
-                "goalTime": "14'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Elche CF",
-          "shortName": "ELC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/ELC-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#253611",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "2217",
-                "shortName": "A Silva",
-                "isOwnGoal": false,
-                "goalTime": "82'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "is_drm": true,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131164_english_dash_21398_1drmta-di_h264/index.mpd",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131164_english_dash_21398_1drmta-di_h264/index.mpd",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131164_english_dash_21398_1drmta-di_h264/index.mpd",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/131164_english_dash_21398_1drmta-di_h264/index.mpd",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/131164_english_dash_21398_1drmta-di_h264/index.mpd",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "WALTER",
-        "drm": {
-          "keys": [
-            "3296e7e56e8f4a579a2c436e369fc0d1:a95413a5a086aa9d31a8763a79cdc260"
-          ],
-          "jwk": {
-            "keys": [
-              {
-                "k": "qVQTpaCGqp0xqHY6ec3CYA",
-                "kid": "Mpbn5W6PSleaLENuNp_A0Q",
-                "kty": "oct"
-              }
-            ],
-            "type": "temporary"
-          },
-          "clearkey": "3296e7e56e8f4a579a2c436e369fc0d1:a95413a5a086aa9d31a8763a79cdc260"
         }
       },
       "auto_streams": null
@@ -2899,6 +2730,140 @@
       "auto_streams": null
     },
     {
+      "category": "Cricket",
+      "title": "Tbc Vs Tbc",
+      "tournament": "Japan Premier League T20 2026",
+      "match_id": 142400,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "05 May 2026 06:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Japan-Premier-League-T20-2026_FC-WEB_2.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142400_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Japan-Premier-League-T20-2026_FC-WEB_2.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/JPL_Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Japan-Premier-League-T20-2026_FC-WEB_2.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142400_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "TBC",
+          "shortName": "TBC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/TBC-CR1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#dcdcdc",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "TBC",
+          "shortName": "TBC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/TBC-CR1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#dcdcdc",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Nepal Vs Oman",
+      "tournament": "ICC CWC League 2, Nepal 2026",
+      "match_id": 141981,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "05 May 2026 09:15 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/ICC-Nepal_web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141981_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/ICC-Nepal_web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC-Men's-Cricket-World-Cup-League-2.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ICC-Nepal_web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ICC-Nepal-old-sporty.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141981_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Nepal",
+          "shortName": "NEP",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NEP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0f266e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Oman",
+          "shortName": "OMN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OMA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ad1b0e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
       "category": "Football",
       "title": "Leicester City Women Vs Chelsea",
       "tournament": "Women's Super League 2025-26",
@@ -3019,50 +2984,6 @@
           "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BAYE@2x.png",
           "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BAYE@2x.png",
           "color": "#5c9dcd"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Rc Celta Vs Elche Cf",
-      "tournament": "LALIGA 2025-26",
-      "short_name": "LALIGA 2025-26",
-      "match_id": 131164,
-      "status": "STARTED",
-      "startTime": "03 May 2026 05:30 PM",
-      "startDate": "15 August 2025 05:30 AM",
-      "endDate": "24 May 2026 11:45 PM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131164_5427_CEV_ELC_FC-App.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131164_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131164_5427_CEV_ELC_FC-App.png",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131164_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 748,
-          "name": "RC Celta",
-          "shortName": "CEV",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png",
-          "color": "#b1d4f5"
-        },
-        {
-          "id": 2740,
-          "name": "Elche CF",
-          "shortName": "ELC",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/ELC-FT1@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/ELC-FT1@2x.png",
-          "color": "#253611"
         }
       ],
       "language": "BLOODY_SWEET",
@@ -3252,37 +3173,37 @@
     },
     {
       "category": "Football",
-      "title": "Racing Club Vs Huesca",
-      "tournament": "LALIGA Hypermotion 2025-26",
-      "short_name": "LALIGA Hypermotion",
-      "match_id": 142136,
-      "status": "COMPLETED",
-      "startTime": "03 May 2026 05:30 PM",
-      "startDate": "16 August 2025 05:30 AM",
-      "endDate": "31 May 2026 11:45 PM",
-      "image": "https://images.fancode.com/aig/match/v1776595961744/142136_CASACARDS_APP.png",
+      "title": "Al Ahli Saudi Fc Vs Al Okhdood Club",
+      "tournament": "Roshn Saudi League 2025-2026",
+      "short_name": "Saudi Pro League",
+      "match_id": 142146,
+      "status": "NOT_STARTED",
+      "startTime": "03 May 2026 11:30 PM",
+      "startDate": "29 August 2025 05:30 AM",
+      "endDate": "21 May 2026 11:45 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Al-Ahli-Saudi-FC-vs-Al-Okhdood-Club_fc-app.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142136_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1776595961744/142136_CASACARDS_APP.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142146_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Al-Ahli-Saudi-FC-vs-Al-Okhdood-Club_fc-app.jpg",
         "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142136_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142146_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "id": 1732,
-          "name": "Racing Club",
-          "shortName": "RAC",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RAC@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RAC@2x.png",
-          "color": "#33E0FF"
+          "id": 2721,
+          "name": "Al-Ahli Saudi FC",
+          "shortName": "AAS",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AAS@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AAS@2x.png",
+          "color": "#19ca84"
         },
         {
-          "id": 969,
-          "name": "Huesca",
-          "shortName": "HUE",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-HUE@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-HUE@2x.png",
-          "color": "#17289d"
+          "id": 7259,
+          "name": "Al-Okhdood Club",
+          "shortName": "ALK",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALO@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALO@2x.png",
+          "color": "#00334D"
         }
       ],
       "language": "BLOODY_SWEET",
