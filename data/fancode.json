@@ -2,15 +2,120 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "05:00:04 PM 10-05-2026",
+  "last_updated": "05:35:03 PM 10-05-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 54,
-  "live_matches": 11,
+  "total_matches": 53,
+  "live_matches": 10,
   "upcoming_matches": 43,
   "matches": [
+    {
+      "category": "Cricket",
+      "title": "Band E Amir Region Vs Speen Ghar Region",
+      "tournament": "Super Cola National T20 Cup, 2026",
+      "match_id": 142418,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "10 May 2026 03:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1777562086648.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142418_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1777562086648.png",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/National-T20-Tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1777562086648.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(7)_1777562086651.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142418_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Band-e-Amir Region",
+          "shortName": "BD",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BEA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#fa8940",
+          "cricketScore": [
+            {
+              "runs": 166,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 6
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Speen Ghar Region",
+          "shortName": "SG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SPG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#00ff8d",
+          "cricketScore": [
+            {
+              "runs": 59,
+              "overs": "7.1",
+              "balls": "43",
+              "status": "IN_PROGRESS",
+              "wickets": 2
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142418_english_hls_0e6e00efa010475_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/1080p.m3u8",
+          "cookie": null,
+          "cookie_valid": "1778491142",
+          "create_date": "Sunday, May 10, 2026, 2:49:02 PM",
+          "expire_date": "Monday, May 11, 2026, 2:49:02 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
     {
       "category": "Cricket",
       "title": "Bangladesh Vs Pakistan",
@@ -50,7 +155,7 @@
             },
             {
               "runs": 7,
-              "overs": "1.4",
+              "overs": "1.5",
               "balls": "0",
               "status": "IN_PROGRESS",
               "wickets": 0
@@ -114,116 +219,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/240p.m3u8?hdntl=Expires=1778486289~_GO=Generated~acl=/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/*~Signature=AeHCm9pW2aFfeW9zJ3dTSSCRUEhmGOapeI_fGwGEIlymo2_fe7qUJSawOwituCbraz__55YKnN3g5uRBpE-K2Q19yJEP\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/360p.m3u8?hdntl=Expires=1778486289~_GO=Generated~acl=/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/*~Signature=AeHCm9pW2aFfeW9zJ3dTSSCRUEhmGOapeI_fGwGEIlymo2_fe7qUJSawOwituCbraz__55YKnN3g5uRBpE-K2Q19yJEP\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/480p.m3u8?hdntl=Expires=1778486289~_GO=Generated~acl=/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/*~Signature=AeHCm9pW2aFfeW9zJ3dTSSCRUEhmGOapeI_fGwGEIlymo2_fe7qUJSawOwituCbraz__55YKnN3g5uRBpE-K2Q19yJEP\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/540p.m3u8?hdntl=Expires=1778486289~_GO=Generated~acl=/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/*~Signature=AeHCm9pW2aFfeW9zJ3dTSSCRUEhmGOapeI_fGwGEIlymo2_fe7qUJSawOwituCbraz__55YKnN3g5uRBpE-K2Q19yJEP\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/720p.m3u8?hdntl=Expires=1778486289~_GO=Generated~acl=/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/*~Signature=AeHCm9pW2aFfeW9zJ3dTSSCRUEhmGOapeI_fGwGEIlymo2_fe7qUJSawOwituCbraz__55YKnN3g5uRBpE-K2Q19yJEP\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/1080p.m3u8?hdntl=Expires=1778486289~_GO=Generated~acl=/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/*~Signature=AeHCm9pW2aFfeW9zJ3dTSSCRUEhmGOapeI_fGwGEIlymo2_fe7qUJSawOwituCbraz__55YKnN3g5uRBpE-K2Q19yJEP",
-          "cookie": "hdntl=Expires=1778486289~_GO=Generated~acl=/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/*~Signature=AeHCm9pW2aFfeW9zJ3dTSSCRUEhmGOapeI_fGwGEIlymo2_fe7qUJSawOwituCbraz__55YKnN3g5uRBpE-K2Q19yJEP",
-          "cookie_valid": "1778486289",
-          "create_date": "Sunday, May 10, 2026, 1:28:06 PM",
-          "expire_date": "Monday, May 11, 2026, 1:28:09 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Cricket",
-      "title": "Band E Amir Region Vs Speen Ghar Region",
-      "tournament": "Super Cola National T20 Cup, 2026",
-      "match_id": 142418,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "10 May 2026 03:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1777562086648.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142418_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1777562086648.png",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/National-T20-Tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1777562086648.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(7)_1777562086651.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142418_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Band-e-Amir Region",
-          "shortName": "BD",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BEA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#fa8940",
-          "cricketScore": [
-            {
-              "runs": 166,
-              "overs": "20",
-              "balls": "120",
-              "status": "COMPLETED",
-              "wickets": 6
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Speen Ghar Region",
-          "shortName": "SG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SPG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#00ff8d",
-          "cricketScore": [
-            {
-              "runs": 0,
-              "overs": "1",
-              "balls": "6",
-              "status": "IN_PROGRESS",
-              "wickets": 0
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142418_english_hls_0e6e00efa010475_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142418_english_hls_0e6e00efa010475_1ta-di_h264/1080p.m3u8",
-          "cookie": null,
-          "cookie_valid": "1778491142",
-          "create_date": "Sunday, May 10, 2026, 2:49:02 PM",
-          "expire_date": "Monday, May 11, 2026, 2:49:02 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/240p.m3u8?hdntl=Expires=1778501106~_GO=Generated~acl=/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/*~Signature=AeHCm9q_a0RObUe76jxfO4K8miOrjmgkTafoyj8qLqIX8Hly_z-NQbqytId5dEzGPWRPskTxy6l6H4GValSBp1bcyToH\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/360p.m3u8?hdntl=Expires=1778501106~_GO=Generated~acl=/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/*~Signature=AeHCm9q_a0RObUe76jxfO4K8miOrjmgkTafoyj8qLqIX8Hly_z-NQbqytId5dEzGPWRPskTxy6l6H4GValSBp1bcyToH\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/480p.m3u8?hdntl=Expires=1778501106~_GO=Generated~acl=/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/*~Signature=AeHCm9q_a0RObUe76jxfO4K8miOrjmgkTafoyj8qLqIX8Hly_z-NQbqytId5dEzGPWRPskTxy6l6H4GValSBp1bcyToH\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/540p.m3u8?hdntl=Expires=1778501106~_GO=Generated~acl=/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/*~Signature=AeHCm9q_a0RObUe76jxfO4K8miOrjmgkTafoyj8qLqIX8Hly_z-NQbqytId5dEzGPWRPskTxy6l6H4GValSBp1bcyToH\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/720p.m3u8?hdntl=Expires=1778501106~_GO=Generated~acl=/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/*~Signature=AeHCm9q_a0RObUe76jxfO4K8miOrjmgkTafoyj8qLqIX8Hly_z-NQbqytId5dEzGPWRPskTxy6l6H4GValSBp1bcyToH\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/1080p.m3u8?hdntl=Expires=1778501106~_GO=Generated~acl=/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/*~Signature=AeHCm9q_a0RObUe76jxfO4K8miOrjmgkTafoyj8qLqIX8Hly_z-NQbqytId5dEzGPWRPskTxy6l6H4GValSBp1bcyToH",
+          "cookie": "hdntl=Expires=1778501106~_GO=Generated~acl=/mumbai/142160_english_hls_a516757daa78342_1ta-di_h264/*~Signature=AeHCm9q_a0RObUe76jxfO4K8miOrjmgkTafoyj8qLqIX8Hly_z-NQbqytId5dEzGPWRPskTxy6l6H4GValSBp1bcyToH",
+          "cookie_valid": "1778501106",
+          "create_date": "Sunday, May 10, 2026, 5:35:02 PM",
+          "expire_date": "Monday, May 11, 2026, 5:35:06 PM",
           "language": "ENGLISH"
         }
       ]
@@ -233,7 +233,7 @@
       "title": "Kerala Blasters Fc Vs Mohammedan Sc",
       "tournament": "ISL 2025-26",
       "match_id": 140512,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "10 May 2026 05:00 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -259,7 +259,10 @@
           "color": "#0b419f",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -278,7 +281,10 @@
           "color": "#64fe94",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -325,7 +331,7 @@
       "title": "Kerala Blasters Fc Vs Mohammedan Sc",
       "tournament": "ISL 2025-26",
       "match_id": 140512,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "10 May 2026 05:00 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -351,7 +357,10 @@
           "color": "#0b419f",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -370,7 +379,10 @@
           "color": "#64fe94",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -417,7 +429,7 @@
       "title": "Kerala Blasters Fc Vs Mohammedan Sc",
       "tournament": "ISL 2025-26",
       "match_id": 140512,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "10 May 2026 05:00 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -443,7 +455,10 @@
           "color": "#0b419f",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -462,7 +477,10 @@
           "color": "#64fe94",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -509,7 +527,7 @@
       "title": "Kerala Blasters Fc Vs Mohammedan Sc",
       "tournament": "ISL 2025-26",
       "match_id": 140512,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "10 May 2026 05:00 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -535,7 +553,10 @@
           "color": "#0b419f",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -554,7 +575,10 @@
           "color": "#64fe94",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -687,95 +711,6 @@
         }
       },
       "auto_streams": null
-    },
-    {
-      "category": "Kabaddi",
-      "title": "Roaring Rhinos Vs Lightning Lions",
-      "tournament": "Young Star Kabaddi League 2026",
-      "match_id": 142464,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "10 May 2026 04:20 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://images.fancode.com/aig/match/v1778306880663/142464_CASACARDS_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142464_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1778306880663/142464_CASACARDS_APP.png",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Kabaddi-old-copy.jpg",
-        "BG_IMAGE": "https://images.fancode.com/aig/match/v1778306880663/142464_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League-old-sporty_1778400638649.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142464_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Roaring Rhinos",
-          "shortName": "RRR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-RRR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#AC5EE1",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Lightning Lions",
-          "shortName": "LL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-LL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/142464_english_hls_8358597d5630226_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/142464_english_hls_8358597d5630226_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/142464_english_hls_8358597d5630226_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/142464_english_hls_8358597d5630226_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/142464_english_hls_8358597d5630226_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142464_english_hls_8358597d5630226_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142464_english_hls_8358597d5630226_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142464_english_hls_8358597d5630226_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142464_english_hls_8358597d5630226_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142464_english_hls_8358597d5630226_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142464_english_hls_8358597d5630226_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142464_english_hls_8358597d5630226_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142464_english_hls_8358597d5630226_1ta-di_h264/1080p.m3u8",
-          "cookie": null,
-          "cookie_valid": "1778495822",
-          "create_date": "Sunday, May 10, 2026, 4:07:02 PM",
-          "expire_date": "Monday, May 11, 2026, 4:07:02 PM",
-          "language": "ENGLISH"
-        }
-      ]
     },
     {
       "category": "Football",
@@ -1505,6 +1440,73 @@
       "auto_streams": null
     },
     {
+      "category": "Cricket",
+      "title": "Speen Ghar Region Vs Mis E Ainak Region",
+      "tournament": "Super Cola National T20 Cup, 2026",
+      "match_id": 142420,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 May 2026 03:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1777562086648.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142420_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1777562086648.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/National-T20-Tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1777562086648.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(7)_1777562086651.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142420_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Speen Ghar Region",
+          "shortName": "SG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SPG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#00ff8d",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Mis-e-Ainak Region",
+          "shortName": "MAK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MISA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ffbb78",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
       "category": "Football",
       "title": "Northeast United Fc Vs Chennaiyin Fc",
       "tournament": "ISL 2025-26",
@@ -1821,73 +1823,6 @@
           "isWinner": null,
           "color": "#004996",
           "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Speen Ghar Region Vs Mis E Ainak Region",
-      "tournament": "Super Cola National T20 Cup, 2026",
-      "match_id": 142420,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "11 May 2026 03:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1777562086648.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142420_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1777562086648.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/National-T20-Tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1777562086648.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(7)_1777562086651.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142420_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Speen Ghar Region",
-          "shortName": "SG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SPG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#00ff8d",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Mis-e-Ainak Region",
-          "shortName": "MAK",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MISA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ffbb78",
-          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -3240,42 +3175,81 @@
     },
     {
       "category": "Cricket",
-      "title": "Bangladesh Vs Pakistan",
-      "tournament": "Pakistan tour of Bangladesh, 2026",
-      "short_name": "PAK tour of BAN",
-      "match_id": 142160,
-      "status": "STARTED",
-      "startTime": "08 May 2026 09:30 AM",
-      "startDate": "08 May 2026 05:30 AM",
-      "endDate": "20 May 2026 11:45 PM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Pakistan-tour-of-Bangladesh-2026-Sporty-.png",
+      "title": "Mis E Ainak Region Vs Band E Amir Region",
+      "tournament": "Super Cola National T20 Cup, 2026",
+      "match_id": 142416,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "09 May 2026 03:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1777562086648.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142160_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Pakistan-tour-of-Bangladesh-2026-Sporty-.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142416_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1777562086648.png",
         "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142160_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/National-T20-Tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1777562086648.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(7)_1777562086651.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142416_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
-      "teams": [
+      "team": [
         {
-          "id": 25,
-          "name": "Bangladesh",
-          "shortName": "BAN",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png",
-          "color": "#397b46"
+          "name": "Mis-e-Ainak Region",
+          "shortName": "MAK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MISA@2x.png"
+          },
+          "isWinner": false,
+          "color": "#ffbb78",
+          "cricketScore": [
+            {
+              "runs": 118,
+              "overs": "19.3",
+              "balls": "117",
+              "status": "COMPLETED",
+              "wickets": 10
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
-          "id": 192,
-          "name": "Pakistan",
-          "shortName": "PAK",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png",
-          "color": "#559830"
+          "name": "Band-e-Amir Region",
+          "shortName": "BD",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BEA@2x.png"
+          },
+          "isWinner": true,
+          "color": "#fa8940",
+          "cricketScore": [
+            {
+              "runs": 119,
+              "overs": "16.5",
+              "balls": "101",
+              "status": "IN_PROGRESS",
+              "wickets": 2
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
         }
       ],
       "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
       "STREAMING_CDN": {
         "language": "BLOODY_SWEET",
         "Primary_Playback_URL": null
@@ -3315,6 +3289,50 @@
           "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SPG@2x.png",
           "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SPG@2x.png",
           "color": "#00ff8d"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Bangladesh Vs Pakistan",
+      "tournament": "Pakistan tour of Bangladesh, 2026",
+      "short_name": "PAK tour of BAN",
+      "match_id": 142160,
+      "status": "STARTED",
+      "startTime": "08 May 2026 09:30 AM",
+      "startDate": "08 May 2026 05:30 AM",
+      "endDate": "20 May 2026 11:45 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Pakistan-tour-of-Bangladesh-2026-Sporty-.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142160_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Pakistan-tour-of-Bangladesh-2026-Sporty-.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142160_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 25,
+          "name": "Bangladesh",
+          "shortName": "BAN",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png",
+          "color": "#397b46"
+        },
+        {
+          "id": 192,
+          "name": "Pakistan",
+          "shortName": "PAK",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png",
+          "color": "#559830"
         }
       ],
       "language": "BLOODY_SWEET",
@@ -3579,50 +3597,6 @@
           "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
           "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
           "color": "#FF0000"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Kabaddi",
-      "title": "Roaring Rhinos Vs Lightning Lions",
-      "tournament": "Young Star Kabaddi League 2026",
-      "short_name": "YSKL",
-      "match_id": 142464,
-      "status": "STARTED",
-      "startTime": "10 May 2026 04:20 PM",
-      "startDate": "09 May 2026 05:30 AM",
-      "endDate": "15 May 2026 11:45 PM",
-      "image": "https://images.fancode.com/aig/match/v1778306880663/142464_CASACARDS_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142464_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1778306880663/142464_CASACARDS_APP.png",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142464_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 12281,
-          "name": "Roaring Rhinos",
-          "shortName": "RRR",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-RRR@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-RRR@2x.png",
-          "color": "#AC5EE1"
-        },
-        {
-          "id": 12279,
-          "name": "Lightning Lions",
-          "shortName": "LL",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-LL@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-LL@2x.png",
-          "color": "#84E3C7"
         }
       ],
       "language": "BLOODY_SWEET",
