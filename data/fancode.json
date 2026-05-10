@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "01:28:07 PM 10-05-2026",
+  "last_updated": "01:49:01 PM 10-05-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 51,
-  "live_matches": 6,
-  "upcoming_matches": 45,
+  "live_matches": 5,
+  "upcoming_matches": 46,
   "matches": [
     {
       "category": "Cricket",
@@ -69,11 +69,11 @@
           "color": "#559830",
           "cricketScore": [
             {
-              "runs": 336,
-              "overs": "86.2",
+              "runs": 349,
+              "overs": "89.4",
               "balls": "0",
               "status": "IN_PROGRESS",
-              "wickets": 5
+              "wickets": 6
             }
           ],
           "kabaddiScore": null,
@@ -174,11 +174,11 @@
           "color": "#ff8484",
           "cricketScore": [
             {
-              "runs": 15,
-              "overs": "1",
-              "balls": "6",
+              "runs": 63,
+              "overs": "3.4",
+              "balls": "23",
               "status": "IN_PROGRESS",
-              "wickets": 0
+              "wickets": 1
             }
           ],
           "kabaddiScore": null,
@@ -227,14 +227,14 @@
       "tournament": "ICC Men's T20 WC EAP Sub-regional Qualifier A + B ",
       "match_id": 142311,
       "status": "LIVE",
-      "streamingStatus": "STARTED",
+      "streamingStatus": "COMPLETED",
       "startTime": "10 May 2026 10:30 AM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1778146879769.png",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/142311_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1778146879769.png",
-        "PLAYBACK": "",
+        "PLAYBACK": null,
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC-(1)_1778270636874.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1778146879769.png",
@@ -248,7 +248,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PNG@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#f8dd5a",
           "cricketScore": [
             {
@@ -275,13 +275,13 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CKI@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#1d388d",
           "cricketScore": [
             {
-              "runs": 146,
-              "overs": "19",
-              "balls": "114",
+              "runs": 155,
+              "overs": "20",
+              "balls": "120",
               "status": "IN_PROGRESS",
               "wickets": 6
             }
@@ -297,34 +297,12 @@
           }
         }
       ],
-      "language": "ENGLISH",
+      "language": "BLOODY_SWEET",
       "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/142311_english_hls_2c998a69a592361_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/142311_english_hls_2c998a69a592361_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/142311_english_hls_2c998a69a592361_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/142311_english_hls_2c998a69a592361_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/142311_english_hls_2c998a69a592361_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142311_english_hls_2c998a69a592361_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142311_english_hls_2c998a69a592361_1ta-di_h264/index.m3u8"
-        }
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
       },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142311_english_hls_2c998a69a592361_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142311_english_hls_2c998a69a592361_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142311_english_hls_2c998a69a592361_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142311_english_hls_2c998a69a592361_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142311_english_hls_2c998a69a592361_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142311_english_hls_2c998a69a592361_1ta-di_h264/1080p.m3u8",
-          "cookie": null,
-          "cookie_valid": "1778475062",
-          "create_date": "Sunday, May 10, 2026, 10:21:02 AM",
-          "expire_date": "Monday, May 11, 2026, 10:21:02 AM",
-          "language": "ENGLISH"
-        }
-      ]
+      "auto_streams": null
     },
     {
       "category": "Cricket",
@@ -432,7 +410,7 @@
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Kabaddi-old-copy.jpg",
         "BG_IMAGE": "https://images.fancode.com/aig/match/v1778306880652/142462_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1778306880652/142462_CASACARDS_SPORTY_APP.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League-old-sporty_1778400638649.jpg",
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142462_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
@@ -1347,7 +1325,7 @@
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Kabaddi-old-copy.jpg",
         "BG_IMAGE": "https://images.fancode.com/aig/match/v1778306880669/142463_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1778306880669/142463_CASACARDS_SPORTY_APP.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League-old-sporty_1778400638649.jpg",
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142463_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
@@ -1414,7 +1392,7 @@
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Kabaddi-old-copy.jpg",
         "BG_IMAGE": "https://images.fancode.com/aig/match/v1778306880663/142464_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1778306880663/142464_CASACARDS_SPORTY_APP.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League-old-sporty_1778400638649.jpg",
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142464_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
@@ -1800,6 +1778,73 @@
       "auto_streams": null
     },
     {
+      "category": "Tennis",
+      "title": "Day 5   Main Feed",
+      "tournament": "ATP Masters Internazionali BNL d'Italia 2026",
+      "match_id": 142226,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "10 May 2026 02:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Internazionali-BNL-d'Italia_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142226_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Internazionali-BNL-d'Italia_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Internazionali-BNL-d'Italia_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142226_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Day 5 - Main Feed",
+          "shortName": "Day 5 - Main Feed",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Rome",
+          "shortName": "Rome",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
       "category": "Cricket",
       "title": "Tbc Vs Tbc",
       "tournament": "CHK Women's T20I Series 2026",
@@ -1934,6 +1979,73 @@
       "auto_streams": null
     },
     {
+      "category": "Kabaddi",
+      "title": "Jungle Panthers Vs Goat Warriors",
+      "tournament": "Young Star Kabaddi League 2026",
+      "match_id": 142465,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 May 2026 10:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://images.fancode.com/aig/match/v1778306880648/142465_CASACARDS_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142465_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1778306880648/142465_CASACARDS_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Kabaddi-old-copy.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1778306880648/142465_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League-old-sporty_1778400638649.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142465_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Jungle Panthers",
+          "shortName": "JP",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-JP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#84E3C7",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Goat Warriors",
+          "shortName": "GW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-GW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#080859",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
       "category": "Football",
       "title": "Fc Madras Vs Punjab Fc Junior",
       "tournament": "Dream Sports Championship Football 2026",
@@ -1978,73 +2090,6 @@
           "shortName": "PFC",
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PUNJ@2x.png"
-          },
-          "isWinner": null,
-          "color": "#080859",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Kabaddi",
-      "title": "Jungle Panthers Vs Goat Warriors",
-      "tournament": "Young Star Kabaddi League 2026",
-      "match_id": 142465,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "11 May 2026 10:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://images.fancode.com/aig/match/v1778306880648/142465_CASACARDS_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142465_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1778306880648/142465_CASACARDS_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Kabaddi-old-copy.jpg",
-        "BG_IMAGE": "https://images.fancode.com/aig/match/v1778306880648/142465_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1778306880648/142465_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142465_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Jungle Panthers",
-          "shortName": "JP",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-JP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Goat Warriors",
-          "shortName": "GW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-GW@2x.png"
           },
           "isWinner": null,
           "color": "#080859",
@@ -2218,7 +2263,7 @@
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Kabaddi-old-copy.jpg",
         "BG_IMAGE": "https://images.fancode.com/aig/match/v1778306880651/142466_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1778306880651/142466_CASACARDS_SPORTY_APP.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League-old-sporty_1778400638649.jpg",
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142466_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
@@ -2285,7 +2330,7 @@
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Kabaddi-old-copy.jpg",
         "BG_IMAGE": "https://images.fancode.com/aig/match/v1778306880665/142467_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1778306880665/142467_CASACARDS_SPORTY_APP.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League-old-sporty_1778400638649.jpg",
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142467_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
@@ -2364,7 +2409,7 @@
           },
           "isWinner": null,
           "color": "#80081C",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -2383,74 +2428,7 @@
           },
           "isWinner": null,
           "color": "#B8142D",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "Day 5   Main Feed",
-      "tournament": "ATP Masters Internazionali BNL d'Italia 2026",
-      "match_id": 142226,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "10 May 2026 02:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Internazionali-BNL-d'Italia_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142226_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Internazionali-BNL-d'Italia_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Internazionali-BNL-d'Italia_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142226_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Day 5 - Main Feed",
-          "shortName": "Day 5 - Main Feed",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Rome",
-          "shortName": "Rome",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -3229,7 +3207,7 @@
       "tournament": "ICC Men's T20 WC EAP Sub-regional Qualifier A + B ",
       "short_name": "EAP Sub-regional Qualifier",
       "match_id": 142311,
-      "status": "STARTED",
+      "status": "COMPLETED",
       "startTime": "10 May 2026 10:30 AM",
       "startDate": "08 May 2026 05:30 AM",
       "endDate": "18 May 2026 05:30 AM",
