@@ -2,15 +2,104 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "02:42:01 PM 13-05-2026",
+  "last_updated": "02:49:03 PM 13-05-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 40,
-  "live_matches": 0,
-  "upcoming_matches": 40,
+  "total_matches": 48,
+  "live_matches": 1,
+  "upcoming_matches": 47,
   "matches": [
+    {
+      "category": "Kabaddi",
+      "title": "Goat Warriors Vs Lightning Lions",
+      "tournament": "Young Star Kabaddi League 2026",
+      "match_id": 142478,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "13 May 2026 03:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Young-star-Kabaddi_Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142478_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Young-star-Kabaddi_Web.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Kabaddi-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Young-star-Kabaddi_Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League-old-sporty_1778462616315.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142478_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Goat Warriors",
+          "shortName": "GW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-GW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#080859",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Lightning Lions",
+          "shortName": "LL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-LL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#84E3C7",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/142478_english_hls_eff41b874f15210_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/142478_english_hls_eff41b874f15210_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/142478_english_hls_eff41b874f15210_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/142478_english_hls_eff41b874f15210_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/142478_english_hls_eff41b874f15210_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142478_english_hls_eff41b874f15210_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142478_english_hls_eff41b874f15210_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142478_english_hls_eff41b874f15210_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142478_english_hls_eff41b874f15210_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142478_english_hls_eff41b874f15210_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142478_english_hls_eff41b874f15210_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142478_english_hls_eff41b874f15210_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142478_english_hls_eff41b874f15210_1ta-di_h264/1080p.m3u8",
+          "cookie": null,
+          "cookie_valid": "1778750342",
+          "create_date": "Wednesday, May 13, 2026, 2:49:02 PM",
+          "expire_date": "Thursday, May 14, 2026, 2:49:02 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
     {
       "category": "Cricket",
       "title": "Guyana Harpy Eagles Vs West Indies Academy",
@@ -126,73 +215,6 @@
           },
           "isWinner": false,
           "color": "#1bc45e",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Kabaddi",
-      "title": "Goat Warriors Vs Lightning Lions",
-      "tournament": "Young Star Kabaddi League 2026",
-      "match_id": 142478,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 May 2026 03:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Young-star-Kabaddi_Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142478_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Young-star-Kabaddi_Web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Kabaddi-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Young-star-Kabaddi_Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League-old-sporty_1778462616315.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142478_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Goat Warriors",
-          "shortName": "GW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-GW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#080859",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Lightning Lions",
-          "shortName": "LL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-LL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1218,6 +1240,73 @@
       "auto_streams": null
     },
     {
+      "category": "Kabaddi",
+      "title": "Lightning Lions Vs River Ranger",
+      "tournament": "Young Star Kabaddi League 2026",
+      "match_id": 142483,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "14 May 2026 03:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Young-star-Kabaddi_Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142483_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Young-star-Kabaddi_Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Kabaddi-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Young-star-Kabaddi_Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League-old-sporty_1778462616315.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142483_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Lightning Lions",
+          "shortName": "LL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-LL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#84E3C7",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "River Ranger",
+          "shortName": "RR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-RR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#84E3C7",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
       "category": "Tennis",
       "title": "Day 8   Pietrangeli",
       "tournament": "ATP Masters Internazionali BNL d'Italia 2026",
@@ -1466,73 +1555,6 @@
           },
           "isWinner": null,
           "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Kabaddi",
-      "title": "Lightning Lions Vs River Ranger",
-      "tournament": "Young Star Kabaddi League 2026",
-      "match_id": 142483,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "14 May 2026 03:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Young-star-Kabaddi_Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142483_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Young-star-Kabaddi_Web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Kabaddi-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Young-star-Kabaddi_Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League-old-sporty_1778462616315.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142483_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Lightning Lions",
-          "shortName": "LL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-LL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "River Ranger",
-          "shortName": "RR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-RR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1886,7 +1908,7 @@
       "tournament": "Super Cola National T20 Cup, 2026",
       "match_id": 142423,
       "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
+      "streamingStatus": "NOT_STARTED",
       "startTime": "13 May 2026 10:00 AM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1777562086648.png",
@@ -2761,6 +2783,358 @@
         }
       ],
       "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Kabaddi",
+      "title": "Goat Warriors Vs Lightning Lions",
+      "tournament": "Young Star Kabaddi League 2026",
+      "short_name": "YSKL",
+      "match_id": 142478,
+      "status": "STARTED",
+      "startTime": "13 May 2026 03:00 PM",
+      "startDate": "09 May 2026 05:30 AM",
+      "endDate": "15 May 2026 11:45 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League-old-sporty_1778462616315.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142478_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League-old-sporty_1778462616315.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142478_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 12280,
+          "name": "Goat Warriors",
+          "shortName": "GW",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-GW@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-GW@2x.png",
+          "color": "#080859"
+        },
+        {
+          "id": 12279,
+          "name": "Lightning Lions",
+          "shortName": "LL",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-LL@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-LL@2x.png",
+          "color": "#84E3C7"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Villarreal Cf Vs Sevilla Fc",
+      "tournament": "LALIGA 2025-26",
+      "short_name": "LALIGA 2025-26",
+      "match_id": 131188,
+      "status": "NOT_STARTED",
+      "startTime": "13 May 2026 10:30 PM",
+      "startDate": "15 August 2025 05:30 AM",
+      "endDate": "24 May 2026 11:45 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131188_5427_VIL_SEV_FC-App.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131188_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131188_5427_VIL_SEV_FC-App.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131188_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 553,
+          "name": "Villarreal CF",
+          "shortName": "VIL",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VIL@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VIL@2x.png",
+          "color": "#ffc0cb"
+        },
+        {
+          "id": 534,
+          "name": "Sevilla FC",
+          "shortName": "SEV",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SVI@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SVI@2x.png",
+          "color": "#daa335"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Rcd Espanyol Vs Athletic Club",
+      "tournament": "LALIGA 2025-26",
+      "short_name": "LALIGA 2025-26",
+      "match_id": 131185,
+      "status": "NOT_STARTED",
+      "startTime": "13 May 2026 10:30 PM",
+      "startDate": "15 August 2025 05:30 AM",
+      "endDate": "24 May 2026 11:45 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131185_5427_ESL_ATH_FC-App.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131185_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131185_5427_ESL_ATH_FC-App.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131185_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 781,
+          "name": "RCD Espanyol",
+          "shortName": "ESL",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ESL@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ESL@2x.png",
+          "color": "#fff3db"
+        },
+        {
+          "id": 437,
+          "name": "Athletic Club",
+          "shortName": "ATH",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ATH@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ATH@2x.png",
+          "color": "#ff674d"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Getafe Cf Vs Rcd Mallorca",
+      "tournament": "LALIGA 2025-26",
+      "short_name": "LALIGA 2025-26",
+      "match_id": 131183,
+      "status": "NOT_STARTED",
+      "startTime": "14 May 2026 01:00 AM",
+      "startDate": "15 August 2025 05:30 AM",
+      "endDate": "24 May 2026 11:45 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131183_5427_GEF_MRC_FC-App.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131183_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131183_5427_GEF_MRC_FC-App.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131183_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 849,
+          "name": "Getafe CF",
+          "shortName": "GEF",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-GEF@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-GEF@2x.png",
+          "color": "#e0d405"
+        },
+        {
+          "id": 1413,
+          "name": "RCD Mallorca",
+          "shortName": "MRC",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MRC@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MRC@2x.png",
+          "color": "#FBCCD1"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Deportivo Alaves Vs Fc Barcelona",
+      "tournament": "LALIGA 2025-26",
+      "short_name": "LALIGA 2025-26",
+      "match_id": 131180,
+      "status": "NOT_STARTED",
+      "startTime": "14 May 2026 01:00 AM",
+      "startDate": "15 August 2025 05:30 AM",
+      "endDate": "24 May 2026 11:45 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131180_5427_ALA_BAR_FC-App.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131180_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131180_5427_ALA_BAR_FC-App.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131180_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 835,
+          "name": "Deportivo Alaves",
+          "shortName": "ALA",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALA@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALA@2x.png",
+          "color": "#537096"
+        },
+        {
+          "id": 438,
+          "name": "FC Barcelona",
+          "shortName": "BAR",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png",
+          "color": "#fee64e"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Tennis",
+      "title": "Day 8   Pietrangeli",
+      "tournament": "ATP Masters Internazionali BNL d'Italia 2026",
+      "short_name": "Internazionali BNL d'Italia",
+      "match_id": 142642,
+      "status": "NOT_STARTED",
+      "startTime": "13 May 2026 04:30 PM",
+      "startDate": "06 May 2026 05:30 AM",
+      "endDate": "18 May 2026 12:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142642_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142642_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 12121,
+          "name": "Day 8 - Pietrangeli",
+          "shortName": "ATP",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
+          "color": "#FF0000"
+        },
+        {
+          "id": 12122,
+          "name": "Rome",
+          "shortName": "LOC",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+          "color": "#FF0000"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Tennis",
+      "title": "Day 8   Supertennis Arena",
+      "tournament": "ATP Masters Internazionali BNL d'Italia 2026",
+      "short_name": "Internazionali BNL d'Italia",
+      "match_id": 142233,
+      "status": "NOT_STARTED",
+      "startTime": "13 May 2026 05:30 PM",
+      "startDate": "06 May 2026 05:30 AM",
+      "endDate": "18 May 2026 12:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142233_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142233_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 12121,
+          "name": "Day 8 - Supertennis Arena",
+          "shortName": "ATP",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
+          "color": "#FF0000"
+        },
+        {
+          "id": 12122,
+          "name": "Rome",
+          "shortName": "LOC",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+          "color": "#FF0000"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Tennis",
+      "title": "Day 7   Main Feed",
+      "tournament": "ATP Masters Internazionali BNL d'Italia 2026",
+      "short_name": "Internazionali BNL d'Italia",
+      "match_id": 142234,
+      "status": "NOT_STARTED",
+      "startTime": "13 May 2026 06:30 PM",
+      "startDate": "06 May 2026 05:30 AM",
+      "endDate": "18 May 2026 12:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142234_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142234_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 12121,
+          "name": "Day 7 - Main Feed",
+          "shortName": "ATP",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
+          "color": "#FF0000"
+        },
+        {
+          "id": 12122,
+          "name": "Rome",
+          "shortName": "LOC",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+          "color": "#FF0000"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
       "STREAMING_CDN": {
         "language": "BLOODY_SWEET",
         "Primary_Playback_URL": null
