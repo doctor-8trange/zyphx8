@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "11:21:01 PM 14-05-2026",
+  "last_updated": "12:28:32 AM 15-05-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 48,
-  "live_matches": 4,
-  "upcoming_matches": 44,
+  "total_matches": 51,
+  "live_matches": 6,
+  "upcoming_matches": 45,
   "matches": [
     {
       "category": "Football",
@@ -154,10 +154,17 @@
           "color": "#FFB700",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Real Sociedad",
@@ -169,10 +176,24 @@
           "color": "#ae7a05",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "184588",
+                "shortName": "J Martin",
+                "isOwnGoal": false,
+                "goalTime": "28'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
@@ -206,6 +227,363 @@
         }
       },
       "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Real Madrid Vs Real Oviedo",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131189,
+      "status": "NOT_STARTED",
+      "streamingStatus": "STARTED",
+      "startTime": "15 May 2026 01:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131189_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-Web.png",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131189_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Real Madrid",
+          "shortName": "RM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RMA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#004996",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Real Oviedo",
+          "shortName": "RO",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RO@2x.png"
+          },
+          "isWinner": null,
+          "color": "#A71C10",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": true,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131189_english_dash_85217_1drmta-di_h264/index.mpd",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131189_english_dash_85217_1drmta-di_h264/index.mpd",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131189_english_dash_85217_1drmta-di_h264/index.mpd",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/131189_english_dash_85217_1drmta-di_h264/index.mpd",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/131189_english_dash_85217_1drmta-di_h264/index.mpd",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "drm": {
+          "keys": [
+            "0c82d5cb86e943eb940cd9a2505b47f7:58f8183825965e40f6e07733f0702919"
+          ],
+          "jwk": {
+            "keys": [
+              {
+                "k": "WPgYOCWWXkD24Hcz8HApGQ",
+                "kid": "DILVy4bpQ-uUDNmiUFtH9w",
+                "kty": "oct"
+              }
+            ],
+            "type": "temporary"
+          },
+          "clearkey": "0c82d5cb86e943eb940cd9a2505b47f7:58f8183825965e40f6e07733f0702919"
+        }
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Real Madrid Vs Real Oviedo",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131189,
+      "status": "NOT_STARTED",
+      "streamingStatus": "STARTED",
+      "startTime": "15 May 2026 01:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131189_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-Web.png",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131189_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Real Madrid",
+          "shortName": "RM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RMA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#004996",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Real Oviedo",
+          "shortName": "RO",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RO@2x.png"
+          },
+          "isWinner": null,
+          "color": "#A71C10",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "HINDI",
+      "STREAMING_CDN": {
+        "is_drm": true,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131189_hindi_dash_39807_1drmta-di_h264/index.mpd",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131189_hindi_dash_39807_1drmta-di_h264/index.mpd",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131189_hindi_dash_39807_1drmta-di_h264/index.mpd",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/131189_hindi_dash_39807_1drmta-di_h264/index.mpd",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/131189_hindi_dash_39807_1drmta-di_h264/index.mpd",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "HINDI",
+        "X-Served-By": "ROLEX",
+        "drm": {
+          "keys": [
+            "4e8cf49fb8814793a0b0f7b9b4f1211e:96e15c387b4133399b4c94ea1ca78cd5"
+          ],
+          "jwk": {
+            "keys": [
+              {
+                "k": "luFcOHtBMzmbTJTqHKeM1Q",
+                "kid": "Toz0n7iBR5OgsPe5tPEhHg",
+                "kty": "oct"
+              }
+            ],
+            "type": "temporary"
+          },
+          "clearkey": "4e8cf49fb8814793a0b0f7b9b4f1211e:96e15c387b4133399b4c94ea1ca78cd5"
+        }
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Real Madrid Vs Real Oviedo",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131189,
+      "status": "NOT_STARTED",
+      "streamingStatus": "STARTED",
+      "startTime": "15 May 2026 01:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131189_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-Web.png",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131189_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Real Madrid",
+          "shortName": "RM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RMA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#004996",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Real Oviedo",
+          "shortName": "RO",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RO@2x.png"
+          },
+          "isWinner": null,
+          "color": "#A71C10",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BENGALI",
+      "STREAMING_CDN": {
+        "is_drm": true,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131189_bengali_dash_9141_1drmta-di_h264/index.mpd",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131189_bengali_dash_9141_1drmta-di_h264/index.mpd",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131189_bengali_dash_9141_1drmta-di_h264/index.mpd",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/131189_bengali_dash_9141_1drmta-di_h264/index.mpd",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/131189_bengali_dash_9141_1drmta-di_h264/index.mpd",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "BENGALI",
+        "X-Served-By": "ROLEX",
+        "drm": {
+          "keys": [
+            "61b75c45ae934bb2bc573b999d9171c7:efe99e6eafc7a19560e72d40cab1d058"
+          ],
+          "jwk": {
+            "keys": [
+              {
+                "k": "7-mebq_HoZVg5y1AyrHQWA",
+                "kid": "YbdcRa6TS7K8VzuZnZFxxw",
+                "kty": "oct"
+              }
+            ],
+            "type": "temporary"
+          },
+          "clearkey": "61b75c45ae934bb2bc573b999d9171c7:efe99e6eafc7a19560e72d40cab1d058"
+        }
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Bradford City Vs Bolton Wanderers",
+      "tournament": "League One 2025-26",
+      "match_id": 142492,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "15 May 2026 12:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://images.fancode.com/aig/match/v1778743493092/142492_CASACARDS_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142492_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1778743493092/142492_CASACARDS_APP.png",
+        "PLAYBACK": "",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/EFL-League-One.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1778743493092/142492_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1778743493092/142492_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142492_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Bradford City",
+          "shortName": "BC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BRAD@2x.png"
+          },
+          "isWinner": null,
+          "color": "#df7b00",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        },
+        {
+          "name": "Bolton Wanderers",
+          "shortName": "BOL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BOL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#263C7E",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-plive.fancode.com/mumbai/142492_english_hls_f47a12cfe273275_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-plive.fancode.com/mumbai/142492_english_hls_f47a12cfe273275_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-plive.fancode.com/mumbai/142492_english_hls_f47a12cfe273275_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-plive.fancode.com/mumbai/142492_english_hls_f47a12cfe273275_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-plive.fancode.com/mumbai/142492_english_hls_f47a12cfe273275_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "LOKI",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142492_english_hls_f47a12cfe273275_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142492_english_hls_f47a12cfe273275_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": false,
+          "cookie": null,
+          "cookie_valid": null,
+          "create_date": null,
+          "expire_date": null,
+          "language": "ENGLISH"
+        }
+      ]
     },
     {
       "category": "Tennis",
@@ -384,73 +762,6 @@
           "language": "ENGLISH"
         }
       ]
-    },
-    {
-      "category": "Football",
-      "title": "Real Madrid Vs Real Oviedo",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131189,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "15 May 2026 01:00 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131189_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131189_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Real Madrid",
-          "shortName": "RM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RMA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#004996",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Real Oviedo",
-          "shortName": "RO",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RO@2x.png"
-          },
-          "isWinner": null,
-          "color": "#A71C10",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
     },
     {
       "category": "Cricket",
@@ -654,73 +965,6 @@
       "auto_streams": null
     },
     {
-      "category": "Kabaddi",
-      "title": "Jungle Panthers Vs Raging Bulls",
-      "tournament": "Young Star Kabaddi League 2026",
-      "match_id": 142485,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "15 May 2026 10:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Young-star-Kabaddi_Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142485_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Young-star-Kabaddi_Web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Kabaddi-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Young-star-Kabaddi_Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League-old-sporty_1778462616315.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142485_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Jungle Panthers",
-          "shortName": "JP",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-JP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Raging Bulls",
-          "shortName": "RB",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-RB@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Football",
       "title": "Mohammedan Sc Vs Mumbai City Fc",
       "tournament": "ISL 2025-26",
@@ -768,6 +1012,73 @@
           },
           "isWinner": null,
           "color": "#3d8ac6",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Kabaddi",
+      "title": "Jungle Panthers Vs Raging Bulls",
+      "tournament": "Young Star Kabaddi League 2026",
+      "match_id": 142485,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "15 May 2026 10:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Young-star-Kabaddi_Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142485_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Young-star-Kabaddi_Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Kabaddi-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Young-star-Kabaddi_Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Young-Star-Kabaddi-League-old-sporty_1778462616315.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142485_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Jungle Panthers",
+          "shortName": "JP",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-JP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#84E3C7",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Raging Bulls",
+          "shortName": "RB",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/kb-flags/FC-RB@2x.png"
+          },
+          "isWinner": null,
+          "color": "#84E3C7",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -902,73 +1213,6 @@
           },
           "isWinner": null,
           "color": "#CDA24E",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Bradford City Vs Bolton Wanderers",
-      "tournament": "League One 2025-26",
-      "match_id": 142492,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "15 May 2026 12:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://images.fancode.com/aig/match/v1778743493092/142492_CASACARDS_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142492_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1778743493092/142492_CASACARDS_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/EFL-League-One.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://images.fancode.com/aig/match/v1778743493092/142492_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1778743493092/142492_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142492_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Bradford City",
-          "shortName": "BC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BRAD@2x.png"
-          },
-          "isWinner": null,
-          "color": "#df7b00",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Bolton Wanderers",
-          "shortName": "BOL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BOL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#263C7E",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1592,73 +1836,6 @@
       "auto_streams": null
     },
     {
-      "category": "Golf",
-      "title": "Day 2",
-      "tournament": "PGA Championship 2026",
-      "match_id": 142628,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "15 May 2026 10:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/PGA-Championship-old-.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142628_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/PGA-Championship-old-.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/PGA-Championship-old-.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/PGA-ChampionshipSporty-.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142628_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Day 2",
-          "shortName": "Day 2",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Aronimink",
-          "shortName": "Aronimink",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Cricket",
       "title": "Indonesia Vs Vanuatu",
       "tournament": "ICC Men's T20 WC EAP Sub-regional Qualifier A + B",
@@ -1706,6 +1883,73 @@
           },
           "isWinner": null,
           "color": "#c9a304",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Golf",
+      "title": "Day 2",
+      "tournament": "PGA Championship 2026",
+      "match_id": 142628,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "15 May 2026 10:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/PGA-Championship-old-.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142628_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/PGA-Championship-old-.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/PGA-Championship-old-.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/PGA-ChampionshipSporty-.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142628_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Day 2",
+          "shortName": "Day 2",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Aronimink",
+          "shortName": "Aronimink",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2886,6 +3130,50 @@
       "auto_streams": null
     },
     {
+      "category": "Football",
+      "title": "Real Madrid Vs Real Oviedo",
+      "tournament": "LALIGA 2025-26",
+      "short_name": "LALIGA 2025-26",
+      "match_id": 131189,
+      "status": "STARTED",
+      "startTime": "15 May 2026 01:00 AM",
+      "startDate": "15 August 2025 05:30 AM",
+      "endDate": "24 May 2026 11:45 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-App.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131189_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-App.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131189_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 453,
+          "name": "Real Madrid",
+          "shortName": "RM",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RMA@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RMA@2x.png",
+          "color": "#004996"
+        },
+        {
+          "id": 11590,
+          "name": "Real Oviedo",
+          "shortName": "RO",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RO@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RO@2x.png",
+          "color": "#A71C10"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
       "category": "Tennis",
       "title": "Qf: M. Landaluce Vs D. Medvedev",
       "tournament": "ATP Masters Internazionali BNL d'Italia 2026",
@@ -2962,50 +3250,6 @@
           "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png",
           "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png",
           "color": "#141414"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Real Madrid Vs Real Oviedo",
-      "tournament": "LALIGA 2025-26",
-      "short_name": "LALIGA 2025-26",
-      "match_id": 131189,
-      "status": "NOT_STARTED",
-      "startTime": "15 May 2026 01:00 AM",
-      "startDate": "15 August 2025 05:30 AM",
-      "endDate": "24 May 2026 11:45 PM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-App.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131189_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131189_5427_RM_RO_FC-App.png",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131189_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 453,
-          "name": "Real Madrid",
-          "shortName": "RM",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RMA@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RMA@2x.png",
-          "color": "#004996"
-        },
-        {
-          "id": 11590,
-          "name": "Real Oviedo",
-          "shortName": "RO",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RO@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RO@2x.png",
-          "color": "#A71C10"
         }
       ],
       "language": "BLOODY_SWEET",
@@ -3138,6 +3382,50 @@
           "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
           "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
           "color": "#FF0000"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Bradford City Vs Bolton Wanderers",
+      "tournament": "League One 2025-26",
+      "short_name": "League One",
+      "match_id": 142492,
+      "status": "STARTED",
+      "startTime": "15 May 2026 12:30 AM",
+      "startDate": "02 August 2025 05:30 AM",
+      "endDate": "31 May 2026 11:30 PM",
+      "image": "https://images.fancode.com/aig/match/v1778743493092/142492_CASACARDS_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142492_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1778743493092/142492_CASACARDS_APP.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142492_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 6580,
+          "name": "Bradford City",
+          "shortName": "BC",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BRAD@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BRAD@2x.png",
+          "color": "#df7b00"
+        },
+        {
+          "id": 953,
+          "name": "Bolton Wanderers",
+          "shortName": "BOL",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BOL@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BOL@2x.png",
+          "color": "#263C7E"
         }
       ],
       "language": "BLOODY_SWEET",
