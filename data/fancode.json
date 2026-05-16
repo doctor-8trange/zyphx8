@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "12:49:03 PM 16-05-2026",
+  "last_updated": "01:07:03 PM 16-05-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 40,
+  "total_matches": 50,
   "live_matches": 6,
-  "upcoming_matches": 34,
+  "upcoming_matches": 44,
   "matches": [
     {
       "category": "Cricket",
@@ -42,11 +42,11 @@
           "color": "#397b46",
           "cricketScore": [
             {
-              "runs": 109,
-              "overs": "35.3",
+              "runs": 116,
+              "overs": "38.3",
               "balls": "0",
               "status": "IN_PROGRESS",
-              "wickets": 4
+              "wickets": 6
             }
           ],
           "kabaddiScore": null,
@@ -137,14 +137,22 @@
           },
           "isWinner": null,
           "color": "#E8112D",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 8,
+              "overs": "1.1",
+              "balls": "7",
+              "status": "IN_PROGRESS",
+              "wickets": 1
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         },
@@ -226,14 +234,22 @@
           },
           "isWinner": null,
           "color": "#ed7a00",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 2,
+              "overs": "1",
+              "balls": "6",
+              "status": "IN_PROGRESS",
+              "wickets": 1
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         },
@@ -320,7 +336,7 @@
               "runs": 195,
               "overs": "43.3",
               "balls": "261",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 10
             }
           ],
@@ -330,7 +346,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -342,7 +358,104 @@
           },
           "isWinner": null,
           "color": "#0f266e",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 10,
+              "overs": "3",
+              "balls": "18",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-plive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-plive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-plive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-plive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-plive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "LOKI",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/240p.m3u8?hdntl=Expires=1779003427~_GO=Generated~acl=/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/*~Signature=AQoI29IlhldfUv3LU9uXvMd97yLktxMKzISas5QBmZIXbv3GyX2Q7x9wMNyQrqe2FLXJRCMPQOYLnvXjLlR8SF8yPY8H\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/360p.m3u8?hdntl=Expires=1779003427~_GO=Generated~acl=/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/*~Signature=AQoI29IlhldfUv3LU9uXvMd97yLktxMKzISas5QBmZIXbv3GyX2Q7x9wMNyQrqe2FLXJRCMPQOYLnvXjLlR8SF8yPY8H\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/480p.m3u8?hdntl=Expires=1779003427~_GO=Generated~acl=/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/*~Signature=AQoI29IlhldfUv3LU9uXvMd97yLktxMKzISas5QBmZIXbv3GyX2Q7x9wMNyQrqe2FLXJRCMPQOYLnvXjLlR8SF8yPY8H\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/540p.m3u8?hdntl=Expires=1779003427~_GO=Generated~acl=/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/*~Signature=AQoI29IlhldfUv3LU9uXvMd97yLktxMKzISas5QBmZIXbv3GyX2Q7x9wMNyQrqe2FLXJRCMPQOYLnvXjLlR8SF8yPY8H\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/720p.m3u8?hdntl=Expires=1779003427~_GO=Generated~acl=/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/*~Signature=AQoI29IlhldfUv3LU9uXvMd97yLktxMKzISas5QBmZIXbv3GyX2Q7x9wMNyQrqe2FLXJRCMPQOYLnvXjLlR8SF8yPY8H\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/1080p.m3u8?hdntl=Expires=1779003427~_GO=Generated~acl=/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/*~Signature=AQoI29IlhldfUv3LU9uXvMd97yLktxMKzISas5QBmZIXbv3GyX2Q7x9wMNyQrqe2FLXJRCMPQOYLnvXjLlR8SF8yPY8H",
+          "cookie": "hdntl=Expires=1779003427~_GO=Generated~acl=/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/*~Signature=AQoI29IlhldfUv3LU9uXvMd97yLktxMKzISas5QBmZIXbv3GyX2Q7x9wMNyQrqe2FLXJRCMPQOYLnvXjLlR8SF8yPY8H",
+          "cookie_valid": "1779003427",
+          "create_date": "Saturday, May 16, 2026, 1:07:02 PM",
+          "expire_date": "Sunday, May 17, 2026, 1:07:07 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "MotoGP",
+      "title": "Catalonia Gp",
+      "tournament": "MONSTER ENERGY GRAND PRIX OF CATALUNYA 2026",
+      "match_id": 139943,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "16 May 2026 12:10 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/MONSTER_CATALUNYA_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139943_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/MONSTER_CATALUNYA_fc-web.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/CATALONIA_1769178007391.jpg",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Moto_GP.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/MONSTER_CATALUNYA_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Moto_GP.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139943_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Day 2",
+          "shortName": "SR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/motogp-flags/FC-MG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#EE0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Barcelona",
+          "shortName": "Barcelona",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/motogp-flags/FC-LOT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#EE0000",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -357,28 +470,28 @@
       "language": "ENGLISH",
       "STREAMING_CDN": {
         "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/index.m3u8",
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "Unavailable",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH",
         "X-Served-By": "ROLEX",
         "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/index.m3u8"
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/139943_english_hls_f219730ccd5752_1ta-di_h264/index.m3u8"
         }
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142291_english_hls_ff8a0c3ef280931_1ta-di_h264/1080p.m3u8",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/1080p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=5408736,AVERAGE-BANDWIDTH=5408736,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-fblive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/1080p5.m3u8",
           "cookie": null,
-          "cookie_valid": "1778988603",
-          "create_date": "Saturday, May 16, 2026, 9:00:03 AM",
-          "expire_date": "Sunday, May 17, 2026, 9:00:03 AM",
+          "cookie_valid": "1778999404",
+          "create_date": "Saturday, May 16, 2026, 12:00:04 PM",
+          "expire_date": "Sunday, May 17, 2026, 12:00:04 PM",
           "language": "ENGLISH"
         }
       ]
@@ -388,7 +501,7 @@
       "title": "Samoa Vs Japan",
       "tournament": "ICC Men's T20 WC EAP Sub-regional Qualifier A + B",
       "match_id": 142319,
-      "status": "LIVE",
+      "status": "COMPLETED",
       "streamingStatus": "STARTED",
       "startTime": "16 May 2026 10:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -484,95 +597,6 @@
           "cookie_valid": "1778993042",
           "create_date": "Saturday, May 16, 2026, 10:14:02 AM",
           "expire_date": "Sunday, May 17, 2026, 10:14:02 AM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "MotoGP",
-      "title": "Catalonia Gp",
-      "tournament": "MONSTER ENERGY GRAND PRIX OF CATALUNYA 2026",
-      "match_id": 139943,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "16 May 2026 12:10 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/MONSTER_CATALUNYA_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139943_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/MONSTER_CATALUNYA_fc-web.jpg",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/CATALONIA_1769178007391.jpg",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Moto_GP.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/MONSTER_CATALUNYA_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Moto_GP.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139943_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Day 2",
-          "shortName": "SR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/motogp-flags/FC-MG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#EE0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Barcelona",
-          "shortName": "Barcelona",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/motogp-flags/FC-LOT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#EE0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/139943_english_hls_f219730ccd5752_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/1080p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=5408736,AVERAGE-BANDWIDTH=5408736,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-fblive.fancode.com/mumbai/139943_english_hls_f219730ccd5752_1ta-di_h264/1080p5.m3u8",
-          "cookie": null,
-          "cookie_valid": "1778999404",
-          "create_date": "Saturday, May 16, 2026, 12:00:04 PM",
-          "expire_date": "Sunday, May 17, 2026, 12:00:04 PM",
           "language": "ENGLISH"
         }
       ]
@@ -1477,7 +1501,7 @@
           },
           "isWinner": null,
           "color": "#4091d7",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1496,7 +1520,7 @@
           },
           "isWinner": null,
           "color": "#112d64",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1544,7 +1568,7 @@
           },
           "isWinner": null,
           "color": "#c66a63",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1563,7 +1587,7 @@
           },
           "isWinner": null,
           "color": "#E8112D",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -2849,6 +2873,446 @@
         }
       ],
       "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Bangladesh Vs Pakistan",
+      "tournament": "Pakistan tour of Bangladesh, 2026",
+      "short_name": "PAK tour of BAN",
+      "match_id": 142161,
+      "status": "STARTED",
+      "startTime": "16 May 2026 09:30 AM",
+      "startDate": "08 May 2026 05:30 AM",
+      "endDate": "20 May 2026 11:45 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Pakistan-tour-of-Bangladesh-2026-Sporty-.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142161_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Pakistan-tour-of-Bangladesh-2026-Sporty-.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142161_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 25,
+          "name": "Bangladesh",
+          "shortName": "BAN",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png",
+          "color": "#397b46"
+        },
+        {
+          "id": 192,
+          "name": "Pakistan",
+          "shortName": "PAK",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png",
+          "color": "#559830"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Guernsey Vs Sweden",
+      "tournament": "ICC Men's T20 WC Europe Sub Regional Qualifier A",
+      "short_name": "Europe Qualifiers",
+      "match_id": 142426,
+      "status": "STARTED",
+      "startTime": "16 May 2026 01:00 PM",
+      "startDate": "16 May 2026 05:30 AM",
+      "endDate": "23 May 2026 05:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142426_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142426_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 93,
+          "name": "Guernsey",
+          "shortName": "GSY",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUER@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUER@2x.png",
+          "color": "#E8112D"
+        },
+        {
+          "id": 224,
+          "name": "Sweden",
+          "shortName": "SWE",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SWE@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SWE@2x.png",
+          "color": "#508be1"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Cyprus Vs France",
+      "tournament": "ICC Men's T20 WC Europe Sub Regional Qualifier A",
+      "short_name": "Europe Qualifiers",
+      "match_id": 142425,
+      "status": "STARTED",
+      "startTime": "16 May 2026 01:00 PM",
+      "startDate": "16 May 2026 05:30 AM",
+      "endDate": "23 May 2026 05:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142425_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142425_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 61,
+          "name": "Cyprus",
+          "shortName": "CYP",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CYR@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CYR@2x.png",
+          "color": "#ed7a00"
+        },
+        {
+          "id": 85,
+          "name": "France",
+          "shortName": "FRA",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-FRC@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-FRC@2x.png",
+          "color": "#112d64"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "MotoGP",
+      "title": "Day 2",
+      "tournament": "MONSTER ENERGY GRAND PRIX OF CATALUNYA 2026",
+      "short_name": "Catalonia GP",
+      "match_id": 139943,
+      "status": "STARTED",
+      "startTime": "16 May 2026 12:10 PM",
+      "startDate": "15 May 2026 05:30 AM",
+      "endDate": "17 May 2026 11:30 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Moto_GP.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139943_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Moto_GP.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139943_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 9463,
+          "name": "Day 2",
+          "shortName": "SR",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/motogp-flags/FC-MG@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/motogp-flags/FC-MG@2x.png",
+          "color": "#EE0000"
+        },
+        {
+          "id": 9462,
+          "name": "Barcelona",
+          "shortName": "LOC",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/motogp-flags/FC-LOT@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/motogp-flags/FC-LOT@2x.png",
+          "color": "#EE0000"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Austria Vs Malta",
+      "tournament": "ICC Men's T20 WC Europe Sub Regional Qualifier A",
+      "short_name": "Europe Qualifiers",
+      "match_id": 142428,
+      "status": "NOT_STARTED",
+      "startTime": "16 May 2026 06:00 PM",
+      "startDate": "16 May 2026 05:30 AM",
+      "endDate": "23 May 2026 05:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142428_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142428_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 15,
+          "name": "Austria",
+          "shortName": "AUT",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUST@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUST@2x.png",
+          "color": "#af1b24"
+        },
+        {
+          "id": 166,
+          "name": "Malta",
+          "shortName": "MAL",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MAL@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MAL@2x.png",
+          "color": "#c66a63"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Jersey Vs Switzerland",
+      "tournament": "ICC Men's T20 WC Europe Sub Regional Qualifier A",
+      "short_name": "Europe Qualifiers",
+      "match_id": 142427,
+      "status": "NOT_STARTED",
+      "startTime": "16 May 2026 06:00 PM",
+      "startDate": "16 May 2026 05:30 AM",
+      "endDate": "23 May 2026 05:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142427_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142427_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 123,
+          "name": "Jersey",
+          "shortName": "JER",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-JERSE@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-JERSE@2x.png",
+          "color": "#D7B524"
+        },
+        {
+          "id": 227,
+          "name": "Switzerland",
+          "shortName": "SUI",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SWIT@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SWIT@2x.png",
+          "color": "#cd2a1c"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Chennaiyin Fc Vs Bengaluru Fc",
+      "tournament": "ISL 2025-26",
+      "short_name": "Indian Super League",
+      "match_id": 140521,
+      "status": "NOT_STARTED",
+      "startTime": "16 May 2026 05:00 PM",
+      "startDate": "14 February 2026 05:30 AM",
+      "endDate": "17 May 2026 11:30 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140521_5956_CFC_BFC_FC-App_1772478790906.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140521_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140521_5956_CFC_BFC_FC-App_1772478790906.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140521_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 476,
+          "name": "Chennaiyin FC",
+          "shortName": "CFC",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHF@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHF@2x.png",
+          "color": "#8D6402"
+        },
+        {
+          "id": 820,
+          "name": "Bengaluru FC",
+          "shortName": "BFC",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BEG@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BEG@2x.png",
+          "color": "#11318E"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "West Ham United Women Vs Manchester City Women",
+      "tournament": "Women's Super League 2025-26",
+      "short_name": "WSL",
+      "match_id": 142177,
+      "status": "NOT_STARTED",
+      "startTime": "16 May 2026 05:30 PM",
+      "startDate": "10 January 2026 05:30 AM",
+      "endDate": "10 May 2026 11:45 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/142177_5826_WHU-W_MCI-W_FC-App.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142177_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/142177_5826_WHU-W_MCI-W_FC-App.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142177_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 6168,
+          "name": "West Ham United Women",
+          "shortName": "WHU-W",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WHUW@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WHUW@2x.png",
+          "color": "#d43e5a"
+        },
+        {
+          "id": 3248,
+          "name": "Manchester City Women",
+          "shortName": "MCI-W",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MCW@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MCW@2x.png",
+          "color": "#51a1df"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Nepal Vs Usa",
+      "tournament": "ICC CWC League 2 Nepal, 2026",
+      "short_name": "ICC CWC League 2 Nepal",
+      "match_id": 142291,
+      "status": "STARTED",
+      "startTime": "16 May 2026 09:15 AM",
+      "startDate": "12 May 2026 05:30 AM",
+      "endDate": "22 May 2026 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/ICC-CWC_web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142291_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/ICC-CWC_web.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142291_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 181,
+          "name": "Nepal",
+          "shortName": "NEP",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NEP@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NEP@2x.png",
+          "color": "#0f266e"
+        },
+        {
+          "id": 247,
+          "name": "USA",
+          "shortName": "USA",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-USA@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-USA@2x.png",
+          "color": "#132f86"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Japan Vs Samoa",
+      "tournament": "ICC Men's T20 WC EAP Sub-regional Qualifier A + B",
+      "short_name": "EAP Sub-regional Qualifier",
+      "match_id": 142319,
+      "status": "STARTED",
+      "startTime": "16 May 2026 10:30 AM",
+      "startDate": "08 May 2026 05:30 AM",
+      "endDate": "18 May 2026 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1778146879769.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142319_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1778146879769.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142319_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 122,
+          "name": "Japan",
+          "shortName": "JPN",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-JPN@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-JPN@2x.png",
+          "color": "#9a0009"
+        },
+        {
+          "id": 262,
+          "name": "Samoa",
+          "shortName": "SAM",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SAO@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SAO@2x.png",
+          "color": "#ac362c"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
       "STREAMING_CDN": {
         "language": "BLOODY_SWEET",
         "Primary_Playback_URL": null
