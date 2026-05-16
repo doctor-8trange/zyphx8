@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:07:01 PM 16-05-2026",
+  "last_updated": "09:14:04 PM 16-05-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 43,
-  "live_matches": 2,
-  "upcoming_matches": 41,
+  "total_matches": 52,
+  "live_matches": 3,
+  "upcoming_matches": 49,
   "matches": [
     {
       "category": "Football",
@@ -904,15 +904,15 @@
       "title": "Uzbekistan Vs Korea Republic",
       "tournament": "AFC U17 Asian Cup Saudi Arabia 2026",
       "match_id": 142550,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "16 May 2026 09:30 PM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/142550_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "PLAYBACK": null,
+        "PLAYBACK": "",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ChatGPT-Image-May-5,-2026,-10_42_49-PM.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
@@ -933,11 +933,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "Korea Republic",
@@ -952,19 +948,37 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/142550_english_hls_f74e6ede0c33357_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/142550_english_hls_f74e6ede0c33357_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/142550_english_hls_f74e6ede0c33357_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/142550_english_hls_f74e6ede0c33357_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/142550_english_hls_f74e6ede0c33357_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142550_english_hls_f74e6ede0c33357_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142550_english_hls_f74e6ede0c33357_1ta-di_h264/index.m3u8"
+        }
       },
-      "auto_streams": null
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142550_english_hls_f74e6ede0c33357_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142550_english_hls_f74e6ede0c33357_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142550_english_hls_f74e6ede0c33357_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142550_english_hls_f74e6ede0c33357_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142550_english_hls_f74e6ede0c33357_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142550_english_hls_f74e6ede0c33357_1ta-di_h264/1080p.m3u8",
+          "cookie": null,
+          "cookie_valid": "1779032643",
+          "create_date": "Saturday, May 16, 2026, 9:14:03 PM",
+          "expire_date": "Sunday, May 17, 2026, 9:14:03 PM",
+          "language": "ENGLISH"
+        }
+      ]
     },
     {
       "category": "Football",
@@ -3168,6 +3182,402 @@
         }
       ],
       "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Odisha Fc Vs Punjab Fc",
+      "tournament": "ISL 2025-26",
+      "short_name": "Indian Super League",
+      "match_id": 140435,
+      "status": "STARTED",
+      "startTime": "16 May 2026 07:30 PM",
+      "startDate": "14 February 2026 05:30 AM",
+      "endDate": "17 May 2026 11:30 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140435_5956_ODS_PFC_fc-app_1771412878085.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140435_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140435_5956_ODS_PFC_fc-app_1771412878085.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140435_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 1454,
+          "name": "Odisha FC",
+          "shortName": "ODS",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ODISH@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ODISH@2x.png",
+          "color": "#b02727"
+        },
+        {
+          "id": 1603,
+          "name": "Punjab FC",
+          "shortName": "PFC",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PUNJ@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PUNJ@2x.png",
+          "color": "#959490"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Bangladesh Vs Pakistan",
+      "tournament": "Pakistan tour of Bangladesh, 2026",
+      "short_name": "PAK tour of BAN",
+      "match_id": 142161,
+      "status": "PAUSED",
+      "startTime": "16 May 2026 09:30 AM",
+      "startDate": "08 May 2026 05:30 AM",
+      "endDate": "20 May 2026 11:45 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Pakistan-tour-of-Bangladesh-2026-Sporty-.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142161_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Pakistan-tour-of-Bangladesh-2026-Sporty-.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142161_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 25,
+          "name": "Bangladesh",
+          "shortName": "BAN",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png",
+          "color": "#397b46"
+        },
+        {
+          "id": 192,
+          "name": "Pakistan",
+          "shortName": "PAK",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png",
+          "color": "#559830"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Croatia Vs France Cricket",
+      "tournament": "ICC Men's T20 WC Europe Sub Regional Qualifier A",
+      "short_name": "Europe Qualifiers",
+      "match_id": 142430,
+      "status": "NOT_STARTED",
+      "startTime": "17 May 2026 01:00 PM",
+      "startDate": "16 May 2026 05:30 AM",
+      "endDate": "23 May 2026 05:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142430_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142430_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 109,
+          "name": "Croatia",
+          "shortName": "CRO",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CROA@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CROA@2x.png",
+          "color": "#4091d7"
+        },
+        {
+          "id": 85,
+          "name": "France Cricket",
+          "shortName": "FRA",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-FRC@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-FRC@2x.png",
+          "color": "#112d64"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Malta Vs Guernsey",
+      "tournament": "ICC Men's T20 WC Europe Sub Regional Qualifier A",
+      "short_name": "Europe Qualifiers",
+      "match_id": 142429,
+      "status": "NOT_STARTED",
+      "startTime": "17 May 2026 01:00 PM",
+      "startDate": "16 May 2026 05:30 AM",
+      "endDate": "23 May 2026 05:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142429_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142429_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 166,
+          "name": "Malta",
+          "shortName": "MAL",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MAL@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MAL@2x.png",
+          "color": "#c66a63"
+        },
+        {
+          "id": 93,
+          "name": "Guernsey",
+          "shortName": "GSY",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUER@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUER@2x.png",
+          "color": "#E8112D"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Al Hilal Sfc Vs Neom Sc",
+      "tournament": "Roshn Saudi League 2025-2026",
+      "short_name": "Saudi Pro League",
+      "match_id": 142152,
+      "status": "NOT_STARTED",
+      "startTime": "16 May 2026 09:35 PM",
+      "startDate": "29 August 2025 05:30 AM",
+      "endDate": "21 May 2026 11:45 PM",
+      "image": "https://images.fancode.com/aig/match/v1776758614709/142152_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142152_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1776758614709/142152_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142152_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 2723,
+          "name": "Al Hilal SFC",
+          "shortName": "AHS",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AH@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AH@2x.png",
+          "color": "#031537"
+        },
+        {
+          "id": 12006,
+          "name": "Neom SC",
+          "shortName": "NEOM",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NEO@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NEO@2x.png",
+          "color": "#3d8fb0"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Band E Amir Region Vs Mis E Ainak Region",
+      "tournament": "Supercola Regional List A Tournament, 2026",
+      "short_name": "e& Regional List A Tournament",
+      "match_id": 142739,
+      "status": "NOT_STARTED",
+      "startTime": "17 May 2026 10:00 AM",
+      "startDate": "17 May 2026 05:30 AM",
+      "endDate": "05 June 2026 01:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142739_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142739_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 7647,
+          "name": "Band-e-Amir Region",
+          "shortName": "BD",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BEA@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BEA@2x.png",
+          "color": "#fa8940"
+        },
+        {
+          "id": 7649,
+          "name": "Mis-e-Ainak Region",
+          "shortName": "MAK",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MISA@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MISA@2x.png",
+          "color": "#ffbb78"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Cyprus Vs Jersey",
+      "tournament": "ICC Men's T20 WC Europe Sub Regional Qualifier A",
+      "short_name": "Europe Qualifiers",
+      "match_id": 142432,
+      "status": "NOT_STARTED",
+      "startTime": "17 May 2026 06:00 PM",
+      "startDate": "16 May 2026 05:30 AM",
+      "endDate": "23 May 2026 05:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142432_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142432_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 61,
+          "name": "Cyprus",
+          "shortName": "CYP",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CYR@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CYR@2x.png",
+          "color": "#ed7a00"
+        },
+        {
+          "id": 123,
+          "name": "Jersey",
+          "shortName": "JER",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-JERSE@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-JERSE@2x.png",
+          "color": "#D7B524"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Slovenia Vs Austria",
+      "tournament": "ICC Men's T20 WC Europe Sub Regional Qualifier A",
+      "short_name": "Europe Qualifiers",
+      "match_id": 142431,
+      "status": "NOT_STARTED",
+      "startTime": "17 May 2026 06:00 PM",
+      "startDate": "16 May 2026 05:30 AM",
+      "endDate": "23 May 2026 05:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142431_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142431_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 215,
+          "name": "Slovenia",
+          "shortName": "SLO",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SLO@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SLO@2x.png",
+          "color": "#235cce"
+        },
+        {
+          "id": 15,
+          "name": "Austria",
+          "shortName": "AUT",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUST@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUST@2x.png",
+          "color": "#af1b24"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Golf",
+      "title": "Day 3",
+      "tournament": "Amundi German Masters 2026",
+      "short_name": "Amundi German Masters",
+      "match_id": 142327,
+      "status": "STARTED",
+      "startTime": "16 May 2026 05:30 PM",
+      "startDate": "14 May 2026 05:30 AM",
+      "endDate": "17 May 2026 11:45 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Amundi-German-Masters_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142327_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Amundi-German-Masters_fc-web.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142327_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 11895,
+          "name": "Day 3",
+          "shortName": "LET",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PIY@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PIY@2x.png",
+          "color": "#0056B5"
+        },
+        {
+          "id": 5942,
+          "name": "Green Eagle Golf Course, Germany",
+          "shortName": "LOC",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png",
+          "color": "#141414"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
       "STREAMING_CDN": {
         "language": "BLOODY_SWEET",
         "Primary_Playback_URL": null
