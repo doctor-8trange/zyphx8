@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "11:28:01 PM 17-05-2026",
+  "last_updated": "12:14:04 AM 18-05-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 52,
-  "live_matches": 11,
-  "upcoming_matches": 41,
+  "live_matches": 12,
+  "upcoming_matches": 40,
   "matches": [
     {
       "category": "Football",
@@ -328,6 +328,124 @@
     },
     {
       "category": "Football",
+      "title": "Ca Osasuna Vs Rcd Espanyol",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131198,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "17 May 2026 10:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131198_5427_OSN_ESL_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131198_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131198_5427_OSN_ESL_FC-Web.png",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131198_5427_OSN_ESL_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131198_5427_OSN_ESL_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131198_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "CA Osasuna",
+          "shortName": "OSN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-OSN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#F2DC85",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "196709",
+                "shortName": "V Munoz",
+                "isOwnGoal": false,
+                "goalTime": "49'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "RCD Espanyol",
+          "shortName": "ESL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ESL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#fff3db",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 2,
+            "goals": [
+              {
+                "id": "23150",
+                "shortName": "K Garcia",
+                "isOwnGoal": false,
+                "goalTime": "53'"
+              },
+              {
+                "id": "163686",
+                "shortName": "C Romero",
+                "isOwnGoal": false,
+                "goalTime": "27'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": true,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131198_english_dash_68529_1drmta-di_h264/index.mpd",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131198_english_dash_68529_1drmta-di_h264/index.mpd",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131198_english_dash_68529_1drmta-di_h264/index.mpd",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/131198_english_dash_68529_1drmta-di_h264/index.mpd",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/131198_english_dash_68529_1drmta-di_h264/index.mpd",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "drm": {
+          "keys": [
+            "20dc411d20cd45aabf46a4234612b6a1:5ebedc2ab5d88486a5e1cbf724256173"
+          ],
+          "jwk": {
+            "keys": [
+              {
+                "k": "Xr7cKrXYhIal4cv3JCVhcw",
+                "kid": "INxBHSDNRaq_RqQjRhK2oQ",
+                "kty": "oct"
+              }
+            ],
+            "type": "temporary"
+          },
+          "clearkey": "20dc411d20cd45aabf46a4234612b6a1:5ebedc2ab5d88486a5e1cbf724256173"
+        }
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
       "title": "Real Oviedo Vs Deportivo Alaves",
       "tournament": "LALIGA 2025-26",
       "match_id": 131197,
@@ -357,10 +475,17 @@
           "color": "#A71C10",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Deportivo Alaves",
@@ -372,10 +497,24 @@
           "color": "#537096",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "26110",
+                "shortName": "T Martinez",
+                "isOwnGoal": false,
+                "goalTime": "17'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
@@ -442,8 +581,20 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 3,
             "goals": [
+              {
+                "id": "161050",
+                "shortName": "O Oskarsson",
+                "isOwnGoal": false,
+                "goalTime": "63'"
+              },
+              {
+                "id": "157190",
+                "shortName": "C Tarrega",
+                "isOwnGoal": false,
+                "goalTime": "60'"
+              },
               {
                 "id": "61122",
                 "shortName": "A Munoz",
@@ -563,10 +714,10 @@
             "points": 2,
             "goals": [
               {
-                "id": "65156",
-                "shortName": "J Sebastian",
+                "id": "159616",
+                "shortName": "A Zurawski",
                 "isOwnGoal": false,
-                "goalTime": "32'"
+                "goalTime": "47'"
               },
               {
                 "id": "63760",
@@ -671,8 +822,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "190419",
+                "shortName": "C Espi",
+                "isOwnGoal": false,
+                "goalTime": "32'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -873,10 +1031,24 @@
           "color": "#ca2917",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "22786",
+                "shortName": "A Lookman",
+                "isOwnGoal": false,
+                "goalTime": "21'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Girona FC",
@@ -888,10 +1060,17 @@
           "color": "#FFB700",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
@@ -958,8 +1137,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "16471",
+                "shortName": "I Williams",
+                "isOwnGoal": false,
+                "goalTime": "52'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -986,7 +1172,7 @@
                 "id": "155110",
                 "shortName": "W Swedberg",
                 "isOwnGoal": false,
-                "goalTime": "5'"
+                "goalTime": "4'"
               }
             ]
           },
@@ -1027,6 +1213,90 @@
             "type": "temporary"
           },
           "clearkey": "bd3a952aa6bc4401984644c72ad5cc4c:b705bf41975567733e8e0386a8982e5d"
+        }
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Fc Barcelona Vs Real Betis",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131192,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "18 May 2026 12:45 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131192_5427_BAR_RB_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131192_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131192_5427_BAR_RB_FC-Web.png",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131192_5427_BAR_RB_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131192_5427_BAR_RB_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131192_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "FC Barcelona",
+          "shortName": "BAR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#fee64e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        },
+        {
+          "name": "Real Betis",
+          "shortName": "RB",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-REALB@2x.png"
+          },
+          "isWinner": null,
+          "color": "#19a661",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": true,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131192_english_dash_70836_1drmta-di_h264/index.mpd",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131192_english_dash_70836_1drmta-di_h264/index.mpd",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131192_english_dash_70836_1drmta-di_h264/index.mpd",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/131192_english_dash_70836_1drmta-di_h264/index.mpd",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/131192_english_dash_70836_1drmta-di_h264/index.mpd",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "drm": {
+          "keys": [
+            "cafc30d071134e3c9ae90a466e55599d:dca4c0a94499296b345e612f247a6d80"
+          ],
+          "jwk": {
+            "keys": [
+              {
+                "k": "3KTAqUSZKWs0XmEvJHptgA",
+                "kid": "yvww0HETTjya6QpGblVZnQ",
+                "kty": "oct"
+              }
+            ],
+            "type": "temporary"
+          },
+          "clearkey": "cafc30d071134e3c9ae90a466e55599d:dca4c0a94499296b345e612f247a6d80"
         }
       },
       "auto_streams": null
@@ -1119,165 +1389,6 @@
           "language": "ENGLISH"
         }
       ]
-    },
-    {
-      "category": "Football",
-      "title": "Ca Osasuna Vs Rcd Espanyol",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131198,
-      "status": "NOT_STARTED",
-      "streamingStatus": "STARTED",
-      "startTime": "17 May 2026 10:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131198_5427_OSN_ESL_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131198_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131198_5427_OSN_ESL_FC-Web.png",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131198_5427_OSN_ESL_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131198_5427_OSN_ESL_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131198_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "CA Osasuna",
-          "shortName": "OSN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-OSN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#F2DC85",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "RCD Espanyol",
-          "shortName": "ESL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ESL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#fff3db",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "is_drm": true,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131198_english_dash_68529_1drmta-di_h264/index.mpd",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131198_english_dash_68529_1drmta-di_h264/index.mpd",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131198_english_dash_68529_1drmta-di_h264/index.mpd",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/131198_english_dash_68529_1drmta-di_h264/index.mpd",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/131198_english_dash_68529_1drmta-di_h264/index.mpd",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
-        "drm": {
-          "keys": [
-            "20dc411d20cd45aabf46a4234612b6a1:5ebedc2ab5d88486a5e1cbf724256173"
-          ],
-          "jwk": {
-            "keys": [
-              {
-                "k": "Xr7cKrXYhIal4cv3JCVhcw",
-                "kid": "INxBHSDNRaq_RqQjRhK2oQ",
-                "kty": "oct"
-              }
-            ],
-            "type": "temporary"
-          },
-          "clearkey": "20dc411d20cd45aabf46a4234612b6a1:5ebedc2ab5d88486a5e1cbf724256173"
-        }
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "Finals: J. Sinner Vs C. Ruud",
-      "tournament": "ATP Masters Internazionali BNL d'Italia 2026",
-      "match_id": 142757,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "17 May 2026 08:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Casper-Ruud-vs-Luciano-Darderi_fc-web_1779011889906.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142757_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Casper-Ruud-vs-Luciano-Darderi_fc-web_1779011889906.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Casper-Ruud-vs-Luciano-Darderi_fc-web_1779011889906.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142757_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Finals: J. Sinner vs C. Ruud",
-          "shortName": "Finals: J. Sinner vs C. Ruud",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Rome, Italy",
-          "shortName": "Rome, Italy",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
     },
     {
       "category": "Golf",
@@ -1526,6 +1637,73 @@
       "auto_streams": null
     },
     {
+      "category": "Football",
+      "title": "Real Zaragoza Vs Sporting De Gijón",
+      "tournament": "LALIGA Hypermotion 2025-26",
+      "match_id": 142634,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "18 May 2026 12:45 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://images.fancode.com/aig/match/v1778920809564/142634_CASACARDS_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142634_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1778920809564/142634_CASACARDS_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1778920809564/142634_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1778920809564/142634_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142634_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Real Zaragoza",
+          "shortName": "RZ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ZAR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#88070C",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Sporting de Gijón",
+          "shortName": "SG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#766100",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
       "category": "Cricket",
       "title": "Samoa Vs Cook Islands",
       "tournament": "ICC Men's T20 WC EAP Sub-regional Qualifier A + B",
@@ -1574,73 +1752,6 @@
           "isWinner": null,
           "color": "#1d388d",
           "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Fc Barcelona Vs Real Betis",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131192,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "18 May 2026 12:45 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131192_5427_BAR_RB_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131192_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131192_5427_BAR_RB_FC-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131192_5427_BAR_RB_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131192_5427_BAR_RB_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131192_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "FC Barcelona",
-          "shortName": "BAR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png"
-          },
-          "isWinner": null,
-          "color": "#fee64e",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Real Betis",
-          "shortName": "RB",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-REALB@2x.png"
-          },
-          "isWinner": null,
-          "color": "#19a661",
-          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1842,73 +1953,6 @@
           "isWinner": null,
           "color": "#9a0009",
           "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Real Zaragoza Vs Sporting De Gijón",
-      "tournament": "LALIGA Hypermotion 2025-26",
-      "match_id": 142634,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "18 May 2026 12:45 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://images.fancode.com/aig/match/v1778920809564/142634_CASACARDS_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142634_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1778920809564/142634_CASACARDS_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://images.fancode.com/aig/match/v1778920809564/142634_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1778920809564/142634_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142634_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Real Zaragoza",
-          "shortName": "RZ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ZAR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#88070C",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Sporting de Gijón",
-          "shortName": "SG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#766100",
-          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -3332,6 +3376,73 @@
       "auto_streams": null
     },
     {
+      "category": "Cricket",
+      "title": "Cyprus Vs Switzerland",
+      "tournament": "ICC Men's T20 WC Europe Sub Regional Qualifier A",
+      "match_id": 142438,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "20 May 2026 01:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/142438_6076_CYP_SUI_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142438_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/142438_6076_CYP_SUI_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC-Mens-T20-World-Cup-Sub-Regional-Europe-Qualifier-A.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/142438_6076_CYP_SUI_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142438_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Cyprus",
+          "shortName": "CYP",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CYR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ed7a00",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Switzerland",
+          "shortName": "SUI",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SWIT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#cd2a1c",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
       "category": "Football",
       "title": "Sevilla Fc Vs Real Madrid",
       "tournament": "LALIGA 2025-26",
@@ -3364,6 +3475,50 @@
           "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RMA@2x.png",
           "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RMA@2x.png",
           "color": "#004996"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Ca Osasuna Vs Rcd Espanyol",
+      "tournament": "LALIGA 2025-26",
+      "short_name": "LALIGA 2025-26",
+      "match_id": 131198,
+      "status": "STARTED",
+      "startTime": "17 May 2026 10:30 PM",
+      "startDate": "15 August 2025 05:30 AM",
+      "endDate": "24 May 2026 11:45 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131198_5427_OSN_ESL_FC-App.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131198_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131198_5427_OSN_ESL_FC-App.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131198_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 1284,
+          "name": "CA Osasuna",
+          "shortName": "OSN",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-OSN@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-OSN@2x.png",
+          "color": "#F2DC85"
+        },
+        {
+          "id": 781,
+          "name": "RCD Espanyol",
+          "shortName": "ESL",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ESL@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ESL@2x.png",
+          "color": "#fff3db"
         }
       ],
       "language": "BLOODY_SWEET",
@@ -3628,50 +3783,6 @@
           "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-GIR@2x.png",
           "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-GIR@2x.png",
           "color": "#FFB700"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Athletic Club Vs Rc Celta",
-      "tournament": "LALIGA 2025-26",
-      "short_name": "LALIGA 2025-26",
-      "match_id": 131190,
-      "status": "STARTED",
-      "startTime": "17 May 2026 10:30 PM",
-      "startDate": "15 August 2025 05:30 AM",
-      "endDate": "24 May 2026 11:45 PM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131190_5427_ATH_CEV_FC-App.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131190_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131190_5427_ATH_CEV_FC-App.png",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131190_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 437,
-          "name": "Athletic Club",
-          "shortName": "ATH",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ATH@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ATH@2x.png",
-          "color": "#ff674d"
-        },
-        {
-          "id": 748,
-          "name": "RC Celta",
-          "shortName": "CEV",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png",
-          "color": "#b1d4f5"
         }
       ],
       "language": "BLOODY_SWEET",
