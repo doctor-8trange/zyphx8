@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "12:35:03 AM 18-05-2026",
+  "last_updated": "12:56:01 AM 18-05-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 53,
-  "live_matches": 13,
-  "upcoming_matches": 40,
+  "live_matches": 12,
+  "upcoming_matches": 41,
   "matches": [
     {
       "category": "Football",
@@ -42,10 +42,17 @@
           "color": "#fee64e",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Real Betis",
@@ -57,10 +64,17 @@
           "color": "#19a661",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
@@ -675,14 +689,14 @@
       "tournament": "LALIGA 2025-26",
       "match_id": 131198,
       "status": "COMPLETED",
-      "streamingStatus": "STARTED",
+      "streamingStatus": "COMPLETED",
       "startTime": "17 May 2026 10:30 PM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/131198_5427_OSN_ESL_FC-Web.png",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/131198_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/131198_5427_OSN_ESL_FC-Web.png",
-        "PLAYBACK": "",
+        "PLAYBACK": null,
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131198_5427_OSN_ESL_FC-Web.png",
@@ -755,35 +769,10 @@
           }
         }
       ],
-      "language": "ENGLISH",
+      "language": "BLOODY_SWEET",
       "STREAMING_CDN": {
-        "is_drm": true,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/131198_english_dash_68529_1drmta-di_h264/index.mpd",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/131198_english_dash_68529_1drmta-di_h264/index.mpd",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/131198_english_dash_68529_1drmta-di_h264/index.mpd",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/131198_english_dash_68529_1drmta-di_h264/index.mpd",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/131198_english_dash_68529_1drmta-di_h264/index.mpd",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
-        "drm": {
-          "keys": [
-            "20dc411d20cd45aabf46a4234612b6a1:5ebedc2ab5d88486a5e1cbf724256173"
-          ],
-          "jwk": {
-            "keys": [
-              {
-                "k": "Xr7cKrXYhIal4cv3JCVhcw",
-                "kid": "INxBHSDNRaq_RqQjRhK2oQ",
-                "kty": "oct"
-              }
-            ],
-            "type": "temporary"
-          },
-          "clearkey": "20dc411d20cd45aabf46a4234612b6a1:5ebedc2ab5d88486a5e1cbf724256173"
-        }
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
       },
       "auto_streams": null
     },
@@ -3612,7 +3601,7 @@
       "tournament": "LALIGA 2025-26",
       "short_name": "LALIGA 2025-26",
       "match_id": 131198,
-      "status": "STARTED",
+      "status": "COMPLETED",
       "startTime": "17 May 2026 10:30 PM",
       "startDate": "15 August 2025 05:30 AM",
       "endDate": "24 May 2026 11:45 PM",
