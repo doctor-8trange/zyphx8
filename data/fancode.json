@@ -2,15 +2,104 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "05:42:00 AM 22-05-2026",
+  "last_updated": "06:21:04 AM 22-05-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 40,
-  "live_matches": 0,
-  "upcoming_matches": 40,
+  "total_matches": 49,
+  "live_matches": 1,
+  "upcoming_matches": 48,
   "matches": [
+    {
+      "category": "Cricket",
+      "title": "Kowloon Lions Vs Hong Kong Islanders",
+      "tournament": "Skywarriors All Stars Plus Men’s T20 Series 2026",
+      "match_id": 142764,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "22 May 2026 06:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Skywarriors_web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142764_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Skywarriors_web.png",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/HK-ASS.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Skywarriors_web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Skywarriors-All-Stars-Plus-Mens-T20-sporty.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142764_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Kowloon Lions",
+          "shortName": "KL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KL@2x.png"
+          },
+          "isWinner": false,
+          "color": "#461C6D",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Hong Kong Islanders",
+          "shortName": "HKI",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HKI@2x.png"
+          },
+          "isWinner": false,
+          "color": "#08913F",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/142764_english_hls_028922a59a23733_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/142764_english_hls_028922a59a23733_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/142764_english_hls_028922a59a23733_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/142764_english_hls_028922a59a23733_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/142764_english_hls_028922a59a23733_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142764_english_hls_028922a59a23733_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142764_english_hls_028922a59a23733_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142764_english_hls_028922a59a23733_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142764_english_hls_028922a59a23733_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142764_english_hls_028922a59a23733_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142764_english_hls_028922a59a23733_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142764_english_hls_028922a59a23733_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142764_english_hls_028922a59a23733_1ta-di_h264/1080p.m3u8",
+          "cookie": null,
+          "cookie_valid": "1779497462",
+          "create_date": "Friday, May 22, 2026, 6:21:02 AM",
+          "expire_date": "Saturday, May 23, 2026, 6:21:02 AM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
     {
       "category": "Cricket",
       "title": "Band E Amir Region Vs Boost Region",
@@ -328,73 +417,6 @@
           "isWinner": null,
           "color": "#4091d7",
           "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Kowloon Lions Vs Hong Kong Islanders",
-      "tournament": "Skywarriors All Stars Plus Men’s T20 Series 2026",
-      "match_id": 142764,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "22 May 2026 06:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Skywarriors_web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142764_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Skywarriors_web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/HK-ASS.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Skywarriors_web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Skywarriors-All-Stars-Plus-Mens-T20-sporty.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142764_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Kowloon Lions",
-          "shortName": "KL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#461C6D",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Hong Kong Islanders",
-          "shortName": "HKI",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HKI@2x.png"
-          },
-          "isWinner": null,
-          "color": "#08913F",
-          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1218,140 +1240,6 @@
       "auto_streams": null
     },
     {
-      "category": "Formula 1",
-      "title": "Practice 1",
-      "tournament": "F1 LENOVO GRAND PRIX DU CANADA 2026",
-      "match_id": 139442,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "22 May 2026 10:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1_Canada_web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139442_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1_Canada_web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Canada_1769027827034.jpg",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_F1-racing.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Canada_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_F1-racing.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139442_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Practice 1",
-          "shortName": "P1",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
-          },
-          "isWinner": null,
-          "color": "#EE0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Canada",
-          "shortName": "Canada",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Amo Region Vs Speen Ghar Region",
-      "tournament": "Supercola Regional List A Tournament, 2026",
-      "match_id": 142743,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "21 May 2026 10:00 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Supercola-Regional-List-A-Tournament,-2026_FC-WEB_1779005924089.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142743_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Supercola-Regional-List-A-Tournament,-2026_FC-WEB_1779005924089.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Supercola-List-A-tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Supercola-Regional-List-A-Tournament,-2026_FC-WEB_1779005924089.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142743_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Amo Region",
-          "shortName": "AM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#6db7ff",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Speen Ghar Region",
-          "shortName": "SG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SPG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#00ff8d",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Cricket",
       "title": "Sri Lanka A Women Vs New Zealand A Women",
       "tournament": "New Zealand Women’s A tour of Sri Lanka, 2026",
@@ -1419,34 +1307,34 @@
       "auto_streams": null
     },
     {
-      "category": "Motorsports",
-      "title": "Qualifying Session",
-      "tournament": "F2 MONTREAL 2026",
-      "match_id": 142088,
+      "category": "Formula 1",
+      "title": "Practice 1",
+      "tournament": "F1 LENOVO GRAND PRIX DU CANADA 2026",
+      "match_id": 139442,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "22 May 2026 11:30 PM",
+      "startTime": "22 May 2026 10:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/F2_Canada_web.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1_Canada_web.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142088_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F2_Canada_web.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139442_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1_Canada_web.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/03/R9-Canada-GP-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F2_Canada_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Formula2_Sporty_Match_card_2_1779102364862.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142088_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Canada_1769027827034.jpg",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_F1-racing.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Canada_web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_F1-racing.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139442_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Qualifying Session",
-          "shortName": "Qualifying Session",
+          "name": "Practice 1",
+          "shortName": "P1",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR2@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
           },
           "isWinner": null,
-          "color": "#123456",
+          "color": "#EE0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1462,10 +1350,10 @@
           "name": "Canada",
           "shortName": "Canada",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
           },
           "isWinner": null,
-          "color": "#123456",
+          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1600,6 +1488,140 @@
           },
           "isWinner": null,
           "color": "#dcdcdc",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Amo Region Vs Speen Ghar Region",
+      "tournament": "Supercola Regional List A Tournament, 2026",
+      "match_id": 142743,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "21 May 2026 10:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Supercola-Regional-List-A-Tournament,-2026_FC-WEB_1779005924089.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142743_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Supercola-Regional-List-A-Tournament,-2026_FC-WEB_1779005924089.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Supercola-List-A-tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Supercola-Regional-List-A-Tournament,-2026_FC-WEB_1779005924089.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142743_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Amo Region",
+          "shortName": "AM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#6db7ff",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Speen Ghar Region",
+          "shortName": "SG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SPG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#00ff8d",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Motorsports",
+      "title": "Qualifying Session",
+      "tournament": "F2 MONTREAL 2026",
+      "match_id": 142088,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "22 May 2026 11:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/F2_Canada_web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142088_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F2_Canada_web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/03/R9-Canada-GP-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F2_Canada_web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Formula2_Sporty_Match_card_2_1779102364862.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142088_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Qualifying Session",
+          "shortName": "Qualifying Session",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#123456",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Canada",
+          "shortName": "Canada",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#123456",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1889,6 +1911,73 @@
     },
     {
       "category": "Cricket",
+      "title": "Rwanda Vs Cameroon",
+      "tournament": "ICC Men's T20 WC Africa Sub Regional Qualifier",
+      "match_id": 142907,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "23 May 2026 01:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142907_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142907_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Rwanda",
+          "shortName": "RWA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RWA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#227de0",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Cameroon",
+          "shortName": "CAM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CAME@2x.png"
+          },
+          "isWinner": null,
+          "color": "#fdf251",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
       "title": "Hong Kong Islanders Vs Kowloon Lions",
       "tournament": "Skywarriors All Stars Plus Men’s T20 Series 2026",
       "match_id": 142762,
@@ -2002,73 +2091,6 @@
           },
           "isWinner": false,
           "color": "#461C6D",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Rwanda Vs Cameroon",
-      "tournament": "ICC Men's T20 WC Africa Sub Regional Qualifier",
-      "match_id": 142907,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "23 May 2026 01:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142907_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142907_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Rwanda",
-          "shortName": "RWA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RWA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#227de0",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Cameroon",
-          "shortName": "CAM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CAME@2x.png"
-          },
-          "isWinner": null,
-          "color": "#fdf251",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2685,6 +2707,402 @@
         }
       ],
       "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Band E Amir Region Vs Boost Region",
+      "tournament": "Supercola Regional List A Tournament, 2026",
+      "short_name": "e& Regional List A Tournament",
+      "match_id": 142744,
+      "status": "NOT_STARTED",
+      "startTime": "22 May 2026 10:00 AM",
+      "startDate": "17 May 2026 05:30 AM",
+      "endDate": "05 June 2026 01:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142744_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142744_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 7647,
+          "name": "Band-e-Amir Region",
+          "shortName": "BD",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BEA@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BEA@2x.png",
+          "color": "#fa8940"
+        },
+        {
+          "id": 7651,
+          "name": "Boost Region",
+          "shortName": "BOS",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BOS@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BOS@2x.png",
+          "color": "#ff8484"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Austria Vs Sweden",
+      "tournament": "ICC Men's T20 WC Europe Sub Regional Qualifier A",
+      "short_name": "Europe Qualifiers",
+      "match_id": 142442,
+      "status": "NOT_STARTED",
+      "startTime": "22 May 2026 01:00 PM",
+      "startDate": "16 May 2026 05:30 AM",
+      "endDate": "23 May 2026 05:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142442_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142442_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 15,
+          "name": "Austria",
+          "shortName": "AUT",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUST@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUST@2x.png",
+          "color": "#af1b24"
+        },
+        {
+          "id": 224,
+          "name": "Sweden",
+          "shortName": "SWE",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SWE@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SWE@2x.png",
+          "color": "#508be1"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "France Cricket Vs Switzerland",
+      "tournament": "ICC Men's T20 WC Europe Sub Regional Qualifier A",
+      "short_name": "Europe Qualifiers",
+      "match_id": 142441,
+      "status": "NOT_STARTED",
+      "startTime": "22 May 2026 01:00 PM",
+      "startDate": "16 May 2026 05:30 AM",
+      "endDate": "23 May 2026 05:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142441_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142441_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 85,
+          "name": "France Cricket",
+          "shortName": "FRA",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-FRC@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-FRC@2x.png",
+          "color": "#112d64"
+        },
+        {
+          "id": 227,
+          "name": "Switzerland",
+          "shortName": "SUI",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SWIT@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SWIT@2x.png",
+          "color": "#cd2a1c"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Malta Vs Slovenia",
+      "tournament": "ICC Men's T20 WC Europe Sub Regional Qualifier A",
+      "short_name": "Europe Qualifiers",
+      "match_id": 142444,
+      "status": "NOT_STARTED",
+      "startTime": "22 May 2026 06:00 PM",
+      "startDate": "16 May 2026 05:30 AM",
+      "endDate": "23 May 2026 05:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142444_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142444_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 166,
+          "name": "Malta",
+          "shortName": "MAL",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MAL@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MAL@2x.png",
+          "color": "#c66a63"
+        },
+        {
+          "id": 215,
+          "name": "Slovenia",
+          "shortName": "SLO",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SLO@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SLO@2x.png",
+          "color": "#235cce"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Cyprus Vs Croatia",
+      "tournament": "ICC Men's T20 WC Europe Sub Regional Qualifier A",
+      "short_name": "Europe Qualifiers",
+      "match_id": 142443,
+      "status": "NOT_STARTED",
+      "startTime": "22 May 2026 06:00 PM",
+      "startDate": "16 May 2026 05:30 AM",
+      "endDate": "23 May 2026 05:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142443_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142443_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 61,
+          "name": "Cyprus",
+          "shortName": "CYP",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CYR@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CYR@2x.png",
+          "color": "#ed7a00"
+        },
+        {
+          "id": 109,
+          "name": "Croatia",
+          "shortName": "CRO",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CROA@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CROA@2x.png",
+          "color": "#4091d7"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Mis E Ainak Region Vs Amo Region",
+      "tournament": "Supercola Regional List A Tournament, 2026",
+      "short_name": "e& Regional List A Tournament",
+      "match_id": 142745,
+      "status": "NOT_STARTED",
+      "startTime": "23 May 2026 10:00 AM",
+      "startDate": "17 May 2026 05:30 AM",
+      "endDate": "05 June 2026 01:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142745_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142745_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 7649,
+          "name": "Mis-e-Ainak Region",
+          "shortName": "MAK",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MISA@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MISA@2x.png",
+          "color": "#ffbb78"
+        },
+        {
+          "id": 7650,
+          "name": "Amo Region",
+          "shortName": "AM",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AM@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AM@2x.png",
+          "color": "#6db7ff"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Motorsports",
+      "title": "F1 Academy",
+      "tournament": "F1 ACADEMY CANADA 2026",
+      "short_name": "F1 ACADEMY CANADA",
+      "match_id": 139685,
+      "status": "NOT_STARTED",
+      "startTime": "22 May 2026 06:30 PM",
+      "startDate": "22 May 2026 05:30 AM",
+      "endDate": "24 May 2026 11:30 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Formula2_Sporty_Match_card_2_1779115175603.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139685_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Formula2_Sporty_Match_card_2_1779115175603.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139685_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 8308,
+          "name": "Practice Session",
+          "shortName": "F1A",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FA@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FA@2x.png",
+          "color": "#EE0000"
+        },
+        {
+          "id": 8235,
+          "name": "Montreal",
+          "shortName": "LOC",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png",
+          "color": "#123456"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Formula 1",
+      "title": "Practice 1",
+      "tournament": "F1 LENOVO GRAND PRIX DU CANADA 2026",
+      "short_name": "CANADA GP",
+      "match_id": 139442,
+      "status": "NOT_STARTED",
+      "startTime": "22 May 2026 10:00 PM",
+      "startDate": "22 May 2026 05:30 AM",
+      "endDate": "25 May 2026 11:45 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_F1-racing.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139442_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_F1-racing.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139442_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 8200,
+          "name": "Practice 1",
+          "shortName": "P1",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png",
+          "color": "#EE0000"
+        },
+        {
+          "id": 8199,
+          "name": "Canada",
+          "shortName": "LOC",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png",
+          "color": "#141414"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Kowloon Lions Vs Hong Kong Islanders",
+      "tournament": "Skywarriors All Stars Plus Men’s T20 Series 2026",
+      "short_name": "Men's All Star T20",
+      "match_id": 142764,
+      "status": "STARTED",
+      "startTime": "22 May 2026 06:30 AM",
+      "startDate": "19 May 2026 05:30 AM",
+      "endDate": "25 May 2026 11:45 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Skywarriors_web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142764_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Skywarriors_web.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142764_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 12291,
+          "name": "Kowloon Lions",
+          "shortName": "KL",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KL@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KL@2x.png",
+          "color": "#461C6D"
+        },
+        {
+          "id": 12293,
+          "name": "Hong Kong Islanders",
+          "shortName": "HKI",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HKI@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HKI@2x.png",
+          "color": "#08913F"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
       "STREAMING_CDN": {
         "language": "BLOODY_SWEET",
         "Primary_Playback_URL": null
