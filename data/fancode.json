@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "01:42:03 PM 24-05-2026",
+  "last_updated": "02:14:13 PM 24-05-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 50,
-  "live_matches": 3,
-  "upcoming_matches": 47,
+  "total_matches": 40,
+  "live_matches": 6,
+  "upcoming_matches": 34,
   "matches": [
     {
       "category": "Cricket",
@@ -131,9 +131,9 @@
           "color": "#227de0",
           "cricketScore": [
             {
-              "runs": 131,
-              "overs": "8",
-              "balls": "49",
+              "runs": 195,
+              "overs": "14.2",
+              "balls": "87",
               "status": "IN_PROGRESS",
               "wickets": 0
             }
@@ -282,6 +282,273 @@
           "cookie_valid": "1779693962",
           "create_date": "Sunday, May 24, 2026, 12:56:02 PM",
           "expire_date": "Monday, May 25, 2026, 12:56:02 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Tennis",
+      "title": "Lenglen Court",
+      "tournament": "Roland Garros 2026",
+      "match_id": 142649,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "24 May 2026 02:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142649_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142649_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Lenglen Court",
+          "shortName": "Lenglen Court",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#84E3C7",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "France",
+          "shortName": "France",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/lfAZV-RhTC6wIvRGDpSzoA/master.m3u8",
+        "fancode_cdn": "Unavailable",
+        "fancode_bd_cdn": "Unavailable",
+        "fancode_np_cdn": "Unavailable",
+        "fancode_lk_cdn": "Unavailable",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/lfAZV-RhTC6wIvRGDpSzoA/master.m3u8?deviceId=4f3d9bc5a271f8a3&advertiserId=00000000-0000-0000-0000-000000000000&ft_type=c1&cust_params=app_version%3D9.7.0%26app_platform%3Dsportsguruand%26state%3DMaharashtra%26city%3DMumbai%26country%3DIN%26userId%3D173556231%26match_id%3D142649%26match_format%3DSingles%26tour_id%3D6058%26tour_name%3DRoland_Garros_2026%26sport%3Dlawn-tennis%26authorizationType%3DPAID&state=Maharashtra&city=Mumbai",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "Unavailable",
+          "fancode_dai_cdn": "Unavailable"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2094589/RG26FCCSL/hdntl=exp=1779698647~acl=%2f*~id=bdf16018-04d9-4265-9144-920e8ea3d72f~data=hdntl~hmac=998569032254714ec98fd7411a7ead14bd8e8f08bc3d537c89c51ef4245758d6/master_350.m3u8?aka_me_session_id=AAAAAAAAAADXCxRqAAAAAO6rjBJhgW2mpe5NfSA%2fAUvlXz7l+475rnCkv1SJIYrKGWbya7RfIIvxfxb9P%2f9cUQDhfB0g1JKf&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2094589/RG26FCCSL/hdntl=exp=1779698647~acl=%2f*~id=bdf16018-04d9-4265-9144-920e8ea3d72f~data=hdntl~hmac=998569032254714ec98fd7411a7ead14bd8e8f08bc3d537c89c51ef4245758d6/master_500.m3u8?aka_me_session_id=AAAAAAAAAADXCxRqAAAAAO6rjBJhgW2mpe5NfSA%2fAUvlXz7l+475rnCkv1SJIYrKGWbya7RfIIvxfxb9P%2f9cUQDhfB0g1JKf&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2094589/RG26FCCSL/hdntl=exp=1779698647~acl=%2f*~id=bdf16018-04d9-4265-9144-920e8ea3d72f~data=hdntl~hmac=998569032254714ec98fd7411a7ead14bd8e8f08bc3d537c89c51ef4245758d6/master_700.m3u8?aka_me_session_id=AAAAAAAAAADXCxRqAAAAAO6rjBJhgW2mpe5NfSA%2fAUvlXz7l+475rnCkv1SJIYrKGWbya7RfIIvxfxb9P%2f9cUQDhfB0g1JKf&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2094589/RG26FCCSL/hdntl=exp=1779698647~acl=%2f*~id=bdf16018-04d9-4265-9144-920e8ea3d72f~data=hdntl~hmac=998569032254714ec98fd7411a7ead14bd8e8f08bc3d537c89c51ef4245758d6/master_950.m3u8?aka_me_session_id=AAAAAAAAAADXCxRqAAAAAO6rjBJhgW2mpe5NfSA%2fAUvlXz7l+475rnCkv1SJIYrKGWbya7RfIIvxfxb9P%2f9cUQDhfB0g1JKf&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1603544,AVERAGE-BANDWIDTH=1603544,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2094589/RG26FCCSL/hdntl=exp=1779698647~acl=%2f*~id=bdf16018-04d9-4265-9144-920e8ea3d72f~data=hdntl~hmac=998569032254714ec98fd7411a7ead14bd8e8f08bc3d537c89c51ef4245758d6/master_1350.m3u8?aka_me_session_id=AAAAAAAAAADXCxRqAAAAAO6rjBJhgW2mpe5NfSA%2fAUvlXz7l+475rnCkv1SJIYrKGWbya7RfIIvxfxb9P%2f9cUQDhfB0g1JKf&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2094589/RG26FCCSL/hdntl=exp=1779698647~acl=%2f*~id=bdf16018-04d9-4265-9144-920e8ea3d72f~data=hdntl~hmac=998569032254714ec98fd7411a7ead14bd8e8f08bc3d537c89c51ef4245758d6/master_1400.m3u8?aka_me_session_id=AAAAAAAAAADXCxRqAAAAAO6rjBJhgW2mpe5NfSA%2fAUvlXz7l+475rnCkv1SJIYrKGWbya7RfIIvxfxb9P%2f9cUQDhfB0g1JKf&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2094589/RG26FCCSL/hdntl=exp=1779698647~acl=%2f*~id=bdf16018-04d9-4265-9144-920e8ea3d72f~data=hdntl~hmac=998569032254714ec98fd7411a7ead14bd8e8f08bc3d537c89c51ef4245758d6/master_2000.m3u8?aka_me_session_id=AAAAAAAAAADXCxRqAAAAAO6rjBJhgW2mpe5NfSA%2fAUvlXz7l+475rnCkv1SJIYrKGWbya7RfIIvxfxb9P%2f9cUQDhfB0g1JKf&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2094589/RG26FCCSL/hdntl=exp=1779698647~acl=%2f*~id=bdf16018-04d9-4265-9144-920e8ea3d72f~data=hdntl~hmac=998569032254714ec98fd7411a7ead14bd8e8f08bc3d537c89c51ef4245758d6/master_3000.m3u8?aka_me_session_id=AAAAAAAAAADXCxRqAAAAAO6rjBJhgW2mpe5NfSA%2fAUvlXz7l+475rnCkv1SJIYrKGWbya7RfIIvxfxb9P%2f9cUQDhfB0g1JKf&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=4865152,AVERAGE-BANDWIDTH=4865152,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2094589/RG26FCCSL/hdntl=exp=1779698647~acl=%2f*~id=bdf16018-04d9-4265-9144-920e8ea3d72f~data=hdntl~hmac=998569032254714ec98fd7411a7ead14bd8e8f08bc3d537c89c51ef4245758d6/master_4500.m3u8?aka_me_session_id=AAAAAAAAAADXCxRqAAAAAO6rjBJhgW2mpe5NfSA%2fAUvlXz7l+475rnCkv1SJIYrKGWbya7RfIIvxfxb9P%2f9cUQDhfB0g1JKf&aka_media_format_type=hls",
+          "cookie": "hdntl=exp=1779698647~acl=%2f*~id=bdf16018-04d9-4265-9144-920e8ea3d72f~data=hdntl~hmac=998569032254714ec98fd7411a7ead14bd8e8f08bc3d537c89c51ef4245758d6",
+          "cookie_valid": "1779698647",
+          "create_date": "Sunday, May 24, 2026, 2:14:04 PM",
+          "expire_date": "Monday, May 25, 2026, 2:14:07 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Tennis",
+      "title": "Mathieu Court",
+      "tournament": "Roland Garros 2026",
+      "match_id": 142648,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "24 May 2026 02:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142648_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142648_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Mathieu Court",
+          "shortName": "Mathieu Court",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#84E3C7",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "France",
+          "shortName": "France",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/WXZSUDTrR_qEtB80K6n8fg/master.m3u8",
+        "fancode_cdn": "Unavailable",
+        "fancode_bd_cdn": "Unavailable",
+        "fancode_np_cdn": "Unavailable",
+        "fancode_lk_cdn": "Unavailable",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/WXZSUDTrR_qEtB80K6n8fg/master.m3u8?deviceId=4f3d9bc5a271f8a3&advertiserId=00000000-0000-0000-0000-000000000000&ft_type=c1&cust_params=app_version%3D9.7.0%26app_platform%3Dsportsguruand%26state%3DMaharashtra%26city%3DMumbai%26country%3DIN%26userId%3D173556231%26match_id%3D142648%26match_format%3DSingles%26tour_id%3D6058%26tour_name%3DRoland_Garros_2026%26sport%3Dlawn-tennis%26authorizationType%3DPAID&state=Maharashtra&city=Mumbai",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "Unavailable",
+          "fancode_dai_cdn": "Unavailable"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022316/RG26FCSMC/hdntl=exp=1779698650~acl=%2f*~id=9f6e510c-fe3c-44cb-9d54-c1812fc15f65~data=hdntl~hmac=3eee5a02277a0ef9f2922bf016690304f25d39aa6d1231afa53207c89ef1ffb1/master_350.m3u8?aka_me_session_id=AAAAAAAAAADaCxRqAAAAAHHaq2am70MwvmIiLeTX9Ieyg8O54vI4JZNA%2fqkzZQKZAblQCjzVDVdLaeEZNTbHb27QKBHj5KV1&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022316/RG26FCSMC/hdntl=exp=1779698650~acl=%2f*~id=9f6e510c-fe3c-44cb-9d54-c1812fc15f65~data=hdntl~hmac=3eee5a02277a0ef9f2922bf016690304f25d39aa6d1231afa53207c89ef1ffb1/master_500.m3u8?aka_me_session_id=AAAAAAAAAADaCxRqAAAAAHHaq2am70MwvmIiLeTX9Ieyg8O54vI4JZNA%2fqkzZQKZAblQCjzVDVdLaeEZNTbHb27QKBHj5KV1&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022316/RG26FCSMC/hdntl=exp=1779698650~acl=%2f*~id=9f6e510c-fe3c-44cb-9d54-c1812fc15f65~data=hdntl~hmac=3eee5a02277a0ef9f2922bf016690304f25d39aa6d1231afa53207c89ef1ffb1/master_700.m3u8?aka_me_session_id=AAAAAAAAAADaCxRqAAAAAHHaq2am70MwvmIiLeTX9Ieyg8O54vI4JZNA%2fqkzZQKZAblQCjzVDVdLaeEZNTbHb27QKBHj5KV1&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022316/RG26FCSMC/hdntl=exp=1779698650~acl=%2f*~id=9f6e510c-fe3c-44cb-9d54-c1812fc15f65~data=hdntl~hmac=3eee5a02277a0ef9f2922bf016690304f25d39aa6d1231afa53207c89ef1ffb1/master_950.m3u8?aka_me_session_id=AAAAAAAAAADaCxRqAAAAAHHaq2am70MwvmIiLeTX9Ieyg8O54vI4JZNA%2fqkzZQKZAblQCjzVDVdLaeEZNTbHb27QKBHj5KV1&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1603544,AVERAGE-BANDWIDTH=1603544,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022316/RG26FCSMC/hdntl=exp=1779698650~acl=%2f*~id=9f6e510c-fe3c-44cb-9d54-c1812fc15f65~data=hdntl~hmac=3eee5a02277a0ef9f2922bf016690304f25d39aa6d1231afa53207c89ef1ffb1/master_1350.m3u8?aka_me_session_id=AAAAAAAAAADaCxRqAAAAAHHaq2am70MwvmIiLeTX9Ieyg8O54vI4JZNA%2fqkzZQKZAblQCjzVDVdLaeEZNTbHb27QKBHj5KV1&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022316/RG26FCSMC/hdntl=exp=1779698650~acl=%2f*~id=9f6e510c-fe3c-44cb-9d54-c1812fc15f65~data=hdntl~hmac=3eee5a02277a0ef9f2922bf016690304f25d39aa6d1231afa53207c89ef1ffb1/master_1400.m3u8?aka_me_session_id=AAAAAAAAAADaCxRqAAAAAHHaq2am70MwvmIiLeTX9Ieyg8O54vI4JZNA%2fqkzZQKZAblQCjzVDVdLaeEZNTbHb27QKBHj5KV1&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022316/RG26FCSMC/hdntl=exp=1779698650~acl=%2f*~id=9f6e510c-fe3c-44cb-9d54-c1812fc15f65~data=hdntl~hmac=3eee5a02277a0ef9f2922bf016690304f25d39aa6d1231afa53207c89ef1ffb1/master_2000.m3u8?aka_me_session_id=AAAAAAAAAADaCxRqAAAAAHHaq2am70MwvmIiLeTX9Ieyg8O54vI4JZNA%2fqkzZQKZAblQCjzVDVdLaeEZNTbHb27QKBHj5KV1&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022316/RG26FCSMC/hdntl=exp=1779698650~acl=%2f*~id=9f6e510c-fe3c-44cb-9d54-c1812fc15f65~data=hdntl~hmac=3eee5a02277a0ef9f2922bf016690304f25d39aa6d1231afa53207c89ef1ffb1/master_3000.m3u8?aka_me_session_id=AAAAAAAAAADaCxRqAAAAAHHaq2am70MwvmIiLeTX9Ieyg8O54vI4JZNA%2fqkzZQKZAblQCjzVDVdLaeEZNTbHb27QKBHj5KV1&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=4865152,AVERAGE-BANDWIDTH=4865152,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022316/RG26FCSMC/hdntl=exp=1779698650~acl=%2f*~id=9f6e510c-fe3c-44cb-9d54-c1812fc15f65~data=hdntl~hmac=3eee5a02277a0ef9f2922bf016690304f25d39aa6d1231afa53207c89ef1ffb1/master_4500.m3u8?aka_me_session_id=AAAAAAAAAADaCxRqAAAAAHHaq2am70MwvmIiLeTX9Ieyg8O54vI4JZNA%2fqkzZQKZAblQCjzVDVdLaeEZNTbHb27QKBHj5KV1&aka_media_format_type=hls",
+          "cookie": "hdntl=exp=1779698650~acl=%2f*~id=9f6e510c-fe3c-44cb-9d54-c1812fc15f65~data=hdntl~hmac=3eee5a02277a0ef9f2922bf016690304f25d39aa6d1231afa53207c89ef1ffb1",
+          "cookie_valid": "1779698650",
+          "create_date": "Sunday, May 24, 2026, 2:14:09 PM",
+          "expire_date": "Monday, May 25, 2026, 2:14:10 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Tennis",
+      "title": "Court 14",
+      "tournament": "Roland Garros 2026",
+      "match_id": 142647,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "24 May 2026 02:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142647_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142647_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Court 14",
+          "shortName": "Court 14",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#84E3C7",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "France",
+          "shortName": "France",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/rim5HfGeSVWCfnD_0YwbPA/master.m3u8",
+        "fancode_cdn": "Unavailable",
+        "fancode_bd_cdn": "Unavailable",
+        "fancode_np_cdn": "Unavailable",
+        "fancode_lk_cdn": "Unavailable",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/rim5HfGeSVWCfnD_0YwbPA/master.m3u8?deviceId=4f3d9bc5a271f8a3&advertiserId=00000000-0000-0000-0000-000000000000&ft_type=c1&cust_params=app_version%3D9.7.0%26app_platform%3Dsportsguruand%26state%3DMaharashtra%26city%3DMumbai%26country%3DIN%26userId%3D173556231%26match_id%3D142647%26match_format%3DSingles%26tour_id%3D6058%26tour_name%3DRoland_Garros_2026%26sport%3Dlawn-tennis%26authorizationType%3DPAID&state=Maharashtra&city=Mumbai",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "Unavailable",
+          "fancode_dai_cdn": "Unavailable"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022315/RG26FCC14/hdntl=exp=1779698654~acl=%2f*~id=1c34738f-4ee3-4a61-a5f2-1d412e3e65c7~data=hdntl~hmac=14f10353b8598e480535c07ba47e5fd66cf6469ccd5c3e0aa71cc41cab86e7d8/master_350.m3u8?aka_me_session_id=AAAAAAAAAADeCxRqAAAAAF44pDMDnzDQxPEXSkfg+ILEEiA+WV0lcXnTHX14lmOX+07A4opMJUt+%2fL7P7QnTph7Vo3dc6ym9&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022315/RG26FCC14/hdntl=exp=1779698654~acl=%2f*~id=1c34738f-4ee3-4a61-a5f2-1d412e3e65c7~data=hdntl~hmac=14f10353b8598e480535c07ba47e5fd66cf6469ccd5c3e0aa71cc41cab86e7d8/master_500.m3u8?aka_me_session_id=AAAAAAAAAADeCxRqAAAAAF44pDMDnzDQxPEXSkfg+ILEEiA+WV0lcXnTHX14lmOX+07A4opMJUt+%2fL7P7QnTph7Vo3dc6ym9&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022315/RG26FCC14/hdntl=exp=1779698654~acl=%2f*~id=1c34738f-4ee3-4a61-a5f2-1d412e3e65c7~data=hdntl~hmac=14f10353b8598e480535c07ba47e5fd66cf6469ccd5c3e0aa71cc41cab86e7d8/master_700.m3u8?aka_me_session_id=AAAAAAAAAADeCxRqAAAAAF44pDMDnzDQxPEXSkfg+ILEEiA+WV0lcXnTHX14lmOX+07A4opMJUt+%2fL7P7QnTph7Vo3dc6ym9&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022315/RG26FCC14/hdntl=exp=1779698654~acl=%2f*~id=1c34738f-4ee3-4a61-a5f2-1d412e3e65c7~data=hdntl~hmac=14f10353b8598e480535c07ba47e5fd66cf6469ccd5c3e0aa71cc41cab86e7d8/master_950.m3u8?aka_me_session_id=AAAAAAAAAADeCxRqAAAAAF44pDMDnzDQxPEXSkfg+ILEEiA+WV0lcXnTHX14lmOX+07A4opMJUt+%2fL7P7QnTph7Vo3dc6ym9&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1603544,AVERAGE-BANDWIDTH=1603544,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022315/RG26FCC14/hdntl=exp=1779698654~acl=%2f*~id=1c34738f-4ee3-4a61-a5f2-1d412e3e65c7~data=hdntl~hmac=14f10353b8598e480535c07ba47e5fd66cf6469ccd5c3e0aa71cc41cab86e7d8/master_1350.m3u8?aka_me_session_id=AAAAAAAAAADeCxRqAAAAAF44pDMDnzDQxPEXSkfg+ILEEiA+WV0lcXnTHX14lmOX+07A4opMJUt+%2fL7P7QnTph7Vo3dc6ym9&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022315/RG26FCC14/hdntl=exp=1779698654~acl=%2f*~id=1c34738f-4ee3-4a61-a5f2-1d412e3e65c7~data=hdntl~hmac=14f10353b8598e480535c07ba47e5fd66cf6469ccd5c3e0aa71cc41cab86e7d8/master_1400.m3u8?aka_me_session_id=AAAAAAAAAADeCxRqAAAAAF44pDMDnzDQxPEXSkfg+ILEEiA+WV0lcXnTHX14lmOX+07A4opMJUt+%2fL7P7QnTph7Vo3dc6ym9&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022315/RG26FCC14/hdntl=exp=1779698654~acl=%2f*~id=1c34738f-4ee3-4a61-a5f2-1d412e3e65c7~data=hdntl~hmac=14f10353b8598e480535c07ba47e5fd66cf6469ccd5c3e0aa71cc41cab86e7d8/master_2000.m3u8?aka_me_session_id=AAAAAAAAAADeCxRqAAAAAF44pDMDnzDQxPEXSkfg+ILEEiA+WV0lcXnTHX14lmOX+07A4opMJUt+%2fL7P7QnTph7Vo3dc6ym9&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022315/RG26FCC14/hdntl=exp=1779698654~acl=%2f*~id=1c34738f-4ee3-4a61-a5f2-1d412e3e65c7~data=hdntl~hmac=14f10353b8598e480535c07ba47e5fd66cf6469ccd5c3e0aa71cc41cab86e7d8/master_3000.m3u8?aka_me_session_id=AAAAAAAAAADeCxRqAAAAAF44pDMDnzDQxPEXSkfg+ILEEiA+WV0lcXnTHX14lmOX+07A4opMJUt+%2fL7P7QnTph7Vo3dc6ym9&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=4865152,AVERAGE-BANDWIDTH=4865152,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022315/RG26FCC14/hdntl=exp=1779698654~acl=%2f*~id=1c34738f-4ee3-4a61-a5f2-1d412e3e65c7~data=hdntl~hmac=14f10353b8598e480535c07ba47e5fd66cf6469ccd5c3e0aa71cc41cab86e7d8/master_4500.m3u8?aka_me_session_id=AAAAAAAAAADeCxRqAAAAAF44pDMDnzDQxPEXSkfg+ILEEiA+WV0lcXnTHX14lmOX+07A4opMJUt+%2fL7P7QnTph7Vo3dc6ym9&aka_media_format_type=hls",
+          "cookie": "hdntl=exp=1779698654~acl=%2f*~id=1c34738f-4ee3-4a61-a5f2-1d412e3e65c7~data=hdntl~hmac=14f10353b8598e480535c07ba47e5fd66cf6469ccd5c3e0aa71cc41cab86e7d8",
+          "cookie_valid": "1779698654",
+          "create_date": "Sunday, May 24, 2026, 2:14:12 PM",
+          "expire_date": "Monday, May 25, 2026, 2:14:14 PM",
           "language": "ENGLISH"
         }
       ]
@@ -890,34 +1157,34 @@
       "auto_streams": null
     },
     {
-      "category": "Tennis",
-      "title": "Lenglen Court",
-      "tournament": "Roland Garros 2026",
-      "match_id": 142649,
+      "category": "Cricket",
+      "title": "New Territories Tigers Vs Hong Kong Islanders",
+      "tournament": "Skywarriors All Stars Plus Men’s T20 Series 2026",
+      "match_id": 142767,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "24 May 2026 02:30 PM",
+      "startTime": "25 May 2026 11:00 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Skywarriors_web.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142649_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142767_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Skywarriors_web.png",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142649_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/HK-ASS.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Skywarriors_web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Skywarriors-All-Stars-Plus-Mens-T20-sporty.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142767_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Lenglen Court",
-          "shortName": "Lenglen Court",
+          "name": "New Territories Tigers",
+          "shortName": "NTT",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NTT@2x.png"
           },
           "isWinner": null,
-          "color": "#84E3C7",
+          "color": "#CDC904",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -930,147 +1197,13 @@
           }
         },
         {
-          "name": "France",
-          "shortName": "France",
+          "name": "Hong Kong Islanders",
+          "shortName": "HKI",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HKI@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "Mathieu Court",
-      "tournament": "Roland Garros 2026",
-      "match_id": 142648,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "24 May 2026 02:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142648_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142648_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Mathieu Court",
-          "shortName": "Mathieu Court",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "France",
-          "shortName": "France",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "Court 14",
-      "tournament": "Roland Garros 2026",
-      "match_id": 142647,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "24 May 2026 02:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142647_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142647_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Court 14",
-          "shortName": "Court 14",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "France",
-          "shortName": "France",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
+          "color": "#08913F",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1138,73 +1271,6 @@
           },
           "isWinner": null,
           "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "New Territories Tigers Vs Hong Kong Islanders",
-      "tournament": "Skywarriors All Stars Plus Men’s T20 Series 2026",
-      "match_id": 142767,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "25 May 2026 11:00 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Skywarriors_web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142767_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Skywarriors_web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/HK-ASS.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Skywarriors_web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Skywarriors-All-Stars-Plus-Mens-T20-sporty.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142767_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "New Territories Tigers",
-          "shortName": "NTT",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NTT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#CDC904",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Hong Kong Islanders",
-          "shortName": "HKI",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HKI@2x.png"
-          },
-          "isWinner": null,
-          "color": "#08913F",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2096,73 +2162,6 @@
       "auto_streams": null
     },
     {
-      "category": "Formula 1",
-      "title": "Race",
-      "tournament": "F1 LENOVO GRAND PRIX DU CANADA 2026",
-      "match_id": 139446,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "25 May 2026 01:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1_Canada_web_1779186565976.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139446_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1_Canada_web_1779186565976.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Canada_1769027827034.jpg",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_F1-racing.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Canada_web_1779186565976.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_F1-racing.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139446_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Race",
-          "shortName": "RC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
-          },
-          "isWinner": null,
-          "color": "#EE0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Canada",
-          "shortName": "Canada",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Cricket",
       "title": "Mali Vs Ivory Coast",
       "tournament": "ICC Men's T20 WC Africa Sub Regional Qualifier",
@@ -2210,6 +2209,73 @@
           },
           "isWinner": null,
           "color": "#c16419",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Formula 1",
+      "title": "Race",
+      "tournament": "F1 LENOVO GRAND PRIX DU CANADA 2026",
+      "match_id": 139446,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "25 May 2026 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1_Canada_web_1779186565976.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139446_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1_Canada_web_1779186565976.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Canada_1769027827034.jpg",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_F1-racing.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Canada_web_1779186565976.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_F1-racing.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139446_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Race",
+          "shortName": "RC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
+          },
+          "isWinner": null,
+          "color": "#EE0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Canada",
+          "shortName": "Canada",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2712,6 +2778,73 @@
       "auto_streams": null
     },
     {
+      "category": "Football",
+      "title": "Maldives Women Vs India Women",
+      "tournament": "SAFF Women's Championship 2026",
+      "match_id": 142936,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "25 May 2026 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142936_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142936_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Maldives Women",
+          "shortName": "MDW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MDW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#e4222a",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "India Women",
+          "shortName": "INDW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-IND@2x.png"
+          },
+          "isWinner": null,
+          "color": "#6a7bee",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
       "category": "Tennis",
       "title": "Chatrier Court",
       "tournament": "Roland Garros 2026",
@@ -2772,513 +2905,6 @@
         }
       ],
       "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "Lenglen Court",
-      "tournament": "Roland Garros 2026",
-      "match_id": 142652,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "25 May 2026 02:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142652_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142652_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Lenglen Court",
-          "shortName": "Lenglen Court",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "France",
-          "shortName": "France",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Boost Region Vs Speen Ghar Region",
-      "tournament": "Supercola Regional List A Tournament, 2026",
-      "short_name": "e& Regional List A Tournament",
-      "match_id": 142746,
-      "status": "STARTED",
-      "startTime": "24 May 2026 10:00 AM",
-      "startDate": "17 May 2026 05:30 AM",
-      "endDate": "05 June 2026 01:30 AM",
-      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142746_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142746_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 7651,
-          "name": "Boost Region",
-          "shortName": "BOS",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BOS@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BOS@2x.png",
-          "color": "#ff8484"
-        },
-        {
-          "id": 7648,
-          "name": "Speen Ghar Region",
-          "shortName": "SG",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SPG@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SPG@2x.png",
-          "color": "#00ff8d"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Band E Amir Region Vs Amo Region",
-      "tournament": "Supercola Regional List A Tournament, 2026",
-      "short_name": "e& Regional List A Tournament",
-      "match_id": 142747,
-      "status": "NOT_STARTED",
-      "startTime": "25 May 2026 10:00 AM",
-      "startDate": "17 May 2026 05:30 AM",
-      "endDate": "05 June 2026 01:30 AM",
-      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142747_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142747_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 7647,
-          "name": "Band-e-Amir Region",
-          "shortName": "BD",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BEA@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BEA@2x.png",
-          "color": "#fa8940"
-        },
-        {
-          "id": 7650,
-          "name": "Amo Region",
-          "shortName": "AM",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AM@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AM@2x.png",
-          "color": "#6db7ff"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Villarreal Cf Vs Atletico De Madrid",
-      "tournament": "LALIGA 2025-26",
-      "short_name": "LALIGA 2025-26",
-      "match_id": 131207,
-      "status": "NOT_STARTED",
-      "startTime": "25 May 2026 12:30 AM",
-      "startDate": "15 August 2025 05:30 AM",
-      "endDate": "24 May 2026 11:45 PM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131207_5427_VIL_ATL_FC-App.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131207_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131207_5427_VIL_ATL_FC-App.png",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131207_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 553,
-          "name": "Villarreal CF",
-          "shortName": "VIL",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VIL@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VIL@2x.png",
-          "color": "#ffc0cb"
-        },
-        {
-          "id": 436,
-          "name": "Atletico de Madrid",
-          "shortName": "ATL",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ATLH@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ATLH@2x.png",
-          "color": "#ca2917"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "Lenglen Court",
-      "tournament": "Roland Garros 2026",
-      "short_name": "French Open",
-      "match_id": 142649,
-      "status": "NOT_STARTED",
-      "startTime": "24 May 2026 02:30 PM",
-      "startDate": "24 May 2026 05:30 AM",
-      "endDate": "07 June 2026 11:45 PM",
-      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142649_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142649_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 12259,
-          "name": "Lenglen Court",
-          "shortName": "RG",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png",
-          "color": "#84E3C7"
-        },
-        {
-          "id": 12122,
-          "name": "France",
-          "shortName": "LOC",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-          "color": "#FF0000"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "Mathieu Court",
-      "tournament": "Roland Garros 2026",
-      "short_name": "French Open",
-      "match_id": 142648,
-      "status": "NOT_STARTED",
-      "startTime": "24 May 2026 02:30 PM",
-      "startDate": "24 May 2026 05:30 AM",
-      "endDate": "07 June 2026 11:45 PM",
-      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142648_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142648_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 12259,
-          "name": "Mathieu Court",
-          "shortName": "RG",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png",
-          "color": "#84E3C7"
-        },
-        {
-          "id": 12122,
-          "name": "France",
-          "shortName": "LOC",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-          "color": "#FF0000"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "Court 14",
-      "tournament": "Roland Garros 2026",
-      "short_name": "French Open",
-      "match_id": 142647,
-      "status": "NOT_STARTED",
-      "startTime": "24 May 2026 02:30 PM",
-      "startDate": "24 May 2026 05:30 AM",
-      "endDate": "07 June 2026 11:45 PM",
-      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142647_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142647_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 12259,
-          "name": "Court 14",
-          "shortName": "RG",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png",
-          "color": "#84E3C7"
-        },
-        {
-          "id": 12122,
-          "name": "France",
-          "shortName": "LOC",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-          "color": "#FF0000"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "Top Seeds In Action",
-      "tournament": "Roland Garros 2026",
-      "short_name": "French Open",
-      "match_id": 142950,
-      "status": "NOT_STARTED",
-      "startTime": "24 May 2026 02:30 PM",
-      "startDate": "24 May 2026 05:30 AM",
-      "endDate": "07 June 2026 11:45 PM",
-      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142950_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142950_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 12259,
-          "name": "Top seeds in action",
-          "shortName": "RG",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png",
-          "color": "#84E3C7"
-        },
-        {
-          "id": 12122,
-          "name": "Stade Roland Garros Paris, France",
-          "shortName": "LOC",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-          "color": "#FF0000"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "Chatrier Court",
-      "tournament": "Roland Garros 2026",
-      "short_name": "French Open",
-      "match_id": 142203,
-      "status": "NOT_STARTED",
-      "startTime": "24 May 2026 03:30 PM",
-      "startDate": "24 May 2026 05:30 AM",
-      "endDate": "07 June 2026 11:45 PM",
-      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142203_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142203_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 12259,
-          "name": "Chatrier Court",
-          "shortName": "RG",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png",
-          "color": "#84E3C7"
-        },
-        {
-          "id": 12122,
-          "name": "Stade Roland Garros",
-          "shortName": "LOC",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-          "color": "#FF0000"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Rwanda Vs Ivory Coast",
-      "tournament": "ICC Men's T20 WC Africa Sub Regional Qualifier",
-      "short_name": "ICC Men's T20 WC Africa Sub Reg",
-      "match_id": 142910,
-      "status": "STARTED",
-      "startTime": "24 May 2026 01:00 PM",
-      "startDate": "23 May 2026 05:30 AM",
-      "endDate": "31 May 2026 01:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142910_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142910_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 207,
-          "name": "Rwanda",
-          "shortName": "RWA",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RWA@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RWA@2x.png",
-          "color": "#227de0"
-        },
-        {
-          "id": 9197,
-          "name": "Ivory Coast",
-          "shortName": "CIV",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CIV@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CIV@2x.png",
-          "color": "#c16419"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Motorsports",
-      "title": "Dtm",
-      "tournament": "DTM 2026",
-      "short_name": "DTM",
-      "match_id": 142533,
-      "status": "STARTED",
-      "startTime": "24 May 2026 01:05 PM",
-      "startDate": "24 April 2026 05:30 AM",
-      "endDate": "11 October 2026 11:30 PM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1779171712400.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142533_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1779171712400.png",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142533_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 8518,
-          "name": "Day 3 Qualifying 2 - Zandvoort",
-          "shortName": "DTM",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-DTM@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-DTM@2x.png",
-          "color": "#FFCC00"
-        },
-        {
-          "id": 8235,
-          "name": "Netherlands",
-          "shortName": "LOC",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png",
-          "color": "#123456"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
       "STREAMING_CDN": {
         "language": "BLOODY_SWEET",
         "Primary_Playback_URL": null
