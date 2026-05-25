@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "06:42:06 PM 25-05-2026",
+  "last_updated": "07:14:13 PM 25-05-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 45,
-  "live_matches": 6,
-  "upcoming_matches": 39,
+  "total_matches": 46,
+  "live_matches": 8,
+  "upcoming_matches": 38,
   "matches": [
     {
       "category": "Cricket",
@@ -45,7 +45,7 @@
               "runs": 78,
               "overs": "20",
               "balls": "120",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 5
             }
           ],
@@ -55,7 +55,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -67,14 +67,22 @@
           },
           "isWinner": null,
           "color": "#151515",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 31,
+              "overs": "4",
+              "balls": "24",
+              "status": "IN_PROGRESS",
+              "wickets": 1
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -109,108 +117,19 @@
       ]
     },
     {
-      "category": "Tennis",
-      "title": "Court Philippe Chatrier",
-      "tournament": "Roland Garros 2026",
-      "match_id": 142653,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "25 May 2026 03:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142653_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142653_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Court Philippe-Chatrier",
-          "shortName": "Court Philippe-Chatrier",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Stade Roland Garros Paris, France",
-          "shortName": "Stade Roland Garros Paris, France",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/alqtTrVWQeuxHd8fbw-Rmw/master.m3u8",
-        "fancode_cdn": "Unavailable",
-        "fancode_bd_cdn": "Unavailable",
-        "fancode_np_cdn": "Unavailable",
-        "fancode_lk_cdn": "Unavailable",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/alqtTrVWQeuxHd8fbw-Rmw/master.m3u8?deviceId=4f3d9bc5a271f8a3&advertiserId=00000000-0000-0000-0000-000000000000&ft_type=c1&cust_params=app_version%3D9.7.0%26app_platform%3Dsportsguruand%26state%3DMaharashtra%26city%3DMumbai%26country%3DIN%26userId%3D173556231%26match_id%3D142653%26match_format%3DSingles%26tour_id%3D6058%26tour_name%3DRoland_Garros_2026%26sport%3Dlawn-tennis%26authorizationType%3DPAID&state=Maharashtra&city=Mumbai",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
-        "backup": {
-          "fancode_cdn": "Unavailable",
-          "fancode_dai_cdn": "Unavailable"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/hdntl=exp=1779788648~acl=%2f*~id=8153b167-25bc-43ef-8e97-d712a7bd4222~data=hdntl~hmac=a415d4397ac56692b5a0112dab9c319e66ce4063c47d6ec51c1e6ae3cfa7b1c6/master_350.m3u8?aka_me_session_id=AAAAAAAAAABoaxVqAAAAAElT%2fZ8EJNhqHt1pqL6qguZ5b1WEETJuObyO9gkndoQ00jtywIYtYtdNSfsURn1OOK7qsaByQBCL&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/hdntl=exp=1779788648~acl=%2f*~id=8153b167-25bc-43ef-8e97-d712a7bd4222~data=hdntl~hmac=a415d4397ac56692b5a0112dab9c319e66ce4063c47d6ec51c1e6ae3cfa7b1c6/master_500.m3u8?aka_me_session_id=AAAAAAAAAABoaxVqAAAAAElT%2fZ8EJNhqHt1pqL6qguZ5b1WEETJuObyO9gkndoQ00jtywIYtYtdNSfsURn1OOK7qsaByQBCL&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/hdntl=exp=1779788648~acl=%2f*~id=8153b167-25bc-43ef-8e97-d712a7bd4222~data=hdntl~hmac=a415d4397ac56692b5a0112dab9c319e66ce4063c47d6ec51c1e6ae3cfa7b1c6/master_700.m3u8?aka_me_session_id=AAAAAAAAAABoaxVqAAAAAElT%2fZ8EJNhqHt1pqL6qguZ5b1WEETJuObyO9gkndoQ00jtywIYtYtdNSfsURn1OOK7qsaByQBCL&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/hdntl=exp=1779788648~acl=%2f*~id=8153b167-25bc-43ef-8e97-d712a7bd4222~data=hdntl~hmac=a415d4397ac56692b5a0112dab9c319e66ce4063c47d6ec51c1e6ae3cfa7b1c6/master_950.m3u8?aka_me_session_id=AAAAAAAAAABoaxVqAAAAAElT%2fZ8EJNhqHt1pqL6qguZ5b1WEETJuObyO9gkndoQ00jtywIYtYtdNSfsURn1OOK7qsaByQBCL&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1603544,AVERAGE-BANDWIDTH=1603544,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/hdntl=exp=1779788648~acl=%2f*~id=8153b167-25bc-43ef-8e97-d712a7bd4222~data=hdntl~hmac=a415d4397ac56692b5a0112dab9c319e66ce4063c47d6ec51c1e6ae3cfa7b1c6/master_1350.m3u8?aka_me_session_id=AAAAAAAAAABoaxVqAAAAAElT%2fZ8EJNhqHt1pqL6qguZ5b1WEETJuObyO9gkndoQ00jtywIYtYtdNSfsURn1OOK7qsaByQBCL&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/hdntl=exp=1779788648~acl=%2f*~id=8153b167-25bc-43ef-8e97-d712a7bd4222~data=hdntl~hmac=a415d4397ac56692b5a0112dab9c319e66ce4063c47d6ec51c1e6ae3cfa7b1c6/master_1400.m3u8?aka_me_session_id=AAAAAAAAAABoaxVqAAAAAElT%2fZ8EJNhqHt1pqL6qguZ5b1WEETJuObyO9gkndoQ00jtywIYtYtdNSfsURn1OOK7qsaByQBCL&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/hdntl=exp=1779788648~acl=%2f*~id=8153b167-25bc-43ef-8e97-d712a7bd4222~data=hdntl~hmac=a415d4397ac56692b5a0112dab9c319e66ce4063c47d6ec51c1e6ae3cfa7b1c6/master_2000.m3u8?aka_me_session_id=AAAAAAAAAABoaxVqAAAAAElT%2fZ8EJNhqHt1pqL6qguZ5b1WEETJuObyO9gkndoQ00jtywIYtYtdNSfsURn1OOK7qsaByQBCL&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/hdntl=exp=1779788648~acl=%2f*~id=8153b167-25bc-43ef-8e97-d712a7bd4222~data=hdntl~hmac=a415d4397ac56692b5a0112dab9c319e66ce4063c47d6ec51c1e6ae3cfa7b1c6/master_3000.m3u8?aka_me_session_id=AAAAAAAAAABoaxVqAAAAAElT%2fZ8EJNhqHt1pqL6qguZ5b1WEETJuObyO9gkndoQ00jtywIYtYtdNSfsURn1OOK7qsaByQBCL&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=4865152,AVERAGE-BANDWIDTH=4865152,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/hdntl=exp=1779788648~acl=%2f*~id=8153b167-25bc-43ef-8e97-d712a7bd4222~data=hdntl~hmac=a415d4397ac56692b5a0112dab9c319e66ce4063c47d6ec51c1e6ae3cfa7b1c6/master_4500.m3u8?aka_me_session_id=AAAAAAAAAABoaxVqAAAAAElT%2fZ8EJNhqHt1pqL6qguZ5b1WEETJuObyO9gkndoQ00jtywIYtYtdNSfsURn1OOK7qsaByQBCL&aka_media_format_type=hls",
-          "cookie": "hdntl=exp=1779788648~acl=%2f*~id=8153b167-25bc-43ef-8e97-d712a7bd4222~data=hdntl~hmac=a415d4397ac56692b5a0112dab9c319e66ce4063c47d6ec51c1e6ae3cfa7b1c6",
-          "cookie_valid": "1779788648",
-          "create_date": "Monday, May 25, 2026, 3:14:06 PM",
-          "expire_date": "Tuesday, May 26, 2026, 3:14:08 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
       "category": "Football",
       "title": "Maldives Women Vs India Women",
       "tournament": "SAFF Women's Championship 2026",
       "match_id": 142936,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "25 May 2026 07:30 PM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/142936_6089_MDW_INDW_FC-Web_1779706388717.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/142936_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/142936_6089_MDW_INDW_FC-Web_1779706388717.jpg",
-        "PLAYBACK": null,
+        "PLAYBACK": "",
         "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/10/SAFF-Women_s-Championship-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/142936_6089_MDW_INDW_FC-Web_1779706388717.jpg",
@@ -231,11 +150,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "India Women",
@@ -250,34 +165,52 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/142936_english_hls_edd205a76331217_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/142936_english_hls_edd205a76331217_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/142936_english_hls_edd205a76331217_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/142936_english_hls_edd205a76331217_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/142936_english_hls_edd205a76331217_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142936_english_hls_edd205a76331217_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142936_english_hls_edd205a76331217_1ta-di_h264/index.m3u8"
+        }
       },
-      "auto_streams": null
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142936_english_hls_edd205a76331217_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142936_english_hls_edd205a76331217_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142936_english_hls_edd205a76331217_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142936_english_hls_edd205a76331217_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142936_english_hls_edd205a76331217_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142936_english_hls_edd205a76331217_1ta-di_h264/1080p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=5408736,AVERAGE-BANDWIDTH=5408736,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-fblive.fancode.com/mumbai/142936_english_hls_edd205a76331217_1ta-di_h264/1080p5.m3u8",
+          "cookie": null,
+          "cookie_valid": "1779803042",
+          "create_date": "Monday, May 25, 2026, 7:14:02 PM",
+          "expire_date": "Tuesday, May 26, 2026, 7:14:02 PM",
+          "language": "ENGLISH"
+        }
+      ]
     },
     {
       "category": "Football",
       "title": "Notts County Vs Salford City",
       "tournament": "League Two 2025-26",
       "match_id": 142736,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "25 May 2026 07:30 PM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://images.fancode.com/aig/match/v1778931436016/142736_CASACARDS_APP.png",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/142736_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://images.fancode.com/aig/match/v1778931436016/142736_CASACARDS_APP.png",
-        "PLAYBACK": null,
+        "PLAYBACK": "",
         "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/EFL-League-Two.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
         "BG_IMAGE": "https://images.fancode.com/aig/match/v1778931436016/142736_CASACARDS_APP.png",
@@ -298,11 +231,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "Salford City",
@@ -317,19 +246,37 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/142736_english_hls_688b0bf1a326363_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/142736_english_hls_688b0bf1a326363_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/142736_english_hls_688b0bf1a326363_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/142736_english_hls_688b0bf1a326363_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/142736_english_hls_688b0bf1a326363_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142736_english_hls_688b0bf1a326363_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142736_english_hls_688b0bf1a326363_1ta-di_h264/index.m3u8"
+        }
       },
-      "auto_streams": null
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142736_english_hls_688b0bf1a326363_1ta-di_h264/240p.m3u8?hdntl=Expires=1779803047~_GO=Generated~acl=/mumbai/142736_english_hls_688b0bf1a326363_1ta-di_h264/*~Signature=ASfvW0XLrld2ITfWpDLTwzwMH0qdOvby7sR0OCHx9NcnXsVnh3AzGreStGOjI8jOceJqHokv90INGftOgiyFsUGeFnwP\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142736_english_hls_688b0bf1a326363_1ta-di_h264/360p.m3u8?hdntl=Expires=1779803047~_GO=Generated~acl=/mumbai/142736_english_hls_688b0bf1a326363_1ta-di_h264/*~Signature=ASfvW0XLrld2ITfWpDLTwzwMH0qdOvby7sR0OCHx9NcnXsVnh3AzGreStGOjI8jOceJqHokv90INGftOgiyFsUGeFnwP\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142736_english_hls_688b0bf1a326363_1ta-di_h264/480p.m3u8?hdntl=Expires=1779803047~_GO=Generated~acl=/mumbai/142736_english_hls_688b0bf1a326363_1ta-di_h264/*~Signature=ASfvW0XLrld2ITfWpDLTwzwMH0qdOvby7sR0OCHx9NcnXsVnh3AzGreStGOjI8jOceJqHokv90INGftOgiyFsUGeFnwP\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142736_english_hls_688b0bf1a326363_1ta-di_h264/540p.m3u8?hdntl=Expires=1779803047~_GO=Generated~acl=/mumbai/142736_english_hls_688b0bf1a326363_1ta-di_h264/*~Signature=ASfvW0XLrld2ITfWpDLTwzwMH0qdOvby7sR0OCHx9NcnXsVnh3AzGreStGOjI8jOceJqHokv90INGftOgiyFsUGeFnwP\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142736_english_hls_688b0bf1a326363_1ta-di_h264/720p.m3u8?hdntl=Expires=1779803047~_GO=Generated~acl=/mumbai/142736_english_hls_688b0bf1a326363_1ta-di_h264/*~Signature=ASfvW0XLrld2ITfWpDLTwzwMH0qdOvby7sR0OCHx9NcnXsVnh3AzGreStGOjI8jOceJqHokv90INGftOgiyFsUGeFnwP\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/142736_english_hls_688b0bf1a326363_1ta-di_h264/1080p.m3u8?hdntl=Expires=1779803047~_GO=Generated~acl=/mumbai/142736_english_hls_688b0bf1a326363_1ta-di_h264/*~Signature=ASfvW0XLrld2ITfWpDLTwzwMH0qdOvby7sR0OCHx9NcnXsVnh3AzGreStGOjI8jOceJqHokv90INGftOgiyFsUGeFnwP",
+          "cookie": "hdntl=Expires=1779803047~_GO=Generated~acl=/mumbai/142736_english_hls_688b0bf1a326363_1ta-di_h264/*~Signature=ASfvW0XLrld2ITfWpDLTwzwMH0qdOvby7sR0OCHx9NcnXsVnh3AzGreStGOjI8jOceJqHokv90INGftOgiyFsUGeFnwP",
+          "cookie_valid": "1779803047",
+          "create_date": "Monday, May 25, 2026, 7:14:04 PM",
+          "expire_date": "Tuesday, May 26, 2026, 7:14:07 PM",
+          "language": "ENGLISH"
+        }
+      ]
     },
     {
       "category": "Cricket",
@@ -2860,6 +2807,94 @@
           "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CIV@2x.png",
           "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CIV@2x.png",
           "color": "#c16419"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Maldives Women Vs India Women",
+      "tournament": "SAFF Women's Championship 2026",
+      "short_name": "SAFF Women's Championship",
+      "match_id": 142936,
+      "status": "STARTED",
+      "startTime": "25 May 2026 07:30 PM",
+      "startDate": "25 May 2026 05:30 AM",
+      "endDate": "06 June 2026 11:45 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/142936_6089_MDW_INDW_FC-Web_1779706388717.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142936_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/142936_6089_MDW_INDW_FC-Web_1779706388717.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142936_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 9148,
+          "name": "Maldives Women",
+          "shortName": "MDW",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MDW@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MDW@2x.png",
+          "color": "#e4222a"
+        },
+        {
+          "id": 9145,
+          "name": "India Women",
+          "shortName": "INDW",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-IND@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-IND@2x.png",
+          "color": "#6a7bee"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Notts County Vs Salford City",
+      "tournament": "League Two 2025-26",
+      "short_name": "League Two",
+      "match_id": 142736,
+      "status": "STARTED",
+      "startTime": "25 May 2026 07:30 PM",
+      "startDate": "02 August 2025 05:30 AM",
+      "endDate": "31 May 2026 11:30 PM",
+      "image": "https://images.fancode.com/aig/match/v1778931436016/142736_CASACARDS_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142736_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1778931436016/142736_CASACARDS_APP.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142736_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 7350,
+          "name": "Notts County",
+          "shortName": "NC",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NOTTS@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NOTTS@2x.png",
+          "color": "#F4D56B"
+        },
+        {
+          "id": 6578,
+          "name": "Salford City",
+          "shortName": "SC",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SALF@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SALF@2x.png",
+          "color": "#d03a29"
         }
       ],
       "language": "BLOODY_SWEET",
