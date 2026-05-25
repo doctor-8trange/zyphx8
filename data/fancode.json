@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "06:21:05 PM 25-05-2026",
+  "last_updated": "06:35:06 PM 25-05-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 51,
+  "total_matches": 46,
   "live_matches": 7,
-  "upcoming_matches": 44,
+  "upcoming_matches": 39,
   "matches": [
     {
       "category": "Cricket",
@@ -42,11 +42,11 @@
           "color": "#c16419",
           "cricketScore": [
             {
-              "runs": 64,
-              "overs": "16",
-              "balls": "96",
+              "runs": 78,
+              "overs": "19.5",
+              "balls": "119",
               "status": "IN_PROGRESS",
-              "wickets": 3
+              "wickets": 4
             }
           ],
           "kabaddiScore": null,
@@ -191,451 +191,6 @@
     },
     {
       "category": "Tennis",
-      "title": "Top Seeds In Action",
-      "tournament": "Roland Garros 2026",
-      "match_id": 142951,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "25 May 2026 02:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142951_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142951_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Top seeds in action",
-          "shortName": "Top seeds in action",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Stade Roland Garros Paris, France",
-          "shortName": "Stade Roland Garros Paris, France",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/Y6jP_z0zQdaO-bhFCEf5EQ/master.m3u8",
-        "fancode_cdn": "Unavailable",
-        "fancode_bd_cdn": "Unavailable",
-        "fancode_np_cdn": "Unavailable",
-        "fancode_lk_cdn": "Unavailable",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/Y6jP_z0zQdaO-bhFCEf5EQ/master.m3u8?deviceId=4f3d9bc5a271f8a3&advertiserId=00000000-0000-0000-0000-000000000000&ft_type=c1&cust_params=app_version%3D9.7.0%26app_platform%3Dsportsguruand%26state%3DMaharashtra%26city%3DMumbai%26country%3DIN%26userId%3D173556231%26match_id%3D142951%26match_format%3DSingles%26tour_id%3D6058%26tour_name%3DRoland_Garros_2026%26sport%3Dlawn-tennis%26authorizationType%3DPAID&state=Maharashtra&city=Mumbai",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
-        "backup": {
-          "fancode_cdn": "Unavailable",
-          "fancode_dai_cdn": "Unavailable"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1779785891~acl=%2f*~id=c6fe0980-073e-4472-87e2-831c8e3105e2~data=hdntl~hmac=f21403ceb8a4836383753a6e673589b8b53d8b11e10e192cd35707f2cd6d5fbd/master_350.m3u8?aka_me_session_id=AAAAAAAAAACjYBVqAAAAAOH4Tg7iBKABgs1tHan3ak07xOX15jqKmij8pRvg8nzLhszMYJo9REEsNzI3PwTiQ%2fmEBU4QTobr&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1779785891~acl=%2f*~id=c6fe0980-073e-4472-87e2-831c8e3105e2~data=hdntl~hmac=f21403ceb8a4836383753a6e673589b8b53d8b11e10e192cd35707f2cd6d5fbd/master_500.m3u8?aka_me_session_id=AAAAAAAAAACjYBVqAAAAAOH4Tg7iBKABgs1tHan3ak07xOX15jqKmij8pRvg8nzLhszMYJo9REEsNzI3PwTiQ%2fmEBU4QTobr&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1779785891~acl=%2f*~id=c6fe0980-073e-4472-87e2-831c8e3105e2~data=hdntl~hmac=f21403ceb8a4836383753a6e673589b8b53d8b11e10e192cd35707f2cd6d5fbd/master_700.m3u8?aka_me_session_id=AAAAAAAAAACjYBVqAAAAAOH4Tg7iBKABgs1tHan3ak07xOX15jqKmij8pRvg8nzLhszMYJo9REEsNzI3PwTiQ%2fmEBU4QTobr&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1779785891~acl=%2f*~id=c6fe0980-073e-4472-87e2-831c8e3105e2~data=hdntl~hmac=f21403ceb8a4836383753a6e673589b8b53d8b11e10e192cd35707f2cd6d5fbd/master_950.m3u8?aka_me_session_id=AAAAAAAAAACjYBVqAAAAAOH4Tg7iBKABgs1tHan3ak07xOX15jqKmij8pRvg8nzLhszMYJo9REEsNzI3PwTiQ%2fmEBU4QTobr&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1603544,AVERAGE-BANDWIDTH=1603544,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1779785891~acl=%2f*~id=c6fe0980-073e-4472-87e2-831c8e3105e2~data=hdntl~hmac=f21403ceb8a4836383753a6e673589b8b53d8b11e10e192cd35707f2cd6d5fbd/master_1350.m3u8?aka_me_session_id=AAAAAAAAAACjYBVqAAAAAOH4Tg7iBKABgs1tHan3ak07xOX15jqKmij8pRvg8nzLhszMYJo9REEsNzI3PwTiQ%2fmEBU4QTobr&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1779785891~acl=%2f*~id=c6fe0980-073e-4472-87e2-831c8e3105e2~data=hdntl~hmac=f21403ceb8a4836383753a6e673589b8b53d8b11e10e192cd35707f2cd6d5fbd/master_1400.m3u8?aka_me_session_id=AAAAAAAAAACjYBVqAAAAAOH4Tg7iBKABgs1tHan3ak07xOX15jqKmij8pRvg8nzLhszMYJo9REEsNzI3PwTiQ%2fmEBU4QTobr&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1779785891~acl=%2f*~id=c6fe0980-073e-4472-87e2-831c8e3105e2~data=hdntl~hmac=f21403ceb8a4836383753a6e673589b8b53d8b11e10e192cd35707f2cd6d5fbd/master_2000.m3u8?aka_me_session_id=AAAAAAAAAACjYBVqAAAAAOH4Tg7iBKABgs1tHan3ak07xOX15jqKmij8pRvg8nzLhszMYJo9REEsNzI3PwTiQ%2fmEBU4QTobr&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1779785891~acl=%2f*~id=c6fe0980-073e-4472-87e2-831c8e3105e2~data=hdntl~hmac=f21403ceb8a4836383753a6e673589b8b53d8b11e10e192cd35707f2cd6d5fbd/master_3000.m3u8?aka_me_session_id=AAAAAAAAAACjYBVqAAAAAOH4Tg7iBKABgs1tHan3ak07xOX15jqKmij8pRvg8nzLhszMYJo9REEsNzI3PwTiQ%2fmEBU4QTobr&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=4865152,AVERAGE-BANDWIDTH=4865152,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1779785891~acl=%2f*~id=c6fe0980-073e-4472-87e2-831c8e3105e2~data=hdntl~hmac=f21403ceb8a4836383753a6e673589b8b53d8b11e10e192cd35707f2cd6d5fbd/master_4500.m3u8?aka_me_session_id=AAAAAAAAAACjYBVqAAAAAOH4Tg7iBKABgs1tHan3ak07xOX15jqKmij8pRvg8nzLhszMYJo9REEsNzI3PwTiQ%2fmEBU4QTobr&aka_media_format_type=hls",
-          "cookie": "hdntl=exp=1779785891~acl=%2f*~id=c6fe0980-073e-4472-87e2-831c8e3105e2~data=hdntl~hmac=f21403ceb8a4836383753a6e673589b8b53d8b11e10e192cd35707f2cd6d5fbd",
-          "cookie_valid": "1779785891",
-          "create_date": "Monday, May 25, 2026, 2:28:08 PM",
-          "expire_date": "Tuesday, May 26, 2026, 2:28:11 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Tennis",
-      "title": "Top Seeds In Action",
-      "tournament": "Roland Garros 2026",
-      "match_id": 142951,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "25 May 2026 02:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142951_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142951_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Top seeds in action",
-          "shortName": "Top seeds in action",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Stade Roland Garros Paris, France",
-          "shortName": "Stade Roland Garros Paris, France",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "HINDI",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/fE5fgIpRRwiue-26GG4XmA/master.m3u8",
-        "fancode_cdn": "Unavailable",
-        "fancode_bd_cdn": "Unavailable",
-        "fancode_np_cdn": "Unavailable",
-        "fancode_lk_cdn": "Unavailable",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/fE5fgIpRRwiue-26GG4XmA/master.m3u8?deviceId=4f3d9bc5a271f8a3&advertiserId=00000000-0000-0000-0000-000000000000&ft_type=c1&cust_params=app_version%3D9.7.0%26app_platform%3Dsportsguruand%26state%3DMaharashtra%26city%3DMumbai%26country%3DIN%26userId%3D173556231%26match_id%3D142951%26match_format%3DSingles%26tour_id%3D6058%26tour_name%3DRoland_Garros_2026%26sport%3Dlawn-tennis%26authorizationType%3DPAID&state=Maharashtra&city=Mumbai",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "HINDI",
-        "X-Served-By": "ROLEX",
-        "backup": {
-          "fancode_cdn": "Unavailable",
-          "fancode_dai_cdn": "Unavailable"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1779785895~acl=%2f*~id=85728fec-485e-453b-9bbd-8d5bace66763~data=hdntl~hmac=33b89198ca91dd3fc453fb1133366825d3bffc6fc27b8b139c6fcac2d873c37e/master_350.m3u8?aka_me_session_id=AAAAAAAAAACnYBVqAAAAAMDBIvkchwUZauDuUEyga8p9Os2sDXyrslrrfIrEbeg0MA%2fBxSwTatANaLeLsjbb44tUTNcP%2fwmK&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1779785895~acl=%2f*~id=85728fec-485e-453b-9bbd-8d5bace66763~data=hdntl~hmac=33b89198ca91dd3fc453fb1133366825d3bffc6fc27b8b139c6fcac2d873c37e/master_500.m3u8?aka_me_session_id=AAAAAAAAAACnYBVqAAAAAMDBIvkchwUZauDuUEyga8p9Os2sDXyrslrrfIrEbeg0MA%2fBxSwTatANaLeLsjbb44tUTNcP%2fwmK&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1779785895~acl=%2f*~id=85728fec-485e-453b-9bbd-8d5bace66763~data=hdntl~hmac=33b89198ca91dd3fc453fb1133366825d3bffc6fc27b8b139c6fcac2d873c37e/master_700.m3u8?aka_me_session_id=AAAAAAAAAACnYBVqAAAAAMDBIvkchwUZauDuUEyga8p9Os2sDXyrslrrfIrEbeg0MA%2fBxSwTatANaLeLsjbb44tUTNcP%2fwmK&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1779785895~acl=%2f*~id=85728fec-485e-453b-9bbd-8d5bace66763~data=hdntl~hmac=33b89198ca91dd3fc453fb1133366825d3bffc6fc27b8b139c6fcac2d873c37e/master_950.m3u8?aka_me_session_id=AAAAAAAAAACnYBVqAAAAAMDBIvkchwUZauDuUEyga8p9Os2sDXyrslrrfIrEbeg0MA%2fBxSwTatANaLeLsjbb44tUTNcP%2fwmK&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1603544,AVERAGE-BANDWIDTH=1603544,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1779785895~acl=%2f*~id=85728fec-485e-453b-9bbd-8d5bace66763~data=hdntl~hmac=33b89198ca91dd3fc453fb1133366825d3bffc6fc27b8b139c6fcac2d873c37e/master_1350.m3u8?aka_me_session_id=AAAAAAAAAACnYBVqAAAAAMDBIvkchwUZauDuUEyga8p9Os2sDXyrslrrfIrEbeg0MA%2fBxSwTatANaLeLsjbb44tUTNcP%2fwmK&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1779785895~acl=%2f*~id=85728fec-485e-453b-9bbd-8d5bace66763~data=hdntl~hmac=33b89198ca91dd3fc453fb1133366825d3bffc6fc27b8b139c6fcac2d873c37e/master_1400.m3u8?aka_me_session_id=AAAAAAAAAACnYBVqAAAAAMDBIvkchwUZauDuUEyga8p9Os2sDXyrslrrfIrEbeg0MA%2fBxSwTatANaLeLsjbb44tUTNcP%2fwmK&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1779785895~acl=%2f*~id=85728fec-485e-453b-9bbd-8d5bace66763~data=hdntl~hmac=33b89198ca91dd3fc453fb1133366825d3bffc6fc27b8b139c6fcac2d873c37e/master_2000.m3u8?aka_me_session_id=AAAAAAAAAACnYBVqAAAAAMDBIvkchwUZauDuUEyga8p9Os2sDXyrslrrfIrEbeg0MA%2fBxSwTatANaLeLsjbb44tUTNcP%2fwmK&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=4980816,AVERAGE-BANDWIDTH=4980816,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1779785895~acl=%2f*~id=85728fec-485e-453b-9bbd-8d5bace66763~data=hdntl~hmac=33b89198ca91dd3fc453fb1133366825d3bffc6fc27b8b139c6fcac2d873c37e/master_3000.m3u8?aka_me_session_id=AAAAAAAAAACnYBVqAAAAAMDBIvkchwUZauDuUEyga8p9Os2sDXyrslrrfIrEbeg0MA%2fBxSwTatANaLeLsjbb44tUTNcP%2fwmK&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1779785895~acl=%2f*~id=85728fec-485e-453b-9bbd-8d5bace66763~data=hdntl~hmac=33b89198ca91dd3fc453fb1133366825d3bffc6fc27b8b139c6fcac2d873c37e/master_4500.m3u8?aka_me_session_id=AAAAAAAAAACnYBVqAAAAAMDBIvkchwUZauDuUEyga8p9Os2sDXyrslrrfIrEbeg0MA%2fBxSwTatANaLeLsjbb44tUTNcP%2fwmK&aka_media_format_type=hls",
-          "cookie": "hdntl=exp=1779785895~acl=%2f*~id=85728fec-485e-453b-9bbd-8d5bace66763~data=hdntl~hmac=33b89198ca91dd3fc453fb1133366825d3bffc6fc27b8b139c6fcac2d873c37e",
-          "cookie_valid": "1779785895",
-          "create_date": "Monday, May 25, 2026, 2:28:12 PM",
-          "expire_date": "Tuesday, May 26, 2026, 2:28:15 PM",
-          "language": "HINDI"
-        }
-      ]
-    },
-    {
-      "category": "Tennis",
-      "title": "Top Seeds In Action",
-      "tournament": "Roland Garros 2026",
-      "match_id": 142951,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "25 May 2026 02:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142951_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142951_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Top seeds in action",
-          "shortName": "Top seeds in action",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Stade Roland Garros Paris, France",
-          "shortName": "Stade Roland Garros Paris, France",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "TAMIL",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/fl9QYciWQzGorh7RYdUx2Q/master.m3u8",
-        "fancode_cdn": "Unavailable",
-        "fancode_bd_cdn": "Unavailable",
-        "fancode_np_cdn": "Unavailable",
-        "fancode_lk_cdn": "Unavailable",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/fl9QYciWQzGorh7RYdUx2Q/master.m3u8?deviceId=4f3d9bc5a271f8a3&advertiserId=00000000-0000-0000-0000-000000000000&ft_type=c1&cust_params=app_version%3D9.7.0%26app_platform%3Dsportsguruand%26state%3DMaharashtra%26city%3DMumbai%26country%3DIN%26userId%3D173556231%26match_id%3D142951%26match_format%3DSingles%26tour_id%3D6058%26tour_name%3DRoland_Garros_2026%26sport%3Dlawn-tennis%26authorizationType%3DPAID&state=Maharashtra&city=Mumbai",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "TAMIL",
-        "X-Served-By": "ROLEX",
-        "backup": {
-          "fancode_cdn": "Unavailable",
-          "fancode_dai_cdn": "Unavailable"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCTAM/hdntl=exp=1779785899~acl=%2f*~id=3b1b999e-fade-4bc2-b331-10dc4fc76ff0~data=hdntl~hmac=e75a2c7f410ae42265f1bd4fccced6f6bba56e1603545d57e15f9f0718c6405a/master_350.m3u8?aka_me_session_id=AAAAAAAAAACrYBVqAAAAACF5PfEdsfgKhcYsdKXWSv+50Vo10CRI60Wv5UTZi6huRIz1mL0%2f1gSC5Upi3DoNq5tTXKHBPPt4&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCTAM/hdntl=exp=1779785899~acl=%2f*~id=3b1b999e-fade-4bc2-b331-10dc4fc76ff0~data=hdntl~hmac=e75a2c7f410ae42265f1bd4fccced6f6bba56e1603545d57e15f9f0718c6405a/master_500.m3u8?aka_me_session_id=AAAAAAAAAACrYBVqAAAAACF5PfEdsfgKhcYsdKXWSv+50Vo10CRI60Wv5UTZi6huRIz1mL0%2f1gSC5Upi3DoNq5tTXKHBPPt4&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCTAM/hdntl=exp=1779785899~acl=%2f*~id=3b1b999e-fade-4bc2-b331-10dc4fc76ff0~data=hdntl~hmac=e75a2c7f410ae42265f1bd4fccced6f6bba56e1603545d57e15f9f0718c6405a/master_700.m3u8?aka_me_session_id=AAAAAAAAAACrYBVqAAAAACF5PfEdsfgKhcYsdKXWSv+50Vo10CRI60Wv5UTZi6huRIz1mL0%2f1gSC5Upi3DoNq5tTXKHBPPt4&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCTAM/hdntl=exp=1779785899~acl=%2f*~id=3b1b999e-fade-4bc2-b331-10dc4fc76ff0~data=hdntl~hmac=e75a2c7f410ae42265f1bd4fccced6f6bba56e1603545d57e15f9f0718c6405a/master_950.m3u8?aka_me_session_id=AAAAAAAAAACrYBVqAAAAACF5PfEdsfgKhcYsdKXWSv+50Vo10CRI60Wv5UTZi6huRIz1mL0%2f1gSC5Upi3DoNq5tTXKHBPPt4&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1603544,AVERAGE-BANDWIDTH=1603544,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCTAM/hdntl=exp=1779785899~acl=%2f*~id=3b1b999e-fade-4bc2-b331-10dc4fc76ff0~data=hdntl~hmac=e75a2c7f410ae42265f1bd4fccced6f6bba56e1603545d57e15f9f0718c6405a/master_1350.m3u8?aka_me_session_id=AAAAAAAAAACrYBVqAAAAACF5PfEdsfgKhcYsdKXWSv+50Vo10CRI60Wv5UTZi6huRIz1mL0%2f1gSC5Upi3DoNq5tTXKHBPPt4&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCTAM/hdntl=exp=1779785899~acl=%2f*~id=3b1b999e-fade-4bc2-b331-10dc4fc76ff0~data=hdntl~hmac=e75a2c7f410ae42265f1bd4fccced6f6bba56e1603545d57e15f9f0718c6405a/master_1400.m3u8?aka_me_session_id=AAAAAAAAAACrYBVqAAAAACF5PfEdsfgKhcYsdKXWSv+50Vo10CRI60Wv5UTZi6huRIz1mL0%2f1gSC5Upi3DoNq5tTXKHBPPt4&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCTAM/hdntl=exp=1779785899~acl=%2f*~id=3b1b999e-fade-4bc2-b331-10dc4fc76ff0~data=hdntl~hmac=e75a2c7f410ae42265f1bd4fccced6f6bba56e1603545d57e15f9f0718c6405a/master_2000.m3u8?aka_me_session_id=AAAAAAAAAACrYBVqAAAAACF5PfEdsfgKhcYsdKXWSv+50Vo10CRI60Wv5UTZi6huRIz1mL0%2f1gSC5Upi3DoNq5tTXKHBPPt4&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=4865152,AVERAGE-BANDWIDTH=4865152,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCTAM/hdntl=exp=1779785899~acl=%2f*~id=3b1b999e-fade-4bc2-b331-10dc4fc76ff0~data=hdntl~hmac=e75a2c7f410ae42265f1bd4fccced6f6bba56e1603545d57e15f9f0718c6405a/master_3000.m3u8?aka_me_session_id=AAAAAAAAAACrYBVqAAAAACF5PfEdsfgKhcYsdKXWSv+50Vo10CRI60Wv5UTZi6huRIz1mL0%2f1gSC5Upi3DoNq5tTXKHBPPt4&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCTAM/hdntl=exp=1779785899~acl=%2f*~id=3b1b999e-fade-4bc2-b331-10dc4fc76ff0~data=hdntl~hmac=e75a2c7f410ae42265f1bd4fccced6f6bba56e1603545d57e15f9f0718c6405a/master_4500.m3u8?aka_me_session_id=AAAAAAAAAACrYBVqAAAAACF5PfEdsfgKhcYsdKXWSv+50Vo10CRI60Wv5UTZi6huRIz1mL0%2f1gSC5Upi3DoNq5tTXKHBPPt4&aka_media_format_type=hls",
-          "cookie": "hdntl=exp=1779785899~acl=%2f*~id=3b1b999e-fade-4bc2-b331-10dc4fc76ff0~data=hdntl~hmac=e75a2c7f410ae42265f1bd4fccced6f6bba56e1603545d57e15f9f0718c6405a",
-          "cookie_valid": "1779785899",
-          "create_date": "Monday, May 25, 2026, 2:28:17 PM",
-          "expire_date": "Tuesday, May 26, 2026, 2:28:19 PM",
-          "language": "TAMIL"
-        }
-      ]
-    },
-    {
-      "category": "Tennis",
-      "title": "Top Seeds In Action",
-      "tournament": "Roland Garros 2026",
-      "match_id": 142951,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "25 May 2026 02:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142951_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142951_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Top seeds in action",
-          "shortName": "Top seeds in action",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Stade Roland Garros Paris, France",
-          "shortName": "Stade Roland Garros Paris, France",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "TELUGU",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/1I2inQFKTc6hWKkkGtjkog/master.m3u8",
-        "fancode_cdn": "Unavailable",
-        "fancode_bd_cdn": "Unavailable",
-        "fancode_np_cdn": "Unavailable",
-        "fancode_lk_cdn": "Unavailable",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/1I2inQFKTc6hWKkkGtjkog/master.m3u8?deviceId=4f3d9bc5a271f8a3&advertiserId=00000000-0000-0000-0000-000000000000&ft_type=c1&cust_params=app_version%3D9.7.0%26app_platform%3Dsportsguruand%26state%3DMaharashtra%26city%3DMumbai%26country%3DIN%26userId%3D173556231%26match_id%3D142951%26match_format%3DSingles%26tour_id%3D6058%26tour_name%3DRoland_Garros_2026%26sport%3Dlawn-tennis%26authorizationType%3DPAID&state=Maharashtra&city=Mumbai",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "TELUGU",
-        "X-Served-By": "ROLEX",
-        "backup": {
-          "fancode_cdn": "Unavailable",
-          "fancode_dai_cdn": "Unavailable"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1779785902~acl=%2f*~id=ea60ba52-fd33-43c6-b159-ec00e3394140~data=hdntl~hmac=7e47752a59338e66194109ffd50d79a0b24aeb81a3917d172d93b56d052be4df/master_350.m3u8?aka_me_session_id=AAAAAAAAAACuYBVqAAAAABrySsi%2fV6lZ%2f2aqrScGks852hn2G2kRuLN8ygiLjSAwBNQJcQgGI8Ac9+IM4kkbCAn6HgPxdenQ&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1779785902~acl=%2f*~id=ea60ba52-fd33-43c6-b159-ec00e3394140~data=hdntl~hmac=7e47752a59338e66194109ffd50d79a0b24aeb81a3917d172d93b56d052be4df/master_500.m3u8?aka_me_session_id=AAAAAAAAAACuYBVqAAAAABrySsi%2fV6lZ%2f2aqrScGks852hn2G2kRuLN8ygiLjSAwBNQJcQgGI8Ac9+IM4kkbCAn6HgPxdenQ&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1779785902~acl=%2f*~id=ea60ba52-fd33-43c6-b159-ec00e3394140~data=hdntl~hmac=7e47752a59338e66194109ffd50d79a0b24aeb81a3917d172d93b56d052be4df/master_700.m3u8?aka_me_session_id=AAAAAAAAAACuYBVqAAAAABrySsi%2fV6lZ%2f2aqrScGks852hn2G2kRuLN8ygiLjSAwBNQJcQgGI8Ac9+IM4kkbCAn6HgPxdenQ&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1779785902~acl=%2f*~id=ea60ba52-fd33-43c6-b159-ec00e3394140~data=hdntl~hmac=7e47752a59338e66194109ffd50d79a0b24aeb81a3917d172d93b56d052be4df/master_950.m3u8?aka_me_session_id=AAAAAAAAAACuYBVqAAAAABrySsi%2fV6lZ%2f2aqrScGks852hn2G2kRuLN8ygiLjSAwBNQJcQgGI8Ac9+IM4kkbCAn6HgPxdenQ&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1603544,AVERAGE-BANDWIDTH=1603544,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1779785902~acl=%2f*~id=ea60ba52-fd33-43c6-b159-ec00e3394140~data=hdntl~hmac=7e47752a59338e66194109ffd50d79a0b24aeb81a3917d172d93b56d052be4df/master_1350.m3u8?aka_me_session_id=AAAAAAAAAACuYBVqAAAAABrySsi%2fV6lZ%2f2aqrScGks852hn2G2kRuLN8ygiLjSAwBNQJcQgGI8Ac9+IM4kkbCAn6HgPxdenQ&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1779785902~acl=%2f*~id=ea60ba52-fd33-43c6-b159-ec00e3394140~data=hdntl~hmac=7e47752a59338e66194109ffd50d79a0b24aeb81a3917d172d93b56d052be4df/master_1400.m3u8?aka_me_session_id=AAAAAAAAAACuYBVqAAAAABrySsi%2fV6lZ%2f2aqrScGks852hn2G2kRuLN8ygiLjSAwBNQJcQgGI8Ac9+IM4kkbCAn6HgPxdenQ&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1779785902~acl=%2f*~id=ea60ba52-fd33-43c6-b159-ec00e3394140~data=hdntl~hmac=7e47752a59338e66194109ffd50d79a0b24aeb81a3917d172d93b56d052be4df/master_2000.m3u8?aka_me_session_id=AAAAAAAAAACuYBVqAAAAABrySsi%2fV6lZ%2f2aqrScGks852hn2G2kRuLN8ygiLjSAwBNQJcQgGI8Ac9+IM4kkbCAn6HgPxdenQ&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=4865152,AVERAGE-BANDWIDTH=4865152,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1779785902~acl=%2f*~id=ea60ba52-fd33-43c6-b159-ec00e3394140~data=hdntl~hmac=7e47752a59338e66194109ffd50d79a0b24aeb81a3917d172d93b56d052be4df/master_3000.m3u8?aka_me_session_id=AAAAAAAAAACuYBVqAAAAABrySsi%2fV6lZ%2f2aqrScGks852hn2G2kRuLN8ygiLjSAwBNQJcQgGI8Ac9+IM4kkbCAn6HgPxdenQ&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1779785902~acl=%2f*~id=ea60ba52-fd33-43c6-b159-ec00e3394140~data=hdntl~hmac=7e47752a59338e66194109ffd50d79a0b24aeb81a3917d172d93b56d052be4df/master_4500.m3u8?aka_me_session_id=AAAAAAAAAACuYBVqAAAAABrySsi%2fV6lZ%2f2aqrScGks852hn2G2kRuLN8ygiLjSAwBNQJcQgGI8Ac9+IM4kkbCAn6HgPxdenQ&aka_media_format_type=hls",
-          "cookie": "hdntl=exp=1779785902~acl=%2f*~id=ea60ba52-fd33-43c6-b159-ec00e3394140~data=hdntl~hmac=7e47752a59338e66194109ffd50d79a0b24aeb81a3917d172d93b56d052be4df",
-          "cookie_valid": "1779785902",
-          "create_date": "Monday, May 25, 2026, 2:28:20 PM",
-          "expire_date": "Tuesday, May 26, 2026, 2:28:22 PM",
-          "language": "TELUGU"
-        }
-      ]
-    },
-    {
-      "category": "Tennis",
-      "title": "Top Seeds In Action",
-      "tournament": "Roland Garros 2026",
-      "match_id": 142951,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "25 May 2026 02:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142951_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142951_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Top seeds in action",
-          "shortName": "Top seeds in action",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Stade Roland Garros Paris, France",
-          "shortName": "Stade Roland Garros Paris, France",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "KANNADA",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/yGxR-xztTQi4dkEj1x5Qjw/master.m3u8",
-        "fancode_cdn": "Unavailable",
-        "fancode_bd_cdn": "Unavailable",
-        "fancode_np_cdn": "Unavailable",
-        "fancode_lk_cdn": "Unavailable",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/yGxR-xztTQi4dkEj1x5Qjw/master.m3u8?deviceId=4f3d9bc5a271f8a3&advertiserId=00000000-0000-0000-0000-000000000000&ft_type=c1&cust_params=app_version%3D9.7.0%26app_platform%3Dsportsguruand%26state%3DMaharashtra%26city%3DMumbai%26country%3DIN%26userId%3D173556231%26match_id%3D142951%26match_format%3DSingles%26tour_id%3D6058%26tour_name%3DRoland_Garros_2026%26sport%3Dlawn-tennis%26authorizationType%3DPAID&state=Maharashtra&city=Mumbai",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "KANNADA",
-        "X-Served-By": "ROLEX",
-        "backup": {
-          "fancode_cdn": "Unavailable",
-          "fancode_dai_cdn": "Unavailable"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1779785906~acl=%2f*~id=3b605b45-5850-4df1-b85e-e4abe647c1a4~data=hdntl~hmac=b32b3a5dcf47e24439a2f57e77ed28b4bd72708c091e14af048d686bc7dc7e74/master_350.m3u8?aka_me_session_id=AAAAAAAAAACyYBVqAAAAAJKPptugs5mP9ZgUZ9xaytWZypW8mnJfX9XEZRsiPk7DZ2WOcVKq%2fqH31LktvBzqIadyVRM4ubQd&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1779785906~acl=%2f*~id=3b605b45-5850-4df1-b85e-e4abe647c1a4~data=hdntl~hmac=b32b3a5dcf47e24439a2f57e77ed28b4bd72708c091e14af048d686bc7dc7e74/master_500.m3u8?aka_me_session_id=AAAAAAAAAACyYBVqAAAAAJKPptugs5mP9ZgUZ9xaytWZypW8mnJfX9XEZRsiPk7DZ2WOcVKq%2fqH31LktvBzqIadyVRM4ubQd&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1779785906~acl=%2f*~id=3b605b45-5850-4df1-b85e-e4abe647c1a4~data=hdntl~hmac=b32b3a5dcf47e24439a2f57e77ed28b4bd72708c091e14af048d686bc7dc7e74/master_700.m3u8?aka_me_session_id=AAAAAAAAAACyYBVqAAAAAJKPptugs5mP9ZgUZ9xaytWZypW8mnJfX9XEZRsiPk7DZ2WOcVKq%2fqH31LktvBzqIadyVRM4ubQd&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1779785906~acl=%2f*~id=3b605b45-5850-4df1-b85e-e4abe647c1a4~data=hdntl~hmac=b32b3a5dcf47e24439a2f57e77ed28b4bd72708c091e14af048d686bc7dc7e74/master_950.m3u8?aka_me_session_id=AAAAAAAAAACyYBVqAAAAAJKPptugs5mP9ZgUZ9xaytWZypW8mnJfX9XEZRsiPk7DZ2WOcVKq%2fqH31LktvBzqIadyVRM4ubQd&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1603544,AVERAGE-BANDWIDTH=1603544,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1779785906~acl=%2f*~id=3b605b45-5850-4df1-b85e-e4abe647c1a4~data=hdntl~hmac=b32b3a5dcf47e24439a2f57e77ed28b4bd72708c091e14af048d686bc7dc7e74/master_1350.m3u8?aka_me_session_id=AAAAAAAAAACyYBVqAAAAAJKPptugs5mP9ZgUZ9xaytWZypW8mnJfX9XEZRsiPk7DZ2WOcVKq%2fqH31LktvBzqIadyVRM4ubQd&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1779785906~acl=%2f*~id=3b605b45-5850-4df1-b85e-e4abe647c1a4~data=hdntl~hmac=b32b3a5dcf47e24439a2f57e77ed28b4bd72708c091e14af048d686bc7dc7e74/master_1400.m3u8?aka_me_session_id=AAAAAAAAAACyYBVqAAAAAJKPptugs5mP9ZgUZ9xaytWZypW8mnJfX9XEZRsiPk7DZ2WOcVKq%2fqH31LktvBzqIadyVRM4ubQd&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1779785906~acl=%2f*~id=3b605b45-5850-4df1-b85e-e4abe647c1a4~data=hdntl~hmac=b32b3a5dcf47e24439a2f57e77ed28b4bd72708c091e14af048d686bc7dc7e74/master_2000.m3u8?aka_me_session_id=AAAAAAAAAACyYBVqAAAAAJKPptugs5mP9ZgUZ9xaytWZypW8mnJfX9XEZRsiPk7DZ2WOcVKq%2fqH31LktvBzqIadyVRM4ubQd&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=4865152,AVERAGE-BANDWIDTH=4865152,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1779785906~acl=%2f*~id=3b605b45-5850-4df1-b85e-e4abe647c1a4~data=hdntl~hmac=b32b3a5dcf47e24439a2f57e77ed28b4bd72708c091e14af048d686bc7dc7e74/master_3000.m3u8?aka_me_session_id=AAAAAAAAAACyYBVqAAAAAJKPptugs5mP9ZgUZ9xaytWZypW8mnJfX9XEZRsiPk7DZ2WOcVKq%2fqH31LktvBzqIadyVRM4ubQd&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1779785906~acl=%2f*~id=3b605b45-5850-4df1-b85e-e4abe647c1a4~data=hdntl~hmac=b32b3a5dcf47e24439a2f57e77ed28b4bd72708c091e14af048d686bc7dc7e74/master_4500.m3u8?aka_me_session_id=AAAAAAAAAACyYBVqAAAAAJKPptugs5mP9ZgUZ9xaytWZypW8mnJfX9XEZRsiPk7DZ2WOcVKq%2fqH31LktvBzqIadyVRM4ubQd&aka_media_format_type=hls",
-          "cookie": "hdntl=exp=1779785906~acl=%2f*~id=3b605b45-5850-4df1-b85e-e4abe647c1a4~data=hdntl~hmac=b32b3a5dcf47e24439a2f57e77ed28b4bd72708c091e14af048d686bc7dc7e74",
-          "cookie_valid": "1779785906",
-          "create_date": "Monday, May 25, 2026, 2:28:23 PM",
-          "expire_date": "Tuesday, May 26, 2026, 2:28:26 PM",
-          "language": "KANNADA"
-        }
-      ]
-    },
-    {
-      "category": "Tennis",
       "title": "Court Philippe Chatrier",
       "tournament": "Roland Garros 2026",
       "match_id": 142653,
@@ -724,73 +279,6 @@
       ]
     },
     {
-      "category": "Cricket",
-      "title": "Rwanda Vs Mali",
-      "tournament": "ICC Men's T20 WC Africa Sub Regional Qualifier",
-      "match_id": 142916,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "26 May 2026 01:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142916_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142916_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Rwanda",
-          "shortName": "RWA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RWA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#227de0",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Mali",
-          "shortName": "MLI",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MAI@2x.png"
-          },
-          "isWinner": null,
-          "color": "#151515",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Football",
       "title": "Maldives Women Vs India Women",
       "tournament": "SAFF Women's Championship 2026",
@@ -839,6 +327,140 @@
           "isWinner": null,
           "color": "#6a7bee",
           "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Notts County Vs Salford City",
+      "tournament": "League Two 2025-26",
+      "match_id": 142736,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "25 May 2026 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://images.fancode.com/aig/match/v1778931436016/142736_CASACARDS_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142736_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1778931436016/142736_CASACARDS_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/EFL-League-Two.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1778931436016/142736_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1778931436016/142736_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142736_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Notts County",
+          "shortName": "NC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NOTTS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#F4D56B",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Salford City",
+          "shortName": "SC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SALF@2x.png"
+          },
+          "isWinner": null,
+          "color": "#d03a29",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Rwanda Vs Mali",
+      "tournament": "ICC Men's T20 WC Africa Sub Regional Qualifier",
+      "match_id": 142916,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "26 May 2026 01:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142916_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142916_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Rwanda",
+          "shortName": "RWA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RWA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#227de0",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Mali",
+          "shortName": "MLI",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MAI@2x.png"
+          },
+          "isWinner": null,
+          "color": "#151515",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1040,73 +662,6 @@
           "isWinner": null,
           "color": "#54ba1d",
           "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Notts County Vs Salford City",
-      "tournament": "League Two 2025-26",
-      "match_id": 142736,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "25 May 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://images.fancode.com/aig/match/v1778931436016/142736_CASACARDS_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142736_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1778931436016/142736_CASACARDS_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/EFL-League-Two.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://images.fancode.com/aig/match/v1778931436016/142736_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1778931436016/142736_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142736_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Notts County",
-          "shortName": "NC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NOTTS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#F4D56B",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Salford City",
-          "shortName": "SC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SALF@2x.png"
-          },
-          "isWinner": null,
-          "color": "#d03a29",
-          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
