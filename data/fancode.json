@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:56:03 PM 28-05-2026",
+  "last_updated": "10:28:03 PM 28-05-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -69,11 +69,18 @@
           "color": "#ba6a15",
           "cricketScore": [
             {
-              "runs": 168,
-              "overs": "43.2",
+              "runs": 179,
+              "overs": "45",
+              "balls": "0",
+              "status": "COMPLETED",
+              "wickets": 10
+            },
+            {
+              "runs": 27,
+              "overs": "2.4",
               "balls": "0",
               "status": "IN_PROGRESS",
-              "wickets": 8
+              "wickets": 0
             }
           ],
           "kabaddiScore": null,
@@ -150,7 +157,7 @@
               "runs": 103,
               "overs": "17",
               "balls": "102",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 10
             }
           ],
@@ -160,7 +167,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -172,14 +179,22 @@
           },
           "isWinner": null,
           "color": "#91033c",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 46,
+              "overs": "6.5",
+              "balls": "41",
+              "status": "IN_PROGRESS",
+              "wickets": 2
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -927,28 +942,28 @@
     },
     {
       "category": "Tennis",
-      "title": "Court Philippe Chatrier",
+      "title": "Sabalenka Vs Jacquemot",
       "tournament": "Roland Garros 2026",
       "match_id": 142664,
       "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "28 May 2026 03:30 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/RG_Aryna-Sabalenka-vs-Elsa-Jacquemot_FC-WEB.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/142664_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/RG_Aryna-Sabalenka-vs-Elsa-Jacquemot_FC-WEB.jpg",
         "PLAYBACK": "",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/RG_Aryna-Sabalenka-vs-Elsa-Jacquemot_FC-WEB.jpg",
         "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142664_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Court Philippe-Chatrier",
-          "shortName": "Court Philippe-Chatrier",
+          "name": "Sabalenka vs Jacquemot",
+          "shortName": "Sabalenka vs Jacquemot",
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
           },
@@ -1166,16 +1181,16 @@
       "language": "ENGLISH",
       "STREAMING_CDN": {
         "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/index.m3u8",
+        "Primary_Playback_URL": "https://in-mc-plive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-plive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-plive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-plive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-plive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "Unavailable",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
+        "X-Served-By": "LOKI",
         "backup": {
           "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/index.m3u8",
           "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142887_english_hls_d085108c3766520_1ta-di_h264/index.m3u8"
@@ -1183,11 +1198,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/1080p.m3u8",
-          "cookie": null,
-          "cookie_valid": "1780059069",
-          "create_date": "Thursday, May 28, 2026, 6:21:09 PM",
-          "expire_date": "Friday, May 29, 2026, 6:21:09 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/240p.m3u8?hdntl=Expires=1780073886~_GO=Generated~acl=/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/*~Signature=ARGZZFjRnBLgh-ta8A6Lr5HH7m4HyqYHx6rwdAepwyhjh_JNInYybFdM3sVlYswYP4PgbMLNs3Zc46ZqFR_jCMvqIqwG\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/360p.m3u8?hdntl=Expires=1780073886~_GO=Generated~acl=/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/*~Signature=ARGZZFjRnBLgh-ta8A6Lr5HH7m4HyqYHx6rwdAepwyhjh_JNInYybFdM3sVlYswYP4PgbMLNs3Zc46ZqFR_jCMvqIqwG\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/480p.m3u8?hdntl=Expires=1780073886~_GO=Generated~acl=/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/*~Signature=ARGZZFjRnBLgh-ta8A6Lr5HH7m4HyqYHx6rwdAepwyhjh_JNInYybFdM3sVlYswYP4PgbMLNs3Zc46ZqFR_jCMvqIqwG\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/540p.m3u8?hdntl=Expires=1780073886~_GO=Generated~acl=/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/*~Signature=ARGZZFjRnBLgh-ta8A6Lr5HH7m4HyqYHx6rwdAepwyhjh_JNInYybFdM3sVlYswYP4PgbMLNs3Zc46ZqFR_jCMvqIqwG\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/720p.m3u8?hdntl=Expires=1780073886~_GO=Generated~acl=/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/*~Signature=ARGZZFjRnBLgh-ta8A6Lr5HH7m4HyqYHx6rwdAepwyhjh_JNInYybFdM3sVlYswYP4PgbMLNs3Zc46ZqFR_jCMvqIqwG\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/1080p.m3u8?hdntl=Expires=1780073886~_GO=Generated~acl=/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/*~Signature=ARGZZFjRnBLgh-ta8A6Lr5HH7m4HyqYHx6rwdAepwyhjh_JNInYybFdM3sVlYswYP4PgbMLNs3Zc46ZqFR_jCMvqIqwG",
+          "cookie": "hdntl=Expires=1780073886~_GO=Generated~acl=/mumbai/142887_english_hls_d085108c3766520_1ta-di_h264/*~Signature=ARGZZFjRnBLgh-ta8A6Lr5HH7m4HyqYHx6rwdAepwyhjh_JNInYybFdM3sVlYswYP4PgbMLNs3Zc46ZqFR_jCMvqIqwG",
+          "cookie_valid": "1780073886",
+          "create_date": "Thursday, May 28, 2026, 10:28:02 PM",
+          "expire_date": "Friday, May 29, 2026, 10:28:06 PM",
           "language": "ENGLISH"
         }
       ]
@@ -3601,7 +3616,7 @@
     },
     {
       "category": "Tennis",
-      "title": "Court Philippe Chatrier",
+      "title": "Sabalenka Vs Jacquemot",
       "tournament": "Roland Garros 2026",
       "short_name": "French Open",
       "match_id": 142664,
@@ -3619,7 +3634,7 @@
       "teams": [
         {
           "id": 12259,
-          "name": "Court Philippe-Chatrier",
+          "name": "Sabalenka vs Jacquemot",
           "shortName": "RG",
           "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png",
           "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png",
