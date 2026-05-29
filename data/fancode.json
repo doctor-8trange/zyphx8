@@ -2,51 +2,85 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "02:21:18 PM 29-05-2026",
+  "last_updated": "03:25:29 PM 29-05-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 54,
-  "live_matches": 7,
-  "upcoming_matches": 47,
+  "total_matches": 53,
+  "live_matches": 8,
+  "upcoming_matches": 45,
   "matches": [
     {
       "category": "Cricket",
-      "title": "Ivory Coast Vs Sierra Leone",
-      "tournament": "ICC Men's T20 WC Africa Sub Regional Qualifier",
-      "match_id": 142923,
+      "title": "New Zealand Vs Ireland",
+      "tournament": "New Zealand tour of Ireland, 2026",
+      "match_id": 142980,
       "status": "LIVE",
       "streamingStatus": "STARTED",
-      "startTime": "29 May 2026 01:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
+      "startTime": "27 May 2026 03:30 PM",
+      "startDate": "29 May 2026 03:30 PM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(7)_1779966479189.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142923_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142980_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(7)_1779966479189.png",
         "PLAYBACK": "",
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2022/07/IRE_vs_NZ.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(7)_1779966479189.png",
         "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142923_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142980_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Ivory Coast",
-          "shortName": "CIV",
+          "name": "New Zealand",
+          "shortName": "NZ",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CIV@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NZC@2x.png"
           },
           "isWinner": null,
-          "color": "#c16419",
+          "color": "#1d2c6b",
           "cricketScore": [
             {
-              "runs": 53,
-              "overs": "20",
-              "balls": "120",
-              "status": "IN_PROGRESS",
+              "runs": 490,
+              "overs": "119",
+              "balls": "0",
+              "status": "DECLARED",
               "wickets": 8
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Ireland",
+          "shortName": "IRE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ba6a15",
+          "cricketScore": [
+            {
+              "runs": 179,
+              "overs": "45",
+              "balls": "0",
+              "status": "COMPLETED",
+              "wickets": 10
+            },
+            {
+              "runs": 65,
+              "overs": "16",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 2
             }
           ],
           "kabaddiScore": null,
@@ -58,52 +92,33 @@
               "isBatting": true
             }
           }
-        },
-        {
-          "name": "Sierra Leone",
-          "shortName": "SIE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SILN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#54ba1d",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
         }
       ],
       "language": "ENGLISH",
       "STREAMING_CDN": {
         "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/142923_english_hls_bec8aeb9761698_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/142923_english_hls_bec8aeb9761698_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/142923_english_hls_bec8aeb9761698_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/142923_english_hls_bec8aeb9761698_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/142923_english_hls_bec8aeb9761698_1ta-di_h264/index.m3u8",
+        "Primary_Playback_URL": "https://in-mc-plive.fancode.com/mumbai/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-plive.fancode.com/mumbai/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-plive.fancode.com/mumbai/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-plive.fancode.com/mumbai/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-plive.fancode.com/mumbai/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "Unavailable",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
+        "X-Served-By": "LOKI",
         "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142923_english_hls_bec8aeb9761698_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142923_english_hls_bec8aeb9761698_1ta-di_h264/index.m3u8"
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/index.m3u8"
         }
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142923_english_hls_bec8aeb9761698_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142923_english_hls_bec8aeb9761698_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142923_english_hls_bec8aeb9761698_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142923_english_hls_bec8aeb9761698_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142923_english_hls_bec8aeb9761698_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142923_english_hls_bec8aeb9761698_1ta-di_h264/1080p.m3u8",
-          "cookie": null,
-          "cookie_valid": "1780125542",
-          "create_date": "Friday, May 29, 2026, 12:49:02 PM",
-          "expire_date": "Saturday, May 30, 2026, 12:49:02 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/240p.m3u8?hdntl=Expires=1780134929~_GO=Generated~acl=/mumbai/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/*~Signature=ARGZZFjXBFEcVMpEU1VPqCT0-l5ih5e-JfyCyEyhT5UjJxsUb0K1FCjFqRt2qJFRrkLFaUD8Fh_a1V8_oS0fSJ8yBUIP\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/360p.m3u8?hdntl=Expires=1780134929~_GO=Generated~acl=/mumbai/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/*~Signature=ARGZZFjXBFEcVMpEU1VPqCT0-l5ih5e-JfyCyEyhT5UjJxsUb0K1FCjFqRt2qJFRrkLFaUD8Fh_a1V8_oS0fSJ8yBUIP\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/480p.m3u8?hdntl=Expires=1780134929~_GO=Generated~acl=/mumbai/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/*~Signature=ARGZZFjXBFEcVMpEU1VPqCT0-l5ih5e-JfyCyEyhT5UjJxsUb0K1FCjFqRt2qJFRrkLFaUD8Fh_a1V8_oS0fSJ8yBUIP\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/540p.m3u8?hdntl=Expires=1780134929~_GO=Generated~acl=/mumbai/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/*~Signature=ARGZZFjXBFEcVMpEU1VPqCT0-l5ih5e-JfyCyEyhT5UjJxsUb0K1FCjFqRt2qJFRrkLFaUD8Fh_a1V8_oS0fSJ8yBUIP\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/720p.m3u8?hdntl=Expires=1780134929~_GO=Generated~acl=/mumbai/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/*~Signature=ARGZZFjXBFEcVMpEU1VPqCT0-l5ih5e-JfyCyEyhT5UjJxsUb0K1FCjFqRt2qJFRrkLFaUD8Fh_a1V8_oS0fSJ8yBUIP\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/1080p.m3u8?hdntl=Expires=1780134929~_GO=Generated~acl=/mumbai/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/*~Signature=ARGZZFjXBFEcVMpEU1VPqCT0-l5ih5e-JfyCyEyhT5UjJxsUb0K1FCjFqRt2qJFRrkLFaUD8Fh_a1V8_oS0fSJ8yBUIP",
+          "cookie": "hdntl=Expires=1780134929~_GO=Generated~acl=/mumbai/142980_english_hls_ad2e92ad5f82908_1ta-di_h264/*~Signature=ARGZZFjXBFEcVMpEU1VPqCT0-l5ih5e-JfyCyEyhT5UjJxsUb0K1FCjFqRt2qJFRrkLFaUD8Fh_a1V8_oS0fSJ8yBUIP",
+          "cookie_valid": "1780134929",
+          "create_date": "Friday, May 29, 2026, 3:25:25 PM",
+          "expire_date": "Saturday, May 30, 2026, 3:25:29 PM",
           "language": "ENGLISH"
         }
       ]
@@ -139,11 +154,11 @@
           "color": "#fdf251",
           "cricketScore": [
             {
-              "runs": 140,
-              "overs": "18",
-              "balls": "108",
-              "status": "IN_PROGRESS",
-              "wickets": 4
+              "runs": 159,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 6
             }
           ],
           "kabaddiScore": null,
@@ -152,7 +167,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -164,14 +179,22 @@
           },
           "isWinner": null,
           "color": "#151515",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 39,
+              "overs": "9.3",
+              "balls": "57",
+              "status": "IN_PROGRESS",
+              "wickets": 3
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -1007,43 +1030,35 @@
       ]
     },
     {
-      "category": "Cricket",
-      "title": "New Zealand Vs Ireland",
-      "tournament": "New Zealand tour of Ireland, 2026",
-      "match_id": 142980,
+      "category": "Tennis",
+      "title": "Court Philippe Chatrier",
+      "tournament": "Roland Garros 2026",
+      "match_id": 142679,
       "status": "LIVE",
-      "streamingStatus": "PAUSED",
-      "startTime": "27 May 2026 03:30 PM",
-      "startDate": "29 May 2026 03:30 PM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(7)_1779966479189.png",
+      "streamingStatus": "STARTED",
+      "startTime": "29 May 2026 03:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142980_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(7)_1779966479189.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2022/07/IRE_vs_NZ.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(7)_1779966479189.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142980_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142679_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142679_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "New Zealand",
-          "shortName": "NZ",
+          "name": "Court Philippe-Chatrier",
+          "shortName": "Court Philippe-Chatrier",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NZC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
           },
           "isWinner": null,
-          "color": "#1d2c6b",
-          "cricketScore": [
-            {
-              "runs": 490,
-              "overs": "119",
-              "balls": "0",
-              "status": "DECLARED",
-              "wickets": 8
-            }
-          ],
+          "color": "#84E3C7",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1055,46 +1070,53 @@
           }
         },
         {
-          "name": "Ireland",
-          "shortName": "IRE",
+          "name": "Stade Roland Garros Paris, France",
+          "shortName": "Stade Roland Garros Paris, France",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
           },
           "isWinner": null,
-          "color": "#ba6a15",
-          "cricketScore": [
-            {
-              "runs": 179,
-              "overs": "45",
-              "balls": "0",
-              "status": "COMPLETED",
-              "wickets": 10
-            },
-            {
-              "runs": 65,
-              "overs": "16",
-              "balls": "0",
-              "status": "IN_PROGRESS",
-              "wickets": 2
-            }
-          ],
+          "color": "#FF0000",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "is_drm": false,
+        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/alqtTrVWQeuxHd8fbw-Rmw/master.m3u8",
+        "fancode_cdn": "Unavailable",
+        "fancode_bd_cdn": "Unavailable",
+        "fancode_np_cdn": "Unavailable",
+        "fancode_lk_cdn": "Unavailable",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/alqtTrVWQeuxHd8fbw-Rmw/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "https://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/master.m3u8",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "Unavailable",
+          "fancode_dai_cdn": "Unavailable"
+        }
       },
-      "auto_streams": null
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/hdntl=exp=1780134932~acl=%2f*~id=402b6b51-be82-4f5a-bf09-ec19ea3ab3ea~data=hdntl~hmac=1c356ee49ecf33bf4b3d818404d4b2a60b28414fe5fd568f1efa6cb8eddf6500/master_350.m3u8?aka_me_session_id=AAAAAAAAAAAUtBpqAAAAAOI8FPS6IQTS9w+CO5PtuFbpskyhlmFdkKKBA3adIcgU%2f77bVXTdwpkbeDFrSUzSuoCnuY68a4mN&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/hdntl=exp=1780134932~acl=%2f*~id=402b6b51-be82-4f5a-bf09-ec19ea3ab3ea~data=hdntl~hmac=1c356ee49ecf33bf4b3d818404d4b2a60b28414fe5fd568f1efa6cb8eddf6500/master_500.m3u8?aka_me_session_id=AAAAAAAAAAAUtBpqAAAAAOI8FPS6IQTS9w+CO5PtuFbpskyhlmFdkKKBA3adIcgU%2f77bVXTdwpkbeDFrSUzSuoCnuY68a4mN&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/hdntl=exp=1780134932~acl=%2f*~id=402b6b51-be82-4f5a-bf09-ec19ea3ab3ea~data=hdntl~hmac=1c356ee49ecf33bf4b3d818404d4b2a60b28414fe5fd568f1efa6cb8eddf6500/master_700.m3u8?aka_me_session_id=AAAAAAAAAAAUtBpqAAAAAOI8FPS6IQTS9w+CO5PtuFbpskyhlmFdkKKBA3adIcgU%2f77bVXTdwpkbeDFrSUzSuoCnuY68a4mN&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/hdntl=exp=1780134932~acl=%2f*~id=402b6b51-be82-4f5a-bf09-ec19ea3ab3ea~data=hdntl~hmac=1c356ee49ecf33bf4b3d818404d4b2a60b28414fe5fd568f1efa6cb8eddf6500/master_950.m3u8?aka_me_session_id=AAAAAAAAAAAUtBpqAAAAAOI8FPS6IQTS9w+CO5PtuFbpskyhlmFdkKKBA3adIcgU%2f77bVXTdwpkbeDFrSUzSuoCnuY68a4mN&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1603544,AVERAGE-BANDWIDTH=1603544,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/hdntl=exp=1780134932~acl=%2f*~id=402b6b51-be82-4f5a-bf09-ec19ea3ab3ea~data=hdntl~hmac=1c356ee49ecf33bf4b3d818404d4b2a60b28414fe5fd568f1efa6cb8eddf6500/master_1350.m3u8?aka_me_session_id=AAAAAAAAAAAUtBpqAAAAAOI8FPS6IQTS9w+CO5PtuFbpskyhlmFdkKKBA3adIcgU%2f77bVXTdwpkbeDFrSUzSuoCnuY68a4mN&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/hdntl=exp=1780134932~acl=%2f*~id=402b6b51-be82-4f5a-bf09-ec19ea3ab3ea~data=hdntl~hmac=1c356ee49ecf33bf4b3d818404d4b2a60b28414fe5fd568f1efa6cb8eddf6500/master_1400.m3u8?aka_me_session_id=AAAAAAAAAAAUtBpqAAAAAOI8FPS6IQTS9w+CO5PtuFbpskyhlmFdkKKBA3adIcgU%2f77bVXTdwpkbeDFrSUzSuoCnuY68a4mN&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/hdntl=exp=1780134932~acl=%2f*~id=402b6b51-be82-4f5a-bf09-ec19ea3ab3ea~data=hdntl~hmac=1c356ee49ecf33bf4b3d818404d4b2a60b28414fe5fd568f1efa6cb8eddf6500/master_2000.m3u8?aka_me_session_id=AAAAAAAAAAAUtBpqAAAAAOI8FPS6IQTS9w+CO5PtuFbpskyhlmFdkKKBA3adIcgU%2f77bVXTdwpkbeDFrSUzSuoCnuY68a4mN&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/hdntl=exp=1780134932~acl=%2f*~id=402b6b51-be82-4f5a-bf09-ec19ea3ab3ea~data=hdntl~hmac=1c356ee49ecf33bf4b3d818404d4b2a60b28414fe5fd568f1efa6cb8eddf6500/master_3000.m3u8?aka_me_session_id=AAAAAAAAAAAUtBpqAAAAAOI8FPS6IQTS9w+CO5PtuFbpskyhlmFdkKKBA3adIcgU%2f77bVXTdwpkbeDFrSUzSuoCnuY68a4mN&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=4865152,AVERAGE-BANDWIDTH=4865152,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037143/RG26FCCPC/hdntl=exp=1780134932~acl=%2f*~id=402b6b51-be82-4f5a-bf09-ec19ea3ab3ea~data=hdntl~hmac=1c356ee49ecf33bf4b3d818404d4b2a60b28414fe5fd568f1efa6cb8eddf6500/master_4500.m3u8?aka_me_session_id=AAAAAAAAAAAUtBpqAAAAAOI8FPS6IQTS9w+CO5PtuFbpskyhlmFdkKKBA3adIcgU%2f77bVXTdwpkbeDFrSUzSuoCnuY68a4mN&aka_media_format_type=hls",
+          "cookie": "hdntl=exp=1780134932~acl=%2f*~id=402b6b51-be82-4f5a-bf09-ec19ea3ab3ea~data=hdntl~hmac=1c356ee49ecf33bf4b3d818404d4b2a60b28414fe5fd568f1efa6cb8eddf6500",
+          "cookie_valid": "1780134932",
+          "create_date": "Friday, May 29, 2026, 3:25:28 PM",
+          "expire_date": "Saturday, May 30, 2026, 3:25:32 PM",
+          "language": "ENGLISH"
+        }
+      ]
     },
     {
       "category": "Cricket",
@@ -1499,34 +1521,34 @@
       "auto_streams": null
     },
     {
-      "category": "Tennis",
-      "title": "Court Philippe Chatrier",
-      "tournament": "Roland Garros 2026",
-      "match_id": 142679,
+      "category": "Cricket",
+      "title": "Botswana Vs Rwanda",
+      "tournament": "ICC Men's T20 WC Africa Sub Regional Qualifier",
+      "match_id": 142927,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "29 May 2026 03:30 PM",
+      "startTime": "30 May 2026 05:20 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142679_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142927_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142679_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142927_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Court Philippe-Chatrier",
-          "shortName": "Court Philippe-Chatrier",
+          "name": "Botswana",
+          "shortName": "BOT",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BOTS@2x.png"
           },
           "isWinner": null,
-          "color": "#84E3C7",
+          "color": "#5ba1ed",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1539,13 +1561,13 @@
           }
         },
         {
-          "name": "Stade Roland Garros Paris, France",
-          "shortName": "Stade Roland Garros Paris, France",
+          "name": "Rwanda",
+          "shortName": "RWA",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RWA@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
+          "color": "#227de0",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1969,33 +1991,33 @@
     },
     {
       "category": "Cricket",
-      "title": "Botswana Vs Rwanda",
-      "tournament": "ICC Men's T20 WC Africa Sub Regional Qualifier",
-      "match_id": 142927,
+      "title": "Scotland Women Vs Bangladesh Women",
+      "tournament": "Scotland Women's T20I Tri-Series 2026",
+      "match_id": 143003,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "30 May 2026 05:20 PM",
+      "startTime": "30 May 2026 06:30 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/SC-W_BD-W.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142927_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143003_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/SC-W_BD-W.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC-(2).png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/SC-W_BD-W.jpg",
         "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142927_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143003_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Botswana",
-          "shortName": "BOT",
+          "name": "Scotland Women",
+          "shortName": "SC-W",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BOTS@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SCO@2x.png"
           },
           "isWinner": null,
-          "color": "#5ba1ed",
+          "color": "#4d94d6",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2008,13 +2030,13 @@
           }
         },
         {
-          "name": "Rwanda",
-          "shortName": "RWA",
+          "name": "Bangladesh Women",
+          "shortName": "BD-W",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RWA@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
           },
           "isWinner": null,
-          "color": "#227de0",
+          "color": "#397b46",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2082,6 +2104,73 @@
           },
           "isWinner": null,
           "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "India Vs Zimbabwe",
+      "tournament": "Unity Cup 2026",
+      "match_id": 142668,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "30 May 2026 07:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/India-vs-Zimbabwe_fc-wev.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142668_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/India-vs-Zimbabwe_fc-wev.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Tour-Logo-2026.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/India-vs-Zimbabwe_fc-wev.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142668_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "India",
+          "shortName": "IND",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-INDN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#06038D",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Zimbabwe",
+          "shortName": "ZIM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FT-ZIM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#D8B30F",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2173,140 +2262,6 @@
           "status": {
             "cricket": {
               "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Scotland Women Vs Bangladesh Women",
-      "tournament": "Scotland Women's T20I Tri-Series 2026",
-      "match_id": 143003,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "30 May 2026 06:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/SC-W_BD-W.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143003_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/SC-W_BD-W.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC-(2).png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/SC-W_BD-W.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143003_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Scotland Women",
-          "shortName": "SC-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SCO@2x.png"
-          },
-          "isWinner": null,
-          "color": "#4d94d6",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Bangladesh Women",
-          "shortName": "BD-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#397b46",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "India Vs Zimbabwe",
-      "tournament": "Unity Cup 2026",
-      "match_id": 142668,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "30 May 2026 07:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/India-vs-Zimbabwe_fc-wev.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142668_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/India-vs-Zimbabwe_fc-wev.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Tour-Logo-2026.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/India-vs-Zimbabwe_fc-wev.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142668_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "India",
-          "shortName": "IND",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-INDN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#06038D",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Zimbabwe",
-          "shortName": "ZIM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FT-ZIM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#D8B30F",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
             }
           }
         }
@@ -3257,6 +3212,117 @@
       "auto_streams": null
     },
     {
+      "category": "Cricket",
+      "title": "Speen Ghar Region Vs Boost Region",
+      "tournament": "Supercola Regional List A Tournament, 2026",
+      "match_id": 142750,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "31 May 2026 10:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Supercola-Regional-List-A-Tournament,-2026_FC-WEB_1779005924089.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142750_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Supercola-Regional-List-A-Tournament,-2026_FC-WEB_1779005924089.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Supercola-List-A-tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Supercola-Regional-List-A-Tournament,-2026_FC-WEB_1779005924089.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142750_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Speen Ghar Region",
+          "shortName": "SG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SPG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#00ff8d",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Boost Region",
+          "shortName": "BOS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BOS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ff8484",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Ireland Vs New Zealand",
+      "tournament": "New Zealand tour of Ireland, 2026",
+      "short_name": "IRE vs NZ",
+      "match_id": 142980,
+      "status": "STARTED",
+      "startTime": "27 May 2026 03:30 PM",
+      "startDate": "27 May 2026 05:30 AM",
+      "endDate": "31 May 2026 04:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142980_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142980_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 69,
+          "name": "Ireland",
+          "shortName": "IRE",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png",
+          "color": "#ba6a15"
+        },
+        {
+          "id": 186,
+          "name": "New Zealand",
+          "shortName": "NZ",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NZC@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NZC@2x.png",
+          "color": "#1d2c6b"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
       "category": "MotoGP",
       "title": "Day 1",
       "tournament": "BREMBO GRAND PRIX OF ITALY 2026",
@@ -3477,38 +3543,38 @@
       "auto_streams": null
     },
     {
-      "category": "Cricket",
-      "title": "Ireland Vs New Zealand",
-      "tournament": "New Zealand tour of Ireland, 2026",
-      "short_name": "IRE vs NZ",
-      "match_id": 142980,
-      "status": "PAUSED",
-      "startTime": "27 May 2026 03:30 PM",
-      "startDate": "27 May 2026 05:30 AM",
-      "endDate": "31 May 2026 04:30 AM",
-      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "category": "Tennis",
+      "title": "Court Philippe Chatrier",
+      "tournament": "Roland Garros 2026",
+      "short_name": "French Open",
+      "match_id": 142679,
+      "status": "STARTED",
+      "startTime": "29 May 2026 03:30 PM",
+      "startDate": "24 May 2026 05:30 AM",
+      "endDate": "07 June 2026 11:45 PM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142980_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142679_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
         "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142980_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142679_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "id": 69,
-          "name": "Ireland",
-          "shortName": "IRE",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png",
-          "color": "#ba6a15"
+          "id": 12259,
+          "name": "Court Philippe-Chatrier",
+          "shortName": "RG",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png",
+          "color": "#84E3C7"
         },
         {
-          "id": 186,
-          "name": "New Zealand",
-          "shortName": "NZ",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NZC@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NZC@2x.png",
-          "color": "#1d2c6b"
+          "id": 12122,
+          "name": "Stade Roland Garros Paris, France",
+          "shortName": "LOC",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+          "color": "#FF0000"
         }
       ],
       "language": "BLOODY_SWEET",
@@ -3553,94 +3619,6 @@
           "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png",
           "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png",
           "color": "#91033c"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Band E Amir Region Vs Boost Region",
-      "tournament": "Supercola Regional List A Tournament, 2026",
-      "short_name": "e& Regional List A Tournament",
-      "match_id": 142749,
-      "status": "NOT_STARTED",
-      "startTime": "30 May 2026 10:00 AM",
-      "startDate": "17 May 2026 05:30 AM",
-      "endDate": "05 June 2026 01:30 AM",
-      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142749_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142749_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 7647,
-          "name": "Band-e-Amir Region",
-          "shortName": "BD",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BEA@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BEA@2x.png",
-          "color": "#fa8940"
-        },
-        {
-          "id": 7651,
-          "name": "Boost Region",
-          "shortName": "BOS",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BOS@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BOS@2x.png",
-          "color": "#ff8484"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Sierra Leone Vs Ivory Coast",
-      "tournament": "ICC Men's T20 WC Africa Sub Regional Qualifier",
-      "short_name": "ICC Men's T20 WC Africa Sub Reg",
-      "match_id": 142923,
-      "status": "STARTED",
-      "startTime": "29 May 2026 01:00 PM",
-      "startDate": "23 May 2026 05:30 AM",
-      "endDate": "31 May 2026 01:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142923_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8)_1779232457452.png",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142923_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 216,
-          "name": "Sierra Leone",
-          "shortName": "SIE",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SILN@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SILN@2x.png",
-          "color": "#54ba1d"
-        },
-        {
-          "id": 9197,
-          "name": "Ivory Coast",
-          "shortName": "CIV",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CIV@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CIV@2x.png",
-          "color": "#c16419"
         }
       ],
       "language": "BLOODY_SWEET",
