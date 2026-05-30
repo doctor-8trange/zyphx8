@@ -2,15 +2,104 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "10:56:10 PM 30-05-2026",
+  "last_updated": "11:00:05 PM 30-05-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 49,
+  "total_matches": 50,
   "live_matches": 9,
-  "upcoming_matches": 40,
+  "upcoming_matches": 41,
   "matches": [
+    {
+      "category": "Tennis",
+      "title": "Court Suzanne Lenglen",
+      "tournament": "Roland Garros 2026",
+      "match_id": 142683,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "30 May 2026 02:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142683_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros-2026_FC-WEB.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142683_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Court Suzanne Lenglen",
+          "shortName": "Court Suzanne Lenglen",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#84E3C7",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Stade Roland Garros Paris, France",
+          "shortName": "Stade Roland Garros Paris, France",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/lfAZV-RhTC6wIvRGDpSzoA/master.m3u8",
+        "fancode_cdn": "Unavailable",
+        "fancode_bd_cdn": "Unavailable",
+        "fancode_np_cdn": "Unavailable",
+        "fancode_lk_cdn": "Unavailable",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/lfAZV-RhTC6wIvRGDpSzoA/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "https://sonypartnersdaimenew.akamaized.net/hls/live/2094589/RG26FCCSL/master.m3u8",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "Unavailable",
+          "fancode_dai_cdn": "Unavailable"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2094589/RG26FCCSL/hdntl=exp=1780248564~acl=%2f*~id=5cfd46d4-238c-4380-8f57-0d91a81fd3f3~data=hdntl~hmac=e326293d367bd899d976c2882ae1da89e8ac04b5da3358f572f39f0a77210ef7/master_350.m3u8?aka_me_session_id=AAAAAAAAAAD0bxxqAAAAAP3WZRukAEFNe7WlQLyq%2fxrvxUeNZ0W3xWKftob8l0qhiaU6fBFEsKZWnsxp2l+wn+wJ+AKp0e0Y&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2094589/RG26FCCSL/hdntl=exp=1780248564~acl=%2f*~id=5cfd46d4-238c-4380-8f57-0d91a81fd3f3~data=hdntl~hmac=e326293d367bd899d976c2882ae1da89e8ac04b5da3358f572f39f0a77210ef7/master_500.m3u8?aka_me_session_id=AAAAAAAAAAD0bxxqAAAAAP3WZRukAEFNe7WlQLyq%2fxrvxUeNZ0W3xWKftob8l0qhiaU6fBFEsKZWnsxp2l+wn+wJ+AKp0e0Y&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2094589/RG26FCCSL/hdntl=exp=1780248564~acl=%2f*~id=5cfd46d4-238c-4380-8f57-0d91a81fd3f3~data=hdntl~hmac=e326293d367bd899d976c2882ae1da89e8ac04b5da3358f572f39f0a77210ef7/master_700.m3u8?aka_me_session_id=AAAAAAAAAAD0bxxqAAAAAP3WZRukAEFNe7WlQLyq%2fxrvxUeNZ0W3xWKftob8l0qhiaU6fBFEsKZWnsxp2l+wn+wJ+AKp0e0Y&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2094589/RG26FCCSL/hdntl=exp=1780248564~acl=%2f*~id=5cfd46d4-238c-4380-8f57-0d91a81fd3f3~data=hdntl~hmac=e326293d367bd899d976c2882ae1da89e8ac04b5da3358f572f39f0a77210ef7/master_950.m3u8?aka_me_session_id=AAAAAAAAAAD0bxxqAAAAAP3WZRukAEFNe7WlQLyq%2fxrvxUeNZ0W3xWKftob8l0qhiaU6fBFEsKZWnsxp2l+wn+wJ+AKp0e0Y&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1603544,AVERAGE-BANDWIDTH=1603544,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2094589/RG26FCCSL/hdntl=exp=1780248564~acl=%2f*~id=5cfd46d4-238c-4380-8f57-0d91a81fd3f3~data=hdntl~hmac=e326293d367bd899d976c2882ae1da89e8ac04b5da3358f572f39f0a77210ef7/master_1350.m3u8?aka_me_session_id=AAAAAAAAAAD0bxxqAAAAAP3WZRukAEFNe7WlQLyq%2fxrvxUeNZ0W3xWKftob8l0qhiaU6fBFEsKZWnsxp2l+wn+wJ+AKp0e0Y&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2094589/RG26FCCSL/hdntl=exp=1780248564~acl=%2f*~id=5cfd46d4-238c-4380-8f57-0d91a81fd3f3~data=hdntl~hmac=e326293d367bd899d976c2882ae1da89e8ac04b5da3358f572f39f0a77210ef7/master_1400.m3u8?aka_me_session_id=AAAAAAAAAAD0bxxqAAAAAP3WZRukAEFNe7WlQLyq%2fxrvxUeNZ0W3xWKftob8l0qhiaU6fBFEsKZWnsxp2l+wn+wJ+AKp0e0Y&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2094589/RG26FCCSL/hdntl=exp=1780248564~acl=%2f*~id=5cfd46d4-238c-4380-8f57-0d91a81fd3f3~data=hdntl~hmac=e326293d367bd899d976c2882ae1da89e8ac04b5da3358f572f39f0a77210ef7/master_2000.m3u8?aka_me_session_id=AAAAAAAAAAD0bxxqAAAAAP3WZRukAEFNe7WlQLyq%2fxrvxUeNZ0W3xWKftob8l0qhiaU6fBFEsKZWnsxp2l+wn+wJ+AKp0e0Y&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2094589/RG26FCCSL/hdntl=exp=1780248564~acl=%2f*~id=5cfd46d4-238c-4380-8f57-0d91a81fd3f3~data=hdntl~hmac=e326293d367bd899d976c2882ae1da89e8ac04b5da3358f572f39f0a77210ef7/master_3000.m3u8?aka_me_session_id=AAAAAAAAAAD0bxxqAAAAAP3WZRukAEFNe7WlQLyq%2fxrvxUeNZ0W3xWKftob8l0qhiaU6fBFEsKZWnsxp2l+wn+wJ+AKp0e0Y&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=4865152,AVERAGE-BANDWIDTH=4865152,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2094589/RG26FCCSL/hdntl=exp=1780248564~acl=%2f*~id=5cfd46d4-238c-4380-8f57-0d91a81fd3f3~data=hdntl~hmac=e326293d367bd899d976c2882ae1da89e8ac04b5da3358f572f39f0a77210ef7/master_4500.m3u8?aka_me_session_id=AAAAAAAAAAD0bxxqAAAAAP3WZRukAEFNe7WlQLyq%2fxrvxUeNZ0W3xWKftob8l0qhiaU6fBFEsKZWnsxp2l+wn+wJ+AKp0e0Y&aka_media_format_type=hls",
+          "cookie": "hdntl=exp=1780248564~acl=%2f*~id=5cfd46d4-238c-4380-8f57-0d91a81fd3f3~data=hdntl~hmac=e326293d367bd899d976c2882ae1da89e8ac04b5da3358f572f39f0a77210ef7",
+          "cookie_valid": "1780248564",
+          "create_date": "Saturday, May 30, 2026, 10:59:20 PM",
+          "expire_date": "Sunday, May 31, 2026, 10:59:24 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
     {
       "category": "Golf",
       "title": "Day 3   Main Feed",
@@ -524,73 +613,6 @@
       "auto_streams": null
     },
     {
-      "category": "Cricket",
-      "title": "Ireland Women Vs Pakistan Women",
-      "tournament": "Women's T20I Tri-Series in Ireland 2026",
-      "match_id": 143054,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "31 May 2026 08:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-Women's-T20I-Tri-Series_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143054_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-Women's-T20I-Tri-Series_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-Women's-T20I-Tri-Series_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143054_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Ireland Women",
-          "shortName": "IR-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#32752E",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Pakistan Women",
-          "shortName": "PK-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png"
-          },
-          "isWinner": null,
-          "color": "#559830",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Football",
       "title": "Nigeria Vs Jamaica",
       "tournament": "Unity Cup 2026",
@@ -639,6 +661,73 @@
           "isWinner": null,
           "color": "#096A16",
           "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Ireland Women Vs Pakistan Women",
+      "tournament": "Women's T20I Tri-Series in Ireland 2026",
+      "match_id": 143054,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "31 May 2026 08:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-Women's-T20I-Tri-Series_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143054_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-Women's-T20I-Tri-Series_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ireland-Women's-T20I-Tri-Series_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143054_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Ireland Women",
+          "shortName": "IR-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png"
+          },
+          "isWinner": null,
+          "color": "#32752E",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Pakistan Women",
+          "shortName": "PK-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png"
+          },
+          "isWinner": null,
+          "color": "#559830",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -973,6 +1062,73 @@
           },
           "isWinner": null,
           "color": "#F5D577",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Leganés Vs Mirandés",
+      "tournament": "LALIGA Hypermotion 2025-26",
+      "match_id": 143172,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "01 June 2026 12:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://images.fancode.com/aig/match/v1779951738055/143172_CASACARDS_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143172_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1779951738055/143172_CASACARDS_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1779951738055/143172_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1779951738055/143172_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143172_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Leganés",
+          "shortName": "LEG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LEGA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#efd84e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Mirandés",
+          "shortName": "MIR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MIR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#028ed9",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1375,73 +1531,6 @@
           },
           "isWinner": null,
           "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Leganés Vs Mirandés",
-      "tournament": "LALIGA Hypermotion 2025-26",
-      "match_id": 143172,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "01 June 2026 12:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://images.fancode.com/aig/match/v1779951738055/143172_CASACARDS_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143172_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1779951738055/143172_CASACARDS_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://images.fancode.com/aig/match/v1779951738055/143172_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1779951738055/143172_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143172_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Leganés",
-          "shortName": "LEG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LEGA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#efd84e",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Mirandés",
-          "shortName": "MIR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MIR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#028ed9",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2809,50 +2898,6 @@
       "auto_streams": null
     },
     {
-      "category": "Cricket",
-      "title": "Ireland Women Vs Pakistan Women",
-      "tournament": "Women's T20I Tri-Series in Ireland 2026",
-      "short_name": "Women's T20I Tri-Series",
-      "match_id": 143054,
-      "status": "NOT_STARTED",
-      "startTime": "31 May 2026 08:30 PM",
-      "startDate": "28 May 2026 05:30 AM",
-      "endDate": "05 June 2026 01:30 AM",
-      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143054_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143054_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 728,
-          "name": "Ireland Women",
-          "shortName": "IR-W",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png",
-          "color": "#32752E"
-        },
-        {
-          "id": 649,
-          "name": "Pakistan Women",
-          "shortName": "PK-W",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png",
-          "color": "#559830"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Football",
       "title": "Nigeria Vs Jamaica",
       "tournament": "Unity Cup 2026",
@@ -2885,6 +2930,50 @@
           "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FT-JAM@2x.png",
           "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FT-JAM@2x.png",
           "color": "#096A16"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Ireland Women Vs Pakistan Women",
+      "tournament": "Women's T20I Tri-Series in Ireland 2026",
+      "short_name": "Women's T20I Tri-Series",
+      "match_id": 143054,
+      "status": "NOT_STARTED",
+      "startTime": "31 May 2026 08:30 PM",
+      "startDate": "28 May 2026 05:30 AM",
+      "endDate": "05 June 2026 01:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143054_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143054_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 728,
+          "name": "Ireland Women",
+          "shortName": "IR-W",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png",
+          "color": "#32752E"
+        },
+        {
+          "id": 649,
+          "name": "Pakistan Women",
+          "shortName": "PK-W",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png",
+          "color": "#559830"
         }
       ],
       "language": "BLOODY_SWEET",
