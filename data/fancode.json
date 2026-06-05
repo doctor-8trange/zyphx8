@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:49:01 PM 05-06-2026",
+  "last_updated": "10:00:02 PM 05-06-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 50,
+  "total_matches": 45,
   "live_matches": 6,
-  "upcoming_matches": 44,
+  "upcoming_matches": 39,
   "matches": [
     {
       "category": "Cricket",
@@ -45,7 +45,7 @@
               "runs": 157,
               "overs": "20",
               "balls": "120",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 4
             }
           ],
@@ -55,7 +55,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -67,14 +67,22 @@
           },
           "isWinner": null,
           "color": "#9f4b31",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 155,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -291,451 +299,6 @@
           "create_date": "Friday, June 5, 2026, 9:14:09 PM",
           "expire_date": "Saturday, June 6, 2026, 9:14:09 PM",
           "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Tennis",
-      "title": "Arnaldi Vs Cobolli",
-      "tournament": "Roland Garros 2026",
-      "match_id": 142727,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "05 June 2026 06:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/RG_Flavio-Cobolli-vs.-Matteo-Arnaldi_FC-WEB.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/RG_Flavio-Cobolli-vs.-Matteo-Arnaldi_FC-WEB.jpg",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/RG_Flavio-Cobolli-vs.-Matteo-Arnaldi_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Arnaldi vs Cobolli",
-          "shortName": "Arnaldi vs Cobolli",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Paris",
-          "shortName": "Paris",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/Y6jP_z0zQdaO-bhFCEf5EQ/master.m3u8",
-        "fancode_cdn": "Unavailable",
-        "fancode_bd_cdn": "Unavailable",
-        "fancode_np_cdn": "Unavailable",
-        "fancode_lk_cdn": "Unavailable",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/Y6jP_z0zQdaO-bhFCEf5EQ/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "https://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/master.m3u8",
-        "language": "ENGLISH",
-        "X-Served-By": "WALTER",
-        "backup": {
-          "fancode_cdn": "Unavailable",
-          "fancode_dai_cdn": "Unavailable"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1780748766~acl=%2f*~id=44d23b39-b041-4757-9025-03559470f61b~data=hdntl~hmac=bca15eaccec544b52c6cca6f8d7cab09b8edacdc3b4d178519352e4616df5fc8/master_350.m3u8?aka_me_session_id=AAAAAAAAAADeESRqAAAAADg8QTDeaIwqiRWzXHES1U9UVLRdCZqnncHmFxxqB3f66zU1ZuLik5HNkycR19+9Ia6OFbTmlZKg&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1780748766~acl=%2f*~id=44d23b39-b041-4757-9025-03559470f61b~data=hdntl~hmac=bca15eaccec544b52c6cca6f8d7cab09b8edacdc3b4d178519352e4616df5fc8/master_500.m3u8?aka_me_session_id=AAAAAAAAAADeESRqAAAAADg8QTDeaIwqiRWzXHES1U9UVLRdCZqnncHmFxxqB3f66zU1ZuLik5HNkycR19+9Ia6OFbTmlZKg&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1780748766~acl=%2f*~id=44d23b39-b041-4757-9025-03559470f61b~data=hdntl~hmac=bca15eaccec544b52c6cca6f8d7cab09b8edacdc3b4d178519352e4616df5fc8/master_700.m3u8?aka_me_session_id=AAAAAAAAAADeESRqAAAAADg8QTDeaIwqiRWzXHES1U9UVLRdCZqnncHmFxxqB3f66zU1ZuLik5HNkycR19+9Ia6OFbTmlZKg&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1780748766~acl=%2f*~id=44d23b39-b041-4757-9025-03559470f61b~data=hdntl~hmac=bca15eaccec544b52c6cca6f8d7cab09b8edacdc3b4d178519352e4616df5fc8/master_950.m3u8?aka_me_session_id=AAAAAAAAAADeESRqAAAAADg8QTDeaIwqiRWzXHES1U9UVLRdCZqnncHmFxxqB3f66zU1ZuLik5HNkycR19+9Ia6OFbTmlZKg&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1780748766~acl=%2f*~id=44d23b39-b041-4757-9025-03559470f61b~data=hdntl~hmac=bca15eaccec544b52c6cca6f8d7cab09b8edacdc3b4d178519352e4616df5fc8/master_1400.m3u8?aka_me_session_id=AAAAAAAAAADeESRqAAAAADg8QTDeaIwqiRWzXHES1U9UVLRdCZqnncHmFxxqB3f66zU1ZuLik5HNkycR19+9Ia6OFbTmlZKg&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1780748766~acl=%2f*~id=44d23b39-b041-4757-9025-03559470f61b~data=hdntl~hmac=bca15eaccec544b52c6cca6f8d7cab09b8edacdc3b4d178519352e4616df5fc8/master_2000.m3u8?aka_me_session_id=AAAAAAAAAADeESRqAAAAADg8QTDeaIwqiRWzXHES1U9UVLRdCZqnncHmFxxqB3f66zU1ZuLik5HNkycR19+9Ia6OFbTmlZKg&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=4865152,AVERAGE-BANDWIDTH=4865152,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1780748766~acl=%2f*~id=44d23b39-b041-4757-9025-03559470f61b~data=hdntl~hmac=bca15eaccec544b52c6cca6f8d7cab09b8edacdc3b4d178519352e4616df5fc8/master_4500.m3u8?aka_me_session_id=AAAAAAAAAADeESRqAAAAADg8QTDeaIwqiRWzXHES1U9UVLRdCZqnncHmFxxqB3f66zU1ZuLik5HNkycR19+9Ia6OFbTmlZKg&aka_media_format_type=hls",
-          "cookie": "hdntl=exp=1780748766~acl=%2f*~id=44d23b39-b041-4757-9025-03559470f61b~data=hdntl~hmac=bca15eaccec544b52c6cca6f8d7cab09b8edacdc3b4d178519352e4616df5fc8",
-          "cookie_valid": "1780748766",
-          "create_date": "Friday, June 5, 2026, 5:56:05 PM",
-          "expire_date": "Saturday, June 6, 2026, 5:56:06 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Tennis",
-      "title": "Arnaldi Vs Cobolli",
-      "tournament": "Roland Garros 2026",
-      "match_id": 142727,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "05 June 2026 06:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/RG_Flavio-Cobolli-vs.-Matteo-Arnaldi_FC-WEB.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/RG_Flavio-Cobolli-vs.-Matteo-Arnaldi_FC-WEB.jpg",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/RG_Flavio-Cobolli-vs.-Matteo-Arnaldi_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Arnaldi vs Cobolli",
-          "shortName": "Arnaldi vs Cobolli",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Paris",
-          "shortName": "Paris",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "HINDI",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/fE5fgIpRRwiue-26GG4XmA/master.m3u8",
-        "fancode_cdn": "Unavailable",
-        "fancode_bd_cdn": "Unavailable",
-        "fancode_np_cdn": "Unavailable",
-        "fancode_lk_cdn": "Unavailable",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/fE5fgIpRRwiue-26GG4XmA/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "https://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/master.m3u8",
-        "language": "HINDI",
-        "X-Served-By": "WALTER",
-        "backup": {
-          "fancode_cdn": "Unavailable",
-          "fancode_dai_cdn": "Unavailable"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1780748768~acl=%2f*~id=71db479b-48db-4809-8710-5bbe0d9651fc~data=hdntl~hmac=257e512c28a04381f5ca0be34007d8dc4aa881d189cabd693becc9019c8fa3d5/master_350.m3u8?aka_me_session_id=AAAAAAAAAADgESRqAAAAAMXM2aWo7EPqocn0PVN1D+B0U9SI2kH+s6j%2fFX1Z2VPRAFRhg4yIkxXMHVZdfdtG1macMuzT+I%2fc&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1780748768~acl=%2f*~id=71db479b-48db-4809-8710-5bbe0d9651fc~data=hdntl~hmac=257e512c28a04381f5ca0be34007d8dc4aa881d189cabd693becc9019c8fa3d5/master_500.m3u8?aka_me_session_id=AAAAAAAAAADgESRqAAAAAMXM2aWo7EPqocn0PVN1D+B0U9SI2kH+s6j%2fFX1Z2VPRAFRhg4yIkxXMHVZdfdtG1macMuzT+I%2fc&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1780748768~acl=%2f*~id=71db479b-48db-4809-8710-5bbe0d9651fc~data=hdntl~hmac=257e512c28a04381f5ca0be34007d8dc4aa881d189cabd693becc9019c8fa3d5/master_700.m3u8?aka_me_session_id=AAAAAAAAAADgESRqAAAAAMXM2aWo7EPqocn0PVN1D+B0U9SI2kH+s6j%2fFX1Z2VPRAFRhg4yIkxXMHVZdfdtG1macMuzT+I%2fc&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1780748768~acl=%2f*~id=71db479b-48db-4809-8710-5bbe0d9651fc~data=hdntl~hmac=257e512c28a04381f5ca0be34007d8dc4aa881d189cabd693becc9019c8fa3d5/master_950.m3u8?aka_me_session_id=AAAAAAAAAADgESRqAAAAAMXM2aWo7EPqocn0PVN1D+B0U9SI2kH+s6j%2fFX1Z2VPRAFRhg4yIkxXMHVZdfdtG1macMuzT+I%2fc&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1780748768~acl=%2f*~id=71db479b-48db-4809-8710-5bbe0d9651fc~data=hdntl~hmac=257e512c28a04381f5ca0be34007d8dc4aa881d189cabd693becc9019c8fa3d5/master_1400.m3u8?aka_me_session_id=AAAAAAAAAADgESRqAAAAAMXM2aWo7EPqocn0PVN1D+B0U9SI2kH+s6j%2fFX1Z2VPRAFRhg4yIkxXMHVZdfdtG1macMuzT+I%2fc&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1780748768~acl=%2f*~id=71db479b-48db-4809-8710-5bbe0d9651fc~data=hdntl~hmac=257e512c28a04381f5ca0be34007d8dc4aa881d189cabd693becc9019c8fa3d5/master_2000.m3u8?aka_me_session_id=AAAAAAAAAADgESRqAAAAAMXM2aWo7EPqocn0PVN1D+B0U9SI2kH+s6j%2fFX1Z2VPRAFRhg4yIkxXMHVZdfdtG1macMuzT+I%2fc&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1780748768~acl=%2f*~id=71db479b-48db-4809-8710-5bbe0d9651fc~data=hdntl~hmac=257e512c28a04381f5ca0be34007d8dc4aa881d189cabd693becc9019c8fa3d5/master_4500.m3u8?aka_me_session_id=AAAAAAAAAADgESRqAAAAAMXM2aWo7EPqocn0PVN1D+B0U9SI2kH+s6j%2fFX1Z2VPRAFRhg4yIkxXMHVZdfdtG1macMuzT+I%2fc&aka_media_format_type=hls",
-          "cookie": "hdntl=exp=1780748768~acl=%2f*~id=71db479b-48db-4809-8710-5bbe0d9651fc~data=hdntl~hmac=257e512c28a04381f5ca0be34007d8dc4aa881d189cabd693becc9019c8fa3d5",
-          "cookie_valid": "1780748768",
-          "create_date": "Friday, June 5, 2026, 5:56:07 PM",
-          "expire_date": "Saturday, June 6, 2026, 5:56:08 PM",
-          "language": "HINDI"
-        }
-      ]
-    },
-    {
-      "category": "Tennis",
-      "title": "Arnaldi Vs Cobolli",
-      "tournament": "Roland Garros 2026",
-      "match_id": 142727,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "05 June 2026 06:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/RG_Flavio-Cobolli-vs.-Matteo-Arnaldi_FC-WEB.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/RG_Flavio-Cobolli-vs.-Matteo-Arnaldi_FC-WEB.jpg",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/RG_Flavio-Cobolli-vs.-Matteo-Arnaldi_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Arnaldi vs Cobolli",
-          "shortName": "Arnaldi vs Cobolli",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Paris",
-          "shortName": "Paris",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "TAMIL",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/fl9QYciWQzGorh7RYdUx2Q/master.m3u8",
-        "fancode_cdn": "Unavailable",
-        "fancode_bd_cdn": "Unavailable",
-        "fancode_np_cdn": "Unavailable",
-        "fancode_lk_cdn": "Unavailable",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/fl9QYciWQzGorh7RYdUx2Q/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "https://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCTAM/master.m3u8",
-        "language": "TAMIL",
-        "X-Served-By": "WALTER",
-        "backup": {
-          "fancode_cdn": "Unavailable",
-          "fancode_dai_cdn": "Unavailable"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCTAM/hdntl=exp=1780748771~acl=%2f*~id=f12062de-8da5-4b50-8876-1d4747bef93e~data=hdntl~hmac=9804a5dc92025e573955a993bc96ca93164b9eac73cdb086c9871b4eb8fd1f0b/master_350.m3u8?aka_me_session_id=AAAAAAAAAADjESRqAAAAAH%2f3dXt4uMJOTKi57+49u7H0uDA189Cx5Cq%2fW6aez2zc3XvEqxkbiuOpVGOqFCHP4343EMFROV74&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCTAM/hdntl=exp=1780748771~acl=%2f*~id=f12062de-8da5-4b50-8876-1d4747bef93e~data=hdntl~hmac=9804a5dc92025e573955a993bc96ca93164b9eac73cdb086c9871b4eb8fd1f0b/master_500.m3u8?aka_me_session_id=AAAAAAAAAADjESRqAAAAAH%2f3dXt4uMJOTKi57+49u7H0uDA189Cx5Cq%2fW6aez2zc3XvEqxkbiuOpVGOqFCHP4343EMFROV74&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCTAM/hdntl=exp=1780748771~acl=%2f*~id=f12062de-8da5-4b50-8876-1d4747bef93e~data=hdntl~hmac=9804a5dc92025e573955a993bc96ca93164b9eac73cdb086c9871b4eb8fd1f0b/master_700.m3u8?aka_me_session_id=AAAAAAAAAADjESRqAAAAAH%2f3dXt4uMJOTKi57+49u7H0uDA189Cx5Cq%2fW6aez2zc3XvEqxkbiuOpVGOqFCHP4343EMFROV74&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCTAM/hdntl=exp=1780748771~acl=%2f*~id=f12062de-8da5-4b50-8876-1d4747bef93e~data=hdntl~hmac=9804a5dc92025e573955a993bc96ca93164b9eac73cdb086c9871b4eb8fd1f0b/master_950.m3u8?aka_me_session_id=AAAAAAAAAADjESRqAAAAAH%2f3dXt4uMJOTKi57+49u7H0uDA189Cx5Cq%2fW6aez2zc3XvEqxkbiuOpVGOqFCHP4343EMFROV74&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCTAM/hdntl=exp=1780748771~acl=%2f*~id=f12062de-8da5-4b50-8876-1d4747bef93e~data=hdntl~hmac=9804a5dc92025e573955a993bc96ca93164b9eac73cdb086c9871b4eb8fd1f0b/master_1400.m3u8?aka_me_session_id=AAAAAAAAAADjESRqAAAAAH%2f3dXt4uMJOTKi57+49u7H0uDA189Cx5Cq%2fW6aez2zc3XvEqxkbiuOpVGOqFCHP4343EMFROV74&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCTAM/hdntl=exp=1780748771~acl=%2f*~id=f12062de-8da5-4b50-8876-1d4747bef93e~data=hdntl~hmac=9804a5dc92025e573955a993bc96ca93164b9eac73cdb086c9871b4eb8fd1f0b/master_2000.m3u8?aka_me_session_id=AAAAAAAAAADjESRqAAAAAH%2f3dXt4uMJOTKi57+49u7H0uDA189Cx5Cq%2fW6aez2zc3XvEqxkbiuOpVGOqFCHP4343EMFROV74&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCTAM/hdntl=exp=1780748771~acl=%2f*~id=f12062de-8da5-4b50-8876-1d4747bef93e~data=hdntl~hmac=9804a5dc92025e573955a993bc96ca93164b9eac73cdb086c9871b4eb8fd1f0b/master_4500.m3u8?aka_me_session_id=AAAAAAAAAADjESRqAAAAAH%2f3dXt4uMJOTKi57+49u7H0uDA189Cx5Cq%2fW6aez2zc3XvEqxkbiuOpVGOqFCHP4343EMFROV74&aka_media_format_type=hls",
-          "cookie": "hdntl=exp=1780748771~acl=%2f*~id=f12062de-8da5-4b50-8876-1d4747bef93e~data=hdntl~hmac=9804a5dc92025e573955a993bc96ca93164b9eac73cdb086c9871b4eb8fd1f0b",
-          "cookie_valid": "1780748771",
-          "create_date": "Friday, June 5, 2026, 5:56:10 PM",
-          "expire_date": "Saturday, June 6, 2026, 5:56:11 PM",
-          "language": "TAMIL"
-        }
-      ]
-    },
-    {
-      "category": "Tennis",
-      "title": "Arnaldi Vs Cobolli",
-      "tournament": "Roland Garros 2026",
-      "match_id": 142727,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "05 June 2026 06:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/RG_Flavio-Cobolli-vs.-Matteo-Arnaldi_FC-WEB.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/RG_Flavio-Cobolli-vs.-Matteo-Arnaldi_FC-WEB.jpg",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/RG_Flavio-Cobolli-vs.-Matteo-Arnaldi_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Arnaldi vs Cobolli",
-          "shortName": "Arnaldi vs Cobolli",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Paris",
-          "shortName": "Paris",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "TELUGU",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/1I2inQFKTc6hWKkkGtjkog/master.m3u8",
-        "fancode_cdn": "Unavailable",
-        "fancode_bd_cdn": "Unavailable",
-        "fancode_np_cdn": "Unavailable",
-        "fancode_lk_cdn": "Unavailable",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/1I2inQFKTc6hWKkkGtjkog/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "https://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/master.m3u8",
-        "language": "TELUGU",
-        "X-Served-By": "WALTER",
-        "backup": {
-          "fancode_cdn": "Unavailable",
-          "fancode_dai_cdn": "Unavailable"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1780748774~acl=%2f*~id=c212e1ef-56e7-4bbf-9d3a-ae4c3b16f53d~data=hdntl~hmac=9c9b84d1a61a22bd7520ecd718f68dad3c7fc332c507f4eb52e4015f455bd32c/master_350.m3u8?aka_me_session_id=AAAAAAAAAADmESRqAAAAAFU+%2fN+KjqZM2EXX3p8tM757EvX7FC5oUf0aQBVl1W+mcXZfZhNJP4FDnTJqBvOvcaJyO6dALki8&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1780748774~acl=%2f*~id=c212e1ef-56e7-4bbf-9d3a-ae4c3b16f53d~data=hdntl~hmac=9c9b84d1a61a22bd7520ecd718f68dad3c7fc332c507f4eb52e4015f455bd32c/master_500.m3u8?aka_me_session_id=AAAAAAAAAADmESRqAAAAAFU+%2fN+KjqZM2EXX3p8tM757EvX7FC5oUf0aQBVl1W+mcXZfZhNJP4FDnTJqBvOvcaJyO6dALki8&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1780748774~acl=%2f*~id=c212e1ef-56e7-4bbf-9d3a-ae4c3b16f53d~data=hdntl~hmac=9c9b84d1a61a22bd7520ecd718f68dad3c7fc332c507f4eb52e4015f455bd32c/master_700.m3u8?aka_me_session_id=AAAAAAAAAADmESRqAAAAAFU+%2fN+KjqZM2EXX3p8tM757EvX7FC5oUf0aQBVl1W+mcXZfZhNJP4FDnTJqBvOvcaJyO6dALki8&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1780748774~acl=%2f*~id=c212e1ef-56e7-4bbf-9d3a-ae4c3b16f53d~data=hdntl~hmac=9c9b84d1a61a22bd7520ecd718f68dad3c7fc332c507f4eb52e4015f455bd32c/master_950.m3u8?aka_me_session_id=AAAAAAAAAADmESRqAAAAAFU+%2fN+KjqZM2EXX3p8tM757EvX7FC5oUf0aQBVl1W+mcXZfZhNJP4FDnTJqBvOvcaJyO6dALki8&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1780748774~acl=%2f*~id=c212e1ef-56e7-4bbf-9d3a-ae4c3b16f53d~data=hdntl~hmac=9c9b84d1a61a22bd7520ecd718f68dad3c7fc332c507f4eb52e4015f455bd32c/master_1400.m3u8?aka_me_session_id=AAAAAAAAAADmESRqAAAAAFU+%2fN+KjqZM2EXX3p8tM757EvX7FC5oUf0aQBVl1W+mcXZfZhNJP4FDnTJqBvOvcaJyO6dALki8&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1780748774~acl=%2f*~id=c212e1ef-56e7-4bbf-9d3a-ae4c3b16f53d~data=hdntl~hmac=9c9b84d1a61a22bd7520ecd718f68dad3c7fc332c507f4eb52e4015f455bd32c/master_2000.m3u8?aka_me_session_id=AAAAAAAAAADmESRqAAAAAFU+%2fN+KjqZM2EXX3p8tM757EvX7FC5oUf0aQBVl1W+mcXZfZhNJP4FDnTJqBvOvcaJyO6dALki8&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1780748774~acl=%2f*~id=c212e1ef-56e7-4bbf-9d3a-ae4c3b16f53d~data=hdntl~hmac=9c9b84d1a61a22bd7520ecd718f68dad3c7fc332c507f4eb52e4015f455bd32c/master_4500.m3u8?aka_me_session_id=AAAAAAAAAADmESRqAAAAAFU+%2fN+KjqZM2EXX3p8tM757EvX7FC5oUf0aQBVl1W+mcXZfZhNJP4FDnTJqBvOvcaJyO6dALki8&aka_media_format_type=hls",
-          "cookie": "hdntl=exp=1780748774~acl=%2f*~id=c212e1ef-56e7-4bbf-9d3a-ae4c3b16f53d~data=hdntl~hmac=9c9b84d1a61a22bd7520ecd718f68dad3c7fc332c507f4eb52e4015f455bd32c",
-          "cookie_valid": "1780748774",
-          "create_date": "Friday, June 5, 2026, 5:56:13 PM",
-          "expire_date": "Saturday, June 6, 2026, 5:56:14 PM",
-          "language": "TELUGU"
-        }
-      ]
-    },
-    {
-      "category": "Tennis",
-      "title": "Arnaldi Vs Cobolli",
-      "tournament": "Roland Garros 2026",
-      "match_id": 142727,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "05 June 2026 06:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/RG_Flavio-Cobolli-vs.-Matteo-Arnaldi_FC-WEB.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/RG_Flavio-Cobolli-vs.-Matteo-Arnaldi_FC-WEB.jpg",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/RG_Flavio-Cobolli-vs.-Matteo-Arnaldi_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Arnaldi vs Cobolli",
-          "shortName": "Arnaldi vs Cobolli",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Paris",
-          "shortName": "Paris",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "KANNADA",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/yGxR-xztTQi4dkEj1x5Qjw/master.m3u8",
-        "fancode_cdn": "Unavailable",
-        "fancode_bd_cdn": "Unavailable",
-        "fancode_np_cdn": "Unavailable",
-        "fancode_lk_cdn": "Unavailable",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/yGxR-xztTQi4dkEj1x5Qjw/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "https://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/master.m3u8",
-        "language": "KANNADA",
-        "X-Served-By": "WALTER",
-        "backup": {
-          "fancode_cdn": "Unavailable",
-          "fancode_dai_cdn": "Unavailable"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1780748776~acl=%2f*~id=ba1c0c6a-593d-4e0c-93f2-152dbeb40341~data=hdntl~hmac=6fb4c7781d1b606e6919848a6cae5543a2c6241cf22c16759224ea861a9cb6b4/master_350.m3u8?aka_me_session_id=AAAAAAAAAADoESRqAAAAALo6bfKKUdFPhHkWd5syRA6DTpIki2s2FrsxS+cOcbzUxrdFb+7Q235+RsakkewEASLjqTBsDhy0&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1780748776~acl=%2f*~id=ba1c0c6a-593d-4e0c-93f2-152dbeb40341~data=hdntl~hmac=6fb4c7781d1b606e6919848a6cae5543a2c6241cf22c16759224ea861a9cb6b4/master_500.m3u8?aka_me_session_id=AAAAAAAAAADoESRqAAAAALo6bfKKUdFPhHkWd5syRA6DTpIki2s2FrsxS+cOcbzUxrdFb+7Q235+RsakkewEASLjqTBsDhy0&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1780748776~acl=%2f*~id=ba1c0c6a-593d-4e0c-93f2-152dbeb40341~data=hdntl~hmac=6fb4c7781d1b606e6919848a6cae5543a2c6241cf22c16759224ea861a9cb6b4/master_700.m3u8?aka_me_session_id=AAAAAAAAAADoESRqAAAAALo6bfKKUdFPhHkWd5syRA6DTpIki2s2FrsxS+cOcbzUxrdFb+7Q235+RsakkewEASLjqTBsDhy0&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1780748776~acl=%2f*~id=ba1c0c6a-593d-4e0c-93f2-152dbeb40341~data=hdntl~hmac=6fb4c7781d1b606e6919848a6cae5543a2c6241cf22c16759224ea861a9cb6b4/master_950.m3u8?aka_me_session_id=AAAAAAAAAADoESRqAAAAALo6bfKKUdFPhHkWd5syRA6DTpIki2s2FrsxS+cOcbzUxrdFb+7Q235+RsakkewEASLjqTBsDhy0&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1780748776~acl=%2f*~id=ba1c0c6a-593d-4e0c-93f2-152dbeb40341~data=hdntl~hmac=6fb4c7781d1b606e6919848a6cae5543a2c6241cf22c16759224ea861a9cb6b4/master_1400.m3u8?aka_me_session_id=AAAAAAAAAADoESRqAAAAALo6bfKKUdFPhHkWd5syRA6DTpIki2s2FrsxS+cOcbzUxrdFb+7Q235+RsakkewEASLjqTBsDhy0&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1780748776~acl=%2f*~id=ba1c0c6a-593d-4e0c-93f2-152dbeb40341~data=hdntl~hmac=6fb4c7781d1b606e6919848a6cae5543a2c6241cf22c16759224ea861a9cb6b4/master_2000.m3u8?aka_me_session_id=AAAAAAAAAADoESRqAAAAALo6bfKKUdFPhHkWd5syRA6DTpIki2s2FrsxS+cOcbzUxrdFb+7Q235+RsakkewEASLjqTBsDhy0&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1780748776~acl=%2f*~id=ba1c0c6a-593d-4e0c-93f2-152dbeb40341~data=hdntl~hmac=6fb4c7781d1b606e6919848a6cae5543a2c6241cf22c16759224ea861a9cb6b4/master_4500.m3u8?aka_me_session_id=AAAAAAAAAADoESRqAAAAALo6bfKKUdFPhHkWd5syRA6DTpIki2s2FrsxS+cOcbzUxrdFb+7Q235+RsakkewEASLjqTBsDhy0&aka_media_format_type=hls",
-          "cookie": "hdntl=exp=1780748776~acl=%2f*~id=ba1c0c6a-593d-4e0c-93f2-152dbeb40341~data=hdntl~hmac=6fb4c7781d1b606e6919848a6cae5543a2c6241cf22c16759224ea861a9cb6b4",
-          "cookie_valid": "1780748776",
-          "create_date": "Friday, June 5, 2026, 5:56:15 PM",
-          "expire_date": "Saturday, June 6, 2026, 5:56:16 PM",
-          "language": "KANNADA"
         }
       ]
     },
@@ -1187,73 +750,6 @@
     },
     {
       "category": "Cricket",
-      "title": "Bundelkhand Bulls Women Vs Royal Nimar Eagles Women",
-      "tournament": "Madhya Pradesh League T20 Women's 2026",
-      "match_id": 143022,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "06 June 2026 09:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Madhya-Pradesh-League-T20-Women's_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143022_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Madhya-Pradesh-League-T20-Women's_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Madhya-Pradesh-League-T20-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Madhya-Pradesh-League-T20-Women's_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143022_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Bundelkhand Bulls Women",
-          "shortName": "BBW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BBSM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ee3e26",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Royal Nimar Eagles Women",
-          "shortName": "RNE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FT-RNE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#B8142D",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
       "title": "Liege Red Lions Vs Ghent Gladiators",
       "tournament": "EUT20 Belgium, 2026",
       "match_id": 143150,
@@ -1367,6 +863,73 @@
           },
           "isWinner": null,
           "color": "#132f86",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Bundelkhand Bulls Women Vs Royal Nimar Eagles Women",
+      "tournament": "Madhya Pradesh League T20 Women's 2026",
+      "match_id": 143022,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "06 June 2026 09:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Madhya-Pradesh-League-T20-Women's_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143022_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Madhya-Pradesh-League-T20-Women's_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Madhya-Pradesh-League-T20-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Madhya-Pradesh-League-T20-Women's_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143022_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Bundelkhand Bulls Women",
+          "shortName": "BBW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BBSM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ee3e26",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Royal Nimar Eagles Women",
+          "shortName": "RNE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FT-RNE@2x.png"
+          },
+          "isWinner": null,
+          "color": "#B8142D",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
@@ -2944,6 +2507,73 @@
       "auto_streams": null
     },
     {
+      "category": "Football",
+      "title": "Brazil Vs Egypt",
+      "tournament": "International Friendlies 2026",
+      "match_id": 141609,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "07 June 2026 03:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141609_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/FIFA-SERIES-26.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141609_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Brazil",
+          "shortName": "BRZ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BRA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#fdf251",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Egypt",
+          "shortName": "EGY",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-EGYP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#b99530",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
       "category": "Formula 1",
       "title": "Qualifying",
       "tournament": "F1 LOUIS VUITTON GRAND PRIX DE MONACO 2026",
@@ -2988,73 +2618,6 @@
           "shortName": "Monaco",
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Golf",
-      "title": "Marquee Feed   Day 3",
-      "tournament": "the Memorial Tournament presented by Workday 2026",
-      "match_id": 143113,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "06 June 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/The-Memorial-Tournament_fc-web-v2.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143113_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/The-Memorial-Tournament_fc-web-v2.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/The-Memorial-Tour_logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/The-Memorial-Tournament_fc-web-v2.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Golf.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143113_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Marquee Feed - Day 3",
-          "shortName": "Marquee Feed - Day 3",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Muirfield Village Golf Club - Dublin, Ohio ",
-          "shortName": "Muirfield Village Golf Club - Dublin, Ohio ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
           },
           "isWinner": null,
           "color": "#141414",
