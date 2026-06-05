@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "05:00:03 PM 05-06-2026",
+  "last_updated": "05:42:27 PM 05-06-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 47,
-  "live_matches": 7,
-  "upcoming_matches": 40,
+  "total_matches": 51,
+  "live_matches": 8,
+  "upcoming_matches": 43,
   "matches": [
     {
       "category": "Cricket",
@@ -218,14 +218,22 @@
           },
           "isWinner": null,
           "color": "#e7820d",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         },
@@ -973,34 +981,34 @@
       "auto_streams": null
     },
     {
-      "category": "Tennis",
-      "title": "Mensik Vs Zverev",
-      "tournament": "Roland Garros 2026",
-      "match_id": 142727,
+      "category": "Cricket",
+      "title": "Mumbai Marines Vs Northern Challengers",
+      "tournament": "Big Cricket League Season 2",
+      "match_id": 142990,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "05 June 2026 06:00 PM",
+      "startTime": "06 June 2026 07:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/RG_Alexander-Zverev-vs.-Jakub-Mensik_FC-WEB.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/142990_6094_MM_NC_FC-WEB_1780318028403.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/RG_Alexander-Zverev-vs.-Jakub-Mensik_FC-WEB.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142990_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/142990_6094_MM_NC_FC-WEB_1780318028403.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/RG_Alexander-Zverev-vs.-Jakub-Mensik_FC-WEB.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Big-Cricket-League-Season-2.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/142990_6094_MM_NC_FC-WEB_1780318028403.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142990_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Mensik vs Zverev",
-          "shortName": "Mensik vs Zverev",
+          "name": "Mumbai Marines",
+          "shortName": "MM",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MM@2x.png"
           },
           "isWinner": null,
-          "color": "#84E3C7",
+          "color": "#052a45",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1013,13 +1021,13 @@
           }
         },
         {
-          "name": "Paris",
-          "shortName": "Paris",
+          "name": "Northern Challengers",
+          "shortName": "NC",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NC@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
+          "color": "#1f9723",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1107,34 +1115,34 @@
       "auto_streams": null
     },
     {
-      "category": "Cricket",
-      "title": "Mumbai Marines Vs Northern Challengers",
-      "tournament": "Big Cricket League Season 2",
-      "match_id": 142990,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "06 June 2026 07:00 PM",
+      "category": "Tennis",
+      "title": "Mensik Vs Zverev",
+      "tournament": "Roland Garros 2026",
+      "match_id": 142727,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "05 June 2026 06:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/142990_6094_MM_NC_FC-WEB_1780318028403.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/RG_Alexander-Zverev-vs.-Jakub-Mensik_FC-WEB.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142990_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/142990_6094_MM_NC_FC-WEB_1780318028403.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Big-Cricket-League-Season-2.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/142990_6094_MM_NC_FC-WEB_1780318028403.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142990_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/RG_Alexander-Zverev-vs.-Jakub-Mensik_FC-WEB.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/RG_Alexander-Zverev-vs.-Jakub-Mensik_FC-WEB.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Mumbai Marines",
-          "shortName": "MM",
+          "name": "Mensik vs Zverev",
+          "shortName": "Mensik vs Zverev",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MM@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
           },
           "isWinner": null,
-          "color": "#052a45",
+          "color": "#84E3C7",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1147,13 +1155,458 @@
           }
         },
         {
-          "name": "Northern Challengers",
-          "shortName": "NC",
+          "name": "Paris",
+          "shortName": "Paris",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
           },
           "isWinner": null,
-          "color": "#1f9723",
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/Y6jP_z0zQdaO-bhFCEf5EQ/master.m3u8",
+        "fancode_cdn": "Unavailable",
+        "fancode_bd_cdn": "Unavailable",
+        "fancode_np_cdn": "Unavailable",
+        "fancode_lk_cdn": "Unavailable",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/Y6jP_z0zQdaO-bhFCEf5EQ/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "https://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/master.m3u8",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "Unavailable",
+          "fancode_dai_cdn": "Unavailable"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1780747925~acl=%2f*~id=00132d57-778c-48d1-a3b8-fec465fa96b0~data=hdntl~hmac=f4f73632ed7ba9a8dff5f7058d0451e02d93cfc57b55c6a25465543b8ff10eee/master_350.m3u8?aka_me_session_id=AAAAAAAAAACVDiRqAAAAANCGG+ZZ6oTcb%2f6ZvPa0d1myJymemBC%2fV+DtghpP33KodMw9%2frq9UC1W+mBhwXtTTCmHY1vahflN&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1780747925~acl=%2f*~id=00132d57-778c-48d1-a3b8-fec465fa96b0~data=hdntl~hmac=f4f73632ed7ba9a8dff5f7058d0451e02d93cfc57b55c6a25465543b8ff10eee/master_500.m3u8?aka_me_session_id=AAAAAAAAAACVDiRqAAAAANCGG+ZZ6oTcb%2f6ZvPa0d1myJymemBC%2fV+DtghpP33KodMw9%2frq9UC1W+mBhwXtTTCmHY1vahflN&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1780747925~acl=%2f*~id=00132d57-778c-48d1-a3b8-fec465fa96b0~data=hdntl~hmac=f4f73632ed7ba9a8dff5f7058d0451e02d93cfc57b55c6a25465543b8ff10eee/master_700.m3u8?aka_me_session_id=AAAAAAAAAACVDiRqAAAAANCGG+ZZ6oTcb%2f6ZvPa0d1myJymemBC%2fV+DtghpP33KodMw9%2frq9UC1W+mBhwXtTTCmHY1vahflN&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1780747925~acl=%2f*~id=00132d57-778c-48d1-a3b8-fec465fa96b0~data=hdntl~hmac=f4f73632ed7ba9a8dff5f7058d0451e02d93cfc57b55c6a25465543b8ff10eee/master_950.m3u8?aka_me_session_id=AAAAAAAAAACVDiRqAAAAANCGG+ZZ6oTcb%2f6ZvPa0d1myJymemBC%2fV+DtghpP33KodMw9%2frq9UC1W+mBhwXtTTCmHY1vahflN&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1780747925~acl=%2f*~id=00132d57-778c-48d1-a3b8-fec465fa96b0~data=hdntl~hmac=f4f73632ed7ba9a8dff5f7058d0451e02d93cfc57b55c6a25465543b8ff10eee/master_1400.m3u8?aka_me_session_id=AAAAAAAAAACVDiRqAAAAANCGG+ZZ6oTcb%2f6ZvPa0d1myJymemBC%2fV+DtghpP33KodMw9%2frq9UC1W+mBhwXtTTCmHY1vahflN&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1780747925~acl=%2f*~id=00132d57-778c-48d1-a3b8-fec465fa96b0~data=hdntl~hmac=f4f73632ed7ba9a8dff5f7058d0451e02d93cfc57b55c6a25465543b8ff10eee/master_2000.m3u8?aka_me_session_id=AAAAAAAAAACVDiRqAAAAANCGG+ZZ6oTcb%2f6ZvPa0d1myJymemBC%2fV+DtghpP33KodMw9%2frq9UC1W+mBhwXtTTCmHY1vahflN&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=4865152,AVERAGE-BANDWIDTH=4865152,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005444/RGFCENG/hdntl=exp=1780747925~acl=%2f*~id=00132d57-778c-48d1-a3b8-fec465fa96b0~data=hdntl~hmac=f4f73632ed7ba9a8dff5f7058d0451e02d93cfc57b55c6a25465543b8ff10eee/master_4500.m3u8?aka_me_session_id=AAAAAAAAAACVDiRqAAAAANCGG+ZZ6oTcb%2f6ZvPa0d1myJymemBC%2fV+DtghpP33KodMw9%2frq9UC1W+mBhwXtTTCmHY1vahflN&aka_media_format_type=hls",
+          "cookie": "hdntl=exp=1780747925~acl=%2f*~id=00132d57-778c-48d1-a3b8-fec465fa96b0~data=hdntl~hmac=f4f73632ed7ba9a8dff5f7058d0451e02d93cfc57b55c6a25465543b8ff10eee",
+          "cookie_valid": "1780747925",
+          "create_date": "Friday, June 5, 2026, 5:42:04 PM",
+          "expire_date": "Saturday, June 6, 2026, 5:42:05 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Tennis",
+      "title": "Mensik Vs Zverev",
+      "tournament": "Roland Garros 2026",
+      "match_id": 142727,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "05 June 2026 06:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/RG_Alexander-Zverev-vs.-Jakub-Mensik_FC-WEB.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/RG_Alexander-Zverev-vs.-Jakub-Mensik_FC-WEB.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/RG_Alexander-Zverev-vs.-Jakub-Mensik_FC-WEB.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Mensik vs Zverev",
+          "shortName": "Mensik vs Zverev",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#84E3C7",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Paris",
+          "shortName": "Paris",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "HINDI",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/fE5fgIpRRwiue-26GG4XmA/master.m3u8",
+        "fancode_cdn": "Unavailable",
+        "fancode_bd_cdn": "Unavailable",
+        "fancode_np_cdn": "Unavailable",
+        "fancode_lk_cdn": "Unavailable",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/fE5fgIpRRwiue-26GG4XmA/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "https://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/master.m3u8",
+        "language": "HINDI",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "Unavailable",
+          "fancode_dai_cdn": "Unavailable"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1780747927~acl=%2f*~id=91f4fd1c-ae50-43cf-9550-819ddf4acb6a~data=hdntl~hmac=04d6998aa28bfb7a1b7fa7369ba204a123490e108d0fad9ad1c352d2074f8650/master_350.m3u8?aka_me_session_id=AAAAAAAAAACXDiRqAAAAAIzY0hPVqzmW7we%2fLkObgl3JVOWnxk4Jmn05HQDzDSLL1mlwueuIhpyTFXFSF5YFvr11tHC8s5Yd&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1780747927~acl=%2f*~id=91f4fd1c-ae50-43cf-9550-819ddf4acb6a~data=hdntl~hmac=04d6998aa28bfb7a1b7fa7369ba204a123490e108d0fad9ad1c352d2074f8650/master_500.m3u8?aka_me_session_id=AAAAAAAAAACXDiRqAAAAAIzY0hPVqzmW7we%2fLkObgl3JVOWnxk4Jmn05HQDzDSLL1mlwueuIhpyTFXFSF5YFvr11tHC8s5Yd&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1780747927~acl=%2f*~id=91f4fd1c-ae50-43cf-9550-819ddf4acb6a~data=hdntl~hmac=04d6998aa28bfb7a1b7fa7369ba204a123490e108d0fad9ad1c352d2074f8650/master_700.m3u8?aka_me_session_id=AAAAAAAAAACXDiRqAAAAAIzY0hPVqzmW7we%2fLkObgl3JVOWnxk4Jmn05HQDzDSLL1mlwueuIhpyTFXFSF5YFvr11tHC8s5Yd&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1780747927~acl=%2f*~id=91f4fd1c-ae50-43cf-9550-819ddf4acb6a~data=hdntl~hmac=04d6998aa28bfb7a1b7fa7369ba204a123490e108d0fad9ad1c352d2074f8650/master_950.m3u8?aka_me_session_id=AAAAAAAAAACXDiRqAAAAAIzY0hPVqzmW7we%2fLkObgl3JVOWnxk4Jmn05HQDzDSLL1mlwueuIhpyTFXFSF5YFvr11tHC8s5Yd&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1780747927~acl=%2f*~id=91f4fd1c-ae50-43cf-9550-819ddf4acb6a~data=hdntl~hmac=04d6998aa28bfb7a1b7fa7369ba204a123490e108d0fad9ad1c352d2074f8650/master_1400.m3u8?aka_me_session_id=AAAAAAAAAACXDiRqAAAAAIzY0hPVqzmW7we%2fLkObgl3JVOWnxk4Jmn05HQDzDSLL1mlwueuIhpyTFXFSF5YFvr11tHC8s5Yd&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1780747927~acl=%2f*~id=91f4fd1c-ae50-43cf-9550-819ddf4acb6a~data=hdntl~hmac=04d6998aa28bfb7a1b7fa7369ba204a123490e108d0fad9ad1c352d2074f8650/master_2000.m3u8?aka_me_session_id=AAAAAAAAAACXDiRqAAAAAIzY0hPVqzmW7we%2fLkObgl3JVOWnxk4Jmn05HQDzDSLL1mlwueuIhpyTFXFSF5YFvr11tHC8s5Yd&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2022317/RGFCHIN/hdntl=exp=1780747927~acl=%2f*~id=91f4fd1c-ae50-43cf-9550-819ddf4acb6a~data=hdntl~hmac=04d6998aa28bfb7a1b7fa7369ba204a123490e108d0fad9ad1c352d2074f8650/master_4500.m3u8?aka_me_session_id=AAAAAAAAAACXDiRqAAAAAIzY0hPVqzmW7we%2fLkObgl3JVOWnxk4Jmn05HQDzDSLL1mlwueuIhpyTFXFSF5YFvr11tHC8s5Yd&aka_media_format_type=hls",
+          "cookie": "hdntl=exp=1780747927~acl=%2f*~id=91f4fd1c-ae50-43cf-9550-819ddf4acb6a~data=hdntl~hmac=04d6998aa28bfb7a1b7fa7369ba204a123490e108d0fad9ad1c352d2074f8650",
+          "cookie_valid": "1780747927",
+          "create_date": "Friday, June 5, 2026, 5:42:07 PM",
+          "expire_date": "Saturday, June 6, 2026, 5:42:07 PM",
+          "language": "HINDI"
+        }
+      ]
+    },
+    {
+      "category": "Tennis",
+      "title": "Mensik Vs Zverev",
+      "tournament": "Roland Garros 2026",
+      "match_id": 142727,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "05 June 2026 06:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/RG_Alexander-Zverev-vs.-Jakub-Mensik_FC-WEB.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/RG_Alexander-Zverev-vs.-Jakub-Mensik_FC-WEB.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/RG_Alexander-Zverev-vs.-Jakub-Mensik_FC-WEB.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Mensik vs Zverev",
+          "shortName": "Mensik vs Zverev",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#84E3C7",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Paris",
+          "shortName": "Paris",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "TAMIL",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/fl9QYciWQzGorh7RYdUx2Q/master.m3u8",
+        "fancode_cdn": "Unavailable",
+        "fancode_bd_cdn": "Unavailable",
+        "fancode_np_cdn": "Unavailable",
+        "fancode_lk_cdn": "Unavailable",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/fl9QYciWQzGorh7RYdUx2Q/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "TAMIL",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "Unavailable",
+          "fancode_dai_cdn": "Unavailable"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": false,
+          "cookie": null,
+          "cookie_valid": null,
+          "create_date": null,
+          "expire_date": null,
+          "language": "TAMIL"
+        }
+      ]
+    },
+    {
+      "category": "Tennis",
+      "title": "Mensik Vs Zverev",
+      "tournament": "Roland Garros 2026",
+      "match_id": 142727,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "05 June 2026 06:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/RG_Alexander-Zverev-vs.-Jakub-Mensik_FC-WEB.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/RG_Alexander-Zverev-vs.-Jakub-Mensik_FC-WEB.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/RG_Alexander-Zverev-vs.-Jakub-Mensik_FC-WEB.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Mensik vs Zverev",
+          "shortName": "Mensik vs Zverev",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#84E3C7",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Paris",
+          "shortName": "Paris",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "TELUGU",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/1I2inQFKTc6hWKkkGtjkog/master.m3u8",
+        "fancode_cdn": "Unavailable",
+        "fancode_bd_cdn": "Unavailable",
+        "fancode_np_cdn": "Unavailable",
+        "fancode_lk_cdn": "Unavailable",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/1I2inQFKTc6hWKkkGtjkog/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "https://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/master.m3u8",
+        "language": "TELUGU",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "Unavailable",
+          "fancode_dai_cdn": "Unavailable"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1780747942~acl=%2f*~id=ccf73262-721e-44c7-aea2-a3e4d672e573~data=hdntl~hmac=6123dccd12e09a2ee37a87d80ada3585eae544d76804bf07515ae986938482a0/master_350.m3u8?aka_me_session_id=AAAAAAAAAACmDiRqAAAAAIdLwP4cSXfkykd8dgwBoYO3hpUj2oqvlUm%2fbpQFH0VagnZkubAlnf2OJnVoUojsMsSjRsIFQ+Vg&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1780747942~acl=%2f*~id=ccf73262-721e-44c7-aea2-a3e4d672e573~data=hdntl~hmac=6123dccd12e09a2ee37a87d80ada3585eae544d76804bf07515ae986938482a0/master_500.m3u8?aka_me_session_id=AAAAAAAAAACmDiRqAAAAAIdLwP4cSXfkykd8dgwBoYO3hpUj2oqvlUm%2fbpQFH0VagnZkubAlnf2OJnVoUojsMsSjRsIFQ+Vg&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1780747942~acl=%2f*~id=ccf73262-721e-44c7-aea2-a3e4d672e573~data=hdntl~hmac=6123dccd12e09a2ee37a87d80ada3585eae544d76804bf07515ae986938482a0/master_700.m3u8?aka_me_session_id=AAAAAAAAAACmDiRqAAAAAIdLwP4cSXfkykd8dgwBoYO3hpUj2oqvlUm%2fbpQFH0VagnZkubAlnf2OJnVoUojsMsSjRsIFQ+Vg&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1780747942~acl=%2f*~id=ccf73262-721e-44c7-aea2-a3e4d672e573~data=hdntl~hmac=6123dccd12e09a2ee37a87d80ada3585eae544d76804bf07515ae986938482a0/master_950.m3u8?aka_me_session_id=AAAAAAAAAACmDiRqAAAAAIdLwP4cSXfkykd8dgwBoYO3hpUj2oqvlUm%2fbpQFH0VagnZkubAlnf2OJnVoUojsMsSjRsIFQ+Vg&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1780747942~acl=%2f*~id=ccf73262-721e-44c7-aea2-a3e4d672e573~data=hdntl~hmac=6123dccd12e09a2ee37a87d80ada3585eae544d76804bf07515ae986938482a0/master_1400.m3u8?aka_me_session_id=AAAAAAAAAACmDiRqAAAAAIdLwP4cSXfkykd8dgwBoYO3hpUj2oqvlUm%2fbpQFH0VagnZkubAlnf2OJnVoUojsMsSjRsIFQ+Vg&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1780747942~acl=%2f*~id=ccf73262-721e-44c7-aea2-a3e4d672e573~data=hdntl~hmac=6123dccd12e09a2ee37a87d80ada3585eae544d76804bf07515ae986938482a0/master_2000.m3u8?aka_me_session_id=AAAAAAAAAACmDiRqAAAAAIdLwP4cSXfkykd8dgwBoYO3hpUj2oqvlUm%2fbpQFH0VagnZkubAlnf2OJnVoUojsMsSjRsIFQ+Vg&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2037141/RGFCTEL/hdntl=exp=1780747942~acl=%2f*~id=ccf73262-721e-44c7-aea2-a3e4d672e573~data=hdntl~hmac=6123dccd12e09a2ee37a87d80ada3585eae544d76804bf07515ae986938482a0/master_4500.m3u8?aka_me_session_id=AAAAAAAAAACmDiRqAAAAAIdLwP4cSXfkykd8dgwBoYO3hpUj2oqvlUm%2fbpQFH0VagnZkubAlnf2OJnVoUojsMsSjRsIFQ+Vg&aka_media_format_type=hls",
+          "cookie": "hdntl=exp=1780747942~acl=%2f*~id=ccf73262-721e-44c7-aea2-a3e4d672e573~data=hdntl~hmac=6123dccd12e09a2ee37a87d80ada3585eae544d76804bf07515ae986938482a0",
+          "cookie_valid": "1780747942",
+          "create_date": "Friday, June 5, 2026, 5:42:23 PM",
+          "expire_date": "Saturday, June 6, 2026, 5:42:22 PM",
+          "language": "TELUGU"
+        }
+      ]
+    },
+    {
+      "category": "Tennis",
+      "title": "Mensik Vs Zverev",
+      "tournament": "Roland Garros 2026",
+      "match_id": 142727,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "05 June 2026 06:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/RG_Alexander-Zverev-vs.-Jakub-Mensik_FC-WEB.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/RG_Alexander-Zverev-vs.-Jakub-Mensik_FC-WEB.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Roland-Garros_Paris.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/RG_Alexander-Zverev-vs.-Jakub-Mensik_FC-WEB.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Mensik vs Zverev",
+          "shortName": "Mensik vs Zverev",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#84E3C7",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Paris",
+          "shortName": "Paris",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "KANNADA",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/yGxR-xztTQi4dkEj1x5Qjw/master.m3u8",
+        "fancode_cdn": "Unavailable",
+        "fancode_bd_cdn": "Unavailable",
+        "fancode_np_cdn": "Unavailable",
+        "fancode_lk_cdn": "Unavailable",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/yGxR-xztTQi4dkEj1x5Qjw/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "https://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/master.m3u8",
+        "language": "KANNADA",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "Unavailable",
+          "fancode_dai_cdn": "Unavailable"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=516408,AVERAGE-BANDWIDTH=516408,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1780747947~acl=%2f*~id=7f981ad2-6e9d-427d-b4b3-c8c638ea949c~data=hdntl~hmac=345a64feb3f631796f6eee1dbec81afa9aee90c301d0f1d8038a5053eef9b898/master_350.m3u8?aka_me_session_id=AAAAAAAAAACrDiRqAAAAAMSpGeJFhFJnwdxKIoa2va1o5dgUOV2IEAdhKfkvVE0a2U1BqC5FBq+O9WxLq5n4pj8G0v6UVS2X&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1780747947~acl=%2f*~id=7f981ad2-6e9d-427d-b4b3-c8c638ea949c~data=hdntl~hmac=345a64feb3f631796f6eee1dbec81afa9aee90c301d0f1d8038a5053eef9b898/master_500.m3u8?aka_me_session_id=AAAAAAAAAACrDiRqAAAAAMSpGeJFhFJnwdxKIoa2va1o5dgUOV2IEAdhKfkvVE0a2U1BqC5FBq+O9WxLq5n4pj8G0v6UVS2X&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=906728,AVERAGE-BANDWIDTH=906728,CODECS=\"avc1.64001e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1780747947~acl=%2f*~id=7f981ad2-6e9d-427d-b4b3-c8c638ea949c~data=hdntl~hmac=345a64feb3f631796f6eee1dbec81afa9aee90c301d0f1d8038a5053eef9b898/master_700.m3u8?aka_me_session_id=AAAAAAAAAACrDiRqAAAAAMSpGeJFhFJnwdxKIoa2va1o5dgUOV2IEAdhKfkvVE0a2U1BqC5FBq+O9WxLq5n4pj8G0v6UVS2X&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1194872,AVERAGE-BANDWIDTH=1194872,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1780747947~acl=%2f*~id=7f981ad2-6e9d-427d-b4b3-c8c638ea949c~data=hdntl~hmac=345a64feb3f631796f6eee1dbec81afa9aee90c301d0f1d8038a5053eef9b898/master_950.m3u8?aka_me_session_id=AAAAAAAAAACrDiRqAAAAAMSpGeJFhFJnwdxKIoa2va1o5dgUOV2IEAdhKfkvVE0a2U1BqC5FBq+O9WxLq5n4pj8G0v6UVS2X&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=2310816,AVERAGE-BANDWIDTH=2310816,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1780747947~acl=%2f*~id=7f981ad2-6e9d-427d-b4b3-c8c638ea949c~data=hdntl~hmac=345a64feb3f631796f6eee1dbec81afa9aee90c301d0f1d8038a5053eef9b898/master_1400.m3u8?aka_me_session_id=AAAAAAAAAACrDiRqAAAAAMSpGeJFhFJnwdxKIoa2va1o5dgUOV2IEAdhKfkvVE0a2U1BqC5FBq+O9WxLq5n4pj8G0v6UVS2X&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1780747947~acl=%2f*~id=7f981ad2-6e9d-427d-b4b3-c8c638ea949c~data=hdntl~hmac=345a64feb3f631796f6eee1dbec81afa9aee90c301d0f1d8038a5053eef9b898/master_2000.m3u8?aka_me_session_id=AAAAAAAAAACrDiRqAAAAAMSpGeJFhFJnwdxKIoa2va1o5dgUOV2IEAdhKfkvVE0a2U1BqC5FBq+O9WxLq5n4pj8G0v6UVS2X&aka_media_format_type=hls\n#EXT-X-STREAM-INF:BANDWIDTH=1646672,AVERAGE-BANDWIDTH=1646672,CODECS=\"avc1.640020,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=50.000\nhttps://sonypartnersdaimenew.akamaized.net/hls/live/2005445/RGFCKAN/hdntl=exp=1780747947~acl=%2f*~id=7f981ad2-6e9d-427d-b4b3-c8c638ea949c~data=hdntl~hmac=345a64feb3f631796f6eee1dbec81afa9aee90c301d0f1d8038a5053eef9b898/master_4500.m3u8?aka_me_session_id=AAAAAAAAAACrDiRqAAAAAMSpGeJFhFJnwdxKIoa2va1o5dgUOV2IEAdhKfkvVE0a2U1BqC5FBq+O9WxLq5n4pj8G0v6UVS2X&aka_media_format_type=hls",
+          "cookie": "hdntl=exp=1780747947~acl=%2f*~id=7f981ad2-6e9d-427d-b4b3-c8c638ea949c~data=hdntl~hmac=345a64feb3f631796f6eee1dbec81afa9aee90c301d0f1d8038a5053eef9b898",
+          "cookie_valid": "1780747947",
+          "create_date": "Friday, June 5, 2026, 5:42:26 PM",
+          "expire_date": "Saturday, June 6, 2026, 5:42:27 PM",
+          "language": "KANNADA"
+        }
+      ]
+    },
+    {
+      "category": "Motorsports",
+      "title": "Qualifying Session",
+      "tournament": "F2 MONACO 2026",
+      "match_id": 139555,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "05 June 2026 06:40 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/F2_Australia_web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139555_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F2_Australia_web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Monaco_1769058503194.jpg",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F2_Australia_web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139555_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Qualifying Session",
+          "shortName": "Qualifying Session",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#123456",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Monaco",
+          "shortName": "Monaco",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#123456",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1422,73 +1875,6 @@
           },
           "isWinner": null,
           "color": "#a34c08",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Motorsports",
-      "title": "Qualifying Session",
-      "tournament": "F2 MONACO 2026",
-      "match_id": 139555,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "05 June 2026 06:40 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/F2_Australia_web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139555_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F2_Australia_web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Monaco_1769058503194.jpg",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F2_Australia_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139555_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Qualifying Session",
-          "shortName": "Qualifying Session",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR2@2x.png"
-          },
-          "isWinner": null,
-          "color": "#123456",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Monaco",
-          "shortName": "Monaco",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#123456",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2967,6 +3353,50 @@
       "auto_streams": null
     },
     {
+      "category": "Tennis",
+      "title": "Mensik Vs Zverev",
+      "tournament": "Roland Garros 2026",
+      "short_name": "French Open",
+      "match_id": 142727,
+      "status": "STARTED",
+      "startTime": "05 June 2026 06:00 PM",
+      "startDate": "24 May 2026 05:30 AM",
+      "endDate": "07 June 2026 11:45 PM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142727_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 12259,
+          "name": "Mensik vs Zverev",
+          "shortName": "RG",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-RG@2x.png",
+          "color": "#84E3C7"
+        },
+        {
+          "id": 12122,
+          "name": "Paris",
+          "shortName": "LOC",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
+          "color": "#FF0000"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
       "category": "Cricket",
       "title": "Mp Tigers Vs Southern Spartans",
       "tournament": "Big Cricket League Season 2",
@@ -2999,50 +3429,6 @@
           "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SS@2x.png",
           "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SS@2x.png",
           "color": "#9f4b31"
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Gujarat Diamonds Vs Up Brij Stars",
-      "tournament": "Big Cricket League Season 2",
-      "short_name": "BCL",
-      "match_id": 142989,
-      "status": "NOT_STARTED",
-      "startTime": "06 June 2026 02:00 PM",
-      "startDate": "03 June 2026 05:30 AM",
-      "endDate": "13 June 2026 11:45 PM",
-      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142989_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "PLAYBACK": null,
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142989_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "id": 12294,
-          "name": "Gujarat Diamonds",
-          "shortName": "GD",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GD@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GD@2x.png",
-          "color": "#886122"
-        },
-        {
-          "id": 12299,
-          "name": "UP Brij Stars",
-          "shortName": "UPBS",
-          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UPBS@2x.png",
-          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UPBS@2x.png",
-          "color": "#540202"
         }
       ],
       "language": "BLOODY_SWEET",
