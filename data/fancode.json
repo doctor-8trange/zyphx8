@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "06:21:04 PM 08-06-2026",
+  "last_updated": "06:28:05 PM 08-06-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 48,
+  "total_matches": 49,
   "live_matches": 5,
-  "upcoming_matches": 43,
+  "upcoming_matches": 44,
   "matches": [
     {
       "category": "Cricket",
@@ -97,6 +97,96 @@
           "cookie_valid": "1780999503",
           "create_date": "Monday, June 8, 2026, 3:35:03 PM",
           "expire_date": "Tuesday, June 9, 2026, 3:35:03 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Bundelkhand Bulls Vs Bhopal Leopards",
+      "tournament": "Madhya Pradesh League T20, 2026",
+      "match_id": 143068,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "08 June 2026 02:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/143068_6102_BBS_BL_FC-WEB.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143068_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/143068_6102_BBS_BL_FC-WEB.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Madhya-Pradesh-League-T20-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/143068_6102_BBS_BL_FC-WEB.jpg",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1780469022415/143068_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143068_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Bundelkhand Bulls",
+          "shortName": "BBS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BBSM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ee3e26",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Bhopal Leopards",
+          "shortName": "BL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#d18e09",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/143068_english_hls_b1d28f2d8b19790_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/143068_english_hls_b1d28f2d8b19790_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/143068_english_hls_b1d28f2d8b19790_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/143068_english_hls_b1d28f2d8b19790_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/143068_english_hls_b1d28f2d8b19790_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "WALTER",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/143068_english_hls_b1d28f2d8b19790_1ta-di_h264/index.m3u8",
+          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/143068_english_hls_b1d28f2d8b19790_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/143068_english_hls_b1d28f2d8b19790_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/143068_english_hls_b1d28f2d8b19790_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/143068_english_hls_b1d28f2d8b19790_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/143068_english_hls_b1d28f2d8b19790_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/143068_english_hls_b1d28f2d8b19790_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/143068_english_hls_b1d28f2d8b19790_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/143068_english_hls_b1d28f2d8b19790_1ta-di_h264/1080p.m3u8",
+          "cookie": null,
+          "cookie_valid": "1781009883",
+          "create_date": "Monday, June 8, 2026, 6:28:03 PM",
+          "expire_date": "Tuesday, June 9, 2026, 6:28:03 PM",
           "language": "ENGLISH"
         }
       ]
@@ -254,16 +344,16 @@
       "language": "ENGLISH",
       "STREAMING_CDN": {
         "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-plive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-plive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-plive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-plive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-plive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/index.m3u8",
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "Unavailable",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH",
-        "X-Served-By": "LOKI",
+        "X-Served-By": "WALTER",
         "backup": {
           "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/index.m3u8",
           "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/index.m3u8",
@@ -272,11 +362,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/240p.m3u8?hdntl=Expires=1781009465~_GO=Generated~acl=/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/*~Signature=AVb4nkzPTVhxKJMCH2pAeiAvonjK7F-0gUcb-w0fp65oKmaaEmTE05QG_q-BAx9Q81LKGdgDLEt2tOtYJcFIwUtOASgK\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/360p.m3u8?hdntl=Expires=1781009465~_GO=Generated~acl=/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/*~Signature=AVb4nkzPTVhxKJMCH2pAeiAvonjK7F-0gUcb-w0fp65oKmaaEmTE05QG_q-BAx9Q81LKGdgDLEt2tOtYJcFIwUtOASgK\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/480p.m3u8?hdntl=Expires=1781009465~_GO=Generated~acl=/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/*~Signature=AVb4nkzPTVhxKJMCH2pAeiAvonjK7F-0gUcb-w0fp65oKmaaEmTE05QG_q-BAx9Q81LKGdgDLEt2tOtYJcFIwUtOASgK\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/540p.m3u8?hdntl=Expires=1781009465~_GO=Generated~acl=/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/*~Signature=AVb4nkzPTVhxKJMCH2pAeiAvonjK7F-0gUcb-w0fp65oKmaaEmTE05QG_q-BAx9Q81LKGdgDLEt2tOtYJcFIwUtOASgK\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/720p.m3u8?hdntl=Expires=1781009465~_GO=Generated~acl=/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/*~Signature=AVb4nkzPTVhxKJMCH2pAeiAvonjK7F-0gUcb-w0fp65oKmaaEmTE05QG_q-BAx9Q81LKGdgDLEt2tOtYJcFIwUtOASgK\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/1080p.m3u8?hdntl=Expires=1781009465~_GO=Generated~acl=/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/*~Signature=AVb4nkzPTVhxKJMCH2pAeiAvonjK7F-0gUcb-w0fp65oKmaaEmTE05QG_q-BAx9Q81LKGdgDLEt2tOtYJcFIwUtOASgK",
-          "cookie": "hdntl=Expires=1781009465~_GO=Generated~acl=/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/*~Signature=AVb4nkzPTVhxKJMCH2pAeiAvonjK7F-0gUcb-w0fp65oKmaaEmTE05QG_q-BAx9Q81LKGdgDLEt2tOtYJcFIwUtOASgK",
-          "cookie_valid": "1781009465",
-          "create_date": "Monday, June 8, 2026, 6:21:03 PM",
-          "expire_date": "Tuesday, June 9, 2026, 6:21:05 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/143118_english_hls_b78a2ca6e612059_1ta-di_h264/1080p.m3u8",
+          "cookie": null,
+          "cookie_valid": "1781009884",
+          "create_date": "Monday, June 8, 2026, 6:28:04 PM",
+          "expire_date": "Tuesday, June 9, 2026, 6:28:04 PM",
           "language": "ENGLISH"
         }
       ]
