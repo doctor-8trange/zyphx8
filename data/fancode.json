@@ -2,21 +2,21 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "04:14:03 AM 09-06-2026",
+  "last_updated": "04:49:04 AM 09-06-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 38,
+  "total_matches": 45,
   "live_matches": 2,
-  "upcoming_matches": 36,
+  "upcoming_matches": 43,
   "matches": [
     {
       "category": "Cricket",
       "title": "West Indies Vs Sri Lanka",
       "tournament": "Sri Lanka tour of West Indies 2026",
       "match_id": 142974,
-      "status": "LIVE",
+      "status": "ABANDONED",
       "streamingStatus": "STARTED",
       "startTime": "09 June 2026 01:00 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -74,16 +74,16 @@
       "language": "ENGLISH",
       "STREAMING_CDN": {
         "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/index.m3u8",
+        "Primary_Playback_URL": "https://in-mc-plive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-plive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-plive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-plive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-plive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "Unavailable",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
+        "X-Served-By": "LOKI",
         "backup": {
           "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/index.m3u8",
           "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/index.m3u8",
@@ -92,11 +92,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/240p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/360p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/480p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/540p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/720p.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-fblive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/1080p.m3u8",
-          "cookie": null,
-          "cookie_valid": "1781032323",
-          "create_date": "Tuesday, June 9, 2026, 12:42:03 AM",
-          "expire_date": "Wednesday, June 10, 2026, 12:42:03 AM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/240p.m3u8?hdntl=Expires=1781047145~_GO=Generated~acl=/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/*~Signature=AVb4nkxXp5qEDcQHPoduYi6P7eRVUV71nvCA9v2dtCJ0hQYJmXjFrGNamknzZDa7zr8EmvNNI4JMvOD3h7GguMidXxAG\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/360p.m3u8?hdntl=Expires=1781047145~_GO=Generated~acl=/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/*~Signature=AVb4nkxXp5qEDcQHPoduYi6P7eRVUV71nvCA9v2dtCJ0hQYJmXjFrGNamknzZDa7zr8EmvNNI4JMvOD3h7GguMidXxAG\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/480p.m3u8?hdntl=Expires=1781047145~_GO=Generated~acl=/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/*~Signature=AVb4nkxXp5qEDcQHPoduYi6P7eRVUV71nvCA9v2dtCJ0hQYJmXjFrGNamknzZDa7zr8EmvNNI4JMvOD3h7GguMidXxAG\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/540p.m3u8?hdntl=Expires=1781047145~_GO=Generated~acl=/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/*~Signature=AVb4nkxXp5qEDcQHPoduYi6P7eRVUV71nvCA9v2dtCJ0hQYJmXjFrGNamknzZDa7zr8EmvNNI4JMvOD3h7GguMidXxAG\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/720p.m3u8?hdntl=Expires=1781047145~_GO=Generated~acl=/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/*~Signature=AVb4nkxXp5qEDcQHPoduYi6P7eRVUV71nvCA9v2dtCJ0hQYJmXjFrGNamknzZDa7zr8EmvNNI4JMvOD3h7GguMidXxAG\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/1080p.m3u8?hdntl=Expires=1781047145~_GO=Generated~acl=/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/*~Signature=AVb4nkxXp5qEDcQHPoduYi6P7eRVUV71nvCA9v2dtCJ0hQYJmXjFrGNamknzZDa7zr8EmvNNI4JMvOD3h7GguMidXxAG",
+          "cookie": "hdntl=Expires=1781047145~_GO=Generated~acl=/mumbai/142974_english_hls_6589216d3e57360_1ta-di_h264/*~Signature=AVb4nkxXp5qEDcQHPoduYi6P7eRVUV71nvCA9v2dtCJ0hQYJmXjFrGNamknzZDa7zr8EmvNNI4JMvOD3h7GguMidXxAG",
+          "cookie_valid": "1781047145",
+          "create_date": "Tuesday, June 9, 2026, 4:49:03 AM",
+          "expire_date": "Wednesday, June 10, 2026, 4:49:05 AM",
           "language": "ENGLISH"
         }
       ]
@@ -2637,6 +2637,314 @@
         }
       ],
       "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "West Indies Vs Sri Lanka",
+      "tournament": "Sri Lanka tour of West Indies 2026",
+      "short_name": "WI vs SL",
+      "match_id": 142974,
+      "status": "STARTED",
+      "startTime": "09 June 2026 01:00 AM",
+      "startDate": "03 June 2026 05:30 AM",
+      "endDate": "04 July 2026 12:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142974_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142974_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 260,
+          "name": "West Indies",
+          "shortName": "WI",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png",
+          "color": "#7B0041"
+        },
+        {
+          "id": 44,
+          "name": "Sri Lanka",
+          "shortName": "SL",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SRL@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SRL@2x.png",
+          "color": "#164fad"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Netherlands Vs Usa",
+      "tournament": "ICC CWC League 2 Canada, 2026",
+      "short_name": "ICC CWC League 2 - Canada",
+      "match_id": 143196,
+      "status": "STARTED",
+      "startTime": "08 June 2026 08:00 PM",
+      "startDate": "06 June 2026 05:30 AM",
+      "endDate": "16 June 2026 11:30 PM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143196_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143196_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 178,
+          "name": "Netherlands",
+          "shortName": "NED",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NED@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NED@2x.png",
+          "color": "#2c5ab3"
+        },
+        {
+          "id": 247,
+          "name": "USA",
+          "shortName": "USA",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-USA@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-USA@2x.png",
+          "color": "#132f86"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Bangladesh Vs Australia",
+      "tournament": "Australia tour of Bangladesh, 2026",
+      "short_name": "BAN vs AUS",
+      "match_id": 142965,
+      "status": "NOT_STARTED",
+      "startTime": "09 June 2026 10:30 AM",
+      "startDate": "09 June 2026 05:30 AM",
+      "endDate": "22 June 2026 12:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142965_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142965_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 25,
+          "name": "Bangladesh",
+          "shortName": "BAN",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png",
+          "color": "#397b46"
+        },
+        {
+          "id": 13,
+          "name": "Australia",
+          "shortName": "AUS",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUS@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUS@2x.png",
+          "color": "#002695"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Gujarat Diamonds Vs Mp Tigers",
+      "tournament": "Big Cricket League Season 2",
+      "short_name": "BCL",
+      "match_id": 142993,
+      "status": "NOT_STARTED",
+      "startTime": "09 June 2026 02:00 PM",
+      "startDate": "03 June 2026 05:30 AM",
+      "endDate": "13 June 2026 11:45 PM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142993_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142993_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 12294,
+          "name": "Gujarat Diamonds",
+          "shortName": "GD",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GD@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GD@2x.png",
+          "color": "#886122"
+        },
+        {
+          "id": 12295,
+          "name": "MP Tigers",
+          "shortName": "MPT",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MPT@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MPT@2x.png",
+          "color": "#cb2406"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Liege Red Lions Vs Akcel United Brussels",
+      "tournament": "EUT20 Belgium, 2026",
+      "short_name": "EUT20 Belgium",
+      "match_id": 143155,
+      "status": "NOT_STARTED",
+      "startTime": "09 June 2026 04:00 PM",
+      "startDate": "06 June 2026 05:30 AM",
+      "endDate": "15 June 2026 12:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143155_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143155_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 12311,
+          "name": "Liege Red Lions",
+          "shortName": "LRL",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-LRL@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-LRL@2x.png",
+          "color": "#e78028"
+        },
+        {
+          "id": 12307,
+          "name": "Akcel United Brussels",
+          "shortName": "AUB",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AU@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AU@2x.png",
+          "color": "#410002"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Up Brij Stars Vs Southern Spartans",
+      "tournament": "Big Cricket League Season 2",
+      "short_name": "BCL",
+      "match_id": 142994,
+      "status": "NOT_STARTED",
+      "startTime": "09 June 2026 07:00 PM",
+      "startDate": "03 June 2026 05:30 AM",
+      "endDate": "13 June 2026 11:45 PM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142994_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142994_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 12299,
+          "name": "UP Brij Stars",
+          "shortName": "UPBS",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UPBS@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UPBS@2x.png",
+          "color": "#540202"
+        },
+        {
+          "id": 12298,
+          "name": "Southern Spartans",
+          "shortName": "SS",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SS@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SS@2x.png",
+          "color": "#9f4b31"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Jb Bruges Vs Antwerp Anchors",
+      "tournament": "EUT20 Belgium, 2026",
+      "short_name": "EUT20 Belgium",
+      "match_id": 143156,
+      "status": "NOT_STARTED",
+      "startTime": "09 June 2026 08:00 PM",
+      "startDate": "06 June 2026 05:30 AM",
+      "endDate": "15 June 2026 12:30 AM",
+      "image": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143156_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "PLAYBACK": null,
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143156_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "id": 12310,
+          "name": "JB Bruges",
+          "shortName": "JB",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-JBB@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-JBB@2x.png",
+          "color": "#cd1f6f"
+        },
+        {
+          "id": 12308,
+          "name": "Antwerp Anchors",
+          "shortName": "AA",
+          "logo": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AA@2x.png",
+          "flag": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AA@2x.png",
+          "color": "#f0c917"
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
       "STREAMING_CDN": {
         "language": "BLOODY_SWEET",
         "Primary_Playback_URL": null
