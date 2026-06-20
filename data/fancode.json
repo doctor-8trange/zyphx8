@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:28:02 PM 20-06-2026",
+  "last_updated": "08:14:06 PM 20-06-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -105,7 +105,7 @@
     },
     {
       "category": "Cricket",
-      "title": "Tbc Vs Tbc",
+      "title": "Stockholm City Vs Vasteras United",
       "tournament": "Nordic Smash T20 Cup, 2026",
       "short_name": null,
       "match_id": 143192,
@@ -127,32 +127,40 @@
       },
       "team": [
         {
-          "name": "TBC",
-          "shortName": "TBC",
+          "name": "Stockholm City",
+          "shortName": "STY",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/TBC-CR1@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-STY@2x.png"
           },
           "isWinner": null,
-          "color": "#dcdcdc",
-          "cricketScore": [],
+          "color": "#953328",
+          "cricketScore": [
+            {
+              "runs": 39,
+              "overs": "5",
+              "balls": "30",
+              "status": "IN_PROGRESS",
+              "wickets": 5
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         },
         {
-          "name": "TBC",
-          "shortName": "TBC",
+          "name": "Vasteras United",
+          "shortName": "VTU",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/TBC-CR1@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VTU@2x.png"
           },
           "isWinner": null,
-          "color": "#dcdcdc",
+          "color": "#102138",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
@@ -228,11 +236,11 @@
           "color": "#a61e22",
           "cricketScore": [
             {
-              "runs": 0,
-              "overs": "0",
-              "balls": "0",
+              "runs": 80,
+              "overs": "7.3",
+              "balls": "45",
               "status": "IN_PROGRESS",
-              "wickets": 0
+              "wickets": 2
             }
           ],
           "kabaddiScore": null,
@@ -328,11 +336,11 @@
           "color": "#a61e22",
           "cricketScore": [
             {
-              "runs": 0,
-              "overs": "0",
-              "balls": "0",
+              "runs": 80,
+              "overs": "7.3",
+              "balls": "45",
               "status": "IN_PROGRESS",
-              "wickets": 0
+              "wickets": 2
             }
           ],
           "kabaddiScore": null,
@@ -478,11 +486,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/240p.m3u8?hdntl=Expires=1782038230~_GO=Generated~acl=/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/*~Signature=Afto3p3XJKS4sEKPk8JvgoE9uvoSh-iOka2yNzkpTb-klxQ0Vq0eLzyGtfh-eHOIQyoN62odUT-jbMKSAE03Lrt7rpcO\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/360p.m3u8?hdntl=Expires=1782038230~_GO=Generated~acl=/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/*~Signature=Afto3p3XJKS4sEKPk8JvgoE9uvoSh-iOka2yNzkpTb-klxQ0Vq0eLzyGtfh-eHOIQyoN62odUT-jbMKSAE03Lrt7rpcO\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/480p.m3u8?hdntl=Expires=1782038230~_GO=Generated~acl=/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/*~Signature=Afto3p3XJKS4sEKPk8JvgoE9uvoSh-iOka2yNzkpTb-klxQ0Vq0eLzyGtfh-eHOIQyoN62odUT-jbMKSAE03Lrt7rpcO\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/540p.m3u8?hdntl=Expires=1782038230~_GO=Generated~acl=/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/*~Signature=Afto3p3XJKS4sEKPk8JvgoE9uvoSh-iOka2yNzkpTb-klxQ0Vq0eLzyGtfh-eHOIQyoN62odUT-jbMKSAE03Lrt7rpcO\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/720p.m3u8?hdntl=Expires=1782038230~_GO=Generated~acl=/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/*~Signature=Afto3p3XJKS4sEKPk8JvgoE9uvoSh-iOka2yNzkpTb-klxQ0Vq0eLzyGtfh-eHOIQyoN62odUT-jbMKSAE03Lrt7rpcO\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/1080p.m3u8?hdntl=Expires=1782038230~_GO=Generated~acl=/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/*~Signature=Afto3p3XJKS4sEKPk8JvgoE9uvoSh-iOka2yNzkpTb-klxQ0Vq0eLzyGtfh-eHOIQyoN62odUT-jbMKSAE03Lrt7rpcO\n#EXT-X-STREAM-INF:BANDWIDTH=5408736,AVERAGE-BANDWIDTH=5408736,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1782038230~_GO=Generated~acl=/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/*~Signature=Afto3p3XJKS4sEKPk8JvgoE9uvoSh-iOka2yNzkpTb-klxQ0Vq0eLzyGtfh-eHOIQyoN62odUT-jbMKSAE03Lrt7rpcO",
-          "cookie": "hdntl=Expires=1782038230~_GO=Generated~acl=/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/*~Signature=Afto3p3XJKS4sEKPk8JvgoE9uvoSh-iOka2yNzkpTb-klxQ0Vq0eLzyGtfh-eHOIQyoN62odUT-jbMKSAE03Lrt7rpcO",
-          "cookie_valid": "1782038230",
-          "create_date": "Saturday, June 20, 2026, 4:07:05 PM",
-          "expire_date": "Sunday, June 21, 2026, 4:07:10 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/240p.m3u8?hdntl=Expires=1782053050~_GO=Generated~acl=/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/*~Signature=Afto3p1RIkdI5nQKUb0Dbh1t1BMF7kYwpnkH_MHkIfXIGc2saQJFFFmqOb-GcFMD8c0y3mwG0f6PeGdC0KvwAaTYpRwM\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/360p.m3u8?hdntl=Expires=1782053050~_GO=Generated~acl=/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/*~Signature=Afto3p1RIkdI5nQKUb0Dbh1t1BMF7kYwpnkH_MHkIfXIGc2saQJFFFmqOb-GcFMD8c0y3mwG0f6PeGdC0KvwAaTYpRwM\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/480p.m3u8?hdntl=Expires=1782053050~_GO=Generated~acl=/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/*~Signature=Afto3p1RIkdI5nQKUb0Dbh1t1BMF7kYwpnkH_MHkIfXIGc2saQJFFFmqOb-GcFMD8c0y3mwG0f6PeGdC0KvwAaTYpRwM\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/540p.m3u8?hdntl=Expires=1782053050~_GO=Generated~acl=/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/*~Signature=Afto3p1RIkdI5nQKUb0Dbh1t1BMF7kYwpnkH_MHkIfXIGc2saQJFFFmqOb-GcFMD8c0y3mwG0f6PeGdC0KvwAaTYpRwM\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/720p.m3u8?hdntl=Expires=1782053050~_GO=Generated~acl=/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/*~Signature=Afto3p1RIkdI5nQKUb0Dbh1t1BMF7kYwpnkH_MHkIfXIGc2saQJFFFmqOb-GcFMD8c0y3mwG0f6PeGdC0KvwAaTYpRwM\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/1080p.m3u8?hdntl=Expires=1782053050~_GO=Generated~acl=/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/*~Signature=Afto3p1RIkdI5nQKUb0Dbh1t1BMF7kYwpnkH_MHkIfXIGc2saQJFFFmqOb-GcFMD8c0y3mwG0f6PeGdC0KvwAaTYpRwM\n#EXT-X-STREAM-INF:BANDWIDTH=5408736,AVERAGE-BANDWIDTH=5408736,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1782053050~_GO=Generated~acl=/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/*~Signature=Afto3p1RIkdI5nQKUb0Dbh1t1BMF7kYwpnkH_MHkIfXIGc2saQJFFFmqOb-GcFMD8c0y3mwG0f6PeGdC0KvwAaTYpRwM",
+          "cookie": "hdntl=Expires=1782053050~_GO=Generated~acl=/mumbai/139952_english_hls_aac8a6af7c252_1ta-di_h264/*~Signature=Afto3p1RIkdI5nQKUb0Dbh1t1BMF7kYwpnkH_MHkIfXIGc2saQJFFFmqOb-GcFMD8c0y3mwG0f6PeGdC0KvwAaTYpRwM",
+          "cookie_valid": "1782053050",
+          "create_date": "Saturday, June 20, 2026, 8:14:05 PM",
+          "expire_date": "Sunday, June 21, 2026, 8:14:10 PM",
           "language": "ENGLISH"
         }
       ]
@@ -552,16 +560,16 @@
       "language": "ENGLISH",
       "STREAMING_CDN": {
         "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/index.m3u8",
+        "Primary_Playback_URL": "https://in-mc-plive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-plive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-plive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-plive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-plive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "Unavailable",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
+        "X-Served-By": "LOKI",
         "backup": {
           "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/index.m3u8",
           "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/index.m3u8",
@@ -570,11 +578,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/240p.m3u8?hdntl=Expires=1782038650~_GO=Generated~acl=/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/*~Signature=Afto3p2qHBgwwHyDCuibIYSrApNJtTBOd8kMuWAtvtEaqydbzOrkssg8Qie8SUjbhor-6q4IYYXJi4MbIhyKUsbF0OAG\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/360p.m3u8?hdntl=Expires=1782038650~_GO=Generated~acl=/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/*~Signature=Afto3p2qHBgwwHyDCuibIYSrApNJtTBOd8kMuWAtvtEaqydbzOrkssg8Qie8SUjbhor-6q4IYYXJi4MbIhyKUsbF0OAG\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/480p.m3u8?hdntl=Expires=1782038650~_GO=Generated~acl=/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/*~Signature=Afto3p2qHBgwwHyDCuibIYSrApNJtTBOd8kMuWAtvtEaqydbzOrkssg8Qie8SUjbhor-6q4IYYXJi4MbIhyKUsbF0OAG\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/540p.m3u8?hdntl=Expires=1782038650~_GO=Generated~acl=/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/*~Signature=Afto3p2qHBgwwHyDCuibIYSrApNJtTBOd8kMuWAtvtEaqydbzOrkssg8Qie8SUjbhor-6q4IYYXJi4MbIhyKUsbF0OAG\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/720p.m3u8?hdntl=Expires=1782038650~_GO=Generated~acl=/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/*~Signature=Afto3p2qHBgwwHyDCuibIYSrApNJtTBOd8kMuWAtvtEaqydbzOrkssg8Qie8SUjbhor-6q4IYYXJi4MbIhyKUsbF0OAG\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/1080p.m3u8?hdntl=Expires=1782038650~_GO=Generated~acl=/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/*~Signature=Afto3p2qHBgwwHyDCuibIYSrApNJtTBOd8kMuWAtvtEaqydbzOrkssg8Qie8SUjbhor-6q4IYYXJi4MbIhyKUsbF0OAG",
-          "cookie": "hdntl=Expires=1782038650~_GO=Generated~acl=/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/*~Signature=Afto3p2qHBgwwHyDCuibIYSrApNJtTBOd8kMuWAtvtEaqydbzOrkssg8Qie8SUjbhor-6q4IYYXJi4MbIhyKUsbF0OAG",
-          "cookie_valid": "1782038650",
-          "create_date": "Saturday, June 20, 2026, 4:14:05 PM",
-          "expire_date": "Sunday, June 21, 2026, 4:14:10 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/240p.m3u8?hdntl=Expires=1782053051~_GO=Generated~acl=/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/*~Signature=Afto3p320ENku2MutT3GRAOsDQt3GQzzu6ONxBuuMq9vzEMbWoPEnogl2xVtdUI3V-qlqTXDeqimU-96Ywwj1BNbAvID\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/360p.m3u8?hdntl=Expires=1782053051~_GO=Generated~acl=/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/*~Signature=Afto3p320ENku2MutT3GRAOsDQt3GQzzu6ONxBuuMq9vzEMbWoPEnogl2xVtdUI3V-qlqTXDeqimU-96Ywwj1BNbAvID\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/480p.m3u8?hdntl=Expires=1782053051~_GO=Generated~acl=/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/*~Signature=Afto3p320ENku2MutT3GRAOsDQt3GQzzu6ONxBuuMq9vzEMbWoPEnogl2xVtdUI3V-qlqTXDeqimU-96Ywwj1BNbAvID\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/540p.m3u8?hdntl=Expires=1782053051~_GO=Generated~acl=/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/*~Signature=Afto3p320ENku2MutT3GRAOsDQt3GQzzu6ONxBuuMq9vzEMbWoPEnogl2xVtdUI3V-qlqTXDeqimU-96Ywwj1BNbAvID\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/720p.m3u8?hdntl=Expires=1782053051~_GO=Generated~acl=/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/*~Signature=Afto3p320ENku2MutT3GRAOsDQt3GQzzu6ONxBuuMq9vzEMbWoPEnogl2xVtdUI3V-qlqTXDeqimU-96Ywwj1BNbAvID\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/1080p.m3u8?hdntl=Expires=1782053051~_GO=Generated~acl=/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/*~Signature=Afto3p320ENku2MutT3GRAOsDQt3GQzzu6ONxBuuMq9vzEMbWoPEnogl2xVtdUI3V-qlqTXDeqimU-96Ywwj1BNbAvID",
+          "cookie": "hdntl=Expires=1782053051~_GO=Generated~acl=/mumbai/143249_english_hls_fa436c794e85065_1ta-di_h264/*~Signature=Afto3p320ENku2MutT3GRAOsDQt3GQzzu6ONxBuuMq9vzEMbWoPEnogl2xVtdUI3V-qlqTXDeqimU-96Ywwj1BNbAvID",
+          "cookie_valid": "1782053051",
+          "create_date": "Saturday, June 20, 2026, 8:14:06 PM",
+          "expire_date": "Sunday, June 21, 2026, 8:14:11 PM",
           "language": "ENGLISH"
         }
       ]
@@ -1086,75 +1094,6 @@
       "auto_streams": null
     },
     {
-      "category": "Football",
-      "title": "Almería Vs Málaga",
-      "tournament": "LALIGA Hypermotion 2025-26",
-      "short_name": null,
-      "match_id": 143392,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "21 June 2026 12:30 AM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://images.fancode.com/aig/match/v1781434867302/143392_CASACARDS_SPORTY_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143392_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1781434867302/143392_CASACARDS_SPORTY_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://images.fancode.com/aig/match/v1781434867302/143392_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1781434867302/143392_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143392_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Almería",
-          "shortName": "ALM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#1278b9",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Málaga",
-          "shortName": "MAG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MAG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#537eba",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Cricket",
       "title": "Jabalpur Royal Lions Vs Gwalior Cheetahs",
       "tournament": "Madhya Pradesh League T20, 2026",
@@ -1205,6 +1144,75 @@
           "isWinner": null,
           "color": "#e7820d",
           "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Almería Vs Málaga",
+      "tournament": "LALIGA Hypermotion 2025-26",
+      "short_name": null,
+      "match_id": 143392,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "21 June 2026 12:30 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://images.fancode.com/aig/match/v1781434867302/143392_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143392_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1781434867302/143392_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1781434867302/143392_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1781434867302/143392_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143392_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Almería",
+          "shortName": "ALM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#1278b9",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Málaga",
+          "shortName": "MAG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MAG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#537eba",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1461,7 +1469,7 @@
           },
           "isWinner": null,
           "color": "#ee3e26",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1480,7 +1488,7 @@
           },
           "isWinner": null,
           "color": "#ff4800",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1707,75 +1715,6 @@
       "auto_streams": null
     },
     {
-      "category": "Motorsports",
-      "title": "Australasia   Race 2",
-      "tournament": "Ferrari Challenge Series 2026",
-      "short_name": null,
-      "match_id": 143407,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "21 June 2026 10:25 AM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series-2026-old.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143407_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series-2026-old.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series-2026-old.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143407_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Australasia - Race 2",
-          "shortName": "Australasia - Race 2",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-POR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Queensland",
-          "shortName": "Queensland",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#123456",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Cricket",
       "title": "Bermuda Vs Bahamas",
       "tournament": "ICC Men's T20 WC Americas Sub-regional Qualifier A",
@@ -1825,6 +1764,75 @@
           },
           "isWinner": null,
           "color": "#40b8de",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Motorsports",
+      "title": "Australasia   Race 2",
+      "tournament": "Ferrari Challenge Series 2026",
+      "short_name": null,
+      "match_id": 143407,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "21 June 2026 10:25 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series-2026-old.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143407_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series-2026-old.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series-2026-old.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143407_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Australasia - Race 2",
+          "shortName": "Australasia - Race 2",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-POR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Queensland",
+          "shortName": "Queensland",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#123456",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
