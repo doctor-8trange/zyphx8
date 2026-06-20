@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "02:49:01 PM 20-06-2026",
+  "last_updated": "03:49:05 PM 20-06-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 39,
-  "live_matches": 3,
-  "upcoming_matches": 36,
+  "live_matches": 5,
+  "upcoming_matches": 34,
   "matches": [
     {
       "category": "Cricket",
@@ -128,11 +128,11 @@
           "color": "#bba706",
           "cricketScore": [
             {
-              "runs": 85,
-              "overs": "8.5",
-              "balls": "53",
+              "runs": 186,
+              "overs": "18.1",
+              "balls": "109",
               "status": "IN_PROGRESS",
-              "wickets": 1
+              "wickets": 4
             }
           ],
           "kabaddiScore": null,
@@ -228,11 +228,11 @@
           "color": "#bba706",
           "cricketScore": [
             {
-              "runs": 85,
-              "overs": "8.5",
-              "balls": "53",
+              "runs": 186,
+              "overs": "18.1",
+              "balls": "109",
               "status": "IN_PROGRESS",
-              "wickets": 1
+              "wickets": 4
             }
           ],
           "kabaddiScore": null,
@@ -292,6 +292,90 @@
           "create_date": "Saturday, June 20, 2026, 1:42:03 PM",
           "expire_date": "Sunday, June 21, 2026, 1:42:08 PM",
           "language": "KANNADA"
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Stockholm United Vs Vasteras United",
+      "tournament": "Nordic Smash T20 Cup, 2026",
+      "short_name": null,
+      "match_id": 143191,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "20 June 2026 04:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-MatchCard.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143191_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-MatchCard.png",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Nordiac-Smach-T20-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-MatchCard.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143191_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Stockholm United",
+          "shortName": "HMU",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HMU@2x.png"
+          },
+          "isWinner": null,
+          "color": "#176289",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        },
+        {
+          "name": "Vasteras United",
+          "shortName": "VTU",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VTU@2x.png"
+          },
+          "isWinner": null,
+          "color": "#102138",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/index.m3u8",
+          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/143191_english_hls_65f63fb62316328_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/240p.m3u8?hdntl=Expires=1782037147~_GO=Generated~acl=/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/*~Signature=Afto3p3gaVYviAmbvFHRs4PnLTHLF1rT-B1rhie0sa8pUe3XX6W8LLf5D0NWmHf-EE8er_CmvVVTrzw7n7DkfjcvpgsC\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/360p.m3u8?hdntl=Expires=1782037147~_GO=Generated~acl=/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/*~Signature=Afto3p3gaVYviAmbvFHRs4PnLTHLF1rT-B1rhie0sa8pUe3XX6W8LLf5D0NWmHf-EE8er_CmvVVTrzw7n7DkfjcvpgsC\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/480p.m3u8?hdntl=Expires=1782037147~_GO=Generated~acl=/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/*~Signature=Afto3p3gaVYviAmbvFHRs4PnLTHLF1rT-B1rhie0sa8pUe3XX6W8LLf5D0NWmHf-EE8er_CmvVVTrzw7n7DkfjcvpgsC\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/540p.m3u8?hdntl=Expires=1782037147~_GO=Generated~acl=/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/*~Signature=Afto3p3gaVYviAmbvFHRs4PnLTHLF1rT-B1rhie0sa8pUe3XX6W8LLf5D0NWmHf-EE8er_CmvVVTrzw7n7DkfjcvpgsC\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/720p.m3u8?hdntl=Expires=1782037147~_GO=Generated~acl=/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/*~Signature=Afto3p3gaVYviAmbvFHRs4PnLTHLF1rT-B1rhie0sa8pUe3XX6W8LLf5D0NWmHf-EE8er_CmvVVTrzw7n7DkfjcvpgsC\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/1080p.m3u8?hdntl=Expires=1782037147~_GO=Generated~acl=/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/*~Signature=Afto3p3gaVYviAmbvFHRs4PnLTHLF1rT-B1rhie0sa8pUe3XX6W8LLf5D0NWmHf-EE8er_CmvVVTrzw7n7DkfjcvpgsC",
+          "cookie": "hdntl=Expires=1782037147~_GO=Generated~acl=/mumbai/143191_english_hls_65f63fb62316328_1ta-di_h264/*~Signature=Afto3p3gaVYviAmbvFHRs4PnLTHLF1rT-B1rhie0sa8pUe3XX6W8LLf5D0NWmHf-EE8er_CmvVVTrzw7n7DkfjcvpgsC",
+          "cookie_valid": "1782037147",
+          "create_date": "Saturday, June 20, 2026, 3:49:02 PM",
+          "expire_date": "Sunday, June 21, 2026, 3:49:07 PM",
+          "language": "ENGLISH"
         }
       ]
     },
@@ -388,45 +472,37 @@
       ]
     },
     {
-      "category": "Cricket",
-      "title": "Goteborg Phoenix Vs Stockholm City",
-      "tournament": "Nordic Smash T20 Cup, 2026",
+      "category": "Tennis",
+      "title": "Day 4   Doubles Semi Final 1",
+      "tournament": "ATP 500 - Terra Wortmann Open 2026",
       "short_name": null,
-      "match_id": 143190,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "20 June 2026 12:30 PM",
+      "match_id": 143264,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "20 June 2026 02:30 PM",
       "startDate": null,
       "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-MatchCard.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Terra-Wortmann-Open-ATP-500-Grass-old-.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143190_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-MatchCard.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Nordiac-Smach-T20-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-MatchCard.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143190_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143264_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Terra-Wortmann-Open-ATP-500-Grass-old-.png",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Terra-Wortmann-Open-ATP-500-Grass-old-.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143264_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Goteborg Phoenix",
-          "shortName": "GTP",
+          "name": "Day 4 - Doubles Semi-final 1",
+          "shortName": "Day 4 - Doubles Semi-final 1",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GTP@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
           },
-          "isWinner": false,
-          "color": "#b66200",
-          "cricketScore": [
-            {
-              "runs": 74,
-              "overs": "15.1",
-              "balls": "91",
-              "status": "COMPLETED",
-              "wickets": 10
-            }
-          ],
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -438,100 +514,54 @@
           }
         },
         {
-          "name": "Stockholm City",
-          "shortName": "STY",
+          "name": "Halle, Germany",
+          "shortName": "Halle, Germany",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-STY@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
           },
-          "isWinner": true,
-          "color": "#953328",
-          "cricketScore": [
-            {
-              "runs": 76,
-              "overs": "5.3",
-              "balls": "33",
-              "status": "IN_PROGRESS",
-              "wickets": 0
-            }
-          ],
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Stockholm United Vs Vasteras United",
-      "tournament": "Nordic Smash T20 Cup, 2026",
-      "short_name": null,
-      "match_id": 143191,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "20 June 2026 04:00 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-MatchCard.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143191_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-MatchCard.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Nordiac-Smach-T20-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-MatchCard.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143191_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Stockholm United",
-          "shortName": "HMU",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HMU@2x.png"
-          },
-          "isWinner": null,
-          "color": "#176289",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        },
-        {
-          "name": "Vasteras United",
-          "shortName": "VTU",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VTU@2x.png"
-          },
-          "isWinner": null,
-          "color": "#102138",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/index.m3u8",
+          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/143264_english_hls_3ea60a867869308_1ta-di_h264/index.m3u8"
         }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
       },
-      "auto_streams": null
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/240p.m3u8?hdntl=Expires=1782037149~_GO=Generated~acl=/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/*~Signature=Afto3p1cuAVw4hHbbC7xeAHImlh4mrHZ4cbU9zdfIA9yexCmVVC0ljFvf1gIsTSDmDJ9XH_N0VkLEV7bhWE077a-JNwC\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/360p.m3u8?hdntl=Expires=1782037149~_GO=Generated~acl=/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/*~Signature=Afto3p1cuAVw4hHbbC7xeAHImlh4mrHZ4cbU9zdfIA9yexCmVVC0ljFvf1gIsTSDmDJ9XH_N0VkLEV7bhWE077a-JNwC\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/480p.m3u8?hdntl=Expires=1782037149~_GO=Generated~acl=/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/*~Signature=Afto3p1cuAVw4hHbbC7xeAHImlh4mrHZ4cbU9zdfIA9yexCmVVC0ljFvf1gIsTSDmDJ9XH_N0VkLEV7bhWE077a-JNwC\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/540p.m3u8?hdntl=Expires=1782037149~_GO=Generated~acl=/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/*~Signature=Afto3p1cuAVw4hHbbC7xeAHImlh4mrHZ4cbU9zdfIA9yexCmVVC0ljFvf1gIsTSDmDJ9XH_N0VkLEV7bhWE077a-JNwC\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/720p.m3u8?hdntl=Expires=1782037149~_GO=Generated~acl=/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/*~Signature=Afto3p1cuAVw4hHbbC7xeAHImlh4mrHZ4cbU9zdfIA9yexCmVVC0ljFvf1gIsTSDmDJ9XH_N0VkLEV7bhWE077a-JNwC\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/1080p.m3u8?hdntl=Expires=1782037149~_GO=Generated~acl=/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/*~Signature=Afto3p1cuAVw4hHbbC7xeAHImlh4mrHZ4cbU9zdfIA9yexCmVVC0ljFvf1gIsTSDmDJ9XH_N0VkLEV7bhWE077a-JNwC",
+          "cookie": "hdntl=Expires=1782037149~_GO=Generated~acl=/mumbai/143264_english_hls_3ea60a867869308_1ta-di_h264/*~Signature=Afto3p1cuAVw4hHbbC7xeAHImlh4mrHZ4cbU9zdfIA9yexCmVVC0ljFvf1gIsTSDmDJ9XH_N0VkLEV7bhWE077a-JNwC",
+          "cookie_valid": "1782037149",
+          "create_date": "Saturday, June 20, 2026, 3:49:04 PM",
+          "expire_date": "Sunday, June 21, 2026, 3:49:09 PM",
+          "language": "ENGLISH"
+        }
+      ]
     },
     {
       "category": "Cricket",
@@ -949,30 +979,30 @@
     },
     {
       "category": "Tennis",
-      "title": "Day 4   Doubles Semi Final 1",
-      "tournament": "ATP 500 - Terra Wortmann Open 2026",
+      "title": "Day 4   Doubles Semifinal 1",
+      "tournament": "ATP 500 - HSBC Championship 2026",
       "short_name": null,
-      "match_id": 143264,
+      "match_id": 143249,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "20 June 2026 02:30 PM",
+      "startTime": "20 June 2026 04:30 PM",
       "startDate": null,
       "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Terra-Wortmann-Open-ATP-500-Grass-old-.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/HSBC-ChampionshipsATP500Grassfcweb.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143264_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Terra-Wortmann-Open-ATP-500-Grass-old-.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143249_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/HSBC-ChampionshipsATP500Grassfcweb.jpg",
         "PLAYBACK": null,
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Terra-Wortmann-Open-ATP-500-Grass-old-.png",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/HSBC-ChampionshipsATP500Grassfcweb.jpg",
         "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143264_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143249_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Day 4 - Doubles Semi-final 1",
-          "shortName": "Day 4 - Doubles Semi-final 1",
+          "name": "Day 4 - Doubles Semifinal 1",
+          "shortName": "Day 4 - Doubles Semifinal 1",
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
           },
@@ -990,13 +1020,82 @@
           }
         },
         {
-          "name": "Halle, Germany",
-          "shortName": "Halle, Germany",
+          "name": "London, Great Britain",
+          "shortName": "London, Great Britain",
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
           },
           "isWinner": null,
           "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Motorsports",
+      "title": "Day 2 Race 1   Dekra Lausitzring",
+      "tournament": "DTM 2026",
+      "short_name": null,
+      "match_id": 143304,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "20 June 2026 04:45 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143304_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/DTM-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143304_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Day 2 Race 1 - Dekra Lausitzring",
+          "shortName": "Day 2 Race 1 - Dekra Lausitzring",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-DTM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FFCC00",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Schipkau, Germany",
+          "shortName": "Schipkau, Germany",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#123456",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1116,7 +1215,7 @@
           },
           "isWinner": null,
           "color": "#a34c08",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1135,7 +1234,7 @@
           },
           "isWinner": null,
           "color": "#e7820d",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1204,144 +1303,6 @@
           },
           "isWinner": null,
           "color": "#c5190b",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "Day 4   Doubles Semifinal 1",
-      "tournament": "ATP 500 - HSBC Championship 2026",
-      "short_name": null,
-      "match_id": 143249,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "20 June 2026 04:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/HSBC-ChampionshipsATP500Grassfcweb.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143249_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/HSBC-ChampionshipsATP500Grassfcweb.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/HSBC-ChampionshipsATP500Grassfcweb.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/default_sporty_image.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143249_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Day 4 - Doubles Semifinal 1",
-          "shortName": "Day 4 - Doubles Semifinal 1",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "London, Great Britain",
-          "shortName": "London, Great Britain",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Motorsports",
-      "title": "Day 2 Race 1   Dekra Lausitzring",
-      "tournament": "DTM 2026",
-      "short_name": null,
-      "match_id": 143304,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "20 June 2026 04:45 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143304_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/DTM-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143304_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Day 2 Race 1 - Dekra Lausitzring",
-          "shortName": "Day 2 Race 1 - Dekra Lausitzring",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-DTM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FFCC00",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Schipkau, Germany",
-          "shortName": "Schipkau, Germany",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#123456",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1846,91 +1807,6 @@
     },
     {
       "category": "Cricket",
-      "title": "Australia Vs Bangladesh",
-      "tournament": "Australia tour of Bangladesh, 2026",
-      "short_name": null,
-      "match_id": 142969,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "19 June 2026 01:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/BAN-x-AUS_fc-web_1781555242134.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142969_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BAN-x-AUS_fc-web_1781555242134.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AUS-tour-of-BAN-2026.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BAN-x-AUS_fc-web_1781555242134.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142969_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Australia",
-          "shortName": "AUS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUS@2x.png"
-          },
-          "isWinner": true,
-          "color": "#002695",
-          "cricketScore": [
-            {
-              "runs": 196,
-              "overs": "20",
-              "balls": "120",
-              "status": "COMPLETED",
-              "wickets": 5
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Bangladesh",
-          "shortName": "BAN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
-          },
-          "isWinner": false,
-          "color": "#397b46",
-          "cricketScore": [
-            {
-              "runs": 189,
-              "overs": "20",
-              "balls": "120",
-              "status": "IN_PROGRESS",
-              "wickets": 6
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
       "title": "Panama Vs Belize",
       "tournament": "ICC Men's T20 WC Americas Sub-regional Qualifier A",
       "short_name": null,
@@ -2125,6 +2001,91 @@
           "status": {
             "cricket": {
               "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Australia Vs Bangladesh",
+      "tournament": "Australia tour of Bangladesh, 2026",
+      "short_name": null,
+      "match_id": 142969,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "19 June 2026 01:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/BAN-x-AUS_fc-web_1781555242134.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/142969_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BAN-x-AUS_fc-web_1781555242134.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AUS-tour-of-BAN-2026.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BAN-x-AUS_fc-web_1781555242134.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/142969_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Australia",
+          "shortName": "AUS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUS@2x.png"
+          },
+          "isWinner": true,
+          "color": "#002695",
+          "cricketScore": [
+            {
+              "runs": 196,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 5
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Bangladesh",
+          "shortName": "BAN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
+          },
+          "isWinner": false,
+          "color": "#397b46",
+          "cricketScore": [
+            {
+              "runs": 189,
+              "overs": "20",
+              "balls": "120",
+              "status": "IN_PROGRESS",
+              "wickets": 6
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
             }
           }
         }
@@ -2807,6 +2768,75 @@
           },
           "isWinner": null,
           "color": "#40b8de",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Motorsports",
+      "title": "Adac Gt Race 2   Dekra Lausitzring",
+      "tournament": "DTM 2026",
+      "short_name": null,
+      "match_id": 143308,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "21 June 2026 06:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143308_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/DTM-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143308_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "ADAC GT Race 2 - Dekra Lausitzring",
+          "shortName": "ADAC GT Race 2 - Dekra Lausitzring",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-ADAC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#f9eb01",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Schipkau, Germany",
+          "shortName": "Schipkau, Germany",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#123456",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
