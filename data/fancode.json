@@ -2,231 +2,15 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "06:28:06 PM 24-06-2026",
+  "last_updated": "06:35:02 PM 24-06-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 41,
-  "live_matches": 4,
+  "total_matches": 40,
+  "live_matches": 3,
   "upcoming_matches": 37,
   "matches": [
-    {
-      "category": "Cricket",
-      "title": "Kalyani Bengaluru Blasters Vs Coastal Kings Mangaluru",
-      "tournament": "Maharaja T20 Trophy, 2026",
-      "short_name": null,
-      "match_id": 143423,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "24 June 2026 02:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://images.fancode.com/aig/match/v1781841438724/143423_CASACARDS_SPORTY_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143423_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1781841438724/143423_CASACARDS_SPORTY_APP.png",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Maharaja_1781794733468.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/143423_6134_CKM_KBB_FC-WEB_1782272592980.jpg",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1781841438724/143423_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143423_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Kalyani Bengaluru Blasters",
-          "shortName": "KBB",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KBB@2x.png"
-          },
-          "isWinner": true,
-          "color": "#830504",
-          "cricketScore": [
-            {
-              "runs": 226,
-              "overs": "20",
-              "balls": "120",
-              "status": "COMPLETED",
-              "wickets": 6
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Coastal Kings Mangaluru",
-          "shortName": "CKM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CKM@2x.png"
-          },
-          "isWinner": false,
-          "color": "#a77010",
-          "cricketScore": [
-            {
-              "runs": 206,
-              "overs": "20",
-              "balls": "120",
-              "status": "IN_PROGRESS",
-              "wickets": 5
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/index.m3u8",
-          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/143423_english_hls_d96ec095a07084_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/240p.m3u8?hdntl=Expires=1782392286~_GO=Generated~acl=/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/*~Signature=ARZJ1WKtU6uoW5CYPzJH2woTIMZeS2JCKlelaAewWO01XselIekb4eBBXcqXN6OeGnStpEMU9cXPNP2CEdDB9i64rtQA\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/360p.m3u8?hdntl=Expires=1782392286~_GO=Generated~acl=/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/*~Signature=ARZJ1WKtU6uoW5CYPzJH2woTIMZeS2JCKlelaAewWO01XselIekb4eBBXcqXN6OeGnStpEMU9cXPNP2CEdDB9i64rtQA\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/480p.m3u8?hdntl=Expires=1782392286~_GO=Generated~acl=/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/*~Signature=ARZJ1WKtU6uoW5CYPzJH2woTIMZeS2JCKlelaAewWO01XselIekb4eBBXcqXN6OeGnStpEMU9cXPNP2CEdDB9i64rtQA\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/540p.m3u8?hdntl=Expires=1782392286~_GO=Generated~acl=/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/*~Signature=ARZJ1WKtU6uoW5CYPzJH2woTIMZeS2JCKlelaAewWO01XselIekb4eBBXcqXN6OeGnStpEMU9cXPNP2CEdDB9i64rtQA\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/720p.m3u8?hdntl=Expires=1782392286~_GO=Generated~acl=/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/*~Signature=ARZJ1WKtU6uoW5CYPzJH2woTIMZeS2JCKlelaAewWO01XselIekb4eBBXcqXN6OeGnStpEMU9cXPNP2CEdDB9i64rtQA\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/1080p.m3u8?hdntl=Expires=1782392286~_GO=Generated~acl=/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/*~Signature=ARZJ1WKtU6uoW5CYPzJH2woTIMZeS2JCKlelaAewWO01XselIekb4eBBXcqXN6OeGnStpEMU9cXPNP2CEdDB9i64rtQA",
-          "cookie": "hdntl=Expires=1782392286~_GO=Generated~acl=/mumbai/143423_english_hls_d96ec095a07084_1ta-di_h264/*~Signature=ARZJ1WKtU6uoW5CYPzJH2woTIMZeS2JCKlelaAewWO01XselIekb4eBBXcqXN6OeGnStpEMU9cXPNP2CEdDB9i64rtQA",
-          "cookie_valid": "1782392286",
-          "create_date": "Wednesday, June 24, 2026, 6:28:06 PM",
-          "expire_date": "Thursday, June 25, 2026, 6:28:06 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Cricket",
-      "title": "Kalyani Bengaluru Blasters Vs Coastal Kings Mangaluru",
-      "tournament": "Maharaja T20 Trophy, 2026",
-      "short_name": null,
-      "match_id": 143423,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "24 June 2026 02:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://images.fancode.com/aig/match/v1781841438724/143423_CASACARDS_SPORTY_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143423_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1781841438724/143423_CASACARDS_SPORTY_APP.png",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Maharaja_1781794733468.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/143423_6134_CKM_KBB_FC-WEB_1782272592980.jpg",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1781841438724/143423_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143423_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Kalyani Bengaluru Blasters",
-          "shortName": "KBB",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KBB@2x.png"
-          },
-          "isWinner": true,
-          "color": "#830504",
-          "cricketScore": [
-            {
-              "runs": 226,
-              "overs": "20",
-              "balls": "120",
-              "status": "COMPLETED",
-              "wickets": 6
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Coastal Kings Mangaluru",
-          "shortName": "CKM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CKM@2x.png"
-          },
-          "isWinner": false,
-          "color": "#a77010",
-          "cricketScore": [
-            {
-              "runs": 206,
-              "overs": "20",
-              "balls": "120",
-              "status": "IN_PROGRESS",
-              "wickets": 5
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "KANNADA",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "KANNADA",
-        "X-Served-By": "ROLEX",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/index.m3u8",
-          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/143423_kannada_hls_ec0d84362912922_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/240p.m3u8?hdntl=Expires=1782392287~_GO=Generated~acl=/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/*~Signature=ARZJ1WJWkZQI7Mng0ZqPLtEnIFISNbIBTEUHkNy_ZV_y8k3nVr17wEPVzKKAARw1jzPMKPmoONupokhZUow1q9RrbgwJ\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/360p.m3u8?hdntl=Expires=1782392287~_GO=Generated~acl=/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/*~Signature=ARZJ1WJWkZQI7Mng0ZqPLtEnIFISNbIBTEUHkNy_ZV_y8k3nVr17wEPVzKKAARw1jzPMKPmoONupokhZUow1q9RrbgwJ\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/480p.m3u8?hdntl=Expires=1782392287~_GO=Generated~acl=/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/*~Signature=ARZJ1WJWkZQI7Mng0ZqPLtEnIFISNbIBTEUHkNy_ZV_y8k3nVr17wEPVzKKAARw1jzPMKPmoONupokhZUow1q9RrbgwJ\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/540p.m3u8?hdntl=Expires=1782392287~_GO=Generated~acl=/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/*~Signature=ARZJ1WJWkZQI7Mng0ZqPLtEnIFISNbIBTEUHkNy_ZV_y8k3nVr17wEPVzKKAARw1jzPMKPmoONupokhZUow1q9RrbgwJ\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/720p.m3u8?hdntl=Expires=1782392287~_GO=Generated~acl=/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/*~Signature=ARZJ1WJWkZQI7Mng0ZqPLtEnIFISNbIBTEUHkNy_ZV_y8k3nVr17wEPVzKKAARw1jzPMKPmoONupokhZUow1q9RrbgwJ\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/1080p.m3u8?hdntl=Expires=1782392287~_GO=Generated~acl=/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/*~Signature=ARZJ1WJWkZQI7Mng0ZqPLtEnIFISNbIBTEUHkNy_ZV_y8k3nVr17wEPVzKKAARw1jzPMKPmoONupokhZUow1q9RrbgwJ",
-          "cookie": "hdntl=Expires=1782392287~_GO=Generated~acl=/mumbai/143423_kannada_hls_ec0d84362912922_1ta-di_h264/*~Signature=ARZJ1WJWkZQI7Mng0ZqPLtEnIFISNbIBTEUHkNy_ZV_y8k3nVr17wEPVzKKAARw1jzPMKPmoONupokhZUow1q9RrbgwJ",
-          "cookie_valid": "1782392287",
-          "create_date": "Wednesday, June 24, 2026, 6:28:06 PM",
-          "expire_date": "Thursday, June 25, 2026, 6:28:07 PM",
-          "language": "KANNADA"
-        }
-      ]
-    },
     {
       "category": "Cricket",
       "title": "Bahadurgarh Royals Vs Aca Gurugram Vipers",
@@ -502,6 +286,91 @@
           "language": "ENGLISH"
         }
       ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Kalyani Bengaluru Blasters Vs Coastal Kings Mangaluru",
+      "tournament": "Maharaja T20 Trophy, 2026",
+      "short_name": null,
+      "match_id": 143423,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "24 June 2026 02:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://images.fancode.com/aig/match/v1781841438724/143423_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143423_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1781841438724/143423_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Maharaja_1781794733468.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/143423_6134_CKM_KBB_FC-WEB_1782272592980.jpg",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1781841438724/143423_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143423_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Kalyani Bengaluru Blasters",
+          "shortName": "KBB",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KBB@2x.png"
+          },
+          "isWinner": true,
+          "color": "#830504",
+          "cricketScore": [
+            {
+              "runs": 226,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 6
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Coastal Kings Mangaluru",
+          "shortName": "CKM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CKM@2x.png"
+          },
+          "isWinner": false,
+          "color": "#a77010",
+          "cricketScore": [
+            {
+              "runs": 206,
+              "overs": "20",
+              "balls": "120",
+              "status": "IN_PROGRESS",
+              "wickets": 5
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
     },
     {
       "category": "Cricket",
