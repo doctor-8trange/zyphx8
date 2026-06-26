@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "12:42:50 PM 26-06-2026",
+  "last_updated": "01:21:17 PM 26-06-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 37,
-  "live_matches": 4,
-  "upcoming_matches": 33,
+  "live_matches": 5,
+  "upcoming_matches": 32,
   "matches": [
     {
       "category": "Cricket",
@@ -275,6 +275,98 @@
           "cookie_valid": "1782543074",
           "create_date": "Friday, June 26, 2026, 12:21:14 PM",
           "expire_date": "Saturday, June 27, 2026, 12:21:14 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Motorsports",
+      "title": "Practice Session",
+      "tournament": "F3 AUSTRIA 2026",
+      "short_name": null,
+      "match_id": 139725,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "26 June 2026 01:25 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/F3_Austria_web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139725_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F3_Austria_web.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Spielberg_1769074955161.jpg",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F3_Austria_web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139725_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Practice Session",
+          "shortName": "Practice Session",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR3@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ff5800",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Spielberg",
+          "shortName": "Spielberg",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#123456",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/index.m3u8",
+          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/139725_english_hls_f8f6d41ad980336_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/240p.m3u8?hdntl=Expires=1782546663~_GO=Generated~acl=/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/*~Signature=ARZJ1WIIcI8STwum4lTkAmZ-UN7ndfJfmHPDVhEYie4g7DMVvec77AsCc-PiEKg618izc-ms68YfIRl3a_ly8jnvOZwI\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/360p.m3u8?hdntl=Expires=1782546663~_GO=Generated~acl=/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/*~Signature=ARZJ1WIIcI8STwum4lTkAmZ-UN7ndfJfmHPDVhEYie4g7DMVvec77AsCc-PiEKg618izc-ms68YfIRl3a_ly8jnvOZwI\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/480p.m3u8?hdntl=Expires=1782546663~_GO=Generated~acl=/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/*~Signature=ARZJ1WIIcI8STwum4lTkAmZ-UN7ndfJfmHPDVhEYie4g7DMVvec77AsCc-PiEKg618izc-ms68YfIRl3a_ly8jnvOZwI\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/540p.m3u8?hdntl=Expires=1782546663~_GO=Generated~acl=/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/*~Signature=ARZJ1WIIcI8STwum4lTkAmZ-UN7ndfJfmHPDVhEYie4g7DMVvec77AsCc-PiEKg618izc-ms68YfIRl3a_ly8jnvOZwI\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/720p.m3u8?hdntl=Expires=1782546663~_GO=Generated~acl=/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/*~Signature=ARZJ1WIIcI8STwum4lTkAmZ-UN7ndfJfmHPDVhEYie4g7DMVvec77AsCc-PiEKg618izc-ms68YfIRl3a_ly8jnvOZwI\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/1080p.m3u8?hdntl=Expires=1782546663~_GO=Generated~acl=/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/*~Signature=ARZJ1WIIcI8STwum4lTkAmZ-UN7ndfJfmHPDVhEYie4g7DMVvec77AsCc-PiEKg618izc-ms68YfIRl3a_ly8jnvOZwI\n#EXT-X-STREAM-INF:BANDWIDTH=5408736,AVERAGE-BANDWIDTH=5408736,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1782546663~_GO=Generated~acl=/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/*~Signature=ARZJ1WIIcI8STwum4lTkAmZ-UN7ndfJfmHPDVhEYie4g7DMVvec77AsCc-PiEKg618izc-ms68YfIRl3a_ly8jnvOZwI",
+          "cookie": "hdntl=Expires=1782546663~_GO=Generated~acl=/mumbai/139725_english_hls_f8f6d41ad980336_1ta-di_h264/*~Signature=ARZJ1WIIcI8STwum4lTkAmZ-UN7ndfJfmHPDVhEYie4g7DMVvec77AsCc-PiEKg618izc-ms68YfIRl3a_ly8jnvOZwI",
+          "cookie_valid": "1782546663",
+          "create_date": "Friday, June 26, 2026, 1:21:03 PM",
+          "expire_date": "Saturday, June 27, 2026, 1:21:03 PM",
           "language": "ENGLISH"
         }
       ]
@@ -589,75 +681,6 @@
           },
           "isWinner": null,
           "color": "#1960c3",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Motorsports",
-      "title": "Practice Session",
-      "tournament": "F3 AUSTRIA 2026",
-      "short_name": null,
-      "match_id": 139725,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "26 June 2026 01:25 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/F3_Austria_web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139725_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F3_Austria_web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Spielberg_1769074955161.jpg",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F3_Austria_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139725_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Practice Session",
-          "shortName": "Practice Session",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR3@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ff5800",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Spielberg",
-          "shortName": "Spielberg",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#123456",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1782,75 +1805,6 @@
       "auto_streams": null
     },
     {
-      "category": "MotoGP",
-      "title": "Netherlands Gp",
-      "tournament": "GRAND PRIX OF NETHERLANDS 2026",
-      "short_name": null,
-      "match_id": 139955,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "27 June 2026 12:10 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Tissot-Grand-Prix-of-the-Netherlands-old-match-card.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139955_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Tissot-Grand-Prix-of-the-Netherlands-old-match-card.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/NETHERLANDS_1769178240446.jpg",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Moto_GP.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Tissot-Grand-Prix-of-the-Netherlands-old-match-card.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Moto_GP.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139955_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Day 2",
-          "shortName": "SR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/motogp-flags/FC-MG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#EE0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "ASSEN",
-          "shortName": "ASSEN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/motogp-flags/FC-LOT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#EE0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Cricket",
       "title": "Bahadurgarh Royals Vs Ddh Meerut Spartans",
       "tournament": "Future Star U-15 Championship 2026",
@@ -1900,6 +1854,75 @@
           },
           "isWinner": null,
           "color": "#84E3C7",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "MotoGP",
+      "title": "Netherlands Gp",
+      "tournament": "GRAND PRIX OF NETHERLANDS 2026",
+      "short_name": null,
+      "match_id": 139955,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "27 June 2026 12:10 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Tissot-Grand-Prix-of-the-Netherlands-old-match-card.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139955_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Tissot-Grand-Prix-of-the-Netherlands-old-match-card.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/NETHERLANDS_1769178240446.jpg",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Moto_GP.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Tissot-Grand-Prix-of-the-Netherlands-old-match-card.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Moto_GP.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139955_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Day 2",
+          "shortName": "SR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/motogp-flags/FC-MG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#EE0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "ASSEN",
+          "shortName": "ASSEN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/motogp-flags/FC-LOT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#EE0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
