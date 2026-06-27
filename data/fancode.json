@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:00:06 PM 27-06-2026",
+  "last_updated": "07:21:08 PM 27-06-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 39,
-  "live_matches": 8,
-  "upcoming_matches": 31,
+  "live_matches": 10,
+  "upcoming_matches": 29,
   "matches": [
     {
       "category": "Cricket",
@@ -213,6 +213,206 @@
     },
     {
       "category": "Cricket",
+      "title": "Mysore Warriors Vs Gulbarga Mystics",
+      "tournament": "Maharaja T20 Trophy, 2026",
+      "short_name": null,
+      "match_id": 143428,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "27 June 2026 07:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/143428_6134_MW_GMY_FC-WEB_1782272593056.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143428_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/143428_6134_MW_GMY_FC-WEB_1782272593056.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Maharaja_1781794733468.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/143428_6134_MW_GMY_FC-WEB_1782272593056.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143428_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Mysore Warriors",
+          "shortName": "MW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ffed00",
+          "cricketScore": [
+            {
+              "runs": 3,
+              "overs": "1",
+              "balls": "6",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Gulbarga Mystics",
+          "shortName": "GMY",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#bba706",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/index.m3u8",
+          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/143428_english_hls_93a969305e82200_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/240p.m3u8?hdntl=Expires=1782652748~_GO=Generated~acl=/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/*~Signature=ARZJ1WIg7c_iEhRBTzqNp1ktMPLx-nlw6FMG2-M_PbMWk9AMaC6pzoDKYxbmqMko1DcwMLgoKGU5-6kJ8PpjKhYd7PoO\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/360p.m3u8?hdntl=Expires=1782652748~_GO=Generated~acl=/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/*~Signature=ARZJ1WIg7c_iEhRBTzqNp1ktMPLx-nlw6FMG2-M_PbMWk9AMaC6pzoDKYxbmqMko1DcwMLgoKGU5-6kJ8PpjKhYd7PoO\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/480p.m3u8?hdntl=Expires=1782652748~_GO=Generated~acl=/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/*~Signature=ARZJ1WIg7c_iEhRBTzqNp1ktMPLx-nlw6FMG2-M_PbMWk9AMaC6pzoDKYxbmqMko1DcwMLgoKGU5-6kJ8PpjKhYd7PoO\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/540p.m3u8?hdntl=Expires=1782652748~_GO=Generated~acl=/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/*~Signature=ARZJ1WIg7c_iEhRBTzqNp1ktMPLx-nlw6FMG2-M_PbMWk9AMaC6pzoDKYxbmqMko1DcwMLgoKGU5-6kJ8PpjKhYd7PoO\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/720p.m3u8?hdntl=Expires=1782652748~_GO=Generated~acl=/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/*~Signature=ARZJ1WIg7c_iEhRBTzqNp1ktMPLx-nlw6FMG2-M_PbMWk9AMaC6pzoDKYxbmqMko1DcwMLgoKGU5-6kJ8PpjKhYd7PoO\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/1080p.m3u8?hdntl=Expires=1782652748~_GO=Generated~acl=/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/*~Signature=ARZJ1WIg7c_iEhRBTzqNp1ktMPLx-nlw6FMG2-M_PbMWk9AMaC6pzoDKYxbmqMko1DcwMLgoKGU5-6kJ8PpjKhYd7PoO",
+          "cookie": "hdntl=Expires=1782652748~_GO=Generated~acl=/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/*~Signature=ARZJ1WIg7c_iEhRBTzqNp1ktMPLx-nlw6FMG2-M_PbMWk9AMaC6pzoDKYxbmqMko1DcwMLgoKGU5-6kJ8PpjKhYd7PoO",
+          "cookie_valid": "1782652748",
+          "create_date": "Saturday, June 27, 2026, 6:49:07 PM",
+          "expire_date": "Sunday, June 28, 2026, 6:49:08 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
+      "title": "Mysore Warriors Vs Gulbarga Mystics",
+      "tournament": "Maharaja T20 Trophy, 2026",
+      "short_name": null,
+      "match_id": 143428,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "27 June 2026 07:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/143428_6134_MW_GMY_FC-WEB_1782272593056.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143428_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/143428_6134_MW_GMY_FC-WEB_1782272593056.jpg",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Maharaja_1781794733468.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/143428_6134_MW_GMY_FC-WEB_1782272593056.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143428_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Mysore Warriors",
+          "shortName": "MW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ffed00",
+          "cricketScore": [
+            {
+              "runs": 3,
+              "overs": "1",
+              "balls": "6",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Gulbarga Mystics",
+          "shortName": "GMY",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#bba706",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "KANNADA",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "KANNADA",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/index.m3u8",
+          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/240p.m3u8?hdntl=Expires=1782652749~_GO=Generated~acl=/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/*~Signature=ARZJ1WKjclB7lwhFlnQ7-oBWqqrPyQpTVv10af1xxeP_0zFY6EETBC8XOMiEyqZWT0CjXg8CFMnowEzhTCFRtmON2AsF\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/360p.m3u8?hdntl=Expires=1782652749~_GO=Generated~acl=/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/*~Signature=ARZJ1WKjclB7lwhFlnQ7-oBWqqrPyQpTVv10af1xxeP_0zFY6EETBC8XOMiEyqZWT0CjXg8CFMnowEzhTCFRtmON2AsF\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/480p.m3u8?hdntl=Expires=1782652749~_GO=Generated~acl=/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/*~Signature=ARZJ1WKjclB7lwhFlnQ7-oBWqqrPyQpTVv10af1xxeP_0zFY6EETBC8XOMiEyqZWT0CjXg8CFMnowEzhTCFRtmON2AsF\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/540p.m3u8?hdntl=Expires=1782652749~_GO=Generated~acl=/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/*~Signature=ARZJ1WKjclB7lwhFlnQ7-oBWqqrPyQpTVv10af1xxeP_0zFY6EETBC8XOMiEyqZWT0CjXg8CFMnowEzhTCFRtmON2AsF\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/720p.m3u8?hdntl=Expires=1782652749~_GO=Generated~acl=/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/*~Signature=ARZJ1WKjclB7lwhFlnQ7-oBWqqrPyQpTVv10af1xxeP_0zFY6EETBC8XOMiEyqZWT0CjXg8CFMnowEzhTCFRtmON2AsF\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/1080p.m3u8?hdntl=Expires=1782652749~_GO=Generated~acl=/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/*~Signature=ARZJ1WKjclB7lwhFlnQ7-oBWqqrPyQpTVv10af1xxeP_0zFY6EETBC8XOMiEyqZWT0CjXg8CFMnowEzhTCFRtmON2AsF",
+          "cookie": "hdntl=Expires=1782652749~_GO=Generated~acl=/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/*~Signature=ARZJ1WKjclB7lwhFlnQ7-oBWqqrPyQpTVv10af1xxeP_0zFY6EETBC8XOMiEyqZWT0CjXg8CFMnowEzhTCFRtmON2AsF",
+          "cookie_valid": "1782652749",
+          "create_date": "Saturday, June 27, 2026, 6:49:08 PM",
+          "expire_date": "Sunday, June 28, 2026, 6:49:09 PM",
+          "language": "KANNADA"
+        }
+      ]
+    },
+    {
+      "category": "Cricket",
       "title": "Bahamas Vs Belize",
       "tournament": "ICC Men's T20 WC Americas Sub-regional Qualifier A",
       "short_name": null,
@@ -305,63 +505,55 @@
     },
     {
       "category": "Cricket",
-      "title": "Mysore Warriors Vs Gulbarga Mystics",
-      "tournament": "Maharaja T20 Trophy, 2026",
+      "title": "Bahadurgarh Royals Vs Ddh Meerut Spartans",
+      "tournament": "Future Star U-15 Championship 2026",
       "short_name": null,
-      "match_id": 143428,
-      "status": "NOT_STARTED",
+      "match_id": 143558,
+      "status": "LIVE",
       "streamingStatus": "STARTED",
-      "startTime": "27 June 2026 07:00 PM",
+      "startTime": "27 June 2026 07:30 PM",
       "startDate": null,
       "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/143428_6134_MW_GMY_FC-WEB_1782272593056.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Future-Star-U-15-Championship_fc-web.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143428_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/143428_6134_MW_GMY_FC-WEB_1782272593056.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143558_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Future-Star-U-15-Championship_fc-web.jpg",
         "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Maharaja_1781794733468.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Future-U-15-Championship.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/143428_6134_MW_GMY_FC-WEB_1782272593056.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Future-Star-U-15-Championship_fc-web.jpg",
         "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143428_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143558_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Mysore Warriors",
-          "shortName": "MW",
+          "name": "Bahadurgarh Royals",
+          "shortName": "BR",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MW@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BGR@2x.png"
           },
-          "isWinner": null,
-          "color": "#ffed00",
-          "cricketScore": [
-            {
-              "runs": 0,
-              "overs": "0",
-              "balls": "0",
-              "status": "IN_PROGRESS",
-              "wickets": 0
-            }
-          ],
+          "isWinner": false,
+          "color": "#84E3C7",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
         {
-          "name": "Gulbarga Mystics",
-          "shortName": "GMY",
+          "name": "DDH Meerut Spartans",
+          "shortName": "DDHMS",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GM@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DDHMS@2x.png"
           },
-          "isWinner": null,
-          "color": "#bba706",
-          "cricketScore": [],
+          "isWinner": false,
+          "color": "#84E3C7",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -376,130 +568,30 @@
       "language": "ENGLISH",
       "STREAMING_CDN": {
         "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/index.m3u8",
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "Unavailable",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH",
         "X-Served-By": "ROLEX",
         "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/index.m3u8",
-          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/143428_english_hls_93a969305e82200_1ta-di_h264/index.m3u8"
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/index.m3u8",
+          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/143558_english_hls_98d768fa7665916_1ta-di_h264/index.m3u8"
         }
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/240p.m3u8?hdntl=Expires=1782652748~_GO=Generated~acl=/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/*~Signature=ARZJ1WIg7c_iEhRBTzqNp1ktMPLx-nlw6FMG2-M_PbMWk9AMaC6pzoDKYxbmqMko1DcwMLgoKGU5-6kJ8PpjKhYd7PoO\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/360p.m3u8?hdntl=Expires=1782652748~_GO=Generated~acl=/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/*~Signature=ARZJ1WIg7c_iEhRBTzqNp1ktMPLx-nlw6FMG2-M_PbMWk9AMaC6pzoDKYxbmqMko1DcwMLgoKGU5-6kJ8PpjKhYd7PoO\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/480p.m3u8?hdntl=Expires=1782652748~_GO=Generated~acl=/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/*~Signature=ARZJ1WIg7c_iEhRBTzqNp1ktMPLx-nlw6FMG2-M_PbMWk9AMaC6pzoDKYxbmqMko1DcwMLgoKGU5-6kJ8PpjKhYd7PoO\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/540p.m3u8?hdntl=Expires=1782652748~_GO=Generated~acl=/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/*~Signature=ARZJ1WIg7c_iEhRBTzqNp1ktMPLx-nlw6FMG2-M_PbMWk9AMaC6pzoDKYxbmqMko1DcwMLgoKGU5-6kJ8PpjKhYd7PoO\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/720p.m3u8?hdntl=Expires=1782652748~_GO=Generated~acl=/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/*~Signature=ARZJ1WIg7c_iEhRBTzqNp1ktMPLx-nlw6FMG2-M_PbMWk9AMaC6pzoDKYxbmqMko1DcwMLgoKGU5-6kJ8PpjKhYd7PoO\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/1080p.m3u8?hdntl=Expires=1782652748~_GO=Generated~acl=/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/*~Signature=ARZJ1WIg7c_iEhRBTzqNp1ktMPLx-nlw6FMG2-M_PbMWk9AMaC6pzoDKYxbmqMko1DcwMLgoKGU5-6kJ8PpjKhYd7PoO",
-          "cookie": "hdntl=Expires=1782652748~_GO=Generated~acl=/mumbai/143428_english_hls_93a969305e82200_1ta-di_h264/*~Signature=ARZJ1WIg7c_iEhRBTzqNp1ktMPLx-nlw6FMG2-M_PbMWk9AMaC6pzoDKYxbmqMko1DcwMLgoKGU5-6kJ8PpjKhYd7PoO",
-          "cookie_valid": "1782652748",
-          "create_date": "Saturday, June 27, 2026, 6:49:07 PM",
-          "expire_date": "Sunday, June 28, 2026, 6:49:08 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/240p.m3u8?hdntl=Expires=1782654664~_GO=Generated~acl=/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/*~Signature=ARZJ1WLjWdlwofmytz8kjcAs7CMzKvwLoUXqbuVSaM9U2_tbQksWNY7ON9cb-ExQ76h7aKZ7fcN2Bcj7xvoNyXLBTKsM\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/360p.m3u8?hdntl=Expires=1782654664~_GO=Generated~acl=/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/*~Signature=ARZJ1WLjWdlwofmytz8kjcAs7CMzKvwLoUXqbuVSaM9U2_tbQksWNY7ON9cb-ExQ76h7aKZ7fcN2Bcj7xvoNyXLBTKsM\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/480p.m3u8?hdntl=Expires=1782654664~_GO=Generated~acl=/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/*~Signature=ARZJ1WLjWdlwofmytz8kjcAs7CMzKvwLoUXqbuVSaM9U2_tbQksWNY7ON9cb-ExQ76h7aKZ7fcN2Bcj7xvoNyXLBTKsM\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/540p.m3u8?hdntl=Expires=1782654664~_GO=Generated~acl=/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/*~Signature=ARZJ1WLjWdlwofmytz8kjcAs7CMzKvwLoUXqbuVSaM9U2_tbQksWNY7ON9cb-ExQ76h7aKZ7fcN2Bcj7xvoNyXLBTKsM\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/720p.m3u8?hdntl=Expires=1782654664~_GO=Generated~acl=/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/*~Signature=ARZJ1WLjWdlwofmytz8kjcAs7CMzKvwLoUXqbuVSaM9U2_tbQksWNY7ON9cb-ExQ76h7aKZ7fcN2Bcj7xvoNyXLBTKsM\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/1080p.m3u8?hdntl=Expires=1782654664~_GO=Generated~acl=/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/*~Signature=ARZJ1WLjWdlwofmytz8kjcAs7CMzKvwLoUXqbuVSaM9U2_tbQksWNY7ON9cb-ExQ76h7aKZ7fcN2Bcj7xvoNyXLBTKsM\n#EXT-X-STREAM-INF:BANDWIDTH=5408736,AVERAGE-BANDWIDTH=5408736,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1782654664~_GO=Generated~acl=/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/*~Signature=ARZJ1WLjWdlwofmytz8kjcAs7CMzKvwLoUXqbuVSaM9U2_tbQksWNY7ON9cb-ExQ76h7aKZ7fcN2Bcj7xvoNyXLBTKsM",
+          "cookie": "hdntl=Expires=1782654664~_GO=Generated~acl=/mumbai/143558_english_hls_98d768fa7665916_1ta-di_h264/*~Signature=ARZJ1WLjWdlwofmytz8kjcAs7CMzKvwLoUXqbuVSaM9U2_tbQksWNY7ON9cb-ExQ76h7aKZ7fcN2Bcj7xvoNyXLBTKsM",
+          "cookie_valid": "1782654664",
+          "create_date": "Saturday, June 27, 2026, 7:21:03 PM",
+          "expire_date": "Sunday, June 28, 2026, 7:21:04 PM",
           "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Cricket",
-      "title": "Mysore Warriors Vs Gulbarga Mystics",
-      "tournament": "Maharaja T20 Trophy, 2026",
-      "short_name": null,
-      "match_id": 143428,
-      "status": "NOT_STARTED",
-      "streamingStatus": "STARTED",
-      "startTime": "27 June 2026 07:00 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/143428_6134_MW_GMY_FC-WEB_1782272593056.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143428_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/143428_6134_MW_GMY_FC-WEB_1782272593056.jpg",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Maharaja_1781794733468.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/143428_6134_MW_GMY_FC-WEB_1782272593056.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143428_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Mysore Warriors",
-          "shortName": "MW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ffed00",
-          "cricketScore": [
-            {
-              "runs": 0,
-              "overs": "0",
-              "balls": "0",
-              "status": "IN_PROGRESS",
-              "wickets": 0
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        },
-        {
-          "name": "Gulbarga Mystics",
-          "shortName": "GMY",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#bba706",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "KANNADA",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "KANNADA",
-        "X-Served-By": "ROLEX",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/index.m3u8",
-          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/240p.m3u8?hdntl=Expires=1782652749~_GO=Generated~acl=/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/*~Signature=ARZJ1WKjclB7lwhFlnQ7-oBWqqrPyQpTVv10af1xxeP_0zFY6EETBC8XOMiEyqZWT0CjXg8CFMnowEzhTCFRtmON2AsF\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/360p.m3u8?hdntl=Expires=1782652749~_GO=Generated~acl=/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/*~Signature=ARZJ1WKjclB7lwhFlnQ7-oBWqqrPyQpTVv10af1xxeP_0zFY6EETBC8XOMiEyqZWT0CjXg8CFMnowEzhTCFRtmON2AsF\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/480p.m3u8?hdntl=Expires=1782652749~_GO=Generated~acl=/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/*~Signature=ARZJ1WKjclB7lwhFlnQ7-oBWqqrPyQpTVv10af1xxeP_0zFY6EETBC8XOMiEyqZWT0CjXg8CFMnowEzhTCFRtmON2AsF\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/540p.m3u8?hdntl=Expires=1782652749~_GO=Generated~acl=/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/*~Signature=ARZJ1WKjclB7lwhFlnQ7-oBWqqrPyQpTVv10af1xxeP_0zFY6EETBC8XOMiEyqZWT0CjXg8CFMnowEzhTCFRtmON2AsF\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/720p.m3u8?hdntl=Expires=1782652749~_GO=Generated~acl=/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/*~Signature=ARZJ1WKjclB7lwhFlnQ7-oBWqqrPyQpTVv10af1xxeP_0zFY6EETBC8XOMiEyqZWT0CjXg8CFMnowEzhTCFRtmON2AsF\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/1080p.m3u8?hdntl=Expires=1782652749~_GO=Generated~acl=/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/*~Signature=ARZJ1WKjclB7lwhFlnQ7-oBWqqrPyQpTVv10af1xxeP_0zFY6EETBC8XOMiEyqZWT0CjXg8CFMnowEzhTCFRtmON2AsF",
-          "cookie": "hdntl=Expires=1782652749~_GO=Generated~acl=/mumbai/143428_kannada_hls_c22c2ea29546644_1ta-di_h264/*~Signature=ARZJ1WKjclB7lwhFlnQ7-oBWqqrPyQpTVv10af1xxeP_0zFY6EETBC8XOMiEyqZWT0CjXg8CFMnowEzhTCFRtmON2AsF",
-          "cookie_valid": "1782652749",
-          "create_date": "Saturday, June 27, 2026, 6:49:08 PM",
-          "expire_date": "Sunday, June 28, 2026, 6:49:09 PM",
-          "language": "KANNADA"
         }
       ]
     },
@@ -870,75 +962,6 @@
           "language": "ENGLISH"
         }
       ]
-    },
-    {
-      "category": "Cricket",
-      "title": "Bahadurgarh Royals Vs Ddh Meerut Spartans",
-      "tournament": "Future Star U-15 Championship 2026",
-      "short_name": null,
-      "match_id": 143558,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "27 June 2026 07:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Future-Star-U-15-Championship_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143558_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Future-Star-U-15-Championship_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Future-U-15-Championship.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Future-Star-U-15-Championship_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143558_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Bahadurgarh Royals",
-          "shortName": "BR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BGR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "DDH Meerut Spartans",
-          "shortName": "DDHMS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DDHMS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#84E3C7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
     },
     {
       "category": "Cricket",
@@ -1360,8 +1383,8 @@
       "tournament": "F1 LENOVO AUSTRIAN GRAND PRIX 2026",
       "short_name": null,
       "match_id": 139460,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "27 June 2026 07:30 PM",
       "startDate": null,
       "endDate": null,
@@ -1369,7 +1392,7 @@
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/139460_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1_Austria_web.jpg",
-        "PLAYBACK": null,
+        "PLAYBACK": "",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Austria.jpg",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_F1-racing.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Austria_web.jpg",
@@ -1416,10 +1439,35 @@
           }
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "is_drm": true,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/139460_english_dash_7934_1drmta-di_h264/index.mpd",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/139460_english_dash_7934_1drmta-di_h264/index.mpd",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/139460_english_dash_7934_1drmta-di_h264/index.mpd",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/139460_english_dash_7934_1drmta-di_h264/index.mpd",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/139460_english_dash_7934_1drmta-di_h264/index.mpd",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "drm": {
+          "keys": [
+            "5c951b07000b4d23ab8078aea19241d8:4b1dae3614d4fa32ae6fd7fca3c20393"
+          ],
+          "jwk": {
+            "keys": [
+              {
+                "k": "Sx2uNhTU-jKub9f8o8IDkw",
+                "kid": "XJUbBwALTSOrgHiuoZJB2A",
+                "kty": "oct"
+              }
+            ],
+            "type": "temporary"
+          },
+          "clearkey": "5c951b07000b4d23ab8078aea19241d8:4b1dae3614d4fa32ae6fd7fca3c20393"
+        }
       },
       "auto_streams": null
     },
