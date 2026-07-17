@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "04:49:03 PM 17-07-2026",
+  "last_updated": "05:49:03 PM 17-07-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -44,11 +44,11 @@
           "color": "#397b46",
           "cricketScore": [
             {
-              "runs": 85,
-              "overs": "10.2",
-              "balls": "62",
-              "status": "IN_PROGRESS",
-              "wickets": 0
+              "runs": 186,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 5
             }
           ],
           "kabaddiScore": null,
@@ -57,7 +57,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -69,14 +69,22 @@
           },
           "isWinner": null,
           "color": "#dfd32c",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 4,
+              "overs": "0.1",
+              "balls": "1",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -277,7 +285,7 @@
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
+        "X-Served-By": "LOKI",
         "backup": {
           "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/index.m3u8",
           "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/index.m3u8",
@@ -286,11 +294,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/240p.m3u8?hdntl=Expires=1784362745~_GO=Generated~acl=/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/*~Signature=AeRM5cXzqnkDZyH7Y7-AK21Q4t76PW_T9wIM8RiKci0VBe92GjFRUc-NepZaregwBwFh8z3SaVd8TRew7N9KwlKCUg8N\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/360p.m3u8?hdntl=Expires=1784362745~_GO=Generated~acl=/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/*~Signature=AeRM5cXzqnkDZyH7Y7-AK21Q4t76PW_T9wIM8RiKci0VBe92GjFRUc-NepZaregwBwFh8z3SaVd8TRew7N9KwlKCUg8N\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/480p.m3u8?hdntl=Expires=1784362745~_GO=Generated~acl=/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/*~Signature=AeRM5cXzqnkDZyH7Y7-AK21Q4t76PW_T9wIM8RiKci0VBe92GjFRUc-NepZaregwBwFh8z3SaVd8TRew7N9KwlKCUg8N\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/540p.m3u8?hdntl=Expires=1784362745~_GO=Generated~acl=/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/*~Signature=AeRM5cXzqnkDZyH7Y7-AK21Q4t76PW_T9wIM8RiKci0VBe92GjFRUc-NepZaregwBwFh8z3SaVd8TRew7N9KwlKCUg8N\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/720p.m3u8?hdntl=Expires=1784362745~_GO=Generated~acl=/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/*~Signature=AeRM5cXzqnkDZyH7Y7-AK21Q4t76PW_T9wIM8RiKci0VBe92GjFRUc-NepZaregwBwFh8z3SaVd8TRew7N9KwlKCUg8N\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/1080p.m3u8?hdntl=Expires=1784362745~_GO=Generated~acl=/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/*~Signature=AeRM5cXzqnkDZyH7Y7-AK21Q4t76PW_T9wIM8RiKci0VBe92GjFRUc-NepZaregwBwFh8z3SaVd8TRew7N9KwlKCUg8N",
-          "cookie": "hdntl=Expires=1784362745~_GO=Generated~acl=/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/*~Signature=AeRM5cXzqnkDZyH7Y7-AK21Q4t76PW_T9wIM8RiKci0VBe92GjFRUc-NepZaregwBwFh8z3SaVd8TRew7N9KwlKCUg8N",
-          "cookie_valid": "1784362745",
-          "create_date": "Friday, July 17, 2026, 1:49:02 PM",
-          "expire_date": "Saturday, July 18, 2026, 1:49:05 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/240p.m3u8?hdntl=Expires=1784377146~_GO=Generated~acl=/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/*~Signature=AeRM5cUns2zsGlo0j4uSoxHyB2BaFchOH-AMQMqh_qnkYj0pwxoOFTchrTJrbbXwMnbLQPjYIQTfxeZX4Y1lwSed0ngE\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/360p.m3u8?hdntl=Expires=1784377146~_GO=Generated~acl=/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/*~Signature=AeRM5cUns2zsGlo0j4uSoxHyB2BaFchOH-AMQMqh_qnkYj0pwxoOFTchrTJrbbXwMnbLQPjYIQTfxeZX4Y1lwSed0ngE\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/480p.m3u8?hdntl=Expires=1784377146~_GO=Generated~acl=/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/*~Signature=AeRM5cUns2zsGlo0j4uSoxHyB2BaFchOH-AMQMqh_qnkYj0pwxoOFTchrTJrbbXwMnbLQPjYIQTfxeZX4Y1lwSed0ngE\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/540p.m3u8?hdntl=Expires=1784377146~_GO=Generated~acl=/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/*~Signature=AeRM5cUns2zsGlo0j4uSoxHyB2BaFchOH-AMQMqh_qnkYj0pwxoOFTchrTJrbbXwMnbLQPjYIQTfxeZX4Y1lwSed0ngE\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/720p.m3u8?hdntl=Expires=1784377146~_GO=Generated~acl=/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/*~Signature=AeRM5cUns2zsGlo0j4uSoxHyB2BaFchOH-AMQMqh_qnkYj0pwxoOFTchrTJrbbXwMnbLQPjYIQTfxeZX4Y1lwSed0ngE\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/1080p.m3u8?hdntl=Expires=1784377146~_GO=Generated~acl=/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/*~Signature=AeRM5cUns2zsGlo0j4uSoxHyB2BaFchOH-AMQMqh_qnkYj0pwxoOFTchrTJrbbXwMnbLQPjYIQTfxeZX4Y1lwSed0ngE",
+          "cookie": "hdntl=Expires=1784377146~_GO=Generated~acl=/mumbai/143494_english_hls_0906c94c5a90000_1ta-di_h264/*~Signature=AeRM5cUns2zsGlo0j4uSoxHyB2BaFchOH-AMQMqh_qnkYj0pwxoOFTchrTJrbbXwMnbLQPjYIQTfxeZX4Y1lwSed0ngE",
+          "cookie_valid": "1784377146",
+          "create_date": "Friday, July 17, 2026, 5:49:03 PM",
+          "expire_date": "Saturday, July 18, 2026, 5:49:06 PM",
           "language": "ENGLISH"
         }
       ]
@@ -383,6 +391,98 @@
           "cookie_valid": "1784364665",
           "create_date": "Friday, July 17, 2026, 2:21:02 PM",
           "expire_date": "Saturday, July 18, 2026, 2:21:05 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Formula 1",
+      "title": "Practice 1",
+      "tournament": "F1 MOET & CHANDON BELGIAN GRAND PRIX 2026",
+      "short_name": null,
+      "match_id": 139467,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "17 July 2026 05:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1-BELGIAN-GRAND-PRIX-2026-old.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139467_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1-BELGIAN-GRAND-PRIX-2026-old.png",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Belgium.jpg",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_F1-racing.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1-BELGIAN-GRAND-PRIX-2026-old.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_F1-racing.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139467_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Practice 1",
+          "shortName": "P1",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
+          },
+          "isWinner": null,
+          "color": "#EE0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Belgium",
+          "shortName": "Belgium",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
+        "fancode_cdn": "https://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
+        "fancode_bd_cdn": "https://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
+        "fancode_np_cdn": "https://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
+        "fancode_lk_cdn": "https://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
+          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/ad-h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:6\n#EXT-X-INDEPENDENT-SEGMENTS\n#EXT-X-MEDIA:LANGUAGE=\"und\",AUTOSELECT=YES,CHANNELS=\"2\",TYPE=AUDIO,URI=\"https://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__audio.m3u8\",GROUP-ID=\"audio_0\",DEFAULT=NO,NAME=\"und\"\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D4028\",AVERAGE-BANDWIDTH=3405600,RESOLUTION=1920x1080,VIDEO-RANGE=SDR,FRAME-RATE=25.0,BANDWIDTH=3933600,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__1080p.m3u8\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D402A\",AVERAGE-BANDWIDTH=6155564,RESOLUTION=1920x1080,VIDEO-RANGE=SDR,FRAME-RATE=50.0,BANDWIDTH=7123571,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__1080p50.m3u8\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D4015\",AVERAGE-BANDWIDTH=380582,RESOLUTION=426x240,VIDEO-RANGE=SDR,FRAME-RATE=25.0,BANDWIDTH=424585,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__240p.m3u8\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D401E\",AVERAGE-BANDWIDTH=655564,RESOLUTION=640x360,VIDEO-RANGE=SDR,FRAME-RATE=25.0,BANDWIDTH=743571,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__360p.m3u8\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D401E\",AVERAGE-BANDWIDTH=930547,RESOLUTION=854x480,VIDEO-RANGE=SDR,FRAME-RATE=25.0,BANDWIDTH=1062557,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__480p.m3u8\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D401F\",AVERAGE-BANDWIDTH=1205600,RESOLUTION=960x540,VIDEO-RANGE=SDR,FRAME-RATE=25.0,BANDWIDTH=1381600,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__540p.m3u8\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D401F\",AVERAGE-BANDWIDTH=1755564,RESOLUTION=1280x720,VIDEO-RANGE=SDR,FRAME-RATE=25.0,BANDWIDTH=2019571,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__720p.m3u8",
+          "cookie": null,
+          "cookie_valid": "1784373543",
+          "create_date": "Friday, July 17, 2026, 4:49:03 PM",
+          "expire_date": "Saturday, July 18, 2026, 4:49:03 PM",
           "language": "ENGLISH"
         }
       ]
@@ -526,36 +626,36 @@
       "auto_streams": null
     },
     {
-      "category": "Formula 1",
-      "title": "Practice 1",
-      "tournament": "F1 MOET & CHANDON BELGIAN GRAND PRIX 2026",
+      "category": "Motorsports",
+      "title": "Qualifying Session",
+      "tournament": "F3 BELGIUM 2026",
       "short_name": null,
-      "match_id": 139467,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "17 July 2026 05:00 PM",
+      "match_id": 139730,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "17 July 2026 06:30 PM",
       "startDate": null,
       "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1-BELGIAN-GRAND-PRIX-2026-old.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/F3_GP_Old_match-card.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139467_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1-BELGIAN-GRAND-PRIX-2026-old.png",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Belgium.jpg",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_F1-racing.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1-BELGIAN-GRAND-PRIX-2026-old.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_F1-racing.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139467_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139730_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F3_GP_Old_match-card.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/SPA-FRAN.jpg",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F3_GP_Old_match-card.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139730_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Practice 1",
-          "shortName": "P1",
+          "name": "Qualifying Session",
+          "shortName": "Qualifying Session",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR3@2x.png"
           },
           "isWinner": null,
-          "color": "#EE0000",
+          "color": "#ff5800",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -568,13 +668,13 @@
           }
         },
         {
-          "name": "Belgium",
-          "shortName": "Belgium",
+          "name": "Spa-Francorchamps",
+          "shortName": "Spa-Francorchamps",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
           },
           "isWinner": null,
-          "color": "#141414",
+          "color": "#123456",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -587,35 +687,12 @@
           }
         }
       ],
-      "language": "ENGLISH",
+      "language": "BLOODY_SWEET",
       "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
-        "fancode_cdn": "https://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
-        "fancode_bd_cdn": "https://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
-        "fancode_np_cdn": "https://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
-        "fancode_lk_cdn": "https://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
-          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/ad-h264/index.m3u8"
-        }
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
       },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:6\n#EXT-X-INDEPENDENT-SEGMENTS\n#EXT-X-MEDIA:LANGUAGE=\"und\",AUTOSELECT=YES,CHANNELS=\"2\",TYPE=AUDIO,URI=\"https://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__audio.m3u8\",GROUP-ID=\"audio_0\",DEFAULT=NO,NAME=\"und\"\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D4028\",AVERAGE-BANDWIDTH=3405600,RESOLUTION=1920x1080,VIDEO-RANGE=SDR,FRAME-RATE=25.0,BANDWIDTH=3933600,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__1080p.m3u8\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D402A\",AVERAGE-BANDWIDTH=6155564,RESOLUTION=1920x1080,VIDEO-RANGE=SDR,FRAME-RATE=50.0,BANDWIDTH=7123571,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__1080p50.m3u8\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D4015\",AVERAGE-BANDWIDTH=380582,RESOLUTION=426x240,VIDEO-RANGE=SDR,FRAME-RATE=25.0,BANDWIDTH=424585,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__240p.m3u8\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D401E\",AVERAGE-BANDWIDTH=655564,RESOLUTION=640x360,VIDEO-RANGE=SDR,FRAME-RATE=25.0,BANDWIDTH=743571,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__360p.m3u8\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D401E\",AVERAGE-BANDWIDTH=930547,RESOLUTION=854x480,VIDEO-RANGE=SDR,FRAME-RATE=25.0,BANDWIDTH=1062557,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__480p.m3u8\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D401F\",AVERAGE-BANDWIDTH=1205600,RESOLUTION=960x540,VIDEO-RANGE=SDR,FRAME-RATE=25.0,BANDWIDTH=1381600,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__540p.m3u8\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D401F\",AVERAGE-BANDWIDTH=1755564,RESOLUTION=1280x720,VIDEO-RANGE=SDR,FRAME-RATE=25.0,BANDWIDTH=2019571,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__720p.m3u8",
-          "cookie": null,
-          "cookie_valid": "1784373543",
-          "create_date": "Friday, July 17, 2026, 4:49:03 PM",
-          "expire_date": "Saturday, July 18, 2026, 4:49:03 PM",
-          "language": "ENGLISH"
-        }
-      ]
+      "auto_streams": null
     },
     {
       "category": "Cricket",
@@ -667,75 +744,6 @@
           },
           "isWinner": null,
           "color": "#dc37c2",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Motorsports",
-      "title": "Qualifying Session",
-      "tournament": "F3 BELGIUM 2026",
-      "short_name": null,
-      "match_id": 139730,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "17 July 2026 06:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/F3_GP_Old_match-card.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139730_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F3_GP_Old_match-card.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/SPA-FRAN.jpg",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F3_GP_Old_match-card.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139730_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Qualifying Session",
-          "shortName": "Qualifying Session",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR3@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ff5800",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Spa-Francorchamps",
-          "shortName": "Spa-Francorchamps",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#123456",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
