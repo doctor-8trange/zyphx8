@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "06:56:04 PM 17-07-2026",
+  "last_updated": "07:14:05 PM 17-07-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 38,
+  "total_matches": 37,
   "live_matches": 7,
-  "upcoming_matches": 31,
+  "upcoming_matches": 30,
   "matches": [
     {
       "category": "Cricket",
@@ -71,11 +71,11 @@
           "color": "#dfd32c",
           "cricketScore": [
             {
-              "runs": 104,
-              "overs": "13",
-              "balls": "78",
+              "runs": 129,
+              "overs": "16.3",
+              "balls": "99",
               "status": "IN_PROGRESS",
-              "wickets": 6
+              "wickets": 8
             }
           ],
           "kabaddiScore": null,
@@ -488,98 +488,6 @@
       ]
     },
     {
-      "category": "Formula 1",
-      "title": "Practice 1",
-      "tournament": "F1 MOET & CHANDON BELGIAN GRAND PRIX 2026",
-      "short_name": null,
-      "match_id": 139467,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "17 July 2026 05:00 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1-BELGIAN-GRAND-PRIX-2026-old.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139467_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1-BELGIAN-GRAND-PRIX-2026-old.png",
-        "PLAYBACK": "",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Belgium.jpg",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_F1-racing.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1-BELGIAN-GRAND-PRIX-2026-old.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_F1-racing.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139467_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Practice 1",
-          "shortName": "P1",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
-          },
-          "isWinner": null,
-          "color": "#EE0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Belgium",
-          "shortName": "Belgium",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
-        "fancode_cdn": "https://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
-        "fancode_bd_cdn": "https://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
-        "fancode_np_cdn": "https://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
-        "fancode_lk_cdn": "https://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
-          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/primary/ad-h264/index.m3u8"
-        }
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:6\n#EXT-X-INDEPENDENT-SEGMENTS\n#EXT-X-MEDIA:LANGUAGE=\"und\",AUTOSELECT=YES,CHANNELS=\"2\",TYPE=AUDIO,URI=\"https://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__audio.m3u8\",GROUP-ID=\"audio_0\",DEFAULT=NO,NAME=\"und\"\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D4028\",AVERAGE-BANDWIDTH=3405600,RESOLUTION=1920x1080,VIDEO-RANGE=SDR,FRAME-RATE=25.0,BANDWIDTH=3933600,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__1080p.m3u8\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D402A\",AVERAGE-BANDWIDTH=6155564,RESOLUTION=1920x1080,VIDEO-RANGE=SDR,FRAME-RATE=50.0,BANDWIDTH=7123571,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__1080p50.m3u8\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D4015\",AVERAGE-BANDWIDTH=380582,RESOLUTION=426x240,VIDEO-RANGE=SDR,FRAME-RATE=25.0,BANDWIDTH=424585,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__240p.m3u8\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D401E\",AVERAGE-BANDWIDTH=655564,RESOLUTION=640x360,VIDEO-RANGE=SDR,FRAME-RATE=25.0,BANDWIDTH=743571,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__360p.m3u8\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D401E\",AVERAGE-BANDWIDTH=930547,RESOLUTION=854x480,VIDEO-RANGE=SDR,FRAME-RATE=25.0,BANDWIDTH=1062557,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__480p.m3u8\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D401F\",AVERAGE-BANDWIDTH=1205600,RESOLUTION=960x540,VIDEO-RANGE=SDR,FRAME-RATE=25.0,BANDWIDTH=1381600,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__540p.m3u8\n#EXT-X-STREAM-INF:CODECS=\"mp4a.40.2,avc1.4D401F\",AVERAGE-BANDWIDTH=1755564,RESOLUTION=1280x720,VIDEO-RANGE=SDR,FRAME-RATE=25.0,BANDWIDTH=2019571,AUDIO=\"audio_0\"\nhttps://india-mpv2.fancode.com/out/v1/ap-south-1/139467_english_323077/ad-h264/index__720p.m3u8",
-          "cookie": null,
-          "cookie_valid": "1784373543",
-          "create_date": "Friday, July 17, 2026, 4:49:03 PM",
-          "expire_date": "Saturday, July 18, 2026, 4:49:03 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
       "category": "Motorsports",
       "title": "Qualifying Session",
       "tournament": "F3 BELGIUM 2026",
@@ -790,75 +698,6 @@
           },
           "isWinner": null,
           "color": "#dc37c2",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Motorsports",
-      "title": "Qualifying Session",
-      "tournament": "F2 BELGIUM 2026",
-      "short_name": null,
-      "match_id": 139639,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "17 July 2026 07:25 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Formula2_old_Match_card_1783075129448.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139639_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Formula2_old_Match_card_1783075129448.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Belgium_1769058503204.jpg",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Formula2_old_Match_card_1783075129448.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139639_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Qualifying Session",
-          "shortName": "Qualifying Session",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR2@2x.png"
-          },
-          "isWinner": null,
-          "color": "#123456",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Belgium",
-          "shortName": "Belgium",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#123456",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2802,6 +2641,75 @@
         {
           "name": "Spa-Francorchamps",
           "shortName": "Spa-Francorchamps",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#123456",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Motorsports",
+      "title": "Europe   Race 2",
+      "tournament": "Ferrari Challenge Series 2026",
+      "short_name": null,
+      "match_id": 143701,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "19 July 2026 06:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143701_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143701_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Europe - Race 2",
+          "shortName": "Europe - Race 2",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-POR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Portimao, Portugal",
+          "shortName": "Portimao, Portugal",
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
           },
