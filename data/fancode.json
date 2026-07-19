@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "03:35:04 PM 19-07-2026",
+  "last_updated": "04:07:02 PM 19-07-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 5,
-  "upcoming_matches": 33,
+  "live_matches": 4,
+  "upcoming_matches": 34,
   "matches": [
     {
       "category": "Cricket",
@@ -109,7 +109,7 @@
       "tournament": "Bangladesh tour of Zimbabwe, 2026",
       "short_name": null,
       "match_id": 143405,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "19 July 2026 04:00 PM",
       "startDate": null,
@@ -134,14 +134,22 @@
           },
           "isWinner": null,
           "color": "#dfd32c",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 2,
+              "overs": "1.2",
+              "balls": "8",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         },
@@ -385,8 +393,8 @@
       "tournament": "Porsche Mobil 1 Supercup 2026",
       "short_name": null,
       "match_id": 143610,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
       "startTime": "19 July 2026 03:15 PM",
       "startDate": null,
       "endDate": null,
@@ -394,7 +402,7 @@
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/143610_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/Porsche-Mobil-1-Supercup_Austria_Match_card_MRF_Old_match-card.jpg",
-        "PLAYBACK": "",
+        "PLAYBACK": null,
         "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/05/Porsche-Mobil-1-Supercup-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Porsche-Mobil-1-Supercup_Austria_Match_card_MRF_Old_match-card.jpg",
@@ -441,35 +449,12 @@
           }
         }
       ],
-      "language": "ENGLISH",
+      "language": "BLOODY_SWEET",
       "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/index.m3u8",
-          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/index.m3u8"
-        }
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
       },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/240p.m3u8?hdntl=Expires=1784539806~_GO=Generated~acl=/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/*~Signature=AeRM5cXQXbWXhkS4zJEAxWfRb6pX9VTss_BqxIfX9yae_Ks7F_d4Zmke4bCsoJfJ0QM9RnyU4XhSvHkwKsfn2ufswlUK\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/360p.m3u8?hdntl=Expires=1784539806~_GO=Generated~acl=/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/*~Signature=AeRM5cXQXbWXhkS4zJEAxWfRb6pX9VTss_BqxIfX9yae_Ks7F_d4Zmke4bCsoJfJ0QM9RnyU4XhSvHkwKsfn2ufswlUK\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/480p.m3u8?hdntl=Expires=1784539806~_GO=Generated~acl=/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/*~Signature=AeRM5cXQXbWXhkS4zJEAxWfRb6pX9VTss_BqxIfX9yae_Ks7F_d4Zmke4bCsoJfJ0QM9RnyU4XhSvHkwKsfn2ufswlUK\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/540p.m3u8?hdntl=Expires=1784539806~_GO=Generated~acl=/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/*~Signature=AeRM5cXQXbWXhkS4zJEAxWfRb6pX9VTss_BqxIfX9yae_Ks7F_d4Zmke4bCsoJfJ0QM9RnyU4XhSvHkwKsfn2ufswlUK\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/720p.m3u8?hdntl=Expires=1784539806~_GO=Generated~acl=/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/*~Signature=AeRM5cXQXbWXhkS4zJEAxWfRb6pX9VTss_BqxIfX9yae_Ks7F_d4Zmke4bCsoJfJ0QM9RnyU4XhSvHkwKsfn2ufswlUK\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/1080p.m3u8?hdntl=Expires=1784539806~_GO=Generated~acl=/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/*~Signature=AeRM5cXQXbWXhkS4zJEAxWfRb6pX9VTss_BqxIfX9yae_Ks7F_d4Zmke4bCsoJfJ0QM9RnyU4XhSvHkwKsfn2ufswlUK\n#EXT-X-STREAM-INF:BANDWIDTH=5408736,AVERAGE-BANDWIDTH=5408736,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1784539806~_GO=Generated~acl=/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/*~Signature=AeRM5cXQXbWXhkS4zJEAxWfRb6pX9VTss_BqxIfX9yae_Ks7F_d4Zmke4bCsoJfJ0QM9RnyU4XhSvHkwKsfn2ufswlUK",
-          "cookie": "hdntl=Expires=1784539806~_GO=Generated~acl=/mumbai/143610_english_hls_e73e0b37ea25718_1ta-di_h264/*~Signature=AeRM5cXQXbWXhkS4zJEAxWfRb6pX9VTss_BqxIfX9yae_Ks7F_d4Zmke4bCsoJfJ0QM9RnyU4XhSvHkwKsfn2ufswlUK",
-          "cookie_valid": "1784539806",
-          "create_date": "Sunday, July 19, 2026, 3:00:03 PM",
-          "expire_date": "Monday, July 20, 2026, 3:00:06 PM",
-          "language": "ENGLISH"
-        }
-      ]
+      "auto_streams": null
     },
     {
       "category": "Cricket",
