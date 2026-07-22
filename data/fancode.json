@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:00:01 PM 22-07-2026",
+  "last_updated": "07:42:04 PM 22-07-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -13,7 +13,7 @@
   "matches": [
     {
       "category": "Cricket",
-      "title": "Dambulla Sixers Vs Galle Gallants",
+      "title": "Galle Gallants Vs Dambulla Sixers",
       "tournament": "Lanka Premier League, 2026",
       "short_name": null,
       "match_id": 4246714,
@@ -35,25 +35,6 @@
       },
       "team": [
         {
-          "name": "Dambulla Sixers",
-          "shortName": "DS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#4EA4EC",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "Galle Gallants",
           "shortName": "GG",
           "flag": {
@@ -61,6 +42,33 @@
           },
           "isWinner": null,
           "color": "#3D900C",
+          "cricketScore": [
+            {
+              "runs": 15,
+              "overs": "2.4",
+              "balls": "16",
+              "status": "IN_PROGRESS",
+              "wickets": 1
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Dambulla Sixers",
+          "shortName": "DS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#4EA4EC",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
@@ -186,11 +194,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/240p.m3u8?hdntl=Expires=1784797504~_GO=Generated~acl=/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/*~Signature=AeouRp6SjGUUBUYiJOyRRYouD_7T2Mfr8Zugl9yCvg8Amk9ht-DjtutUtGU2bJJOMJYpae5ZTc1Wg1sYFcH6nC9qp3oE\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/360p.m3u8?hdntl=Expires=1784797504~_GO=Generated~acl=/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/*~Signature=AeouRp6SjGUUBUYiJOyRRYouD_7T2Mfr8Zugl9yCvg8Amk9ht-DjtutUtGU2bJJOMJYpae5ZTc1Wg1sYFcH6nC9qp3oE\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/480p.m3u8?hdntl=Expires=1784797504~_GO=Generated~acl=/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/*~Signature=AeouRp6SjGUUBUYiJOyRRYouD_7T2Mfr8Zugl9yCvg8Amk9ht-DjtutUtGU2bJJOMJYpae5ZTc1Wg1sYFcH6nC9qp3oE\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/540p.m3u8?hdntl=Expires=1784797504~_GO=Generated~acl=/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/*~Signature=AeouRp6SjGUUBUYiJOyRRYouD_7T2Mfr8Zugl9yCvg8Amk9ht-DjtutUtGU2bJJOMJYpae5ZTc1Wg1sYFcH6nC9qp3oE\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/720p.m3u8?hdntl=Expires=1784797504~_GO=Generated~acl=/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/*~Signature=AeouRp6SjGUUBUYiJOyRRYouD_7T2Mfr8Zugl9yCvg8Amk9ht-DjtutUtGU2bJJOMJYpae5ZTc1Wg1sYFcH6nC9qp3oE\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/1080p.m3u8?hdntl=Expires=1784797504~_GO=Generated~acl=/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/*~Signature=AeouRp6SjGUUBUYiJOyRRYouD_7T2Mfr8Zugl9yCvg8Amk9ht-DjtutUtGU2bJJOMJYpae5ZTc1Wg1sYFcH6nC9qp3oE",
-          "cookie": "hdntl=Expires=1784797504~_GO=Generated~acl=/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/*~Signature=AeouRp6SjGUUBUYiJOyRRYouD_7T2Mfr8Zugl9yCvg8Amk9ht-DjtutUtGU2bJJOMJYpae5ZTc1Wg1sYFcH6nC9qp3oE",
-          "cookie_valid": "1784797504",
-          "create_date": "Wednesday, July 22, 2026, 2:35:03 PM",
-          "expire_date": "Thursday, July 23, 2026, 2:35:04 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/240p.m3u8?hdntl=Expires=1784815923~_GO=Generated~acl=/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/*~Signature=AeouRp6std0_e3HLwOcnJK9JTecAgHuNFbbD4QBn_FQXSYfGR-uDJg4zZZooahDq6j4rBbF8e6V0rWwvHGq9Ir4QvI4I\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/360p.m3u8?hdntl=Expires=1784815923~_GO=Generated~acl=/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/*~Signature=AeouRp6std0_e3HLwOcnJK9JTecAgHuNFbbD4QBn_FQXSYfGR-uDJg4zZZooahDq6j4rBbF8e6V0rWwvHGq9Ir4QvI4I\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/480p.m3u8?hdntl=Expires=1784815923~_GO=Generated~acl=/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/*~Signature=AeouRp6std0_e3HLwOcnJK9JTecAgHuNFbbD4QBn_FQXSYfGR-uDJg4zZZooahDq6j4rBbF8e6V0rWwvHGq9Ir4QvI4I\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/540p.m3u8?hdntl=Expires=1784815923~_GO=Generated~acl=/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/*~Signature=AeouRp6std0_e3HLwOcnJK9JTecAgHuNFbbD4QBn_FQXSYfGR-uDJg4zZZooahDq6j4rBbF8e6V0rWwvHGq9Ir4QvI4I\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/720p.m3u8?hdntl=Expires=1784815923~_GO=Generated~acl=/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/*~Signature=AeouRp6std0_e3HLwOcnJK9JTecAgHuNFbbD4QBn_FQXSYfGR-uDJg4zZZooahDq6j4rBbF8e6V0rWwvHGq9Ir4QvI4I\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/1080p.m3u8?hdntl=Expires=1784815923~_GO=Generated~acl=/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/*~Signature=AeouRp6std0_e3HLwOcnJK9JTecAgHuNFbbD4QBn_FQXSYfGR-uDJg4zZZooahDq6j4rBbF8e6V0rWwvHGq9Ir4QvI4I",
+          "cookie": "hdntl=Expires=1784815923~_GO=Generated~acl=/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/*~Signature=AeouRp6std0_e3HLwOcnJK9JTecAgHuNFbbD4QBn_FQXSYfGR-uDJg4zZZooahDq6j4rBbF8e6V0rWwvHGq9Ir4QvI4I",
+          "cookie_valid": "1784815923",
+          "create_date": "Wednesday, July 22, 2026, 7:42:03 PM",
+          "expire_date": "Thursday, July 23, 2026, 7:42:03 PM",
           "language": "ENGLISH"
         }
       ]
@@ -594,7 +602,7 @@
           },
           "isWinner": null,
           "color": "#3D900C",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -613,7 +621,7 @@
           },
           "isWinner": null,
           "color": "#232451",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -663,7 +671,7 @@
           },
           "isWinner": null,
           "color": "#e82630",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -682,7 +690,7 @@
           },
           "isWinner": null,
           "color": "#DCDCDC",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1733,7 +1741,7 @@
     },
     {
       "category": "Motorsports",
-      "title": "F2 Hungary 2026",
+      "title": "Practice Session",
       "tournament": "F2 HUNGARY 2026",
       "short_name": null,
       "match_id": 139642,
@@ -1755,8 +1763,8 @@
       },
       "team": [
         {
-          "name": "F2 HUNGARY 2026",
-          "shortName": "F2 HUNGARY 2026",
+          "name": "Practice Session",
+          "shortName": "Practice Session",
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR2@2x.png"
           },
@@ -2009,7 +2017,7 @@
     },
     {
       "category": "Motorsports",
-      "title": "F3 Hungary 2026",
+      "title": "Practice Session",
       "tournament": "F3 HUNGARY 2026",
       "short_name": null,
       "match_id": 139733,
@@ -2031,8 +2039,8 @@
       },
       "team": [
         {
-          "name": "F3 HUNGARY 2026",
-          "shortName": "F3 HUNGARY 2026",
+          "name": "Practice Session",
+          "shortName": "Practice Session",
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR3@2x.png"
           },
@@ -2216,13 +2224,13 @@
     },
     {
       "category": "Motorsports",
-      "title": "F2 Hungary 2026",
+      "title": "Qualifying Session",
       "tournament": "F2 HUNGARY 2026",
       "short_name": null,
       "match_id": 139643,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "24 July 2026 07:35 PM",
+      "startTime": "24 July 2026 07:55 PM",
       "startDate": null,
       "endDate": null,
       "image": "https://www.fancode.com/skillup-uploads/cms-media/F2_mini_matchcard.jpg",
@@ -2238,8 +2246,8 @@
       },
       "team": [
         {
-          "name": "F2 HUNGARY 2026",
-          "shortName": "F2 HUNGARY 2026",
+          "name": "Qualifying Session",
+          "shortName": "Qualifying Session",
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR2@2x.png"
           },
@@ -2423,7 +2431,7 @@
     },
     {
       "category": "Motorsports",
-      "title": "F3 Hungary 2026",
+      "title": "Qualifying Session",
       "tournament": "F3 HUNGARY 2026",
       "short_name": null,
       "match_id": 139734,
@@ -2445,8 +2453,8 @@
       },
       "team": [
         {
-          "name": "F3 HUNGARY 2026",
-          "shortName": "F3 HUNGARY 2026",
+          "name": "Qualifying Session",
+          "shortName": "Qualifying Session",
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-FR3@2x.png"
           },
