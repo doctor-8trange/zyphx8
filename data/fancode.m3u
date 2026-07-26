@@ -1,7 +1,7 @@
 #EXTM3U
 # Written and Directed by ✨ D O C T O R - S T R A N G E ✨
 # Join us on Telegram: https://t.me/jitendraunatti_github
-#DATE:- Sunday, 26 July 2026 at 5:14:11 pm
+#DATE:- Sunday, 26 July 2026 at 5:20:32 pm
 #EXTINF:-1 tvg-id="4246728" tvg-name="Jaffna Kings Vs Kandy Royals" tvg-logo="https://images.fancode.com/aig/match/v1784105762383/4246728_CASACARDS_SPORTY_APP.png" tvg-language="English" group-title="Cricket",ENG | Jaffna Kings Vs Kandy Royals
 https://dai-fancode.pages.dev/mumbai/4246728_english_hls_b1babec60422402_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 #EXTINF:-1 tvg-id="143353" tvg-name="India Vs Zimbabwe" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ZIM-vs-IND_T20Is_fc-web.jpg" group-title="Cricket",[DRM] ENG | India Vs Zimbabwe
@@ -26,9 +26,30 @@ https://in-mc-flive.fancode.com/mumbai/143353_hindi_dash_66824_1drmta-di_h264/in
 https://dai-fancode.pages.dev/mumbai/4247420_english_hls_e4f538fa6759596_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 #EXTINF:-1 tvg-id="143801" tvg-name="Race 2" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-MatchCard_1784602530930.png" tvg-language="English" group-title="Motorsports",ENG | Race 2
 https://dai-fancode.pages.dev/mumbai/143801_english_hls_0f8f9524c923636_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
-#EXTINF:-1 tvg-id="139476" tvg-name="Race" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Hungarian_GP_2026_web.jpg" tvg-language="English" group-title="Formula 1",ENG | Race
-https://dai-fancode.pages.dev/mumbai/139476_english_hls_cf562dba5f52319_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
-#EXTINF:-1 tvg-id="139476" tvg-name="Race" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Hungarian_GP_2026_web.jpg" tvg-language="Hindi" group-title="Formula 1",HIN | Race
-https://dai-fancode.pages.dev/mumbai/139476_hindi_hls_6550f6366226994_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
-#EXTINF:-1 tvg-id="139476" tvg-name="Race" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Hungarian_GP_2026_web.jpg" tvg-language="Tamil" group-title="Formula 1",TAM | Race
-https://dai-fancode.pages.dev/mumbai/139476_tamil_hls_8675b9f21c93259_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+#EXTINF:-1 tvg-id="139476" tvg-name="Race" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Hungarian_GP_2026_web.jpg" group-title="Formula 1",[DRM] ENG | Race
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"k":"aVfrwnwGfCdPZJtKymrQQA","kid":"BpeVzaltQK2SijVVzKCwHA","kty":"oct"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1
+#EXTVLCOPT:http-referrer=https://fancode.com/
+#EXTHTTP:{"user-agent":"ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1","referer":"https://fancode.com/"}
+https://in-mc-flive.fancode.com/mumbai/139476_english_dash_52319_1drmta-di_h264/index.mpd
+#EXTINF:-1 tvg-id="139476" tvg-name="Race" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Hungarian_GP_2026_web.jpg" group-title="Formula 1",[DRM] HIN | Race
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"k":"UdUGOQP1hFZ4KFeuL1MWWQ","kid":"xh7v7HDyTbSfvkW5Cxm0pg","kty":"oct"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1
+#EXTVLCOPT:http-referrer=https://fancode.com/
+#EXTHTTP:{"user-agent":"ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1","referer":"https://fancode.com/"}
+https://in-mc-flive.fancode.com/mumbai/139476_hindi_dash_26994_1drmta-di_h264/index.mpd
+#EXTINF:-1 tvg-id="139476" tvg-name="Race" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Hungarian_GP_2026_web.jpg" group-title="Formula 1",[DRM] TAM | Race
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"k":"QP_aIA4UZbTFzWkIQRMSPg","kid":"M7LU0QAiREGUMrC_P1Z05w","kty":"oct"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1
+#EXTVLCOPT:http-referrer=https://fancode.com/
+#EXTHTTP:{"user-agent":"ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1","referer":"https://fancode.com/"}
+https://in-mc-flive.fancode.com/mumbai/139476_tamil_dash_93259_1drmta-di_h264/index.mpd
