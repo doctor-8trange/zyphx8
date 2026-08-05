@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "03:21:14 PM 05-08-2026",
+  "last_updated": "04:42:26 PM 05-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 39,
-  "live_matches": 5,
-  "upcoming_matches": 34,
+  "live_matches": 6,
+  "upcoming_matches": 33,
   "matches": [
     {
       "category": "Cricket",
@@ -44,11 +44,11 @@
           "color": "#c3333e",
           "cricketScore": [
             {
-              "runs": 0,
-              "overs": "0",
-              "balls": "0",
+              "runs": 125,
+              "overs": "13.2",
+              "balls": "80",
               "status": "IN_PROGRESS",
-              "wickets": 0
+              "wickets": 5
             }
           ],
           "kabaddiScore": null,
@@ -145,11 +145,11 @@
           "color": "#232451",
           "cricketScore": [
             {
-              "runs": 36,
-              "overs": "4.5",
-              "balls": "29",
+              "runs": 242,
+              "overs": "20",
+              "balls": "120",
               "status": "IN_PROGRESS",
-              "wickets": 1
+              "wickets": 2
             }
           ],
           "kabaddiScore": null,
@@ -400,6 +400,91 @@
       ]
     },
     {
+      "category": "Football",
+      "title": "Chelsea Vs Juventus",
+      "tournament": "Club Friendlies 2026",
+      "short_name": null,
+      "match_id": 4248018,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "05 August 2026 05:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Chelsea-vs-Juventus_Web-match-card.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248018_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Chelsea-vs-Juventus_Web-match-card.png",
+        "PLAYBACK": "",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Chelsea-vs-Juventus_Web-match-card.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248018_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Chelsea",
+          "shortName": "CHE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHEL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#577fb2",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        },
+        {
+          "name": "Juventus",
+          "shortName": "JUV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JUT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#4c4c4c",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/index.m3u8",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "WALTER",
+        "backup": {
+          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/index.m3u8",
+          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/index.m3u8",
+          "fancode_dai_cdn": "https://dai-partner.fancode.com/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/index.m3u8"
+        }
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/240p.m3u8?hdntl=Expires=1785928667~_GO=Generated~acl=/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/*~Signature=AYCJ36TkPHGPmsYATb2Bm_dPJ6qmRwSQ7pcwpfYmQs-erspmGgew3bdEd0B8A98xNoH6Hcoqw5wJGYQ0DwaQW-SNnCQF\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/360p.m3u8?hdntl=Expires=1785928667~_GO=Generated~acl=/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/*~Signature=AYCJ36TkPHGPmsYATb2Bm_dPJ6qmRwSQ7pcwpfYmQs-erspmGgew3bdEd0B8A98xNoH6Hcoqw5wJGYQ0DwaQW-SNnCQF\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/480p.m3u8?hdntl=Expires=1785928667~_GO=Generated~acl=/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/*~Signature=AYCJ36TkPHGPmsYATb2Bm_dPJ6qmRwSQ7pcwpfYmQs-erspmGgew3bdEd0B8A98xNoH6Hcoqw5wJGYQ0DwaQW-SNnCQF\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/540p.m3u8?hdntl=Expires=1785928667~_GO=Generated~acl=/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/*~Signature=AYCJ36TkPHGPmsYATb2Bm_dPJ6qmRwSQ7pcwpfYmQs-erspmGgew3bdEd0B8A98xNoH6Hcoqw5wJGYQ0DwaQW-SNnCQF\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/720p.m3u8?hdntl=Expires=1785928667~_GO=Generated~acl=/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/*~Signature=AYCJ36TkPHGPmsYATb2Bm_dPJ6qmRwSQ7pcwpfYmQs-erspmGgew3bdEd0B8A98xNoH6Hcoqw5wJGYQ0DwaQW-SNnCQF\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/1080p.m3u8?hdntl=Expires=1785928667~_GO=Generated~acl=/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/*~Signature=AYCJ36TkPHGPmsYATb2Bm_dPJ6qmRwSQ7pcwpfYmQs-erspmGgew3bdEd0B8A98xNoH6Hcoqw5wJGYQ0DwaQW-SNnCQF",
+          "cookie": "hdntl=Expires=1785928667~_GO=Generated~acl=/mumbai/4248018_english_hls_82101a2f121210_1ta-di_h264/*~Signature=AYCJ36TkPHGPmsYATb2Bm_dPJ6qmRwSQ7pcwpfYmQs-erspmGgew3bdEd0B8A98xNoH6Hcoqw5wJGYQ0DwaQW-SNnCQF",
+          "cookie_valid": "1785928667",
+          "create_date": "Wednesday, August 5, 2026, 4:42:17 PM",
+          "expire_date": "Wednesday, August 5, 2026, 4:47:47 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
       "category": "Cricket",
       "title": "East Delhi Riders Vs North Delhi Strikers",
       "tournament": "Delhi Premier League, 2026",
@@ -538,37 +623,37 @@
       "auto_streams": null
     },
     {
-      "category": "Football",
-      "title": "Chelsea Vs Juventus",
-      "tournament": "Club Friendlies 2026",
+      "category": "Cricket",
+      "title": "South Delhi Superstarz Vs Outer Delhi Warriors",
+      "tournament": "Delhi Premier League, 2026",
       "short_name": null,
-      "match_id": 4248018,
+      "match_id": 4247975,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "05 August 2026 05:00 PM",
+      "startTime": "06 August 2026 01:30 PM",
       "startDate": null,
       "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Chelsea-vs-Juventus_Web-match-card.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247975_53005_SDS_ODW_fc-Web.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248018_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Chelsea-vs-Juventus_Web-match-card.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247975_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247975_53005_SDS_ODW_fc-Web.png",
         "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Chelsea-vs-Juventus_Web-match-card.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248018_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247975_53005_SDS_ODW_fc-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247975_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Chelsea",
-          "shortName": "CHE",
+          "name": "South Delhi Superstarz",
+          "shortName": "SDS",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHEL@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png"
           },
           "isWinner": null,
-          "color": "#577fb2",
-          "cricketScore": null,
+          "color": "#921b36",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -580,14 +665,14 @@
           }
         },
         {
-          "name": "Juventus",
-          "shortName": "JUV",
+          "name": "Outer Delhi Warriors",
+          "shortName": "ODW",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JUT@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ODW@2x.png"
           },
           "isWinner": null,
-          "color": "#4c4c4c",
-          "cricketScore": null,
+          "color": "#0a2346",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -657,75 +742,6 @@
           "isWinner": null,
           "color": "#19a661",
           "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "South Delhi Superstarz Vs Outer Delhi Warriors",
-      "tournament": "Delhi Premier League, 2026",
-      "short_name": null,
-      "match_id": 4247975,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "06 August 2026 01:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247975_53005_SDS_ODW_fc-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247975_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247975_53005_SDS_ODW_fc-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247975_53005_SDS_ODW_fc-Web.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247975_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "South Delhi Superstarz",
-          "shortName": "SDS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#921b36",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Outer Delhi Warriors",
-          "shortName": "ODW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ODW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0a2346",
-          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -2178,7 +2194,7 @@
       "match_id": 139960,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "07 August 2026 02:30 PM",
+      "startTime": "07 August 2026 02:25 PM",
       "startDate": null,
       "endDate": null,
       "image": "https://www.fancode.com/skillup-uploads/cms-media/MiniMatchCard1080x8103.png",
@@ -2793,35 +2809,35 @@
     },
     {
       "category": "Cricket",
-      "title": "Purani Dilli 6 Vs South Delhi Superstarz",
-      "tournament": "Delhi Premier League, 2026",
+      "title": "Tanzania Vs Uganda",
+      "tournament": "ICC CWC Challenge League B 2026",
       "short_name": null,
-      "match_id": 4247977,
+      "match_id": 4248250,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "08 August 2026 01:30 PM",
+      "startTime": "08 August 2026 11:30 AM",
       "startDate": null,
       "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247977_53005_PD_SDS_fc-Web.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247977_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247977_53005_PD_SDS_fc-Web.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248250_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC_1785822553374.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247977_53005_PD_SDS_fc-Web.png",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
         "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247977_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248250_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Purani Dilli-6",
-          "shortName": "PD",
+          "name": "Tanzania",
+          "shortName": "TAN",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PD@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-TNZN@2x.png"
           },
           "isWinner": null,
-          "color": "#c3333e",
+          "color": "#f9d94b",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2834,13 +2850,13 @@
           }
         },
         {
-          "name": "South Delhi Superstarz",
-          "shortName": "SDS",
+          "name": "Uganda",
+          "shortName": "UGA",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SDSW@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UGN@2x.png"
           },
           "isWinner": null,
-          "color": "#921b36",
+          "color": "#677166",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
