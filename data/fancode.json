@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:56:03 PM 06-08-2026",
+  "last_updated": "09:14:07 PM 06-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -13,7 +13,7 @@
   "matches": [
     {
       "category": "Cricket",
-      "title": "New Delhi Tigers Vs Purani Dilli 6",
+      "title": "Purani Dilli 6 Vs New Delhi Tigers",
       "tournament": "Delhi Premier League, 2026",
       "short_name": null,
       "match_id": 4247979,
@@ -35,25 +35,6 @@
       },
       "team": [
         {
-          "name": "New Delhi Tigers",
-          "shortName": "NDT",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NDT-CR2@2x.png"
-          },
-          "isWinner": null,
-          "color": "#B8142D",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "Purani Dilli-6",
           "shortName": "PD",
           "flag": {
@@ -61,6 +42,33 @@
           },
           "isWinner": null,
           "color": "#c3333e",
+          "cricketScore": [
+            {
+              "runs": 129,
+              "overs": "12.1",
+              "balls": "73",
+              "status": "IN_PROGRESS",
+              "wickets": 2
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "New Delhi Tigers",
+          "shortName": "NDT",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NDT-CR2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#B8142D",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
@@ -179,7 +187,7 @@
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
+        "X-Served-By": "LOKI",
         "backup": {
           "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/index.m3u8",
           "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/index.m3u8",
@@ -188,11 +196,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/240p.m3u8?hdntl=Expires=1786099031~_GO=Generated~acl=/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/*~Signature=AYCJ36S_Ym93PAoctDg3StyMPk2GfCGIgWutoUpSdgrrL81qIRE2_Meubk-qws4n2WvrrvxzWA9GQUBN__tXM_sdDBMG\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/360p.m3u8?hdntl=Expires=1786099031~_GO=Generated~acl=/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/*~Signature=AYCJ36S_Ym93PAoctDg3StyMPk2GfCGIgWutoUpSdgrrL81qIRE2_Meubk-qws4n2WvrrvxzWA9GQUBN__tXM_sdDBMG\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/480p.m3u8?hdntl=Expires=1786099031~_GO=Generated~acl=/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/*~Signature=AYCJ36S_Ym93PAoctDg3StyMPk2GfCGIgWutoUpSdgrrL81qIRE2_Meubk-qws4n2WvrrvxzWA9GQUBN__tXM_sdDBMG\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/540p.m3u8?hdntl=Expires=1786099031~_GO=Generated~acl=/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/*~Signature=AYCJ36S_Ym93PAoctDg3StyMPk2GfCGIgWutoUpSdgrrL81qIRE2_Meubk-qws4n2WvrrvxzWA9GQUBN__tXM_sdDBMG\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/720p.m3u8?hdntl=Expires=1786099031~_GO=Generated~acl=/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/*~Signature=AYCJ36S_Ym93PAoctDg3StyMPk2GfCGIgWutoUpSdgrrL81qIRE2_Meubk-qws4n2WvrrvxzWA9GQUBN__tXM_sdDBMG\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786099031~_GO=Generated~acl=/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/*~Signature=AYCJ36S_Ym93PAoctDg3StyMPk2GfCGIgWutoUpSdgrrL81qIRE2_Meubk-qws4n2WvrrvxzWA9GQUBN__tXM_sdDBMG",
-          "cookie": "hdntl=Expires=1786099031~_GO=Generated~acl=/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/*~Signature=AYCJ36S_Ym93PAoctDg3StyMPk2GfCGIgWutoUpSdgrrL81qIRE2_Meubk-qws4n2WvrrvxzWA9GQUBN__tXM_sdDBMG",
-          "cookie_valid": "1786099031",
-          "create_date": "Thursday, August 6, 2026, 4:07:11 PM",
-          "expire_date": "Friday, August 7, 2026, 4:07:11 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/240p.m3u8?hdntl=Expires=1786117445~_GO=Generated~acl=/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/*~Signature=AYCJ36R0-uAdouAeadw7mblftPzb2BUEr8Ynkw2U-0_mF7BAEY3l4srF4WJ96XdZVqaDGh620bOTSZqIrvgn1WOn_dwO\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/360p.m3u8?hdntl=Expires=1786117445~_GO=Generated~acl=/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/*~Signature=AYCJ36R0-uAdouAeadw7mblftPzb2BUEr8Ynkw2U-0_mF7BAEY3l4srF4WJ96XdZVqaDGh620bOTSZqIrvgn1WOn_dwO\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/480p.m3u8?hdntl=Expires=1786117445~_GO=Generated~acl=/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/*~Signature=AYCJ36R0-uAdouAeadw7mblftPzb2BUEr8Ynkw2U-0_mF7BAEY3l4srF4WJ96XdZVqaDGh620bOTSZqIrvgn1WOn_dwO\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/540p.m3u8?hdntl=Expires=1786117445~_GO=Generated~acl=/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/*~Signature=AYCJ36R0-uAdouAeadw7mblftPzb2BUEr8Ynkw2U-0_mF7BAEY3l4srF4WJ96XdZVqaDGh620bOTSZqIrvgn1WOn_dwO\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/720p.m3u8?hdntl=Expires=1786117445~_GO=Generated~acl=/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/*~Signature=AYCJ36R0-uAdouAeadw7mblftPzb2BUEr8Ynkw2U-0_mF7BAEY3l4srF4WJ96XdZVqaDGh620bOTSZqIrvgn1WOn_dwO\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786117445~_GO=Generated~acl=/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/*~Signature=AYCJ36R0-uAdouAeadw7mblftPzb2BUEr8Ynkw2U-0_mF7BAEY3l4srF4WJ96XdZVqaDGh620bOTSZqIrvgn1WOn_dwO",
+          "cookie": "hdntl=Expires=1786117445~_GO=Generated~acl=/mumbai/4248185_english_hls_5dab612fcd71433_1ta-di_h264/*~Signature=AYCJ36R0-uAdouAeadw7mblftPzb2BUEr8Ynkw2U-0_mF7BAEY3l4srF4WJ96XdZVqaDGh620bOTSZqIrvgn1WOn_dwO",
+          "cookie_valid": "1786117445",
+          "create_date": "Thursday, August 6, 2026, 9:14:05 PM",
+          "expire_date": "Friday, August 7, 2026, 9:14:05 PM",
           "language": "ENGLISH"
         }
       ]
@@ -1119,37 +1127,37 @@
       "auto_streams": null
     },
     {
-      "category": "Cricket",
-      "title": "United Arab Emirates Vs Canada",
-      "tournament": "ICC CWC League 2 Scotland, 2026",
+      "category": "Football",
+      "title": "Middlesbrough F.c. Vs Wrexham A.f.c.",
+      "tournament": "Carabao Cup 2026-27",
       "short_name": null,
-      "match_id": 4248213,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "05 August 2026 03:30 PM",
+      "match_id": 4248169,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "08 August 2026 12:30 AM",
       "startDate": null,
       "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4248213_53013_UAE_CAN_fc-Web.png",
+      "image": "https://images.fancode.com/aig/match/v1785149849967/4248169_CASACARDS_SPORTY_APP.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248213_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4248213_53013_UAE_CAN_fc-Web.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248169_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1785149849967/4248169_CASACARDS_SPORTY_APP.png",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/1_1783441975721.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248213_53013_UAE_CAN_fc-Web.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248213_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248169_53016_MIDD_WRX_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1785149849967/4248169_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248169_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "United Arab Emirates",
-          "shortName": "UAE",
+          "name": "Middlesbrough F.C.",
+          "shortName": "MIDD",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAE@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MIDDB@2x.png"
           },
           "isWinner": null,
-          "color": "#4fb319",
-          "cricketScore": [],
+          "color": "#e62722",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1161,14 +1169,14 @@
           }
         },
         {
-          "name": "Canada",
-          "shortName": "CAN",
+          "name": "Wrexham A.F.C.",
+          "shortName": "WRX",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CAN@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WRX@2x.png"
           },
           "isWinner": null,
-          "color": "#d01909",
-          "cricketScore": [],
+          "color": "#0fb378",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1591,75 +1599,6 @@
           },
           "isWinner": null,
           "color": "#EE0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Middlesbrough F.c. Vs Wrexham A.f.c.",
-      "tournament": "Carabao Cup 2026-27",
-      "short_name": null,
-      "match_id": 4248169,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "08 August 2026 12:30 AM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://images.fancode.com/aig/match/v1785149849967/4248169_CASACARDS_SPORTY_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248169_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1785149849967/4248169_CASACARDS_SPORTY_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248169_53016_MIDD_WRX_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1785149849967/4248169_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248169_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Middlesbrough F.C.",
-          "shortName": "MIDD",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MIDDB@2x.png"
-          },
-          "isWinner": null,
-          "color": "#e62722",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Wrexham A.F.C.",
-          "shortName": "WRX",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WRX@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0fb378",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2233,75 +2172,6 @@
     },
     {
       "category": "Cricket",
-      "title": "Tanzania Vs Uganda",
-      "tournament": "ICC CWC Challenge League B 2026",
-      "short_name": null,
-      "match_id": 4248250,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "08 August 2026 11:30 AM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248250_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC_1785822553374.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248250_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Tanzania",
-          "shortName": "TAN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-TNZN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#f9d94b",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Uganda",
-          "shortName": "UGA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UGN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#677166",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
       "title": "Purani Dilli 6 Vs South Delhi Superstarz",
       "tournament": "Delhi Premier League, 2026",
       "short_name": null,
@@ -2350,6 +2220,75 @@
           },
           "isWinner": null,
           "color": "#921b36",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Tanzania Vs Uganda",
+      "tournament": "ICC CWC Challenge League B 2026",
+      "short_name": null,
+      "match_id": 4248250,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "08 August 2026 11:30 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248250_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC_1785822553374.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248250_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Tanzania",
+          "shortName": "TAN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-TNZN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#f9d94b",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Uganda",
+          "shortName": "UGA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UGN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#677166",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2902,6 +2841,75 @@
           },
           "isWinner": null,
           "color": "#6183ca",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "West Ham United Vs Portsmouth F.c.",
+      "tournament": "Carabao Cup 2026-27",
+      "short_name": null,
+      "match_id": 4248173,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "08 August 2026 07:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://images.fancode.com/aig/match/v1785149849990/4248173_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248173_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1785149849990/4248173_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248173_53016_WHU_PRM_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1785149849990/4248173_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248173_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "West Ham United",
+          "shortName": "WHU",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WHA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#b7961b",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Portsmouth F.C.",
+          "shortName": "PRM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PORTS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#13277b",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
