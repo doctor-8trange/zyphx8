@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "05:14:09 PM 09-08-2026",
+  "last_updated": "05:49:06 PM 09-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 40,
-  "live_matches": 8,
-  "upcoming_matches": 32,
+  "live_matches": 7,
+  "upcoming_matches": 33,
   "matches": [
     {
       "category": "Cricket",
@@ -17,8 +17,8 @@
       "tournament": "Delhi Premier League, 2026",
       "short_name": null,
       "match_id": 4247986,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
       "startTime": "09 August 2026 01:30 PM",
       "startDate": null,
       "endDate": null,
@@ -26,7 +26,7 @@
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247986_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247986_53005_NDS_NDT_fc-Web.png",
-        "PLAYBACK": "",
+        "PLAYBACK": null,
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Delhi-Premier-League-2026-Mens.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247986_53005_NDS_NDT_fc-Web.png",
@@ -40,7 +40,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NDT-CR2@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#B8142D",
           "cricketScore": [
             {
@@ -67,13 +67,13 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NDS@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#4686c7",
           "cricketScore": [
             {
-              "runs": 139,
-              "overs": "16.4",
-              "balls": "100",
+              "runs": 165,
+              "overs": "19.1",
+              "balls": "115",
               "status": "IN_PROGRESS",
               "wickets": 3
             }
@@ -89,36 +89,12 @@
           }
         }
       ],
-      "language": "ENGLISH",
+      "language": "BLOODY_SWEET",
       "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/index.m3u8",
-        "Akamai_cdn": "Unavailable",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "ROLEX",
-        "backup": {
-          "fancode_cdn": "https://in-mc-fblive.fancode.com/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/index.m3u8",
-          "fancode_cdn_v1": "https://in-mc-pdlive.fancode.com/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/index.m3u8",
-          "fancode_dai_cdn": "https://dai-partner.fancode.com/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/index.m3u8"
-        }
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
       },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/240p.m3u8?hdntl=Expires=1786347845~_GO=Generated~acl=/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/*~Signature=AYCJ36RIruI4bQtOqWUpbQ2w4UK0yiTZyq6CzgpZCj2knJOaWX19DTzq106ygo4dvhTfvug7FvQwFfIXplqEC4pauUoL\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/360p.m3u8?hdntl=Expires=1786347845~_GO=Generated~acl=/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/*~Signature=AYCJ36RIruI4bQtOqWUpbQ2w4UK0yiTZyq6CzgpZCj2knJOaWX19DTzq106ygo4dvhTfvug7FvQwFfIXplqEC4pauUoL\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/480p.m3u8?hdntl=Expires=1786347845~_GO=Generated~acl=/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/*~Signature=AYCJ36RIruI4bQtOqWUpbQ2w4UK0yiTZyq6CzgpZCj2knJOaWX19DTzq106ygo4dvhTfvug7FvQwFfIXplqEC4pauUoL\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/540p.m3u8?hdntl=Expires=1786347845~_GO=Generated~acl=/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/*~Signature=AYCJ36RIruI4bQtOqWUpbQ2w4UK0yiTZyq6CzgpZCj2knJOaWX19DTzq106ygo4dvhTfvug7FvQwFfIXplqEC4pauUoL\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/720p.m3u8?hdntl=Expires=1786347845~_GO=Generated~acl=/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/*~Signature=AYCJ36RIruI4bQtOqWUpbQ2w4UK0yiTZyq6CzgpZCj2knJOaWX19DTzq106ygo4dvhTfvug7FvQwFfIXplqEC4pauUoL\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786347845~_GO=Generated~acl=/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/*~Signature=AYCJ36RIruI4bQtOqWUpbQ2w4UK0yiTZyq6CzgpZCj2knJOaWX19DTzq106ygo4dvhTfvug7FvQwFfIXplqEC4pauUoL",
-          "cookie": "hdntl=Expires=1786347845~_GO=Generated~acl=/mumbai/4247986_english_hls_6da7a8245d24613_1ta-di_h264/*~Signature=AYCJ36RIruI4bQtOqWUpbQ2w4UK0yiTZyq6CzgpZCj2knJOaWX19DTzq106ygo4dvhTfvug7FvQwFfIXplqEC4pauUoL",
-          "cookie_valid": "1786347845",
-          "create_date": "Sunday, August 9, 2026, 1:14:05 PM",
-          "expire_date": "Monday, August 10, 2026, 1:14:05 PM",
-          "language": "ENGLISH"
-        }
-      ]
+      "auto_streams": null
     },
     {
       "category": "Cricket",
@@ -242,7 +218,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ITA@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#a42322",
           "cricketScore": [
             {
@@ -269,15 +245,15 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAH@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#ff5142",
           "cricketScore": [
             {
-              "runs": 117,
-              "overs": "35",
-              "balls": "210",
+              "runs": 132,
+              "overs": "41.1",
+              "balls": "247",
               "status": "IN_PROGRESS",
-              "wickets": 7
+              "wickets": 10
             }
           ],
           "kabaddiScore": null,
@@ -382,11 +358,11 @@
           "color": "#6ECB51",
           "cricketScore": [
             {
-              "runs": 71,
-              "overs": "19.2",
-              "balls": "116",
+              "runs": 114,
+              "overs": "27.2",
+              "balls": "164",
               "status": "IN_PROGRESS",
-              "wickets": 3
+              "wickets": 6
             }
           ],
           "kabaddiScore": null,
@@ -865,6 +841,75 @@
       "auto_streams": null
     },
     {
+      "category": "Football",
+      "title": "Arsenal Vs Borussia Dortmund",
+      "tournament": "Club Friendlies 2026",
+      "short_name": null,
+      "match_id": 4248392,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "09 August 2026 06:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Emirates-Cup-Final--old.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248392_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Emirates-Cup-Final--old.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Emirates-Cup-Final--old.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248392_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Arsenal",
+          "shortName": "ARS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ARS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#5ebae9",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Borussia Dortmund",
+          "shortName": "DOR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-DOR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#fde64e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
       "category": "Cricket",
       "title": "West Delhi Lions Vs East Delhi Riders",
       "tournament": "Delhi Premier League, 2026",
@@ -934,37 +979,37 @@
       "auto_streams": null
     },
     {
-      "category": "Football",
-      "title": "Arsenal Vs Borussia Dortmund",
-      "tournament": "Club Friendlies 2026",
+      "category": "Cricket",
+      "title": "Ireland Vs Afghanistan",
+      "tournament": "Afghanistan tour of Ireland, 2026",
       "short_name": null,
-      "match_id": 4248392,
+      "match_id": 4248055,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "09 August 2026 06:30 PM",
+      "startTime": "10 August 2026 03:15 PM",
       "startDate": null,
       "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Emirates-Cup-Final--old.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/33_1785532572236.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248392_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Emirates-Cup-Final--old.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248055_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/33_1785532572236.png",
         "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Emirates-Cup-Final--old.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248392_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/IRE_vs_AFG.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/33_1785532572236.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248055_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Arsenal",
-          "shortName": "ARS",
+          "name": "Ireland",
+          "shortName": "IRE",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ARS@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png"
           },
           "isWinner": null,
-          "color": "#5ebae9",
-          "cricketScore": null,
+          "color": "#ba6a15",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -976,14 +1021,14 @@
           }
         },
         {
-          "name": "Borussia Dortmund",
-          "shortName": "DOR",
+          "name": "Afghanistan",
+          "shortName": "AFG",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-DOR@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AFG@2x.png"
           },
           "isWinner": null,
-          "color": "#fde64e",
-          "cricketScore": null,
+          "color": "#2f5ddf",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1122,75 +1167,6 @@
           "isWinner": null,
           "color": "#ece125",
           "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Ireland Vs Afghanistan",
-      "tournament": "Afghanistan tour of Ireland, 2026",
-      "short_name": null,
-      "match_id": 4248055,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "10 August 2026 03:15 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/33_1785532572236.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248055_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/33_1785532572236.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/IRE_vs_AFG.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/33_1785532572236.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248055_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Ireland",
-          "shortName": "IRE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ba6a15",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Afghanistan",
-          "shortName": "AFG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AFG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#2f5ddf",
-          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
