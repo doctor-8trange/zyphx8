@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:49:09 PM 13-08-2026",
+  "last_updated": "07:56:15 PM 13-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -47,7 +47,7 @@
               "runs": 347,
               "overs": "50",
               "balls": "300",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 7
             }
           ],
@@ -57,7 +57,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -69,14 +69,22 @@
           },
           "isWinner": null,
           "color": "#d01909",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 4,
+              "overs": "1",
+              "balls": "6",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -143,14 +151,22 @@
           },
           "isWinner": null,
           "color": "#4686c7",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         },
@@ -196,11 +212,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/240p.m3u8?hdntl=Expires=1786631080~_GO=Generated~acl=/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/*~Signature=AVMBkTUygpSZnOrnAfVuC9fIlZDLqv1uWr_Nk857buKfjmChAF7ZbJ3E7V7wDsCYy_H9facvc6N2wqKkMdkYO4ZRR4QP\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/360p.m3u8?hdntl=Expires=1786631080~_GO=Generated~acl=/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/*~Signature=AVMBkTUygpSZnOrnAfVuC9fIlZDLqv1uWr_Nk857buKfjmChAF7ZbJ3E7V7wDsCYy_H9facvc6N2wqKkMdkYO4ZRR4QP\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/480p.m3u8?hdntl=Expires=1786631080~_GO=Generated~acl=/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/*~Signature=AVMBkTUygpSZnOrnAfVuC9fIlZDLqv1uWr_Nk857buKfjmChAF7ZbJ3E7V7wDsCYy_H9facvc6N2wqKkMdkYO4ZRR4QP\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/540p.m3u8?hdntl=Expires=1786631080~_GO=Generated~acl=/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/*~Signature=AVMBkTUygpSZnOrnAfVuC9fIlZDLqv1uWr_Nk857buKfjmChAF7ZbJ3E7V7wDsCYy_H9facvc6N2wqKkMdkYO4ZRR4QP\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/720p.m3u8?hdntl=Expires=1786631080~_GO=Generated~acl=/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/*~Signature=AVMBkTUygpSZnOrnAfVuC9fIlZDLqv1uWr_Nk857buKfjmChAF7ZbJ3E7V7wDsCYy_H9facvc6N2wqKkMdkYO4ZRR4QP\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786631080~_GO=Generated~acl=/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/*~Signature=AVMBkTUygpSZnOrnAfVuC9fIlZDLqv1uWr_Nk857buKfjmChAF7ZbJ3E7V7wDsCYy_H9facvc6N2wqKkMdkYO4ZRR4QP",
-          "cookie": "hdntl=Expires=1786631080~_GO=Generated~acl=/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/*~Signature=AVMBkTUygpSZnOrnAfVuC9fIlZDLqv1uWr_Nk857buKfjmChAF7ZbJ3E7V7wDsCYy_H9facvc6N2wqKkMdkYO4ZRR4QP",
-          "cookie_valid": "1786631080",
-          "create_date": "Thursday, August 13, 2026, 7:49:09 PM",
-          "expire_date": "Thursday, August 13, 2026, 7:54:40 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/240p.m3u8?hdntl=Expires=1786631505~_GO=Generated~acl=/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/*~Signature=AVMBkTXT2FkvU4U0qY_fAXh5IzcWyCTMr9TEeNgwchZcwE0QG_RdEEu1S5CrQyOIyHtQK8TZc0FN6V736mS62DLYoNkO\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/360p.m3u8?hdntl=Expires=1786631505~_GO=Generated~acl=/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/*~Signature=AVMBkTXT2FkvU4U0qY_fAXh5IzcWyCTMr9TEeNgwchZcwE0QG_RdEEu1S5CrQyOIyHtQK8TZc0FN6V736mS62DLYoNkO\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/480p.m3u8?hdntl=Expires=1786631505~_GO=Generated~acl=/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/*~Signature=AVMBkTXT2FkvU4U0qY_fAXh5IzcWyCTMr9TEeNgwchZcwE0QG_RdEEu1S5CrQyOIyHtQK8TZc0FN6V736mS62DLYoNkO\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/540p.m3u8?hdntl=Expires=1786631505~_GO=Generated~acl=/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/*~Signature=AVMBkTXT2FkvU4U0qY_fAXh5IzcWyCTMr9TEeNgwchZcwE0QG_RdEEu1S5CrQyOIyHtQK8TZc0FN6V736mS62DLYoNkO\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/720p.m3u8?hdntl=Expires=1786631505~_GO=Generated~acl=/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/*~Signature=AVMBkTXT2FkvU4U0qY_fAXh5IzcWyCTMr9TEeNgwchZcwE0QG_RdEEu1S5CrQyOIyHtQK8TZc0FN6V736mS62DLYoNkO\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786631505~_GO=Generated~acl=/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/*~Signature=AVMBkTXT2FkvU4U0qY_fAXh5IzcWyCTMr9TEeNgwchZcwE0QG_RdEEu1S5CrQyOIyHtQK8TZc0FN6V736mS62DLYoNkO",
+          "cookie": "hdntl=Expires=1786631505~_GO=Generated~acl=/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/*~Signature=AVMBkTXT2FkvU4U0qY_fAXh5IzcWyCTMr9TEeNgwchZcwE0QG_RdEEu1S5CrQyOIyHtQK8TZc0FN6V736mS62DLYoNkO",
+          "cookie_valid": "1786631505",
+          "create_date": "Thursday, August 13, 2026, 7:56:15 PM",
+          "expire_date": "Thursday, August 13, 2026, 8:01:45 PM",
           "language": "ENGLISH"
         }
       ]
@@ -1605,75 +1621,6 @@
       "auto_streams": null
     },
     {
-      "category": "Motorsports",
-      "title": "Free Practice 1",
-      "tournament": "DTM 2026",
-      "short_name": null,
-      "match_id": 143812,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "14 August 2026 03:00 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/DTM2.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143812_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/DTM2.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/DTM-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/DTM2.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143812_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Free Practice 1",
-          "shortName": "Free Practice 1",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-DTM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FFCC00",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Nurburgring, Germany",
-          "shortName": "Nurburgring, Germany",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#123456",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Football",
       "title": "Wolverhampton Wanderers F.c. Vs Blackburn Rovers F.c.",
       "tournament": "EFL Championship 2026-27",
@@ -1723,6 +1670,75 @@
           },
           "isWinner": null,
           "color": "#2f68e4",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Motorsports",
+      "title": "Free Practice 1",
+      "tournament": "DTM 2026",
+      "short_name": null,
+      "match_id": 143812,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "14 August 2026 03:00 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/DTM2.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/143812_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/DTM2.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/04/DTM-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports-1440-x-360_2.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/DTM2.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Motorsports_2.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/143812_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Free Practice 1",
+          "shortName": "Free Practice 1",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-DTM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FFCC00",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Nurburgring, Germany",
+          "shortName": "Nurburgring, Germany",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/race-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#123456",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
