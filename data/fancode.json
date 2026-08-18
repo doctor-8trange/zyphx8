@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "03:46:14 PM 18-08-2026",
+  "last_updated": "03:57:10 PM 18-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -47,7 +47,7 @@
               "runs": 211,
               "overs": "20",
               "balls": "120",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 6
             }
           ],
@@ -57,7 +57,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -69,14 +69,22 @@
           },
           "isWinner": null,
           "color": "#4686c7",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 20,
+              "overs": "2",
+              "balls": "12",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -103,11 +111,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/240p.m3u8?hdntl=Expires=1787048505~_GO=Generated~acl=/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/*~Signature=ARceAWPOCYdSmFPr8DCvzHRyTTHw_aY5qo9ta6QtfbvISWcfsR3JEHRz6qZCeEjmzA3FCbui2YBj3z9igrzca2izFfYM\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/360p.m3u8?hdntl=Expires=1787048505~_GO=Generated~acl=/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/*~Signature=ARceAWPOCYdSmFPr8DCvzHRyTTHw_aY5qo9ta6QtfbvISWcfsR3JEHRz6qZCeEjmzA3FCbui2YBj3z9igrzca2izFfYM\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/480p.m3u8?hdntl=Expires=1787048505~_GO=Generated~acl=/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/*~Signature=ARceAWPOCYdSmFPr8DCvzHRyTTHw_aY5qo9ta6QtfbvISWcfsR3JEHRz6qZCeEjmzA3FCbui2YBj3z9igrzca2izFfYM\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/540p.m3u8?hdntl=Expires=1787048505~_GO=Generated~acl=/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/*~Signature=ARceAWPOCYdSmFPr8DCvzHRyTTHw_aY5qo9ta6QtfbvISWcfsR3JEHRz6qZCeEjmzA3FCbui2YBj3z9igrzca2izFfYM\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/720p.m3u8?hdntl=Expires=1787048505~_GO=Generated~acl=/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/*~Signature=ARceAWPOCYdSmFPr8DCvzHRyTTHw_aY5qo9ta6QtfbvISWcfsR3JEHRz6qZCeEjmzA3FCbui2YBj3z9igrzca2izFfYM\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787048505~_GO=Generated~acl=/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/*~Signature=ARceAWPOCYdSmFPr8DCvzHRyTTHw_aY5qo9ta6QtfbvISWcfsR3JEHRz6qZCeEjmzA3FCbui2YBj3z9igrzca2izFfYM",
-          "cookie": "hdntl=Expires=1787048505~_GO=Generated~acl=/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/*~Signature=ARceAWPOCYdSmFPr8DCvzHRyTTHw_aY5qo9ta6QtfbvISWcfsR3JEHRz6qZCeEjmzA3FCbui2YBj3z9igrzca2izFfYM",
-          "cookie_valid": "1787048505",
-          "create_date": "Tuesday, August 18, 2026, 3:46:14 PM",
-          "expire_date": "Tuesday, August 18, 2026, 3:51:45 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/240p.m3u8?hdntl=Expires=1787049160~_GO=Generated~acl=/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/*~Signature=ARceAWNih7SpVJMwHcOUqByW3h6PlS2PLoqjdyRN9nXAcCumzyd7HWnG2bX4R4gtpXyVG54j6TBg29C4_4TcEhzuf5sE\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/360p.m3u8?hdntl=Expires=1787049160~_GO=Generated~acl=/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/*~Signature=ARceAWNih7SpVJMwHcOUqByW3h6PlS2PLoqjdyRN9nXAcCumzyd7HWnG2bX4R4gtpXyVG54j6TBg29C4_4TcEhzuf5sE\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/480p.m3u8?hdntl=Expires=1787049160~_GO=Generated~acl=/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/*~Signature=ARceAWNih7SpVJMwHcOUqByW3h6PlS2PLoqjdyRN9nXAcCumzyd7HWnG2bX4R4gtpXyVG54j6TBg29C4_4TcEhzuf5sE\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/540p.m3u8?hdntl=Expires=1787049160~_GO=Generated~acl=/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/*~Signature=ARceAWNih7SpVJMwHcOUqByW3h6PlS2PLoqjdyRN9nXAcCumzyd7HWnG2bX4R4gtpXyVG54j6TBg29C4_4TcEhzuf5sE\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/720p.m3u8?hdntl=Expires=1787049160~_GO=Generated~acl=/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/*~Signature=ARceAWNih7SpVJMwHcOUqByW3h6PlS2PLoqjdyRN9nXAcCumzyd7HWnG2bX4R4gtpXyVG54j6TBg29C4_4TcEhzuf5sE\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787049160~_GO=Generated~acl=/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/*~Signature=ARceAWNih7SpVJMwHcOUqByW3h6PlS2PLoqjdyRN9nXAcCumzyd7HWnG2bX4R4gtpXyVG54j6TBg29C4_4TcEhzuf5sE",
+          "cookie": "hdntl=Expires=1787049160~_GO=Generated~acl=/mumbai/4247994_english_hls_166e3306f251438_1ta-di_h264/*~Signature=ARceAWNih7SpVJMwHcOUqByW3h6PlS2PLoqjdyRN9nXAcCumzyd7HWnG2bX4R4gtpXyVG54j6TBg29C4_4TcEhzuf5sE",
+          "cookie_valid": "1787049160",
+          "create_date": "Tuesday, August 18, 2026, 3:57:10 PM",
+          "expire_date": "Tuesday, August 18, 2026, 4:02:40 PM",
           "language": "ENGLISH"
         }
       ]
@@ -172,11 +180,11 @@
           "color": "#ff5142",
           "cricketScore": [
             {
-              "runs": 28,
-              "overs": "4.2",
-              "balls": "26",
+              "runs": 30,
+              "overs": "7.2",
+              "balls": "44",
               "status": "IN_PROGRESS",
-              "wickets": 0
+              "wickets": 1
             }
           ],
           "kabaddiScore": null,
@@ -250,7 +258,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-TNZN@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#f9d94b",
           "cricketScore": [
             {
@@ -277,13 +285,13 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ITA@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#a42322",
           "cricketScore": [
             {
-              "runs": 135,
-              "overs": "24",
-              "balls": "144",
+              "runs": 143,
+              "overs": "25.5",
+              "balls": "155",
               "status": "IN_PROGRESS",
               "wickets": 2
             }
@@ -359,7 +367,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GREE@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#1c50b1",
           "cricketScore": [
             {
@@ -386,13 +394,13 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GER@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#bc2013",
           "cricketScore": [
             {
-              "runs": 79,
-              "overs": "7",
-              "balls": "42",
+              "runs": 98,
+              "overs": "8.1",
+              "balls": "49",
               "status": "IN_PROGRESS",
               "wickets": 3
             }
@@ -499,11 +507,11 @@
           "color": "#528bc8",
           "cricketScore": [
             {
-              "runs": 25,
-              "overs": "7",
-              "balls": "42",
+              "runs": 42,
+              "overs": "9.2",
+              "balls": "56",
               "status": "IN_PROGRESS",
-              "wickets": 3
+              "wickets": 4
             }
           ],
           "kabaddiScore": null,
