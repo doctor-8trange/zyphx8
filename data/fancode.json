@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "11:56:08 PM 19-08-2026",
+  "last_updated": "12:00:09 AM 20-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 41,
-  "live_matches": 3,
-  "upcoming_matches": 38,
+  "live_matches": 4,
+  "upcoming_matches": 37,
   "matches": [
     {
       "category": "Cricket",
@@ -490,8 +490,8 @@
       "tournament": "LALIGA 2026-27",
       "short_name": null,
       "match_id": 4247577,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "20 August 2026 12:30 AM",
       "startDate": null,
       "endDate": null,
@@ -499,7 +499,7 @@
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247577_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247577_53004_ATM_MAG_FC-Web_1787121237407.png",
-        "PLAYBACK": null,
+        "PLAYBACK": "",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247577_53004_ATM_MAG_FC-Web_1787121237407.png",
@@ -520,11 +520,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "Málaga",
@@ -539,17 +535,39 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "is_drm": true,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4247577_english_dash_57476_1drmta-di_h264/index.mpd",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4247577_english_dash_57476_1drmta-di_h264/index.mpd",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4247577_english_dash_57476_1drmta-di_h264/index.mpd",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4247577_english_dash_57476_1drmta-di_h264/index.mpd",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4247577_english_dash_57476_1drmta-di_h264/index.mpd",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "drm": {
+          "keys": [
+            "f7e59e7ca8ec4e8a9918d4a927f1715c:f1d93519d141949ebf56efe6a06987d1"
+          ],
+          "jwk": {
+            "keys": [
+              {
+                "k": "8dk1GdFBlJ6_Vu_moGmH0Q",
+                "kid": "9-WefKjsToqZGNSpJ_FxXA",
+                "kty": "oct"
+              }
+            ],
+            "type": "temporary"
+          },
+          "clearkey": "f7e59e7ca8ec4e8a9918d4a927f1715c:f1d93519d141949ebf56efe6a06987d1"
+        }
       },
       "auto_streams": null
     },
