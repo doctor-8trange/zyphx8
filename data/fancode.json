@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:49:04 PM 23-08-2026",
+  "last_updated": "08:00:10 PM 23-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 43,
-  "live_matches": 6,
-  "upcoming_matches": 37,
+  "live_matches": 7,
+  "upcoming_matches": 36,
   "matches": [
     {
       "category": "Cricket",
@@ -44,11 +44,11 @@
           "color": "#4686c7",
           "cricketScore": [
             {
-              "runs": 86,
-              "overs": "9.4",
-              "balls": "58",
+              "runs": 96,
+              "overs": "12",
+              "balls": "72",
               "status": "IN_PROGRESS",
-              "wickets": 3
+              "wickets": 4
             }
           ],
           "kabaddiScore": null,
@@ -845,8 +845,8 @@
       "tournament": "LALIGA 2026-27",
       "short_name": null,
       "match_id": 4247578,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "23 August 2026 08:30 PM",
       "startDate": null,
       "endDate": null,
@@ -854,7 +854,7 @@
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247578_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247578_53004_ATM_VIL_FC-Web.png",
-        "PLAYBACK": null,
+        "PLAYBACK": "",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247578_53004_ATM_VIL_FC-Web.png",
@@ -900,7 +900,39 @@
             }
           }
         }
-      ]
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": true,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4247578_english_dash_31584_1drmta-di_h264/index.mpd",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4247578_english_dash_31584_1drmta-di_h264/index.mpd",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4247578_english_dash_31584_1drmta-di_h264/index.mpd",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4247578_english_dash_31584_1drmta-di_h264/index.mpd",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4247578_english_dash_31584_1drmta-di_h264/index.mpd",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "drm": {
+          "keys": [
+            "c0ca4a5d7a5c42709f7fdb50d56ec93b:b9deb28d5d417ff80ede02162a0a0c91"
+          ],
+          "jwk": {
+            "keys": [
+              {
+                "k": "ud6yjV1Bf_gO3gIWKgoMkQ",
+                "kid": "wMpKXXpcQnCff9tQ1W7JOw",
+                "kty": "oct"
+              }
+            ],
+            "type": "temporary"
+          },
+          "clearkey": "c0ca4a5d7a5c42709f7fdb50d56ec93b:b9deb28d5d417ff80ede02162a0a0c91"
+        }
+      },
+      "auto_streams": null
     },
     {
       "category": "Cricket",
