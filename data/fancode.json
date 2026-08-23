@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "12:28:09 AM 24-08-2026",
+  "last_updated": "12:35:08 AM 24-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 40,
-  "live_matches": 6,
-  "upcoming_matches": 34,
+  "live_matches": 7,
+  "upcoming_matches": 33,
   "matches": [
     {
       "category": "Football",
@@ -108,6 +108,93 @@
             "type": "temporary"
           },
           "clearkey": "9c62a3940c464b06b5b9a04386ce43db:2b0926b1bf3702cab9dcd011cc0aa1b7"
+        }
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Elche Cf Vs Fc Barcelona",
+      "tournament": "LALIGA 2026-27",
+      "short_name": null,
+      "match_id": 4247581,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "24 August 2026 01:00 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247581_53004_ELC_BAR_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247581_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247581_53004_ELC_BAR_FC-Web.png",
+        "PLAYBACK": "",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247581_53004_ELC_BAR_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247581_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Elche CF",
+          "shortName": "ELC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/ELC-FT1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#253611",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        },
+        {
+          "name": "FC Barcelona",
+          "shortName": "BAR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#fee64e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": true,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4247581_english_dash_38495_1drmta-di_h264/index.mpd",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4247581_english_dash_38495_1drmta-di_h264/index.mpd",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4247581_english_dash_38495_1drmta-di_h264/index.mpd",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4247581_english_dash_38495_1drmta-di_h264/index.mpd",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4247581_english_dash_38495_1drmta-di_h264/index.mpd",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX",
+        "drm": {
+          "keys": [
+            "f9e16e49f23b4faa9bbabb36e105770b:1cce3612607a4571499c344862c7ad8e"
+          ],
+          "jwk": {
+            "keys": [
+              {
+                "k": "HM42EmB6RXFJnDRIYsetjg",
+                "kid": "-eFuSfI7T6qburs24QV3Cw",
+                "kty": "oct"
+              }
+            ],
+            "type": "temporary"
+          },
+          "clearkey": "f9e16e49f23b4faa9bbabb36e105770b:1cce3612607a4571499c344862c7ad8e"
         }
       },
       "auto_streams": null
@@ -603,69 +690,6 @@
           "isWinner": null,
           "color": "#8458f7",
           "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Elche Cf Vs Fc Barcelona",
-      "tournament": "LALIGA 2026-27",
-      "short_name": null,
-      "match_id": 4247581,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "24 August 2026 01:00 AM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/4247581_53004_ELC_BAR_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4247581_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/4247581_53004_ELC_BAR_FC-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4247581_53004_ELC_BAR_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4247581_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Elche CF",
-          "shortName": "ELC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/ELC-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#253611",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "FC Barcelona",
-          "shortName": "BAR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png"
-          },
-          "isWinner": null,
-          "color": "#fee64e",
-          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
