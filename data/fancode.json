@@ -2,14 +2,14 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "12:14:27 AM 26-08-2026",
+  "last_updated": "12:21:13 AM 26-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 40,
-  "live_matches": 10,
-  "upcoming_matches": 30,
+  "live_matches": 11,
+  "upcoming_matches": 29,
   "matches": [
     {
       "category": "Cricket",
@@ -149,8 +149,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "142641",
+                "shortName": "Medran",
+                "isOwnGoal": false,
+                "goalTime": "45'"
+              },
               {
                 "id": "5489",
                 "shortName": "Duda",
@@ -704,6 +710,166 @@
       "auto_streams": null
     },
     {
+      "category": "Football",
+      "title": "Birmingham City F.c. Vs Brentford",
+      "tournament": "Carabao Cup 2026-27",
+      "short_name": null,
+      "match_id": 4248502,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "26 August 2026 12:30 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://images.fancode.com/aig/match/v1787223454513/4248502_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248502_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1787223454513/4248502_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": "",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248502_53016_BIR_BRE_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1787223454513/4248502_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248502_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Birmingham City F.C.",
+          "shortName": "BIR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BIRM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#6183ca",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        },
+        {
+          "name": "Brentford",
+          "shortName": "BRE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BRF@2x.png"
+          },
+          "isWinner": null,
+          "color": "#E4282B",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248502_english_hls_34b7419f6a74233_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248502_english_hls_34b7419f6a74233_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248502_english_hls_34b7419f6a74233_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248502_english_hls_34b7419f6a74233_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248502_english_hls_34b7419f6a74233_1ta-di_h264/index.m3u8",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "ROLEX"
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248502_english_hls_34b7419f6a74233_1ta-di_h264/240p.m3u8?hdntl=Expires=1787684197~_GO=Generated~acl=/mumbai/4248502_english_hls_34b7419f6a74233_1ta-di_h264/*~Signature=ARB3KG0-1UQxYaOK3jSk6Z10u4n0KcN_50DYOCuqJDBI3sK90XaO1irRYH-_0zH5rpAuS-oiHwdj9IJlz68C7pxlCBMO\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248502_english_hls_34b7419f6a74233_1ta-di_h264/360p.m3u8?hdntl=Expires=1787684197~_GO=Generated~acl=/mumbai/4248502_english_hls_34b7419f6a74233_1ta-di_h264/*~Signature=ARB3KG0-1UQxYaOK3jSk6Z10u4n0KcN_50DYOCuqJDBI3sK90XaO1irRYH-_0zH5rpAuS-oiHwdj9IJlz68C7pxlCBMO\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248502_english_hls_34b7419f6a74233_1ta-di_h264/480p.m3u8?hdntl=Expires=1787684197~_GO=Generated~acl=/mumbai/4248502_english_hls_34b7419f6a74233_1ta-di_h264/*~Signature=ARB3KG0-1UQxYaOK3jSk6Z10u4n0KcN_50DYOCuqJDBI3sK90XaO1irRYH-_0zH5rpAuS-oiHwdj9IJlz68C7pxlCBMO\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248502_english_hls_34b7419f6a74233_1ta-di_h264/540p.m3u8?hdntl=Expires=1787684197~_GO=Generated~acl=/mumbai/4248502_english_hls_34b7419f6a74233_1ta-di_h264/*~Signature=ARB3KG0-1UQxYaOK3jSk6Z10u4n0KcN_50DYOCuqJDBI3sK90XaO1irRYH-_0zH5rpAuS-oiHwdj9IJlz68C7pxlCBMO\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248502_english_hls_34b7419f6a74233_1ta-di_h264/720p.m3u8?hdntl=Expires=1787684197~_GO=Generated~acl=/mumbai/4248502_english_hls_34b7419f6a74233_1ta-di_h264/*~Signature=ARB3KG0-1UQxYaOK3jSk6Z10u4n0KcN_50DYOCuqJDBI3sK90XaO1irRYH-_0zH5rpAuS-oiHwdj9IJlz68C7pxlCBMO\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248502_english_hls_34b7419f6a74233_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787684197~_GO=Generated~acl=/mumbai/4248502_english_hls_34b7419f6a74233_1ta-di_h264/*~Signature=ARB3KG0-1UQxYaOK3jSk6Z10u4n0KcN_50DYOCuqJDBI3sK90XaO1irRYH-_0zH5rpAuS-oiHwdj9IJlz68C7pxlCBMO",
+          "cookie": "hdntl=Expires=1787684197~_GO=Generated~acl=/mumbai/4248502_english_hls_34b7419f6a74233_1ta-di_h264/*~Signature=ARB3KG0-1UQxYaOK3jSk6Z10u4n0KcN_50DYOCuqJDBI3sK90XaO1irRYH-_0zH5rpAuS-oiHwdj9IJlz68C7pxlCBMO",
+          "cookie_valid": "1787684197",
+          "create_date": "Wednesday, August 26, 2026, 12:21:08 AM",
+          "expire_date": "Wednesday, August 26, 2026, 12:26:37 AM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Nottingham Forest Vs Leeds United",
+      "tournament": "Carabao Cup 2026-27",
+      "short_name": null,
+      "match_id": 4248503,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "26 August 2026 12:30 AM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://images.fancode.com/aig/match/v1787223454512/4248503_CASACARDS_SPORTY_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248503_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1787223454512/4248503_CASACARDS_SPORTY_APP.png",
+        "PLAYBACK": "",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248503_53016_NOT_LU_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1787223454512/4248503_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248503_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Nottingham Forest",
+          "shortName": "NOT",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NOT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#cf5f5c",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        },
+        {
+          "name": "Leeds United",
+          "shortName": "LU",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LEEDU@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0017c5",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "is_drm": false,
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/index.m3u8",
+        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/index.m3u8",
+        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/index.m3u8",
+        "Akamai_cdn": "Unavailable",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH",
+        "X-Served-By": "WALTER"
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/240p.m3u8?hdntl=Expires=1787770272~_GO=Generated~acl=/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/*~Signature=ARB3KG3pbbglppmbs8LYgPHaHeIWHKaGjVp-QYis1cqoaJQEnYB4r0DOWrUSv-SshVF-L1faY5s-Hyl2Py-tq6D7K34B\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/360p.m3u8?hdntl=Expires=1787770272~_GO=Generated~acl=/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/*~Signature=ARB3KG3pbbglppmbs8LYgPHaHeIWHKaGjVp-QYis1cqoaJQEnYB4r0DOWrUSv-SshVF-L1faY5s-Hyl2Py-tq6D7K34B\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/480p.m3u8?hdntl=Expires=1787770272~_GO=Generated~acl=/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/*~Signature=ARB3KG3pbbglppmbs8LYgPHaHeIWHKaGjVp-QYis1cqoaJQEnYB4r0DOWrUSv-SshVF-L1faY5s-Hyl2Py-tq6D7K34B\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/540p.m3u8?hdntl=Expires=1787770272~_GO=Generated~acl=/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/*~Signature=ARB3KG3pbbglppmbs8LYgPHaHeIWHKaGjVp-QYis1cqoaJQEnYB4r0DOWrUSv-SshVF-L1faY5s-Hyl2Py-tq6D7K34B\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/720p.m3u8?hdntl=Expires=1787770272~_GO=Generated~acl=/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/*~Signature=ARB3KG3pbbglppmbs8LYgPHaHeIWHKaGjVp-QYis1cqoaJQEnYB4r0DOWrUSv-SshVF-L1faY5s-Hyl2Py-tq6D7K34B\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787770272~_GO=Generated~acl=/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/*~Signature=ARB3KG3pbbglppmbs8LYgPHaHeIWHKaGjVp-QYis1cqoaJQEnYB4r0DOWrUSv-SshVF-L1faY5s-Hyl2Py-tq6D7K34B",
+          "cookie": "hdntl=Expires=1787770272~_GO=Generated~acl=/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/*~Signature=ARB3KG3pbbglppmbs8LYgPHaHeIWHKaGjVp-QYis1cqoaJQEnYB4r0DOWrUSv-SshVF-L1faY5s-Hyl2Py-tq6D7K34B",
+          "cookie_valid": "1787770272",
+          "create_date": "Wednesday, August 26, 2026, 12:21:13 AM",
+          "expire_date": "Thursday, August 27, 2026, 12:21:12 AM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
       "category": "Tennis",
       "title": "World Feed",
       "tournament": "ATP 250 - Winston-Salem Open 2026",
@@ -914,149 +1080,6 @@
               "isBatting": false
             }
           }
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Birmingham City F.c. Vs Brentford",
-      "tournament": "Carabao Cup 2026-27",
-      "short_name": null,
-      "match_id": 4248502,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "26 August 2026 12:30 AM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://images.fancode.com/aig/match/v1787223454513/4248502_CASACARDS_SPORTY_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248502_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1787223454513/4248502_CASACARDS_SPORTY_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248502_53016_BIR_BRE_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1787223454513/4248502_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248502_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Birmingham City F.C.",
-          "shortName": "BIR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BIRM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#6183ca",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Brentford",
-          "shortName": "BRE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BRF@2x.png"
-          },
-          "isWinner": null,
-          "color": "#E4282B",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Nottingham Forest Vs Leeds United",
-      "tournament": "Carabao Cup 2026-27",
-      "short_name": null,
-      "match_id": 4248503,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "26 August 2026 12:30 AM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://images.fancode.com/aig/match/v1787223454512/4248503_CASACARDS_SPORTY_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248503_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1787223454512/4248503_CASACARDS_SPORTY_APP.png",
-        "PLAYBACK": "",
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/4248503_53016_NOT_LU_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1787223454512/4248503_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248503_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Nottingham Forest",
-          "shortName": "NOT",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NOT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#cf5f5c",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        },
-        {
-          "name": "Leeds United",
-          "shortName": "LU",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LEEDU@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0017c5",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "is_drm": false,
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/index.m3u8",
-        "fancode_np_cdn": "https://np-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/index.m3u8",
-        "fancode_lk_cdn": "https://lk-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/index.m3u8",
-        "Akamai_cdn": "Unavailable",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH",
-        "X-Served-By": "ROLEX"
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/240p.m3u8?hdntl=Expires=1787683796~_GO=Generated~acl=/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/*~Signature=ARB3KG2tDAC7eVX6qSkCP_53GiIPFawBuTW67c8u_2LVP4BGg9Ew3k76wosja7B5U6M8DcZwY65eTtTqc2Su-FzRZ9AC\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/360p.m3u8?hdntl=Expires=1787683796~_GO=Generated~acl=/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/*~Signature=ARB3KG2tDAC7eVX6qSkCP_53GiIPFawBuTW67c8u_2LVP4BGg9Ew3k76wosja7B5U6M8DcZwY65eTtTqc2Su-FzRZ9AC\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/480p.m3u8?hdntl=Expires=1787683796~_GO=Generated~acl=/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/*~Signature=ARB3KG2tDAC7eVX6qSkCP_53GiIPFawBuTW67c8u_2LVP4BGg9Ew3k76wosja7B5U6M8DcZwY65eTtTqc2Su-FzRZ9AC\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/540p.m3u8?hdntl=Expires=1787683796~_GO=Generated~acl=/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/*~Signature=ARB3KG2tDAC7eVX6qSkCP_53GiIPFawBuTW67c8u_2LVP4BGg9Ew3k76wosja7B5U6M8DcZwY65eTtTqc2Su-FzRZ9AC\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/720p.m3u8?hdntl=Expires=1787683796~_GO=Generated~acl=/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/*~Signature=ARB3KG2tDAC7eVX6qSkCP_53GiIPFawBuTW67c8u_2LVP4BGg9Ew3k76wosja7B5U6M8DcZwY65eTtTqc2Su-FzRZ9AC\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787683796~_GO=Generated~acl=/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/*~Signature=ARB3KG2tDAC7eVX6qSkCP_53GiIPFawBuTW67c8u_2LVP4BGg9Ew3k76wosja7B5U6M8DcZwY65eTtTqc2Su-FzRZ9AC",
-          "cookie": "hdntl=Expires=1787683796~_GO=Generated~acl=/mumbai/4248503_english_hls_c82f9499c819112_1ta-di_h264/*~Signature=ARB3KG2tDAC7eVX6qSkCP_53GiIPFawBuTW67c8u_2LVP4BGg9Ew3k76wosja7B5U6M8DcZwY65eTtTqc2Su-FzRZ9AC",
-          "cookie_valid": "1787683796",
-          "create_date": "Wednesday, August 26, 2026, 12:14:27 AM",
-          "expire_date": "Wednesday, August 26, 2026, 12:19:56 AM",
-          "language": "ENGLISH"
         }
       ]
     },
