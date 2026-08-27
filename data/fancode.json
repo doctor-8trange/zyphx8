@@ -2,7 +2,7 @@
   "Author": "DOCTOR_STRANGE",
   "Telegram": "https://t.me/jitendraunatti_github",
   "name": "FanCode Live Matches API",
-  "last_updated": "12:21:08 AM 28-08-2026",
+  "last_updated": "01:28:10 AM 28-08-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -74,8 +74,21 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 2,
+            "goals": [
+              {
+                "id": "26087",
+                "shortName": "Budimir",
+                "isOwnGoal": false,
+                "goalTime": "64'"
+              },
+              {
+                "id": "9811",
+                "shortName": "K Barja",
+                "isOwnGoal": false,
+                "goalTime": "54'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -225,10 +238,24 @@
           "color": "#fee64e",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "58585",
+                "shortName": "Raphinha",
+                "isOwnGoal": false,
+                "goalTime": "37'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Athletic Club",
@@ -240,10 +267,17 @@
           "color": "#ff674d",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
@@ -438,11 +472,11 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/240p.m3u8?hdntl=Expires=1787928669~_GO=Generated~acl=/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/*~Signature=ARB3KG0tb1vtgsUU5o004mxQ4COwfs7fEtvKQw7u24ykOvI0lq-Gy_UO0XKg4LnyoNkN5fvoWR4Jx2V3zb-Sf3ovgJ8F\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/360p.m3u8?hdntl=Expires=1787928669~_GO=Generated~acl=/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/*~Signature=ARB3KG0tb1vtgsUU5o004mxQ4COwfs7fEtvKQw7u24ykOvI0lq-Gy_UO0XKg4LnyoNkN5fvoWR4Jx2V3zb-Sf3ovgJ8F\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/480p.m3u8?hdntl=Expires=1787928669~_GO=Generated~acl=/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/*~Signature=ARB3KG0tb1vtgsUU5o004mxQ4COwfs7fEtvKQw7u24ykOvI0lq-Gy_UO0XKg4LnyoNkN5fvoWR4Jx2V3zb-Sf3ovgJ8F\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/540p.m3u8?hdntl=Expires=1787928669~_GO=Generated~acl=/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/*~Signature=ARB3KG0tb1vtgsUU5o004mxQ4COwfs7fEtvKQw7u24ykOvI0lq-Gy_UO0XKg4LnyoNkN5fvoWR4Jx2V3zb-Sf3ovgJ8F\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/720p.m3u8?hdntl=Expires=1787928669~_GO=Generated~acl=/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/*~Signature=ARB3KG0tb1vtgsUU5o004mxQ4COwfs7fEtvKQw7u24ykOvI0lq-Gy_UO0XKg4LnyoNkN5fvoWR4Jx2V3zb-Sf3ovgJ8F\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787928669~_GO=Generated~acl=/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/*~Signature=ARB3KG0tb1vtgsUU5o004mxQ4COwfs7fEtvKQw7u24ykOvI0lq-Gy_UO0XKg4LnyoNkN5fvoWR4Jx2V3zb-Sf3ovgJ8F",
-          "cookie": "hdntl=Expires=1787928669~_GO=Generated~acl=/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/*~Signature=ARB3KG0tb1vtgsUU5o004mxQ4COwfs7fEtvKQw7u24ykOvI0lq-Gy_UO0XKg4LnyoNkN5fvoWR4Jx2V3zb-Sf3ovgJ8F",
-          "cookie_valid": "1787928669",
-          "create_date": "Thursday, August 27, 2026, 8:21:09 PM",
-          "expire_date": "Friday, August 28, 2026, 8:21:09 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/240p.m3u8?hdntl=Expires=1787947090~_GO=Generated~acl=/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/*~Signature=ARB3KG1JsN2r6c2YWev280Ym8rXZNnsNY2LVEgcO5IZGSmyqiBpGqwUXx_pSDGQ8Dfp9hPjCKi6f8jYW-sWZzDxvYrUE\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/360p.m3u8?hdntl=Expires=1787947090~_GO=Generated~acl=/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/*~Signature=ARB3KG1JsN2r6c2YWev280Ym8rXZNnsNY2LVEgcO5IZGSmyqiBpGqwUXx_pSDGQ8Dfp9hPjCKi6f8jYW-sWZzDxvYrUE\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/480p.m3u8?hdntl=Expires=1787947090~_GO=Generated~acl=/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/*~Signature=ARB3KG1JsN2r6c2YWev280Ym8rXZNnsNY2LVEgcO5IZGSmyqiBpGqwUXx_pSDGQ8Dfp9hPjCKi6f8jYW-sWZzDxvYrUE\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/540p.m3u8?hdntl=Expires=1787947090~_GO=Generated~acl=/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/*~Signature=ARB3KG1JsN2r6c2YWev280Ym8rXZNnsNY2LVEgcO5IZGSmyqiBpGqwUXx_pSDGQ8Dfp9hPjCKi6f8jYW-sWZzDxvYrUE\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/720p.m3u8?hdntl=Expires=1787947090~_GO=Generated~acl=/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/*~Signature=ARB3KG1JsN2r6c2YWev280Ym8rXZNnsNY2LVEgcO5IZGSmyqiBpGqwUXx_pSDGQ8Dfp9hPjCKi6f8jYW-sWZzDxvYrUE\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787947090~_GO=Generated~acl=/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/*~Signature=ARB3KG1JsN2r6c2YWev280Ym8rXZNnsNY2LVEgcO5IZGSmyqiBpGqwUXx_pSDGQ8Dfp9hPjCKi6f8jYW-sWZzDxvYrUE",
+          "cookie": "hdntl=Expires=1787947090~_GO=Generated~acl=/mumbai/4248422_english_hls_9074747f0624731_1ta-di_h264/*~Signature=ARB3KG1JsN2r6c2YWev280Ym8rXZNnsNY2LVEgcO5IZGSmyqiBpGqwUXx_pSDGQ8Dfp9hPjCKi6f8jYW-sWZzDxvYrUE",
+          "cookie_valid": "1787947090",
+          "create_date": "Friday, August 28, 2026, 1:28:10 AM",
+          "expire_date": "Saturday, August 29, 2026, 1:28:10 AM",
           "language": "ENGLISH"
         }
       ]
@@ -1947,69 +1981,6 @@
       ]
     },
     {
-      "category": "Golf",
-      "title": "Main Feed   Day 2",
-      "tournament": "TOUR Championship 2026",
-      "short_name": null,
-      "match_id": 4248423,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "28 August 2026 08:30 PM",
-      "startDate": null,
-      "endDate": null,
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/IMG_5860_1787577451191.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248423_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/IMG_5860_1787577451191.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Tour-Championship-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/IMG_5860_1787577451191.png",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Golf.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248423_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Main Feed - Day 2",
-          "shortName": "Main Feed - Day 2",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "East Lake Golf Club - Atlanta, Georgia",
-          "shortName": "East Lake Golf Club - Atlanta, Georgia",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ]
-    },
-    {
       "category": "Cricket",
       "title": "Hobart Hurricanes Academy Vs New Zealand A",
       "tournament": "Top End T20 Series, 2026",
@@ -2059,6 +2030,69 @@
           },
           "isWinner": null,
           "color": "#4c64a7",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Golf",
+      "title": "Main Feed   Day 2",
+      "tournament": "TOUR Championship 2026",
+      "short_name": null,
+      "match_id": 4248423,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "28 August 2026 08:30 PM",
+      "startDate": null,
+      "endDate": null,
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/IMG_5860_1787577451191.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/4248423_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/IMG_5860_1787577451191.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Tour-Championship-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/IMG_5860_1787577451191.png",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Golf.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/4248423_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Main Feed - Day 2",
+          "shortName": "Main Feed - Day 2",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "East Lake Golf Club - Atlanta, Georgia",
+          "shortName": "East Lake Golf Club - Atlanta, Georgia",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
